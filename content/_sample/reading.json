@@ -1,0 +1,196 @@
+{
+ "license": "SAMPLE fixture (v1 dev only). Self-written passages.",
+ "items": [
+  {
+   "id": "r-01",
+   "len": "short",
+   "topic": "electrical",
+   "title": "The Quiet Growth of Heat Pumps",
+   "words": 190,
+   "minutes": 20,
+   "paras": [
+    {
+     "label": "A",
+     "text": "Heat pumps move heat rather than create it. In winter, a heat pump draws warmth from the outside air and releases it indoors. Because the device moves energy instead of burning fuel, it can deliver three or four units of heat for each unit of electricity it uses."
+    },
+    {
+     "label": "B",
+     "text": "Sales have risen sharply in northern Europe since 2015. Norway now has more heat pumps per household than any other country. Engineers once believed the technology failed in very cold weather, but modern designs work well at minus twenty degrees."
+    },
+    {
+     "label": "C",
+     "text": "The main obstacle is the upfront price. Installing a system can cost twice as much as a new gas boiler, although running costs are usually lower. Some governments offer grants to cover part of the installation cost."
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "A heat pump produces more heat than the electricity it consumes.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "A",
+      "quote": "it can deliver three or four units of heat for each unit of electricity it uses."
+     },
+     "why_ko": "1단위 전기로 3~4단위의 열을 낸다고 했어요."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "Norway was the first country to use heat pumps.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "B",
+      "quote": "Norway now has more heat pumps per household than any other country."
+     },
+     "why_ko": "가구당 보급률만 말했고 \"처음\"인지는 나오지 않아요."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "Modern heat pumps stop working below minus ten degrees.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "B",
+      "quote": "modern designs work well at minus twenty degrees."
+     },
+     "why_ko": "영하 20도에서도 잘 작동한다고 했어요."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "All governments pay the full cost of installation.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "C",
+      "quote": "Some governments offer grants to cover part of the installation cost."
+     },
+     "why_ko": "some/part — all/full 은 한정어 함정이에요."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Running a heat pump is usually cheaper than running a gas boiler.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "C",
+      "quote": "although running costs are usually lower."
+     },
+     "why_ko": "운영비가 보통 더 낮다고 했어요."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Heat pumps are mainly produced in Germany.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "B",
+      "quote": "Sales have risen sharply in northern Europe since 2015."
+     },
+     "why_ko": "생산지는 언급되지 않아요."
+    }
+   ]
+  },
+  {
+   "id": "r-02",
+   "len": "long",
+   "topic": "tourism-transport",
+   "title": "Why Cities Are Rethinking the Bus",
+   "words": 260,
+   "minutes": 20,
+   "paras": [
+    {
+     "label": "A",
+     "text": "For decades, city planners treated the bus as a last resort for people without cars. Routes were long and slow, and timetables were difficult to read. As a result, many riders switched to private vehicles whenever they could afford one."
+    },
+    {
+     "label": "B",
+     "text": "In the 2010s several cities redesigned their networks from scratch. Instead of many winding routes, they created fewer, straighter lines with buses every ten minutes. Houston, for example, increased weekend ridership after its redesign without adding any new buses."
+    },
+    {
+     "label": "C",
+     "text": "Technology has also changed the experience. Real-time arrival screens reduce the stress of waiting, and contactless payment speeds up boarding. However, researchers note that frequency matters far more to passengers than any app."
+    },
+    {
+     "label": "D",
+     "text": "Critics argue that bus lanes take space away from drivers and hurt local shops. Studies from several European cities suggest the opposite: shoppers who arrive by bus or on foot visit more often and spend more over a month."
+    }
+   ],
+   "headings": [
+    "i   Paying for new vehicles",
+    "ii  A reputation for poor service",
+    "iii Fewer routes, more buses",
+    "iv  Tools that support, but do not replace, frequency",
+    "v   An objection and the evidence against it",
+    "vi  The rise of electric buses"
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "type": "heading",
+     "para": "A",
+     "options_ref": "H",
+     "answer": "ii",
+     "why_ko": "느리고 읽기 어려운 버스 = 나쁜 평판."
+    },
+    {
+     "n": 2,
+     "type": "heading",
+     "para": "B",
+     "options_ref": "H",
+     "answer": "iii",
+     "why_ko": "Houston 은 세부 예시일 뿐, 핵심은 노선 단순화예요."
+    },
+    {
+     "n": 3,
+     "type": "heading",
+     "para": "C",
+     "options_ref": "H",
+     "answer": "iv",
+     "why_ko": "기술보다 배차 간격이 중요하다는 것이 핵심."
+    },
+    {
+     "n": 4,
+     "type": "heading",
+     "para": "D",
+     "options_ref": "H",
+     "answer": "v",
+     "why_ko": "반대 주장과 그 반박 증거."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Houston bought extra buses as part of its redesign.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "B",
+      "quote": "Houston, for example, increased weekend ridership after its redesign without adding any new buses."
+     },
+     "why_ko": "새 버스 없이 늘렸어요."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Passengers value frequent service more than mobile apps.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "C",
+      "quote": "frequency matters far more to passengers than any app."
+     },
+     "why_ko": "빈도가 앱보다 훨씬 중요하다고 했어요."
+    },
+    {
+     "n": 7,
+     "type": "tfng",
+     "stmt": "Shop owners in Europe support new bus lanes.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "D",
+      "quote": "shoppers who arrive by bus or on foot visit more often and spend more over a month."
+     },
+     "why_ko": "가게 주인의 의견은 나오지 않아요."
+    }
+   ]
+  }
+ ]
+}

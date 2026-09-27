@@ -1,0 +1,1632 @@
+{
+ "license": "Self-written for BANDUP (original passages and questions; no text from published IELTS materials).",
+ "items": [
+  {
+   "id": "r-01",
+   "len": "short",
+   "topic": "biology",
+   "title": "The Masters of Disguise",
+   "paras": [
+    {
+     "label": "A",
+     "text": "Few animals command as much fascination among marine biologists as the octopus, a soft-bodied mollusc capable of altering its appearance more quickly than almost any other creature on the planet. Within a fraction of a second, an octopus resting on a coral reef can transform itself into a mottled patch of algae or a jagged outcrop of rock, vanishing from the sight of predators and prey alike. This disguise depends on a partnership between the animal's nervous system and three layers of specialised skin cells."
+    },
+    {
+     "label": "B",
+     "text": "The uppermost layer contains chromatophores, tiny sacs of pigment surrounded by a ring of muscle fibres. When the brain sends a signal, these muscles contract and stretch each sac open, exposing a splash of red, yellow, brown or black pigment; when the muscles relax, the sac shrinks and the colour disappears from view. Because each chromatophore is wired directly to the nervous system rather than controlled by slower hormonal signals, an octopus can shift its pattern in under a second, a speed unmatched by fish or reptiles that rely on chemical messengers. Some researchers argue that this direct neural control is what allows octopuses to match not just the colour but the fine detail of their surroundings almost instantly."
+    },
+    {
+     "label": "C",
+     "text": "Beneath the chromatophores lie two further layers, the iridophores and leucophores, which reflect and scatter light to produce shimmering blues, greens and whites that pigment alone cannot achieve. Working together, all three layers allow an octopus to reproduce an astonishing range of hues. Yet colour is only part of the illusion. Small muscular projections in the skin, known as papillae, can be raised or flattened within moments, letting the animal mimic the bumpy texture of coral or the smooth surface of sand and adding a three-dimensional quality to its disguise that flat pigmentation alone could never provide."
+    },
+    {
+     "label": "D",
+     "text": "What has long puzzled scientists is that octopuses appear to be colour-blind: their eyes contain only a single type of light-sensitive receptor, which in most animals would make it impossible to distinguish one hue from another. A few research teams have proposed that the skin itself may contain light-sensitive proteins, effectively allowing the octopus to 'see' colour through its body surface rather than through its eyes, though this idea remains a matter of ongoing debate. If confirmed, it would suggest that camouflage in these animals is guided by a sensory system quite unlike that of any vertebrate."
+    },
+    {
+     "label": "E",
+     "text": "Whatever the exact mechanism, the sheer speed and precision of octopus camouflage continue to inspire engineers, some of whom are attempting to design synthetic materials that change colour and texture in a similar way. For biologists, the behaviour also raises deeper questions about how a creature with a famously decentralised nervous system, in which much of the processing occurs in the arms themselves, can coordinate such a seamless and instantaneous disguise across its entire body."
+    }
+   ],
+   "words": 473,
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "An octopus can change its appearance within a fraction of a second.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "A",
+      "quote": "Within a fraction of a second, an octopus resting on a coral reef can transform itself into a mottled patch of algae or a jagged outcrop of rock, vanishing from the sight of predators and prey alike."
+     },
+     "why_ko": "지문에서 'Within a fraction of a second'라고 명시했으므로 진술과 일치합니다 → TRUE."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "Every animal capable of changing colour depends on hormones released into the bloodstream.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "B",
+      "quote": "Because each chromatophore is wired directly to the nervous system rather than controlled by slower hormonal signals, an octopus can shift its pattern in under a second, a speed unmatched by fish or reptiles that rely on chemical messengers."
+     },
+     "why_ko": "문어의 색소포는 호르몬이 아니라 신경계에 직접 연결되어 있다고 했으므로 '모든 동물이 호르몬에 의존한다'는 진술은 모순됩니다 → FALSE (all/every 한정어 함정)."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "Chromatophores are larger than the cells in the two layers beneath them.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "B",
+      "quote": "The uppermost layer contains chromatophores, tiny sacs of pigment surrounded by a ring of muscle fibres."
+     },
+     "why_ko": "색소포가 '가장 위층(uppermost layer)'에 있다는 위치만 나올 뿐, 아래 두 층의 세포보다 크다는 언급은 없습니다 → NOT GIVEN. 위치(위)와 크기(크다)를 혼동하지 마세요."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "The papillae allow octopuses to alter the texture of their skin, not only its colour.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "C",
+      "quote": "Small muscular projections in the skin, known as papillae, can be raised or flattened within moments, letting the animal mimic the bumpy texture of coral or the smooth surface of sand"
+     },
+     "why_ko": "돌기(papillae)가 질감을 코ral이나 모래처럼 바꾼다고 설명되어 있으므로 일치합니다 → TRUE."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Squid and cuttlefish are said to possess the same iridophore cells found in octopus skin.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "C",
+      "quote": "Beneath the chromatophores lie two further layers, the iridophores and leucophores, which reflect and scatter light to produce shimmering blues, greens and whites that pigment alone cannot achieve."
+     },
+     "why_ko": "실제로는 오징어나 갑오징어도 홍색소포를 갖고 있지만, 지문은 다른 두족류에 대해 전혀 언급하지 않으므로 배경지식 함정으로 NOT GIVEN입니다."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Researchers have conclusively proven that octopus skin can directly detect light.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "D",
+      "quote": "A few research teams have proposed that the skin itself may contain light-sensitive proteins, effectively allowing the octopus to 'see' colour through its body surface rather than through its eyes, though this idea remains a matter of ongoing debate."
+     },
+     "why_ko": "'remains a matter of ongoing debate(아직 논쟁 중)'라고 했으므로 '확실히 입증되었다'는 진술과 모순됩니다 → FALSE."
+    }
+   ],
+   "minutes": 12
+  },
+  {
+   "id": "r-02",
+   "len": "short",
+   "topic": "psychology",
+   "title": "The Pull of Unfinished Business",
+   "paras": [
+    {
+     "label": "A",
+     "text": "Anyone who has ever caught themselves mentally replaying an email left half-written, or an argument cut short by a phone ringing, has experienced a peculiar quirk of human memory: unfinished tasks tend to linger in the mind far longer than tasks that have been neatly completed. This pattern was first documented not in a laboratory but in a restaurant, where an observant psychologist noticed that waiters could recall the details of an order with remarkable accuracy right up until the bill was paid, after which the memory faded almost immediately."
+    },
+    {
+     "label": "B",
+     "text": "Intrigued by this observation, the psychologist, Bluma Zeigarnik, designed a series of experiments in the 1920s in which participants were asked to complete a set of simple puzzles and small tasks. Midway through some of these activities, she interrupted the participants without warning. When later asked to recall what they had been doing, the participants remembered the interrupted tasks nearly twice as often as the ones they had finished without disruption. The phenomenon that emerged from this work is now widely known as the Zeigarnik effect, and it has since been explored across a range of psychological contexts."
+    },
+    {
+     "label": "C",
+     "text": "One widely accepted explanation is that beginning a task creates a kind of mental tension, a small open loop within working memory that keeps the goal active until it is resolved. Completing the task releases this tension and allows the mind to file the information away, whereas an interruption leaves the loop open, so the brain continues to rehearse the unfinished goal in the background. Some psychologists suggest that this rehearsal is not simply passive recall but an adaptive mechanism that keeps important, unresolved intentions available for action once circumstances allow the task to be resumed."
+    },
+    {
+     "label": "D",
+     "text": "The effect has found its way well beyond the psychology laboratory. Television writers rely on cliffhangers to keep audiences returning after a break, knowing that an unresolved plot line will occupy viewers' thoughts more persistently than a story with a tidy ending. Productivity experts have also adapted the idea into a simple technique: writing down an interrupted task, even briefly, appears to ease the mental tension it creates, allowing attention to move on to other matters. Marketers, too, exploit the same principle, designing advertisements that pose a question or start a story without immediately supplying the resolution."
+    },
+    {
+     "label": "E",
+     "text": "Not every attempt to reproduce Zeigarnik's original findings has succeeded, and later researchers have shown that the effect is not universal: it appears to depend on factors such as how personally meaningful a task feels and how anxious a person is about failing to finish it. For tasks that carry little personal stake, interruption may have almost no effect on memory at all, suggesting that the pull of unfinished business is powerful but far from automatic."
+    }
+   ],
+   "words": 457,
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "In the original restaurant observation, waiters quickly forgot an order once it had been paid for.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "A",
+      "quote": "waiters could recall the details of an order with remarkable accuracy right up until the bill was paid, after which the memory faded almost immediately"
+     },
+     "why_ko": "계산 후 기억이 'faded almost immediately(거의 즉시 사라졌다)'고 했으므로 진술과 일치합니다 → TRUE."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "Zeigarnik found that participants remembered finished and interrupted tasks equally well.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "B",
+      "quote": "the participants remembered the interrupted tasks nearly twice as often as the ones they had finished without disruption"
+     },
+     "why_ko": "중단된 과제를 '거의 두 배 더 자주(nearly twice as often)' 기억했다고 했으므로 '동일하게 기억했다'는 진술과 모순됩니다 → FALSE."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "Zeigarnik's experiments were conducted using children as the participants.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "B",
+      "quote": "designed a series of experiments in the 1920s in which participants were asked to complete a set of simple puzzles and small tasks"
+     },
+     "why_ko": "참가자가 누구였는지(성인인지 아동인지)는 언급되지 않았으므로 NOT GIVEN입니다."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "According to one explanation, finishing a task lets the mind stop actively working on it.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "C",
+      "quote": "Completing the task releases this tension and allows the mind to file the information away"
+     },
+     "why_ko": "과제를 끝내면 긴장이 풀리고 정보가 정리된다고 했으므로 진술과 일치합니다 → TRUE."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Cliffhangers were used in television before they appeared in any other form of storytelling.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "D",
+      "quote": "Television writers rely on cliffhangers to keep audiences returning after a break"
+     },
+     "why_ko": "실제로는 소설이나 라디오 연재물에서 클리프행어가 먼저 쓰였지만, 지문은 다른 매체와의 선후 관계를 전혀 언급하지 않으므로 배경지식 함정으로 NOT GIVEN입니다."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Later research has confirmed that unfinished tasks are always remembered better, no matter how important the task is to the person.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "E",
+      "quote": "the effect is not universal: it appears to depend on factors such as how personally meaningful a task feels and how anxious a person is about failing to finish it"
+     },
+     "why_ko": "효과가 'not universal(보편적이지 않다)'하며 과제의 개인적 의미에 좌우된다고 했으므로 '항상, 중요도와 무관하게'라는 진술과 모순됩니다 → FALSE (all/always 한정어 함정)."
+    }
+   ],
+   "minutes": 12
+  },
+  {
+   "id": "r-03",
+   "len": "short",
+   "topic": "env-health",
+   "title": "Urban Blue Space and the Mind",
+   "paras": [
+    {
+     "label": "A",
+     "text": "For decades, urban planners have focused on green space, parks, street trees, and gardens, as the antidote to the stresses of city living. More recently, however, a growing body of research has turned its attention to a different kind of environment: so-called \"blue space\", meaning rivers, canals, lakes, ponds and coastal water within or near urban areas. Some public health researchers now argue that access to blue space delivers psychological benefits that are at least as significant as those associated with parks and woodland, and that the two should not be treated as interchangeable."
+    },
+    {
+     "label": "B",
+     "text": "The proposed mechanisms are varied. Water surfaces reflect and diffuse light in ways that differ markedly from solid ground, producing a visual environment that many people find calming, an effect sometimes described as \"soft fascination\". Water bodies also tend to lower ambient temperature and dampen traffic noise, two stressors strongly linked to elevated cortisol levels in city dwellers. In addition, rivers and canals frequently host walking and cycling paths that are physically separated from busy roads, encouraging longer and more frequent bouts of exercise than a typical urban street might allow."
+    },
+    {
+     "label": "C",
+     "text": "Evidence for these claims has come largely from observational studies comparing wellbeing scores among residents living at varying distances from bodies of water, as well as from smaller experimental studies in which participants view images or video of blue versus green environments. Several such studies have reported that even brief exposure to footage of coastal scenes can lower self-reported anxiety more effectively than equivalent exposure to inland rural scenery. It is worth noting, though, that most of this research has been conducted in high-income countries, and it remains unclear whether the findings generalise to cities with very different climates or cultural relationships with water."
+    },
+    {
+     "label": "D",
+     "text": "Critics caution against overstating the case. Some researchers argue that the apparent benefits of blue space are partly explained by confounding factors: neighbourhoods near attractive waterfronts often have higher property values, less traffic, and wealthier, healthier populations to begin with, regardless of the water itself. Separating the restorative effect of blue space from these socioeconomic patterns has proven difficult, and only a minority of studies have used research designs robust enough to address the problem directly."
+    },
+    {
+     "label": "E",
+     "text": "Despite these reservations, several city governments have begun to incorporate blue space explicitly into planning guidance, funding the restoration of culverted urban rivers and the creation of new ponds and wetlands in redevelopment zones. Advocates suggest that as urban populations continue to grow and green space becomes scarcer and more contested, water may offer planners a comparatively underused resource for supporting mental health at a city-wide scale."
+    }
+   ],
+   "words": 432,
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "Some researchers believe that water in cities may benefit mental health at least as much as green spaces do.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "A",
+      "quote": "at least as significant as those associated with parks and woodland"
+     },
+     "why_ko": "지문은 blue space의 이점이 'at least as significant as those associated with parks and woodland'라고 명시하므로 진술과 일치합니다 → TRUE."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "Being close to water can reduce two conditions that are associated with higher stress hormone levels in city residents.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "B",
+      "quote": "Water bodies also tend to lower ambient temperature and dampen traffic noise, two stressors strongly linked to elevated cortisol levels in city dwellers."
+     },
+     "why_ko": "지문은 물이 기온과 소음이라는 'two stressors strongly linked to elevated cortisol levels'을 낮춘다고 하므로 TRUE입니다."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "Waterside paths carry a lower risk of traffic accidents than footpaths running alongside parks.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "B",
+      "quote": "In addition, rivers and canals frequently host walking and cycling paths that are physically separated from busy roads, encouraging longer and more frequent bouts of exercise than a typical urban street might allow."
+     },
+     "why_ko": "지문은 산책로가 도로와 분리되어 운동량이 늘어난다고만 할 뿐 '교통사고 위험'은 전혀 언급하지 않습니다. 실생활에서 그럴듯해 보이지만 언급되지 않은 배경지식형 함정으로 NOT GIVEN입니다."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "Studies comparing blue and green spaces have been spread evenly across countries with very different climates.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "C",
+      "quote": "most of this research has been conducted in high-income countries, and it remains unclear whether the findings generalise to cities with very different climates or cultural relationships with water"
+     },
+     "why_ko": "지문은 연구 대부분이 'high-income countries'에 편중되어 있다고 했으므로 '다양한 국가에서 고르게'라는 all/most 성격의 진술과 모순됩니다 → FALSE."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Homes near attractive waterfronts are more expensive than homes near parks.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "D",
+      "quote": "neighbourhoods near attractive waterfronts often have higher property values, less traffic, and wealthier, healthier populations to begin with, regardless of the water itself"
+     },
+     "why_ko": "지문은 수변 지역의 특성만 언급할 뿐 공원 인근 지역과 직접 비교하지는 않으므로 NOT GIVEN입니다."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Most studies in this field have used designs strong enough to deal with differences in wealth and background.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "D",
+      "quote": "only a minority of studies have used research designs robust enough to address the problem directly"
+     },
+     "why_ko": "지문은 'only a minority of studies'라고 했으므로 '대다수'라는 진술은 모순됩니다 → FALSE (some/most류 수량어 함정)."
+    }
+   ],
+   "minutes": 12
+  },
+  {
+   "id": "r-04",
+   "len": "short",
+   "topic": "lang-edu",
+   "title": "Bilingualism and the Ageing Brain",
+   "paras": [
+    {
+     "label": "A",
+     "text": "It has long been observed that people who routinely use two or more languages often perform differently on cognitive tests than monolingual speakers of a similar age and background. Interest in this phenomenon has grown considerably since a series of studies beginning in the 2000s suggested that lifelong bilingualism might be associated with a later average age of onset for symptoms of dementia. The suggestion attracted considerable attention, in part because so few lifestyle factors have been convincingly linked to delayed cognitive decline."
+    },
+    {
+     "label": "B",
+     "text": "The leading explanation centres on what researchers term \"executive function\", the set of mental processes involved in planning, switching attention, and suppressing irrelevant information. A bilingual speaker, it is argued, must constantly manage two active language systems, suppressing one while using the other, which amounts to continual practice in exactly these executive skills. Some researchers propose that this lifelong mental exercise builds a kind of cognitive reserve, a buffer of neural efficiency that allows the brain to sustain everyday functioning even as underlying disease processes accumulate with age."
+    },
+    {
+     "label": "C",
+     "text": "Not all findings point in the same direction, however. Several large-scale studies conducted since the original claims have failed to replicate a clear bilingual advantage once factors such as education, income, immigration history and social engagement are carefully controlled for. Because bilingual populations often differ systematically from monolingual ones on precisely these variables, some scholars argue that the original studies may have overstated the effect of language use itself. Only a handful of research groups have so far managed to design studies that isolate language background from these broader social differences."
+    },
+    {
+     "label": "D",
+     "text": "The debate is complicated further by the sheer diversity of what \"bilingualism\" actually covers. Someone who learned a second language formally in school and uses it occasionally bears little resemblance, cognitively speaking, to someone who has switched fluently between two languages at home since infancy. Researchers increasingly argue that measuring bilingualism as a simple yes-or-no category obscures more than it reveals, and that factors such as the age of acquisition, frequency of switching, and proficiency in each language may matter far more than bilingual status alone."
+    },
+    {
+     "label": "E",
+     "text": "For now, most specialists in the field stop short of recommending second-language learning purely as a defence against dementia, since the evidence remains mixed and the underlying mechanisms are not yet firmly established. Even so, the research has reshaped how cognitive ageing is studied more broadly, drawing renewed attention to the idea that everyday mental habits, not just formal education, might shape the brain's resilience across a lifetime."
+    }
+   ],
+   "words": 416,
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "Research since the early 2000s has suggested a possible link between lifelong use of two languages and a later start of dementia symptoms.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "A",
+      "quote": "a series of studies beginning in the 2000s suggested that lifelong bilingualism might be associated with a later average age of onset for symptoms of dementia"
+     },
+     "why_ko": "지문 내용과 정확히 일치하는 진술이므로 TRUE입니다."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "Managing two languages is thought to give speakers regular practice in controlling attention and blocking out irrelevant information.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "B",
+      "quote": "A bilingual speaker, it is argued, must constantly manage two active language systems, suppressing one while using the other, which amounts to continual practice in exactly these executive skills."
+     },
+     "why_ko": "지문의 해당 문장과 동일한 내용을 다른 표현으로 서술했으므로 TRUE입니다."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "Every large study carried out since the original claims has confirmed that bilingual people have a cognitive advantage.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "C",
+      "quote": "Several large-scale studies conducted since the original claims have failed to replicate a clear bilingual advantage once factors such as education, income, immigration history and social engagement are carefully controlled for."
+     },
+     "why_ko": "지문은 후속 대규모 연구들이 이점을 'failed to replicate'했다고 하므로 '모두 다시 확인해 주었다'는 all류 수량어 진술과 모순됩니다 → FALSE."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "On average, bilingual people have spent more years in formal education than monolingual people.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "C",
+      "quote": "Because bilingual populations often differ systematically from monolingual ones on precisely these variables, some scholars argue that the original studies may have overstated the effect of language use itself."
+     },
+     "why_ko": "지문은 교육 수준 등이 두 집단 간에 체계적으로 다를 수 있다고만 할 뿐, 이중언어 사용자가 더 높은 교육 수준을 가진다는 방향은 명시하지 않으므로 NOT GIVEN입니다."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Researchers agree that sorting people simply into bilinguals and monolinguals is the most useful approach in this field.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "D",
+      "quote": "Researchers increasingly argue that measuring bilingualism as a simple yes-or-no category obscures more than it reveals"
+     },
+     "why_ko": "지문은 이분법적 분류가 'obscures more than it reveals'라며 오히려 비효과적이라고 하므로 진술과 정반대입니다 → FALSE."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "The passage states that everyday mental habits affect the brain's resilience more than formal education does.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "E",
+      "quote": "the research has reshaped how cognitive ageing is studied more broadly, drawing renewed attention to the idea that everyday mental habits, not just formal education, might shape the brain's resilience across a lifetime"
+     },
+     "why_ko": "지문은 일상적 습관도 '교육뿐 아니라' 영향을 줄 수 있다는 관심이 커졌다고만 할 뿐, 어느 쪽이 '더 강한' 영향을 주는지는 비교하지 않으므로 NOT GIVEN입니다."
+    }
+   ],
+   "minutes": 12
+  },
+  {
+   "id": "r-05",
+   "len": "short",
+   "topic": "tourism-transport",
+   "title": "The Return of the Night Train",
+   "paras": [
+    {
+     "label": "A",
+     "text": "For much of the twentieth century, an overnight train linking two distant European cities was considered an elegant, if unhurried, way to travel; a passenger could board after dinner in one capital and step onto the platform of another in time for breakfast. From the 1990s onward, however, many of these sleeper services were quietly withdrawn. Budget airlines had begun to offer fares that undercut even the cheapest seated rail ticket, and covering the same distance overnight no longer looked competitive against a flight of only an hour or two."
+    },
+    {
+     "label": "B",
+     "text": "In the past decade, a modest number of these routes have returned, reintroduced by a mix of long-established national railways and newer private operators. Part of the motivation is environmental: growing public concern about the carbon emissions produced by short-haul flights has made an overnight train, however slower, seem an attractive alternative for travellers willing to trade a few hours for a lighter conscience. There is also a practical appeal that has nothing to do with climate at all, since a sleeper service can deliver a passenger directly to a city centre at a reasonable hour, without the additional time lost travelling to and from an airport on the outskirts of town."
+    },
+    {
+     "label": "C",
+     "text": "Bringing these services back has proved more complicated than simply adding a train to a timetable. A route that crosses several countries must be coordinated across separate national rail networks, each with its own signalling equipment, electrification standard and safety regulation, and slotting a single overnight service into all of these systems can take years of negotiation. The sleeping carriages themselves are also a source of difficulty, since specialist manufacturers capable of building them are few, and a coach fitted with bunks and washing facilities costs considerably more to build and maintain than an ordinary seated carriage designed to carry far more passengers per journey."
+    },
+    {
+     "label": "D",
+     "text": "For now, the revival remains limited to a handful of routes where the distance is long enough to make an overnight journey worthwhile and the demand is strong enough to justify the expense, rather than a wholesale return of the network that existed decades ago. Whether the trend expands further will likely depend less on nostalgia than on how affordable short-haul flights are allowed to remain, and on whether governments choose to support cross-border rail links with the same enthusiasm they have often shown for aviation infrastructure. Even so, for the handful of city pairs where a sleeper service now runs, demand from travellers has generally exceeded what operators originally expected, which at least suggests the appetite for this slower form of travel was never entirely lost, only left unmet for a couple of decades."
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "Sleeper train services in Europe expanded steadily throughout the 1990s and 2000s.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "A",
+      "quote": "many of these sleeper services were quietly withdrawn"
+     },
+     "why_ko": "지문은 1990년대부터 많은 야간열차 서비스가 'quietly withdrawn'(조용히 폐지)되었다고 했으므로 '꾸준히 확장'되었다는 진술과 모순됩니다 → FALSE."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "Low-cost airlines offered fares that were cheaper than even the least expensive rail tickets.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "A",
+      "quote": "Budget airlines had begun to offer fares that undercut even the cheapest seated rail ticket"
+     },
+     "why_ko": "지문에 'undercut even the cheapest seated rail ticket'라고 명시되어 있어 그대로 사실입니다 → TRUE."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "According to the passage, every reintroduced overnight service is run by newly established private operators.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "B",
+      "quote": "reintroduced by a mix of long-established national railways and newer private operators"
+     },
+     "why_ko": "지문은 'a mix of'(국영 철도와 신생 민간 사업자의 혼합)라고 했으므로 '모든 노선이 신생 민간기업'이라는 진술(only/every 한정어)은 모순됩니다 → FALSE."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "Coordinating an overnight route across multiple countries can take a long time to arrange because each network has different technical systems.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "C",
+      "quote": "each with its own signalling equipment, electrification standard and safety regulation, and slotting a single overnight service into all of these systems can take years of negotiation"
+     },
+     "why_ko": "지문에 각기 다른 신호, 전철화 방식 때문에 조율에 수년이 걸린다고 명시되어 있으므로 TRUE."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Government subsidies are the main reason sleeper carriages are expensive to manufacture.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "C",
+      "quote": "specialist manufacturers capable of building them are few, and a coach fitted with bunks and washing facilities costs considerably more to build and maintain"
+     },
+     "why_ko": "지문은 제작사가 적고 시설 때문에 비용이 높다고만 설명할 뿐 '정부 보조금'은 전혀 언급하지 않으므로 NOT GIVEN."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "The passage predicts that night train routes will double in number within the next five years.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "D",
+      "quote": "Whether the trend expands further will likely depend less on nostalgia than on how affordable short-haul flights are allowed to remain"
+     },
+     "why_ko": "지문은 향후 확대 여부가 항공 요금 정책 등에 달려 있다고만 말할 뿐, 구체적인 배수나 5년이라는 기간에 대한 예측은 없으므로 NOT GIVEN."
+    }
+   ],
+   "minutes": 12,
+   "words": 442
+  },
+  {
+   "id": "r-06",
+   "len": "short",
+   "topic": "art-arch",
+   "title": "Brutalism's Unlikely Revival",
+   "paras": [
+    {
+     "label": "A",
+     "text": "Brutalism is a style of architecture that flourished from the 1950s to the 1970s, characterised above all by its use of raw, unfinished concrete, often left with the rough texture of the wooden formwork it was poured into. The name is thought to derive from the French phrase beton brut, meaning raw concrete, rather than from any judgement about the buildings' appearance. Many of the style's most ambitious examples were civic buildings, university campuses and large blocks of social housing, commissioned by postwar governments eager to rebuild quickly and affordably. For decades afterward, however, the style was widely mocked as cold, oppressive and closely linked in the public imagination with urban decay, and a great many Brutalist buildings were demolished from the 1980s onward."
+    },
+    {
+     "label": "B",
+     "text": "In the past fifteen years or so, this reputation has begun to shift. Part of the change has been driven by a renewed concern with sustainability, since demolishing a large concrete structure and constructing a replacement releases a substantial amount of carbon associated with manufacturing new cement, whereas retrofitting an existing building can avoid much of that cost. Photographers and social media users have also played an unexpected role, circulating striking images of Brutalist stairwells, geometric facades and dramatic interior atriums to audiences who never experienced the buildings as symbols of postwar austerity. For a younger generation with no memory of the period, the style's bold, unapologetic forms increasingly read as ambitious rather than bleak."
+    },
+    {
+     "label": "C",
+     "text": "Preserving these buildings, though, is rarely straightforward. Concrete that has stood exposed to weather for half a century often develops a problem informally known as concrete cancer, in which water reaches the steel reinforcing bars inside, causes them to rust and expand, and eventually cracks or breaks away the surrounding concrete from within. Repairing this kind of damage on a large structure can be extremely costly, and owners are frequently confronted with a stark choice between an expensive restoration and a comparatively cheaper demolition. Many Brutalist buildings were also built before modern insulation standards existed, so bringing one up to contemporary energy efficiency requirements can add substantially to the expense of keeping it standing."
+    },
+    {
+     "label": "D",
+     "text": "The result is an uneven and sometimes contradictory picture. A Brutalist structure celebrated as a landmark and granted legal protection in one city may face demolition in another only a short distance away, since heritage policy on the style still varies considerably between different authorities. What has changed unmistakably, though, is how the movement is discussed within architecture schools, where it is now generally treated as a serious and historically significant chapter of twentieth-century design, rather than dismissed, as it once was, as a failed experiment best forgotten."
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "The term Brutalism is believed to originate from a French expression referring to raw concrete rather than from a comment on the buildings' looks.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "A",
+      "quote": "The name is thought to derive from the French phrase beton brut, meaning raw concrete, rather than from any judgement about the buildings' appearance."
+     },
+     "why_ko": "지문에 'rather than from any judgement about the buildings' appearance'라고 그대로 나와 있으므로 TRUE."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "Brutalist buildings were used exclusively for private housing commissioned by wealthy individuals.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "A",
+      "quote": "civic buildings, university campuses and large blocks of social housing, commissioned by postwar governments"
+     },
+     "why_ko": "지문은 시청 등 공공건물·사회주택이 '전후 정부'에 의해 발주되었다고 했으므로 '부유한 개인의 사설 주택 전용'이라는 진술은 모순됩니다 → FALSE."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "Reusing an existing concrete building instead of demolishing it can help to avoid some of the carbon emissions linked to producing new cement.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "B",
+      "quote": "retrofitting an existing building can avoid much of that cost"
+     },
+     "why_ko": "지문에 새 시멘트 생산에 따른 탄소 배출을 리모델링으로 피할 수 있다고 나와 있으므로 TRUE."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "Most of the photographs shared on social media of Brutalist buildings were taken by professional architects.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "B",
+      "quote": "Photographers and social media users have also played an unexpected role"
+     },
+     "why_ko": "지문은 '사진가와 소셜미디어 이용자'라고만 할 뿐 이들이 건축 전문가인지는 언급하지 않으므로 NOT GIVEN."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Concrete cancer occurs when the concrete itself chemically dissolves without any involvement of the steel reinforcement inside.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "C",
+      "quote": "water reaches the steel reinforcing bars inside, causes them to rust and expand, and eventually cracks or breaks away the surrounding concrete from within"
+     },
+     "why_ko": "지문은 콘크리트 내부의 '철근'이 녹슬어 팽창하면서 균열이 생긴다고 설명하므로, 철근과 무관하다는 진술은 원인을 반대로 뒤집은 것으로 모순됩니다 → FALSE."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Architecture students today are required to study Brutalism as part of a compulsory course.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "D",
+      "quote": "it is now generally treated as a serious and historically significant chapter of twentieth-century design"
+     },
+     "why_ko": "지문은 건축학교에서 이 양식을 진지하게 다룬다고만 할 뿐, '필수 과목'인지는 언급하지 않으므로 NOT GIVEN."
+    }
+   ],
+   "minutes": 12,
+   "words": 441
+  },
+  {
+   "id": "r-07",
+   "len": "long",
+   "topic": "history",
+   "title": "The Origins of Quarantine",
+   "paras": [
+    {
+     "label": "A",
+     "text": "For centuries, the ports of the Mediterranean served as the main gateway through which plague repeatedly entered Europe, carried unseen aboard trading vessels that had called at ports further east. Merchants, sailors and officials alike understood that outbreaks of the disease seemed to follow the arrival of certain ships, even though nobody at the time could explain why. Long before the causes of infectious disease were understood in any scientific sense, port authorities in the eastern Adriatic had already begun experimenting with a strikingly modern idea: that separating new arrivals from the rest of the population, for a fixed period, might prevent an epidemic from taking hold."
+    },
+    {
+     "label": "B",
+     "text": "The clearest early example comes from the city of Ragusa, now known as Dubrovnik, which in 1377 ordered that ships and travellers arriving from plague-affected areas be held at a distance from the city for thirty days before being allowed to enter. Within a few decades, the neighbouring maritime republic of Venice extended this period to forty days, a duration commemorated in the very word we still use today: quarantine derives from the Italian quaranta, meaning forty. Historians are not entirely certain why forty days was chosen rather than some other length, though some have pointed to the number's long symbolic association with periods of purification and trial in religious tradition."
+    },
+    {
+     "label": "C",
+     "text": "In practice, enforcing this isolation required considerable infrastructure. Coastal cities built dedicated quarantine stations, often on small islands just offshore, known in Italian as lazarettos, where passengers and crew were housed under guard until the waiting period had passed. Cargo suspected of harbouring disease, particularly textiles and other absorbent goods, was unloaded, aired and sometimes fumigated with smoke before being released for sale. Officials kept careful written records of arrivals, and those who tried to slip past the checkpoints faced severe punishment, since a single undetected case could undo the protection the whole system was designed to provide. The lazaretto therefore became as much a symbol of civic order as a medical precaution."
+    },
+    {
+     "label": "D",
+     "text": "Word of the Adriatic cities' approach travelled along the same trade routes that carried the disease itself, and within a century most major Mediterranean ports, including Genoa, Marseille and eventually cities bordering the Atlantic, had established comparable quarantine arrangements of their own. Although the exact length of detention varied from one port to another, the underlying principle, that time and distance could substitute for a cure nobody possessed, remained consistent. By the sixteenth century, quarantine had become an accepted, if often resented, cost of doing business for anyone travelling by sea into a European harbour."
+    },
+    {
+     "label": "E",
+     "text": "What makes this history particularly striking is that it developed without any accurate theory of contagion. Physicians at the time frequently attributed disease to 'miasma', or corrupted air, rather than to the transfer of a living agent between individuals, and the germ theory of disease was still centuries away from being formulated. Quarantine nonetheless worked reasonably well in practice, largely because it happened to match the incubation period of several serious infections, even though the officials who enforced it could not have explained the underlying biology. It was, in effect, a successful public health measure built on an incomplete and partly mistaken understanding of how illness actually spread."
+    },
+    {
+     "label": "F",
+     "text": "By the nineteenth century, as cholera swept through Europe in a series of devastating pandemics, quarantine had become a subject of intense international debate. Merchants and shipping companies complained that lengthy detentions disrupted trade and imposed enormous economic costs, while some physicians increasingly doubted whether maritime quarantine was even effective against a disease that appeared to spread mainly through contaminated water rather than through the air or direct contact with ships. A series of international sanitary conferences brought government representatives together to argue over standardised rules, but agreement proved difficult, since wealthier trading nations tended to favour shorter detentions while others pressed for stricter measures at the border."
+    },
+    {
+     "label": "G",
+     "text": "Despite these tensions, the basic logic behind quarantine has never disappeared from public health practice. It resurfaced prominently during the global response to COVID-19, when governments once again isolated travellers and, in some cases, entire households for a fixed number of days, informed now by a precise understanding of incubation periods rather than guesswork. The word itself, unchanged since its origins in the Adriatic, is a rare instance of medieval policy surviving almost intact into the twenty-first century, a reminder that some solutions can prove durable even when the reasoning behind them was only partly understood at the time."
+    }
+   ],
+   "words": 741,
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "People noticed a connection between ships arriving and outbreaks of plague, even without knowing the cause.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "A",
+      "quote": "Merchants, sailors and officials alike understood that outbreaks of the disease seemed to follow the arrival of certain ships, even though nobody at the time could explain why."
+     },
+     "why_ko": "원인은 몰랐지만 배의 도착과 발병 사이의 연관성을 인지했다고 했으므로 일치합니다 → TRUE."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "Venice was the first city to impose a fixed period of isolation on arriving ships.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "B",
+      "quote": "The clearest early example comes from the city of Ragusa, now known as Dubrovnik, which in 1377 ordered that ships and travellers arriving from plague-affected areas be held at a distance from the city for thirty days before being allowed to enter."
+     },
+     "why_ko": "최초의 사례는 베네치아가 아니라 라구사(두브로브니크)였다고 명시되어 있으므로 진술은 사실과 반대(순서 뒤바꿈)입니다 → FALSE."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "The forty-day period was chosen specifically because it matched the known incubation time of the plague.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "B",
+      "quote": "Historians are not entirely certain why forty days was chosen rather than some other length, though some have pointed to the number's long symbolic association with periods of purification and trial in religious tradition."
+     },
+     "why_ko": "역사가들도 '확실치 않다(not entirely certain)'고 했을 뿐, 잠복기와의 일치를 이유로 제시하지 않으므로 NOT GIVEN입니다."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "Goods suspected of carrying disease were sometimes exposed to smoke before being sold.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "C",
+      "quote": "Cargo suspected of harbouring disease, particularly textiles and other absorbent goods, was unloaded, aired and sometimes fumigated with smoke before being released for sale."
+     },
+     "why_ko": "화물이 판매 전에 '연기로 훈증(fumigated with smoke)'되었다고 했으므로 일치합니다 → TRUE."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Genoa introduced quarantine measures earlier than Marseille did.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "D",
+      "quote": "most major Mediterranean ports, including Genoa, Marseille and eventually cities bordering the Atlantic, had established comparable quarantine arrangements of their own"
+     },
+     "why_ko": "제노바와 마르세유가 함께 언급되지만 어느 쪽이 먼저 도입했는지는 나와 있지 않으므로 NOT GIVEN입니다(배경지식 함정: 단순 나열 순서를 시간 순서로 오해하기 쉬움)."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Quarantine only became an effective measure once the germ theory of disease explained how infection spread.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "E",
+      "quote": "Quarantine nonetheless worked reasonably well in practice, largely because it happened to match the incubation period of several serious infections, even though the officials who enforced it could not have explained the underlying biology."
+     },
+     "why_ko": "세균설이 등장하기 훨씬 전에도 검역이 '꽤 효과적으로 작동했다(worked reasonably well)'고 했으므로, '세균설 이후에야 효과가 있었다'는 진술은 인과관계가 뒤바뀐 모순입니다 → FALSE."
+    },
+    {
+     "n": 7,
+     "type": "tfng",
+     "stmt": "During the nineteenth-century sanitary conferences, wealthier trading nations generally favoured shorter periods of quarantine than other countries did.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "F",
+      "quote": "wealthier trading nations tended to favour shorter detentions while others pressed for stricter measures at the border"
+     },
+     "why_ko": "부유한 교역국이 더 짧은 억류를 선호했다고 명시되어 있으므로 일치합니다 → TRUE."
+    },
+    {
+     "n": 8,
+     "type": "heading",
+     "para": "B",
+     "options_ref": "H",
+     "answer": "ii",
+     "why_ko": "B 단락은 라구사(1377년, 30일)와 베네치아(40일)의 초기 격리 규칙, 그리고 그 40일(quaranta)에서 'quarantine'이라는 이름이 생겼다는 내용이 중심이므로 ii입니다. i은 '특정 발병 하나'라는 세부에만 맞는 함정이고, v는 오늘날까지의 영향(G 단락)입니다."
+    },
+    {
+     "n": 9,
+     "type": "heading",
+     "para": "C",
+     "options_ref": "H",
+     "answer": "iii",
+     "why_ko": "C 단락은 라자레토(격리소) 건설과 화물 훈증 등 격리를 '실행하기 위한 인프라'를 설명하므로 iii이 정답입니다. viii은 국제 합의라는 다른 단락(F)의 왜곡된 세부 내용이라 오답입니다."
+    },
+    {
+     "n": 10,
+     "type": "heading",
+     "para": "D",
+     "options_ref": "H",
+     "answer": "vi",
+     "why_ko": "D 단락은 검역 관행이 지중해 전역과 대서양 항구로 '퍼져나간' 과정을 다루므로 vi가 정답입니다. i(최초 발병)와 혼동하지 않아야 합니다."
+    },
+    {
+     "n": 11,
+     "type": "heading",
+     "para": "E",
+     "options_ref": "H",
+     "answer": "vii",
+     "why_ko": "E 단락은 세균설 같은 정확한 이론 없이도 검역이 효과가 있었다는 점을 다루므로 vii이 정답입니다. iii(전기 불필요)처럼 보이는 함정 표현과 무관하며, 요지는 '불완전한 이해에도 효과적이었다'는 점입니다."
+    },
+    {
+     "n": 12,
+     "type": "heading",
+     "para": "F",
+     "options_ref": "H",
+     "answer": "iv",
+     "why_ko": "F 단락은 콜레라 시대에 무역 이익과 공중보건 사이의 충돌 및 합의 실패를 다루므로 iv가 정답입니다. viii('마침내 합의했다')은 본문에서 'agreement proved difficult(합의가 어려웠다)'라고 한 것과 반대이므로 함정입니다."
+    },
+    {
+     "n": 13,
+     "type": "heading",
+     "para": "G",
+     "options_ref": "H",
+     "answer": "v",
+     "why_ko": "G 단락은 검역이라는 오래된 발상이 코로나19 시대까지 이어진 '현대적 지속성'을 다루므로 v가 정답입니다. ix(상인의 이익)처럼 본문에 없는 내용과 혼동하지 않아야 합니다."
+    }
+   ],
+   "headings": [
+    "i A single outbreak that first alerted a Mediterranean city to plague",
+    "ii Early rules that gave a practice its name",
+    "iii Building islands and stations to enforce isolation",
+    "iv Trade interests clash with health concerns during a new epidemic",
+    "v An old idea that still shapes public health today",
+    "vi A practical measure adopted around the Mediterranean and beyond",
+    "vii A policy that worked despite an incomplete understanding of disease",
+    "viii Nations finally agree on a single set of quarantine rules",
+    "ix Quarantine creates new commercial opportunities for merchants"
+   ],
+   "minutes": 20
+  },
+  {
+   "id": "r-08",
+   "len": "long",
+   "topic": "tech-agri",
+   "title": "Farming Upward: The Promise and Price of Vertical Farms",
+   "paras": [
+    {
+     "label": "A",
+     "text": "As the world's population continues to grow and the amount of fertile land available per person continues to shrink, agricultural researchers and entrepreneurs have increasingly turned their attention to an unconventional solution: growing food not across open fields but upward, in stacked layers inside buildings designed specifically for cultivation. Known broadly as vertical farming, this approach uses artificial lighting, carefully controlled temperature and humidity, and soil-free growing methods to produce crops indoors, independent of season, weather or the quality of the surrounding soil. Advocates present it as a way to bring fresh produce closer to cities while easing pressure on land used for conventional agriculture."
+    },
+    {
+     "label": "B",
+     "text": "The idea is often traced back to a proposal put forward in the early 2000s by an academic who imagined entire skyscrapers dedicated to food production, complete with orchards and grain fields stacked dozens of storeys above city streets. Very few buildings resembling that original vision have actually been constructed, since the engineering and financial challenges of growing full-scale crops that high proved difficult to overcome. What has emerged instead, and grown rapidly over the past two decades, are single-storey or modestly stacked warehouse facilities on the edges of cities, where growing conditions can be tightly controlled without the structural demands of a true skyscraper farm."
+    },
+    {
+     "label": "C",
+     "text": "Inside these facilities, plants are typically grown using hydroponic or aeroponic systems, in which roots are suspended in a nutrient-rich solution or mist rather than planted in soil, allowing water and nutrients to be delivered with great precision and largely reused rather than lost to drainage. Lighting is provided by banks of light-emitting diodes tuned to the specific wavelengths of red and blue light that plants absorb most efficiently for photosynthesis, a considerable improvement in energy efficiency over the broad-spectrum lamps used in earlier greenhouse experiments. Sensors continuously monitor temperature, humidity, carbon dioxide levels and nutrient concentration, feeding this information into automated systems that adjust conditions in real time, allowing crops to be harvested many times a year regardless of the climate outside."
+    },
+    {
+     "label": "D",
+     "text": "Proponents point to several clear advantages of this method. Because water is recirculated within a closed system rather than allowed to drain into surrounding soil, vertical farms can use only a small fraction of the water required by an equivalent field of crops grown outdoors. The enclosed environment also excludes most insects and fungal spores, so many operations grow their produce without any pesticides at all. Locating facilities close to or within cities shortens the distance food must travel before reaching a supermarket shelf, and because conditions indoors never change with the seasons, output remains steady throughout the year rather than fluctuating with the weather."
+    },
+    {
+     "label": "E",
+     "text": "These benefits, however, come at a significant cost. Running rows of high-intensity lighting and climate-control equipment around the clock consumes a substantial amount of electricity, and in regions where that electricity is generated from fossil fuels, the environmental savings from reduced water use and transport can be partly offset by a larger carbon footprint elsewhere. Partly for this reason, most vertical farms concentrate on fast-growing, high-value crops such as lettuce, herbs and leafy greens, which can justify the running costs, rather than staple crops like wheat or rice, whose low market price makes indoor cultivation of them economically unworkable at present."
+    },
+    {
+     "label": "F",
+     "text": "The economic pressures involved have proved considerable. Several well-funded vertical farming companies that expanded rapidly over the past decade have since scaled back their operations or closed altogether, unable to make indoor cultivation profitable at a large scale once construction loans and energy bills came due. Industry analysts remain divided on what these setbacks mean for the sector as a whole: some argue that early ventures simply expanded too quickly and that a more cautious, efficient generation of vertical farms will eventually succeed, while others suggest that the fundamental economics of replacing sunlight with electricity may never compete with open-field agriculture for anything beyond a narrow range of premium products."
+    },
+    {
+     "label": "G",
+     "text": "Looking ahead, several developments could shift this balance. Continued improvements in the energy efficiency of LED lighting, alongside cheaper renewable electricity and greater use of robotics to reduce labour costs, may narrow the gap between indoor and outdoor production over time. Few experts, however, expect vertical farming to replace conventional agriculture on any large scale; instead, it is more commonly viewed as a complement to existing food systems, well suited to certain crops and locations but unlikely to solve the broader challenge of feeding a growing global population on a finite amount of land."
+    }
+   ],
+   "words": 744,
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "Vertical farming is designed to produce crops without depending on outdoor weather conditions.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "A",
+      "quote": "this approach uses artificial lighting, carefully controlled temperature and humidity, and soil-free growing methods to produce crops indoors, independent of season, weather or the quality of the surrounding soil"
+     },
+     "why_ko": "실내 재배가 'independent of season, weather(계절과 날씨에 무관하게)' 이루어진다고 했으므로 일치합니다 → TRUE."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "Many full-scale skyscraper farms matching the original vision have now been built in cities worldwide.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "B",
+      "quote": "Very few buildings resembling that original vision have actually been constructed, since the engineering and financial challenges of growing full-scale crops that high proved difficult to overcome."
+     },
+     "why_ko": "실제로는 '극히 소수만 건설되었다(Very few... have actually been constructed)'고 했으므로 '많이 지어졌다'는 진술과 모순됩니다 → FALSE."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "The academic who proposed skyscraper farming built the first such building in his own city.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "B",
+      "quote": "The idea is often traced back to a proposal put forward in the early 2000s by an academic who imagined entire skyscrapers dedicated to food production"
+     },
+     "why_ko": "제안자가 실제로 건물을 지었는지, 어느 도시에 지었는지는 전혀 언급되지 않으므로 NOT GIVEN입니다."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "The LED lights used in these facilities are set to wavelengths that plants use efficiently for photosynthesis.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "C",
+      "quote": "Lighting is provided by banks of light-emitting diodes tuned to the specific wavelengths of red and blue light that plants absorb most efficiently for photosynthesis"
+     },
+     "why_ko": "LED가 광합성에 가장 효율적인 파장에 맞춰져 있다고 명시되어 있으므로 일치합니다 → TRUE."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Most vertical farms rely on chemical sprays to protect their crops from insects.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "D",
+      "quote": "The enclosed environment also excludes most insects and fungal spores, so many operations grow their produce without any pesticides at all."
+     },
+     "why_ko": "지문은 밀폐된 환경이 곤충을 막아 '많은 농장이 농약을 전혀 쓰지 않는다(without any pesticides at all)'고 했으므로 '대부분 화학 살포제에 의존한다'는 진술과 모순됩니다 → FALSE."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Leafy greens grown in vertical farms are said to be more nutritious than wheat or rice.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "E",
+      "quote": "most vertical farms concentrate on fast-growing, high-value crops such as lettuce, herbs and leafy greens, which can justify the running costs, rather than staple crops like wheat or rice, whose low market price makes indoor cultivation of them economically unworkable at present"
+     },
+     "why_ko": "작물 선택은 시장가격과 경제성 때문이라고 설명할 뿐 영양가 비교는 언급되지 않으므로 배경지식 함정으로 NOT GIVEN입니다."
+    },
+    {
+     "n": 7,
+     "type": "tfng",
+     "stmt": "Experts disagree about whether vertical farming can ever become profitable on a large scale.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "F",
+      "quote": "Industry analysts remain divided on what these setbacks mean for the sector as a whole"
+     },
+     "why_ko": "업계 분석가들이 'remain divided(의견이 갈린다)'고 했으므로 일치합니다 → TRUE."
+    },
+    {
+     "n": 8,
+     "type": "heading",
+     "para": "B",
+     "options_ref": "H",
+     "answer": "ii",
+     "why_ko": "B 단락은 초기의 '고층 빌딩 농장' 구상이 거의 실현되지 않고(Very few buildings…) 창고형 시설로 바뀐 과정이 중심이므로 ii입니다. iii(농지 감소)은 A 단락의 배경 설명일 뿐입니다."
+    },
+    {
+     "n": 9,
+     "type": "heading",
+     "para": "C",
+     "options_ref": "H",
+     "answer": "iv",
+     "why_ko": "C 단락은 흙 대신 양액·분무, 햇빛 대신 LED, 센서 자동 제어로 작물을 기르는 방식 전체를 설명하므로 iv입니다. LED 효율 개선은 세부 사항일 뿐 단락의 요지가 아닙니다."
+    },
+    {
+     "n": 10,
+     "type": "heading",
+     "para": "D",
+     "options_ref": "H",
+     "answer": "v",
+     "why_ko": "D 단락은 물 절약·무농약·짧은 운송·연중 안정 생산 등 실내 재배의 이점을 나열하므로 v입니다. 한 가지 이점(물이나 농약)만 담은 제목이었다면 세부 함정입니다."
+    },
+    {
+     "n": 11,
+     "type": "heading",
+     "para": "E",
+     "options_ref": "H",
+     "answer": "i",
+     "why_ko": "E 단락은 막대한 전력 비용 때문에 상추·허브 같은 고부가 작물만 경제성이 있다는 내용이므로 i입니다. ix는 E에 나오는 staple crops라는 단어를 쓰지만 '주력 작물'이라고 뒤집은 함정입니다(본문은 밀·쌀은 비경제적이라고 함)."
+    },
+    {
+     "n": 12,
+     "type": "heading",
+     "para": "F",
+     "options_ref": "H",
+     "answer": "vii",
+     "why_ko": "F 단락은 자금이 많던 기업들의 축소·폐업과 수익성을 둘러싼 전망 대립이 핵심이므로 vii입니다."
+    },
+    {
+     "n": 13,
+     "type": "heading",
+     "para": "G",
+     "options_ref": "H",
+     "answer": "viii",
+     "why_ko": "G 단락은 기술 발전으로 격차가 줄 수는 있지만 기존 농업을 '대체'가 아닌 '보완(complement)'할 것이라는 전망이므로 viii입니다. vi(로봇)는 G에 나오는 세부 요소 하나만 담은 함정입니다."
+    }
+   ],
+   "headings": [
+    "i Why energy costs limit which crops are grown",
+    "ii A skyscraper vision that rarely left the drawing board",
+    "iii Shrinking farmland in a growing world",
+    "iv Growing crops without soil or natural sunlight",
+    "v The benefits of controlled indoor growing",
+    "vi Robots as the answer to rising labour costs",
+    "vii High-profile setbacks raise doubts about long-term profitability",
+    "viii A future role alongside, not instead of, traditional farming",
+    "ix Why staple crops are the main focus of indoor growers"
+   ],
+   "minutes": 20
+  },
+  {
+   "id": "r-09",
+   "len": "long",
+   "topic": "science",
+   "title": "Fast Radio Bursts: Cosmic Riddles Turned Research Tools",
+   "paras": [
+    {
+     "label": "A",
+     "text": "In 2007, astronomers combing through archived radio telescope data noticed something that no existing theory could easily explain: a burst of radio waves lasting only a few thousandths of a second, yet carrying more energy than the Sun releases in the better part of a day. The signal appeared once, vanished, and left no visible counterpart at any other wavelength. Similar bursts were subsequently found scattered across the sky, and the phenomenon acquired a name that captures both its brevity and its strangeness: the fast radio burst, or FRB."
+    },
+    {
+     "label": "B",
+     "text": "Detecting an FRB is, in principle, straightforward: a radio telescope simply has to be pointed at the right patch of sky at the right fraction of a second. In practice, because the bursts are unpredictable and fleeting, astronomers rely on wide-field instruments that continuously scan large areas of sky and automated software that sifts enormous volumes of data for a telltale signature. That signature is a phenomenon called dispersion, in which lower-frequency radio waves arrive slightly later than higher-frequency ones after travelling through the thin, ionised gas that fills space between galaxies. The degree of this delay allows astronomers to estimate how much material the signal has passed through, and therefore how far it has travelled, even when the host galaxy cannot be directly identified."
+    },
+    {
+     "label": "C",
+     "text": "For several years after the first detection, every known FRB appeared to be a one-off event, which encouraged theories involving a single, catastrophic, one-time occurrence, such as the collapse of a star into a black hole. This picture was complicated by the discovery of a small number of sources that burst repeatedly, sometimes hundreds of times, over months or years. A repeating source clearly could not be explained by an event that destroys its own origin, and this discovery forced researchers to reconsider explanations that could account for both repeating and apparently one-off bursts within a single framework."
+    },
+    {
+     "label": "D",
+     "text": "The hypothesis that has gained the most support in recent years centres on magnetars: neutron stars, the collapsed cores of dead massive stars, wrapped in magnetic fields many trillions of times stronger than the Earth's. Occasional violent rearrangements of a magnetar's magnetic field, analogous in some ways to a solar flare, are thought capable of producing an intense, short-lived burst of radio waves. Confidence in this idea increased markedly after radio astronomers detected a comparatively faint burst originating from a known magnetar within our own galaxy, providing the first direct link between the two kinds of object. It is generally accepted, however, that a magnetar-driven mechanism alone may not account for every FRB ever recorded."
+    },
+    {
+     "label": "E",
+     "text": "Other proposals remain in circulation, including models involving collisions between extremely dense stellar remnants and, at the speculative fringe of the field, the suggestion that some signals could be evidence of advanced extraterrestrial technology. Almost all researchers working on FRBs regard this last possibility as exceedingly unlikely, given that natural astrophysical explanations account for the observed properties of the bursts reasonably well, but the idea persists partly because so little was understood about the sources in the years immediately following their discovery."
+    },
+    {
+     "label": "F",
+     "text": "Whatever ultimately explains their origin, FRBs have already proved useful as scientific tools in their own right. Because the amount of dispersion a burst accumulates depends on the density of material it passes through, astronomers have begun using large samples of FRBs to map matter that is otherwise almost impossible to observe directly: the thin, diffuse gas thought to lie in vast filaments between galaxies. This diffuse material had long been predicted by cosmological models but had proved difficult to detect using conventional telescopes, since it is far too faint to observe in visible light. Some astronomers have described FRBs as a novel form of cosmic scale, weighing intergalactic matter one burst at a time."
+    },
+    {
+     "label": "G",
+     "text": "New purpose-built radio telescopes, several of them now operating continuously across wide fields of sky, are detecting FRBs at a rate unimaginable only a decade ago, transforming what was once a scientific curiosity into a large and statistically rich dataset. Even so, a definitive account of what produces every category of burst has yet to be agreed upon, and researchers caution that the field may still hold surprises: an entire class of astrophysical objects was effectively unknown to science until random archival data revealed its existence, and nothing rules out further such discoveries."
+    }
+   ],
+   "words": 717,
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "Although it lasted only a tiny fraction of a second, the first recorded burst released more energy than the Sun gives out over most of a day.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "A",
+      "quote": "a burst of radio waves lasting only a few thousandths of a second, yet carrying more energy than the Sun releases in the better part of a day"
+     },
+     "why_ko": "지문의 해당 문장을 그대로 뒷받침하므로 TRUE입니다."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "Astronomers have been able to identify the host galaxy of every fast radio burst detected so far.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "B",
+      "quote": "even when the host galaxy cannot be directly identified"
+     },
+     "why_ko": "B 단락은 'even when the host galaxy cannot be directly identified(발생 은하를 직접 확인할 수 없는 경우에도)'라고 하여 발생 은하를 모르는 폭발이 있음을 전제합니다. 또 A 단락의 첫 폭발은 다른 파장에서 아무 흔적도 남기지 않았습니다. '모든 폭발의 은하를 찾았다'는 진술과 모순 → FALSE (every 한정어 함정)."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "The delay between the different frequencies of a burst helps astronomers to judge how far the signal has travelled.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "B",
+      "quote": "The degree of this delay allows astronomers to estimate how much material the signal has passed through, and therefore how far it has travelled, even when the host galaxy cannot be directly identified."
+     },
+     "why_ko": "지문은 분산에 의한 지연 정도로 신호가 이동한 거리를 추정할 수 있다고 명시하므로 TRUE입니다."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "Repeating sources of bursts were discovered before sources that appeared to fire only once.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "C",
+      "quote": "For several years after the first detection, every known FRB appeared to be a one-off event"
+     },
+     "why_ko": "지문에 따르면 처음 여러 해 동안은 모든 폭발이 일회성으로 보였고, 반복 신호원은 그 이후에 발견되었으므로 시간 순서가 반대로 된 진술은 FALSE입니다."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Detecting a burst from a magnetar inside our own galaxy made the magnetar theory more convincing.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "D",
+      "quote": "Confidence in this idea increased markedly after radio astronomers detected a comparatively faint burst originating from a known magnetar within our own galaxy, providing the first direct link between the two kinds of object."
+     },
+     "why_ko": "지문의 해당 문장과 정확히 일치하므로 TRUE입니다."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Magnetars are known to be more common in the universe than ordinary neutron stars.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "D",
+      "quote": "neutron stars, the collapsed cores of dead massive stars, wrapped in magnetic fields many trillions of times stronger than the Earth's"
+     },
+     "why_ko": "지문은 마그네타가 강한 자기장을 가진 중성자별이라는 정의만 제시할 뿐, 일반 중성자별과의 상대적 개체 수(흔함/드묾)는 언급하지 않습니다. 실제로는 마그네타가 더 희귀하다고 알려져 있지만 지문에는 나오지 않는 배경지식형 함정이므로 NOT GIVEN입니다."
+    },
+    {
+     "n": 7,
+     "type": "tfng",
+     "stmt": "Only a small number of astronomers are currently using fast radio bursts to study matter between galaxies.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "F",
+      "quote": "astronomers have begun using large samples of FRBs to map matter that is otherwise almost impossible to observe directly"
+     },
+     "why_ko": "지문은 천문학자들이 이 방법을 사용하기 '시작했다'는 사실만 언급할 뿐 그 인원 규모(많음/적음)는 밝히지 않으므로 NOT GIVEN입니다."
+    },
+    {
+     "n": 8,
+     "type": "heading",
+     "para": "B",
+     "options_ref": "H",
+     "answer": "v",
+     "why_ko": "B 단락은 분산 현상을 이용해 폭발의 거리를 추정하는 방법을 설명하므로 정답은 v입니다. viii(장비 발전으로 관측 급증)는 G 단락의 세부 내용이라 오답입니다."
+    },
+    {
+     "n": 9,
+     "type": "heading",
+     "para": "C",
+     "options_ref": "H",
+     "answer": "vi",
+     "why_ko": "C 단락은 반복 폭발의 발견이 일회성 사건 이론을 재검토하게 만든 과정을 다루므로 정답은 vi입니다. iii(신호의 재발견)은 지문에 나오지 않는 왜곡된 오답입니다."
+    },
+    {
+     "n": 10,
+     "type": "heading",
+     "para": "D",
+     "options_ref": "H",
+     "answer": "vii",
+     "why_ko": "D 단락은 강한 자기장을 가진 중성자별인 마그네타를 유력한 원인으로 제시하므로 정답은 vii입니다. ii(마그네타 가설에 대한 의혹 증가)는 실제로는 지지가 커졌다는 내용과 반대되는 왜곡 오답입니다."
+    },
+    {
+     "n": 11,
+     "type": "heading",
+     "para": "E",
+     "options_ref": "H",
+     "answer": "ix",
+     "why_ko": "E 단락은 자연적 설명과 외계 기술이라는 비자연적 설명을 함께 저울질하며 후자가 거의 받아들여지지 않는다고 서술하므로 정답은 ix입니다. viii(외계 기술 설명이 널리 받아들여짐)는 지문 내용과 정반대인 오답입니다."
+    },
+    {
+     "n": 12,
+     "type": "heading",
+     "para": "F",
+     "options_ref": "H",
+     "answer": "i",
+     "why_ko": "F 단락은 고속전파폭발을 이용해 은하 사이의 보이지 않는 물질을 지도화하는 새로운 방법을 설명하므로 정답은 i입니다."
+    },
+    {
+     "n": 13,
+     "type": "heading",
+     "para": "G",
+     "options_ref": "H",
+     "answer": "iv",
+     "why_ko": "G 단락은 새 장비 덕분에 관측이 급증했지만 여전히 풀리지 않은 의문이 남아 있다는 내용이므로 정답은 iv입니다."
+    }
+   ],
+   "headings": [
+    "i A surprising method for mapping invisible matter in the universe",
+    "ii Growing doubts about whether magnetars can explain the phenomenon",
+    "iii The unexpected rediscovery of a lost radio signal",
+    "iv An advance in equipment leads to a surge in observations amid persisting mysteries",
+    "v Locating distant bursts through a telltale delay in radio frequencies",
+    "vi Evidence that forces a rethink of catastrophic, one-time explanations",
+    "vii A leading theory linked to a highly magnetised stellar remnant",
+    "viii The extraterrestrial explanation gains wide acceptance among scientists",
+    "ix Weighing the merits of natural versus artificial explanations for cosmic signals"
+   ],
+   "minutes": 20
+  },
+  {
+   "id": "r-10",
+   "len": "long",
+   "topic": "biz-econ",
+   "title": "The Hidden Arithmetic of Airline Overbooking",
+   "paras": [
+    {
+     "label": "A",
+     "text": "Anyone who has ever been offered a voucher and a later flight in exchange for giving up a seat has encountered one of the airline industry's more counterintuitive practices: deliberately selling more tickets for a flight than there are seats on the aircraft. Far from being an oversight, this practice, known as overbooking, is a calculated and mathematically modelled strategy that airlines have relied on for decades, and it sits at the centre of a broader discipline called revenue management. Few passengers realise quite how much calculation lies behind the price and availability of the seat they eventually take, or how directly that calculation depends on the behaviour of other travellers they will never meet."
+    },
+    {
+     "label": "B",
+     "text": "The logic behind overbooking begins with a simple observation: not every passenger who books a seat actually boards the aircraft. Business travellers change plans, connecting passengers miss transfers, and some people simply book multiple options and cancel later. Airlines have historically experienced no-show rates that vary by route, time of day and fare type, and low-cost carriers have often reported considerably lower no-show rates than full-service airlines offering more flexible, refundable tickets. If an airline sold exactly as many tickets as there were seats, it would routinely depart with empty seats and lost revenue on precisely those routes where no-shows are common."
+    },
+    {
+     "label": "C",
+     "text": "To address this, airlines built statistical models, drawing on historical booking data for each route, to forecast how many passengers are likely not to show up for any given flight. Seats are then sold in excess of capacity by a margin calculated to fill the aircraft as closely as possible without leaving it empty, while keeping the probability of an actual overbooking incident, more passengers arriving than there are seats, acceptably low. These models must be recalculated constantly, since a single unusual event, a public holiday, a diverted connecting flight, or a change in fare structure, can shift no-show patterns considerably."
+    },
+    {
+     "label": "D",
+     "text": "When the models miscalculate, or when an unusually high proportion of ticketed passengers do show up, airlines must find volunteers willing to give up their seats in exchange for compensation, typically a mixture of cash, travel vouchers and rebooking onto a later flight. Regulations in many jurisdictions require airlines to seek volunteers before involuntarily denying boarding to any passenger, and compensation levels for those who are involuntarily bumped are often set out in law rather than left entirely to airline discretion. Even so, the frequency of denied boarding has generally fallen over recent decades as forecasting models have become considerably more sophisticated."
+    },
+    {
+     "label": "E",
+     "text": "Overbooking is only one component of the wider practice of revenue management, a field pioneered within the airline industry before spreading to hotels, car rental firms and, more recently, ride-hailing and event ticketing. At its core, revenue management involves selling a fixed, perishable inventory, seats on a specific flight that cannot be stored or sold after departure, at prices that vary according to predicted demand, timing of purchase and passenger behaviour. Two passengers seated beside each other on the same flight may have paid substantially different fares, depending on when they booked, how flexible their ticket is, and what class of travel they selected."
+    },
+    {
+     "label": "F",
+     "text": "Critics of the practice argue that dynamic pricing and overbooking place airlines at a considerable informational advantage over individual travellers, who typically cannot access the demand forecasts and pricing algorithms that determine what they are charged. Consumer advocates have periodically called for greater transparency in how fares are set, and for stronger, standardised compensation for passengers who are denied boarding involuntarily. Airlines counter that without overbooking, average fares across all passengers would need to rise to cover the cost of the empty seats that no-shows would otherwise leave behind, meaning the practice benefits most travellers even though a small minority are inconvenienced by it."
+    },
+    {
+     "label": "G",
+     "text": "As airlines increasingly draw on larger datasets and more advanced forecasting techniques, some analysts expect overbooking rates to become still more precise, reducing involuntary denied boarding even further while preserving the revenue benefits that first drove airlines to adopt the practice. Others caution that as booking behaviour itself continues to shift, for instance as flexible and last-minute booking patterns become more common, no-show forecasting may face renewed challenges that could complicate this long-running balancing act between full aircraft and satisfied passengers. Whatever direction the technology takes, the underlying tension is unlikely to disappear entirely: an airline that never overbooks accepts a predictable loss of revenue, while one that overbooks aggressively risks the far more visible cost of turning paying customers away at the gate."
+    }
+   ],
+   "words": 752,
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "Overbooking is a deliberate strategy rather than an error on the part of airlines.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "A",
+      "quote": "Far from being an oversight, this practice, known as overbooking, is a calculated and mathematically modelled strategy that airlines have relied on for decades"
+     },
+     "why_ko": "지문은 오버부킹이 'Far from being an oversight'라며 의도된 전략임을 명시하므로 TRUE입니다."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "Low-cost airlines generally have higher no-show rates than full-service airlines.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "B",
+      "quote": "low-cost carriers have often reported considerably lower no-show rates than full-service airlines offering more flexible, refundable tickets"
+     },
+     "why_ko": "지문은 저비용 항공사의 노쇼율이 'considerably lower'라고 했으므로 '더 높다'는 진술은 비교 방향이 뒤바뀐 FALSE입니다."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "Airlines were using computer software to predict no-shows before the internet became widespread.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "C",
+      "quote": "airlines built statistical models, drawing on historical booking data for each route, to forecast how many passengers are likely not to show up for any given flight"
+     },
+     "why_ko": "지문은 통계 모델을 이용해 노쇼를 예측한다고만 할 뿐, 이 관행이 인터넷 보급 이전부터 시작되었는지에 대한 시점은 언급하지 않으므로 배경지식형 NOT GIVEN입니다."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "The amount paid to passengers who are bumped from a flight against their will is often fixed by law.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "D",
+      "quote": "compensation levels for those who are involuntarily bumped are often set out in law rather than left entirely to airline discretion"
+     },
+     "why_ko": "지문의 해당 문장과 정확히 일치하므로 TRUE입니다."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Cases of passengers being refused boarding have become more frequent in recent decades.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "D",
+      "quote": "the frequency of denied boarding has generally fallen over recent decades as forecasting models have become considerably more sophisticated"
+     },
+     "why_ko": "지문은 예측 모델이 정교해지면서 강제 탑승 거부 빈도가 'fallen'했다고 하므로, '늘어났다'는 진술은 인과관계가 뒤바뀐 FALSE입니다."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Two passengers sitting next to each other on the same flight may have paid very different prices.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "E",
+      "quote": "Two passengers seated beside each other on the same flight may have paid substantially different fares, depending on when they booked, how flexible their ticket is, and what class of travel they selected."
+     },
+     "why_ko": "지문의 해당 문장과 정확히 일치하므로 TRUE입니다."
+    },
+    {
+     "n": 7,
+     "type": "tfng",
+     "stmt": "Consumer groups have succeeded in getting a law passed that forces airlines to reveal how their fares are calculated.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "F",
+      "quote": "Consumer advocates have periodically called for greater transparency in how fares are set, and for stronger, standardised compensation for passengers who are denied boarding involuntarily."
+     },
+     "why_ko": "지문은 소비자 단체가 투명성 강화를 '요구해 왔다'고만 할 뿐, 그 요구가 실제로 새로운 법 제정으로 이어져 성공했는지는 언급하지 않으므로 NOT GIVEN입니다."
+    },
+    {
+     "n": 8,
+     "type": "heading",
+     "para": "B",
+     "options_ref": "H",
+     "answer": "v",
+     "why_ko": "B 단락은 예약한 승객이 항상 탑승하지는 않으며 그 비율이 노선·항공사 유형에 따라 다르다는 점을 다루므로 정답은 v입니다."
+    },
+    {
+     "n": 9,
+     "type": "heading",
+     "para": "C",
+     "options_ref": "H",
+     "answer": "viii",
+     "why_ko": "C 단락은 과거 예약 데이터를 이용해 추가로 팔 좌석 수를 계산하는 통계 모델을 설명하므로 정답은 viii입니다."
+    },
+    {
+     "n": 10,
+     "type": "heading",
+     "para": "D",
+     "options_ref": "H",
+     "answer": "iii",
+     "why_ko": "D 단락은 예측이 빗나갔을 때 자원자를 모집하고 보상하는 절차를 다루므로 정답은 iii입니다. iv(빈 좌석 문제의 영구적 해결)는 지문에 없는 과장된 오답입니다."
+    },
+    {
+     "n": 11,
+     "type": "heading",
+     "para": "E",
+     "options_ref": "H",
+     "answer": "i",
+     "why_ko": "E 단락은 좌석 가격이 예약 시점과 승객 행동에 따라 달라지는 수익관리 전반을 설명하므로 정답은 i입니다. ii(호텔 산업에서 기원)는 지문과 반대로 뒤바뀐 오답입니다."
+    },
+    {
+     "n": 12,
+     "type": "heading",
+     "para": "F",
+     "options_ref": "H",
+     "answer": "ix",
+     "why_ko": "F 단락은 초과예약 관행에 대한 비판과 항공사의 반박을 함께 제시하므로 정답은 ix입니다. vii(평균 여행자에게 유리하다는 항공사의 옹호)는 F 단락의 일부 내용만 다루는 세부 오답입니다."
+    },
+    {
+     "n": 13,
+     "type": "heading",
+     "para": "G",
+     "options_ref": "H",
+     "answer": "vi",
+     "why_ko": "G 단락은 예측 정교화와 예약 행태 변화 사이에서 균형을 맞춰야 하는 과제를 다루므로 정답은 vi입니다."
+    }
+   ],
+   "headings": [
+    "i A pricing strategy in which identical journeys rarely cost the same",
+    "ii The origins of revenue management in the hotel industry",
+    "iii Compensating those who lose out when forecasts prove wrong",
+    "iv A permanent solution to the problem of empty airline seats",
+    "v The uneven rate at which booked travellers fail to board their flights",
+    "vi Balancing efficiency and fairness as booking habits keep changing",
+    "vii A defence of overbooking based on its benefit to the average traveller",
+    "viii Forecasting models that decide how many extra seats to sell",
+    "ix Arguments for and against a widely used but contested industry practice"
+   ],
+   "minutes": 20
+  },
+  {
+   "id": "r-11",
+   "len": "long",
+   "topic": "electrical",
+   "title": "The War of the Currents and the Logic of the Modern Grid",
+   "paras": [
+    {
+     "label": "A",
+     "text": "In the final two decades of the nineteenth century, the young electrical industry was gripped by a commercial and technical dispute so bitter that historians still call it the war of the currents. Thomas Edison, who had built the first commercial power stations to supply direct current, or DC, found himself competing against George Westinghouse, whose engineer Nikola Tesla championed an alternative system based on alternating current, or AC. What began as a disagreement over wiring standards soon became a very public battle for the future of electric lighting, and ultimately for the shape of every power grid that followed."
+    },
+    {
+     "label": "B",
+     "text": "Edison's early stations delivered direct current at a fixed, relatively low voltage straight from the generator to nearby customers, an arrangement well suited to the incandescent lamps and small motors of the day. Its central weakness was the reach. Because power lost to resistance in a cable rises with the square of the current, doubling the current transmitted down a wire quadruples the energy wasted as heat. Reducing that loss without raising the voltage meant using thicker, costlier copper, and even then a direct current network could serve only customers within a mile or so of a generating station, since no cheap, efficient way existed to change a DC voltage once it had left the plant."
+    },
+    {
+     "label": "C",
+     "text": "Alternating current suffered no such constraint, for the simple reason that transformers depend on a changing magnetic field to shift electrical energy from one winding to another. Because alternating current constantly reverses direction, it produces exactly the fluctuating flux a transformer needs; a steady direct current, by contrast, generates a static field that induces nothing once it has settled. This distinction let Westinghouse's engineers step voltage up for transmission and down again near the customer almost for free, allowing an alternating system to send power dozens of kilometres along modest cabling at a fraction of the copper cost."
+    },
+    {
+     "label": "D",
+     "text": "The rivalry was not confined to boardrooms and patent offices. Edison's camp ran a public relations campaign intended to brand alternating current as lethally dangerous, staging demonstrations in which stray animals were electrocuted with AC and lobbying for the first electric chair to run on Westinghouse's system, hoping the association would frighten the public away from it. The strategy backfired commercially: a contract to harness Niagara Falls, awarded to Westinghouse and Tesla's alternating current design in the 1890s, is often treated as the moment the argument was settled in the marketplace, whatever the rhetoric on either side had claimed."
+    },
+    {
+     "label": "E",
+     "text": "Beyond the showmanship, the underlying arithmetic favoured alternating current for anything beyond a very local network. Raising the transmission voltage tenfold cuts the current needed to deliver the same power by the same factor, and because resistive loss depends on the square of current, the losses fall a hundredfold. Alternating current made this trade available cheaply through the transformer, whereas early direct current systems had no equivalent device and so were stuck with either short ranges or the expense of a generating station on almost every street corner."
+    },
+    {
+     "label": "F",
+     "text": "Yet direct current did not disappear; it returned, decades later, through the back door. Long submarine cables and the very longest overhead links now often carry high voltage direct current, because a cable's own capacitance drains alternating current of some of its useful energy over great distances, a penalty that direct current avoids. Modern power electronics can convert alternating current to direct current and back with comparatively little waste, so operators now use these high voltage direct current links to connect grids that run at slightly different frequencies, or that are not synchronised with one another at all, something an alternating current tie could not do directly."
+    },
+    {
+     "label": "G",
+     "text": "The grid that resulted from this history is therefore a compromise rather than a pure victory for either camp. Homes and factories are still supplied almost everywhere with alternating current at fifty or sixty cycles a second, a legacy of the transformer's decisive advantage in the 1890s, while a growing web of direct current links quietly stitches distant or mismatched networks together behind the scenes. The episode is often retold as a simple triumph of superior engineering, yet it is also a reminder that infrastructure choices are shaped by cost, marketing and historical accident just as much as by the underlying physics."
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "The disagreement between Edison and Westinghouse remained no more than a narrow technical argument over wiring standards.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "A",
+      "quote": "What began as a disagreement over wiring standards soon became a very public battle for the future of electric lighting, and ultimately for the shape of every power grid that followed."
+     },
+     "why_ko": "지문은 배선 표준에 대한 논쟁이 'a very public battle for the future of electric lighting'로 확대되었다고 했으므로 '사소한 기술 논쟁으로 그쳤다'는 진술과 모순됩니다 → FALSE."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "In Edison's system, losses caused by electrical resistance grew faster than the current itself.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "B",
+      "quote": "power lost to resistance in a cable rises with the square of the current, doubling the current transmitted down a wire quadruples the energy wasted as heat"
+     },
+     "why_ko": "전류가 두 배가 되면 손실은 네 배(제곱)가 된다고 명시되어 있으므로, 손실이 전류보다 더 빠르게 증가한다는 진술은 TRUE."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "Edison's direct current stations were able to supply electricity to customers located around ten miles from the power station.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "B",
+      "quote": "a direct current network could serve only customers within a mile or so of a generating station"
+     },
+     "why_ko": "지문은 'only... within a mile or so'라고 했으므로 '10마일까지 공급 가능'이라는 진술은 수치·한정어가 모순됩니다 → FALSE."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "A transformer can only move electrical energy between windings when the magnetic field passing through it is changing.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "C",
+      "quote": "transformers depend on a changing magnetic field to shift electrical energy from one winding to another"
+     },
+     "why_ko": "지문에 변압기는 '변화하는 자기장'에 의존한다고 명시되어 있으므로 TRUE."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Edison himself designed and built the electric chair used in early executions.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "D",
+      "quote": "lobbying for the first electric chair to run on Westinghouse's system"
+     },
+     "why_ko": "지문은 에디슨 진영이 전기의자가 웨스팅하우스 시스템으로 작동하도록 로비했다고만 할 뿐, 에디슨 본인이 전기의자를 '설계·제작'했는지는 언급하지 않으므로 NOT GIVEN(실제 역사적 배경지식과 혼동하기 쉬운 함정)."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Edison later incorporated transformer technology into his direct current power stations.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "E",
+      "quote": "early direct current systems had no equivalent device and so were stuck with either short ranges or the expense of a generating station on almost every street corner"
+     },
+     "why_ko": "지문은 초기 직류 시스템에 변압기에 해당하는 장치가 '없었다'고만 말할 뿐, 이후 에디슨이 변압기 기술을 채택했는지 여부는 전혀 다루지 않으므로 NOT GIVEN."
+    },
+    {
+     "n": 7,
+     "type": "tfng",
+     "stmt": "Direct current links are now used to join power grids whose frequencies do not match.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "F",
+      "quote": "operators now use these high voltage direct current links to connect grids that run at slightly different frequencies, or that are not synchronised with one another at all"
+     },
+     "why_ko": "지문에 고전압 직류 연결이 주파수가 다른 계통을 잇는 데 쓰인다고 명시되어 있으므로 TRUE."
+    },
+    {
+     "n": 8,
+     "type": "heading",
+     "para": "B",
+     "options_ref": "H",
+     "answer": "iv",
+     "why_ko": "B 단락은 직류가 왜 먼 거리로 전송되지 못했는지(저항 손실, 전압 변환 불가)를 설명하므로 'iv Why direct current struggled to travel far'가 적절합니다. 'vii'는 '최초의 상업 발전소 발명'이라는 세부사실만 다루는 함정입니다."
+    },
+    {
+     "n": 9,
+     "type": "heading",
+     "para": "C",
+     "options_ref": "H",
+     "answer": "viii",
+     "why_ko": "C 단락의 핵심은 변압기가 교류를 실용적으로 만든 원리이므로 'viii How transformers made alternating current practical for the grid'가 맞습니다. 'i'는 E 단락의 수치 논리(전압-손실 관계)를 다루는 것으로 혼동하기 쉬운 오답입니다."
+    },
+    {
+     "n": 10,
+     "type": "heading",
+     "para": "D",
+     "options_ref": "H",
+     "answer": "ii",
+     "why_ko": "D 단락은 에디슨 진영의 여론전과 나이아가라 계약이라는 더 큰 홍보 경쟁을 다루므로 'ii A publicity war fought to win public trust'가 정답입니다. 'ix'는 동물 감전 실험이라는 세부 사례만 다루는 전형적 함정입니다."
+    },
+    {
+     "n": 11,
+     "type": "heading",
+     "para": "E",
+     "options_ref": "H",
+     "answer": "i",
+     "why_ko": "E 단락은 전압을 올리면 손실이 제곱으로 줄어드는 물리적·수학적 근거를 설명하므로 'i The physics that let voltage conversion cut transmission losses'가 정답입니다."
+    },
+    {
+     "n": 12,
+     "type": "heading",
+     "para": "F",
+     "options_ref": "H",
+     "answer": "v",
+     "why_ko": "F 단락은 현대 전력전자 기술 덕분에 직류가 초고압 송전 등에서 다시 쓰이게 된 사실을 다루므로 'v Modern power electronics revive a role for direct current'가 정답입니다."
+    },
+    {
+     "n": 13,
+     "type": "heading",
+     "para": "G",
+     "options_ref": "H",
+     "answer": "vi",
+     "why_ko": "G 단락은 오늘날의 전력망이 역사·경제·물리가 뒤섞인 타협의 산물이라고 결론짓으므로 'vi A compromise grid shaped by history and economics'가 가장 적절합니다."
+    }
+   ],
+   "headings": [
+    "i The physics that let voltage conversion cut transmission losses",
+    "ii A publicity war fought to win public trust",
+    "iii Edison's original lighting patents and their expiry",
+    "iv Why direct current struggled to travel far",
+    "v Modern power electronics revive a role for direct current",
+    "vi A compromise grid shaped by history and economics",
+    "vii The invention of the first commercial power station",
+    "viii How transformers made alternating current practical for the grid",
+    "ix Animal experiments used to test electrical safety standards"
+   ],
+   "minutes": 20,
+   "words": 710
+  },
+  {
+   "id": "r-12",
+   "len": "long",
+   "topic": "energy",
+   "title": "Holding Electricity for a Rainy Day: Grid-Scale Energy Storage",
+   "paras": [
+    {
+     "label": "A",
+     "text": "Electricity has traditionally been generated at almost the same moment it is consumed, because large-scale storage was expensive and inefficient. As wind and solar power have taken a growing share of the generation mix, this old arrangement has become harder to sustain, since the sun does not always shine when demand peaks and the wind does not blow to order. Grid-scale energy storage is often presented as the answer to this mismatch, yet the term covers a surprisingly varied family of technologies, each suited to a different combination of how much power it can deliver, for how long, and at what cost."
+    },
+    {
+     "label": "B",
+     "text": "The oldest and, by installed capacity, still the largest form of grid storage is pumped hydro. A pumped hydro plant typically consists of two reservoirs at different heights; when electricity is abundant and cheap, surplus power is used to pump water from the lower reservoir to the upper one, and when demand rises, the water is released back down through turbines to generate electricity again. In effect, the system converts electrical energy into gravitational potential energy and back, losing a modest fraction to friction and inefficiency at each stage. Its chief drawback is not technical but geographical: a suitable site needs a substantial change in elevation and a reliable supply of water, so pumped hydro cannot simply be built wherever a grid happens to need it."
+    },
+    {
+     "label": "C",
+     "text": "Lithium-ion batteries, the same broad chemistry found in phones and electric cars, have become the fastest-growing form of grid storage in recent years. They respond to changes in supply or demand within a fraction of a second, which makes them well suited to stabilising grid frequency and smoothing brief fluctuations in renewable output. What they are generally not yet suited to is storing large quantities of energy for many hours or days at a time, since the cost of the battery cells scales closely with the total energy stored rather than with the rate at which it can be delivered."
+    },
+    {
+     "label": "D",
+     "text": "One alternative sometimes proposed for longer discharge periods is the flow battery, in which the chemical energy is held not inside the cell itself but in tanks of liquid electrolyte pumped through it. Because the tanks can be enlarged independently of the equipment that converts the chemical energy into electricity, a flow battery's storage capacity and its power output can, in principle, be scaled separately, an arrangement conventional batteries cannot easily match. Vanadium-based systems are among the most studied examples, though the technology remains less mature and more costly per installed unit than lithium-ion."
+    },
+    {
+     "label": "E",
+     "text": "Compressed air offers a further route, one that borrows more from mechanical engineering than from chemistry. Surplus electricity drives a compressor that forces air into an underground cavern, often a disused mine or a cavity dissolved out of a salt formation, and the compressed air is later released through a turbine to generate power on demand. Compressing a gas inevitably produces heat, and unless that heat is captured and reused when the air is released, a considerable share of the original energy is lost, a problem that later designs have tried to address by storing the heat separately rather than letting it escape. Like pumped hydro, viable sites depend on having the right geology nearby."
+    },
+    {
+     "label": "F",
+     "text": "A harder problem than any single technology is what engineers call long-duration or seasonal storage. Most batteries, and even most pumped hydro schemes, are sized to discharge over hours rather than days, yet a renewable-heavy grid can face weeks of low wind or reduced sunlight, particularly across winter months in some regions. One proposed solution is to use surplus renewable electricity to split water into hydrogen and oxygen, storing the hydrogen for later use either as fuel or reconverted into electricity when it is needed. The round trip from electricity to hydrogen and back again currently wastes a substantial portion of the original energy, so hydrogen is generally considered better suited to applications where the aim is to replace fossil fuel directly rather than to store electricity as such."
+    },
+    {
+     "label": "G",
+     "text": "No single storage technology is likely to dominate a future grid built around variable renewable generation; instead, planners increasingly expect a mix, with each technology assigned to the duration and scale it handles best. Pumped hydro and compressed air suit large, geographically constrained projects with long lifespans, batteries excel at rapid, short-duration response, and flow batteries or hydrogen may fill the gap between them as costs fall. What unites these otherwise very different approaches is the same underlying purpose: holding electricity in some other form for long enough to release it when the grid, rather than the weather, decides it is needed."
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "type": "tfng",
+     "stmt": "The rise of wind and solar power has made it easier to match electricity generation with consumption at every moment.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "A",
+      "quote": "this old arrangement has become harder to sustain"
+     },
+     "why_ko": "지문은 재생에너지 비중 증가로 발전과 소비를 맞추기가 'harder'해졌다고 했으므로, '더 쉬워졌다'는 진술은 정반대로 뒤집힌 것입니다 → FALSE."
+    },
+    {
+     "n": 2,
+     "type": "tfng",
+     "stmt": "In a pumped hydro system, surplus electricity is first turned into stored gravitational energy and later converted back into power.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "B",
+      "quote": "the system converts electrical energy into gravitational potential energy and back"
+     },
+     "why_ko": "지문에 전기 에너지가 위치에너지로 전환되었다가 다시 전기로 전환된다고 그대로 나와 있으므로 TRUE."
+    },
+    {
+     "n": 3,
+     "type": "tfng",
+     "stmt": "Pumped hydro plants can be constructed at any location regardless of local geography.",
+     "answer": "FALSE",
+     "evidence": {
+      "para": "B",
+      "quote": "a suitable site needs a substantial change in elevation and a reliable supply of water, so pumped hydro cannot simply be built wherever a grid happens to need it"
+     },
+     "why_ko": "지문은 지형(고도차·수량)이 맞아야 한다고 했으므로 '어디든 지을 수 있다'는 진술은 'any'라는 한정어에서 모순됩니다 → FALSE."
+    },
+    {
+     "n": 4,
+     "type": "tfng",
+     "stmt": "Lithium-ion batteries can react to fluctuations in electricity supply or demand almost instantly.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "C",
+      "quote": "They respond to changes in supply or demand within a fraction of a second"
+     },
+     "why_ko": "지문에 '1초도 안 되는 시간 안에 반응한다'고 명시되어 있으므로 TRUE."
+    },
+    {
+     "n": 5,
+     "type": "tfng",
+     "stmt": "Flow batteries were first developed for use in electric vehicles.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "D",
+      "quote": "Vanadium-based systems are among the most studied examples, though the technology remains less mature and more costly per installed unit than lithium-ion"
+     },
+     "why_ko": "지문은 흐름전지의 성숙도와 비용을 리튬이온과 비교할 뿐, 전기차용으로 처음 개발되었는지는 언급하지 않으므로 NOT GIVEN."
+    },
+    {
+     "n": 6,
+     "type": "tfng",
+     "stmt": "Compressed air storage systems typically cost less to build than pumped hydro plants.",
+     "answer": "NOT GIVEN",
+     "evidence": {
+      "para": "E",
+      "quote": "Like pumped hydro, viable sites depend on having the right geology nearby"
+     },
+     "why_ko": "지문은 압축공기저장과 양수발전이 입지 조건 면에서 비슷하다고만 할 뿐, 건설 비용을 서로 비교하지는 않으므로 NOT GIVEN."
+    },
+    {
+     "n": 7,
+     "type": "tfng",
+     "stmt": "Converting electricity into hydrogen and back again currently loses a significant proportion of the energy involved.",
+     "answer": "TRUE",
+     "evidence": {
+      "para": "F",
+      "quote": "The round trip from electricity to hydrogen and back again currently wastes a substantial portion of the original energy"
+     },
+     "why_ko": "지문에 왕복 변환 과정에서 상당한 에너지가 낭비된다고 명시되어 있으므로 TRUE."
+    },
+    {
+     "n": 8,
+     "type": "heading",
+     "para": "B",
+     "options_ref": "H",
+     "answer": "vi",
+     "why_ko": "B 단락은 물을 높은 저수지로 올렸다가 다시 내려보내며 저장하는 양수발전의 원리를 다루므로 'vi Storing energy by moving water uphill and back'가 정답입니다."
+    },
+    {
+     "n": 9,
+     "type": "heading",
+     "para": "C",
+     "options_ref": "H",
+     "answer": "iv",
+     "why_ko": "C 단락의 핵심은 리튬이온 배터리가 빠른 반응에는 강하지만 장시간 저장에는 적합하지 않다는 점이므로 'iv Batteries suited to speed rather than duration'가 정답입니다. 'viii'는 '스마트폰 배터리의 화학성분'이라는 세부 언급만 다룬 함정입니다."
+    },
+    {
+     "n": 10,
+     "type": "heading",
+     "para": "D",
+     "options_ref": "H",
+     "answer": "i",
+     "why_ko": "D 단락은 흐름전지가 저장 용량과 출력을 별도로 확장할 수 있다는 점을 설명하므로 'i Separating storage capacity from power output'가 정답입니다."
+    },
+    {
+     "n": 11,
+     "type": "heading",
+     "para": "E",
+     "options_ref": "H",
+     "answer": "iii",
+     "why_ko": "E 단락은 지하 동굴에 압축공기를 저장했다가 방출하는 방식을 설명하므로 'iii Storing energy as compressed air underground'가 정답입니다."
+    },
+    {
+     "n": 12,
+     "type": "heading",
+     "para": "F",
+     "options_ref": "H",
+     "answer": "vii",
+     "why_ko": "F 단락은 수 주에 걸친 장기·계절적 저장 문제가 아직 해결되지 않았다는 점을 다루므로 'vii The unsolved challenge of storing energy for weeks'가 정답입니다."
+    }
+   ],
+   "headings": [
+    "i Separating storage capacity from power output",
+    "ii The falling cost of solar panel manufacturing",
+    "iii Storing energy as compressed air underground",
+    "iv Batteries suited to speed rather than duration",
+    "v Government subsidies for renewable energy projects",
+    "vi Storing energy by moving water uphill and back",
+    "vii The unsolved challenge of storing energy for weeks",
+    "viii The chemistry used inside a typical smartphone battery"
+   ],
+   "minutes": 20,
+   "words": 768
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "license": "SAMPLE fixture. Self-written.",
+ "p1": [
+  {
+   "id": "p1-01",
+   "topic": "work",
+   "q": "Do you enjoy your job?",
+   "upgrades": [
+    {
+     "plain": "important",
+     "better": "a must"
+    },
+    {
+     "plain": "very busy",
+     "better": "hectic"
+    }
+   ],
+   "sample": "Yes, I really enjoy it. The main reason is that every day is different. For example, last week I planned a new display for our pharmacy."
+  },
+  {
+   "id": "p1-02",
+   "topic": "hometown",
+   "q": "Where is your hometown?",
+   "upgrades": [
+    {
+     "plain": "big",
+     "better": "bustling"
+    },
+    {
+     "plain": "like",
+     "better": "be fond of"
+    }
+   ],
+   "sample": "My hometown is Goyang, near Seoul. I like it because it is quiet but close to the city. For example, I can reach Seoul by bus in thirty minutes."
+  },
+  {
+   "id": "p1-03",
+   "topic": "weekends",
+   "q": "What do you usually do at the weekend?",
+   "upgrades": [
+    {
+     "plain": "relax",
+     "better": "unwind"
+    },
+    {
+     "plain": "often",
+     "better": "more often than not"
+    }
+   ],
+   "sample": "I usually rest at home. The reason is that I work late on weekdays. For example, last Sunday I just watched a film and cooked."
+  },
+  {
+   "id": "p1-04",
+   "topic": "study",
+   "q": "Are you studying anything at the moment?",
+   "upgrades": [
+    {
+     "plain": "hard",
+     "better": "challenging"
+    },
+    {
+     "plain": "want to",
+     "better": "be keen to"
+    }
+   ],
+   "sample": "Yes, I am preparing for IELTS. I need it to study electrical work in Canada. For example, I practise speaking on the bus every morning."
+  }
+ ],
+ "p2": [
+  {
+   "id": "p2-01",
+   "card": "Describe a place you often go to",
+   "bullets": [
+    "where it is",
+    "how often you go",
+    "what you do there"
+   ],
+   "explain": "and explain why you like it",
+   "story": "place",
+   "sample": "I would like to talk about a small park near my house..."
+  },
+  {
+   "id": "p2-02",
+   "card": "Describe a skill you learned as an adult",
+   "bullets": [
+    "what it is",
+    "how you learned it",
+    "how difficult it was"
+   ],
+   "explain": "and explain how you feel about it",
+   "story": "skill",
+   "sample": "I want to describe how I learned to cook..."
+  },
+  {
+   "id": "p2-03",
+   "card": "Describe a person who helped you at work",
+   "bullets": [
+    "who the person is",
+    "how you met",
+    "what they did"
+   ],
+   "explain": "and explain why it mattered to you",
+   "story": "person",
+   "sample": "The person I want to talk about is my first manager..."
+  }
+ ],
+ "p3": [
+  {
+   "id": "p3-01",
+   "p2": "p2-01",
+   "q": "Why do people in cities need green spaces?",
+   "sample": "..."
+  },
+  {
+   "id": "p3-02",
+   "p2": "p2-01",
+   "q": "Should parks be free to enter?",
+   "sample": "..."
+  },
+  {
+   "id": "p3-03",
+   "p2": "p2-02",
+   "q": "Is it harder for adults to learn new skills than children?",
+   "sample": "..."
+  },
+  {
+   "id": "p3-04",
+   "p2": "p2-02",
+   "q": "What skills will be important in the future?",
+   "sample": "..."
+  },
+  {
+   "id": "p3-05",
+   "p2": "p2-03",
+   "q": "What makes a good manager?",
+   "sample": "..."
+  },
+  {
+   "id": "p3-06",
+   "p2": "p2-03",
+   "q": "Do people help colleagues less than in the past?",
+   "sample": "..."
+  }
+ ]
+}

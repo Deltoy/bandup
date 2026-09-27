@@ -1,0 +1,905 @@
+{
+ "license": "Self-written for BANDUP. Audio rendered with macOS say.",
+ "items": [
+  {
+   "id": "d-001",
+   "text": "The course starts on the 15th of September.",
+   "focus": "date",
+   "audio": "audio/d/d-001.m4a"
+  },
+  {
+   "id": "d-002",
+   "text": "My phone number is 07700 900461, just in case.",
+   "focus": "number",
+   "audio": "audio/d/d-002.m4a"
+  },
+  {
+   "id": "d-003",
+   "text": "My surname is Whitlock, W-H-I-T-L-O-C-K, for the booking.",
+   "focus": "spelling",
+   "audio": "audio/d/d-003.m4a"
+  },
+  {
+   "id": "d-004",
+   "text": "The course fee is £1,250 per term, paid upfront.",
+   "focus": "money",
+   "audio": "audio/d/d-004.m4a"
+  },
+  {
+   "id": "d-005",
+   "text": "I wanted to ask about it before the class started.",
+   "focus": "linking",
+   "audio": "audio/d/d-005.m4a"
+  },
+  {
+   "id": "d-006",
+   "text": "Her flight departs on the 3rd of June.",
+   "focus": "date",
+   "audio": "audio/d/d-006.m4a"
+  },
+  {
+   "id": "d-007",
+   "text": "She lives at number 13 Bridge Street, near the corner.",
+   "focus": "number",
+   "audio": "audio/d/d-007.m4a"
+  },
+  {
+   "id": "d-008",
+   "text": "The street is spelled Fenwick, F-E-N-W-I-C-K, near the station.",
+   "focus": "spelling",
+   "audio": "audio/d/d-008.m4a"
+  },
+  {
+   "id": "d-009",
+   "text": "She paid a deposit of £200 to secure the room.",
+   "focus": "money",
+   "audio": "audio/d/d-009.m4a"
+  },
+  {
+   "id": "d-010",
+   "text": "She handed in her essay at the end of the week.",
+   "focus": "linking",
+   "audio": "audio/d/d-010.m4a"
+  },
+  {
+   "id": "d-011",
+   "text": "Thursday the 21st is the deadline for enrolment.",
+   "focus": "date",
+   "audio": "audio/d/d-011.m4a"
+  },
+  {
+   "id": "d-012",
+   "text": "There are 15 students enrolled in the evening class.",
+   "focus": "number",
+   "audio": "audio/d/d-012.m4a"
+  },
+  {
+   "id": "d-013",
+   "text": "The accommodation office is on the second floor, A-C-C-O-M-M-O-D-A-T-I-O-N.",
+   "focus": "spelling",
+   "audio": "audio/d/d-013.m4a"
+  },
+  {
+   "id": "d-014",
+   "text": "The tickets cost $40 each for the guided tour.",
+   "focus": "money",
+   "audio": "audio/d/d-014.m4a"
+  },
+  {
+   "id": "d-015",
+   "text": "They've already booked a table for us near the window.",
+   "focus": "linking",
+   "audio": "audio/d/d-015.m4a"
+  },
+  {
+   "id": "d-016",
+   "text": "The workshop runs from Monday to Friday next week.",
+   "focus": "date",
+   "audio": "audio/d/d-016.m4a"
+  },
+  {
+   "id": "d-017",
+   "text": "He ordered 50 tablets instead of the usual 15.",
+   "focus": "number",
+   "audio": "audio/d/d-017.m4a"
+  },
+  {
+   "id": "d-018",
+   "text": "It is not necessary to book early, N-E-C-E-S-S-A-R-Y.",
+   "focus": "spelling",
+   "audio": "audio/d/d-018.m4a"
+  },
+  {
+   "id": "d-019",
+   "text": "He received a discount of 15% on the total price.",
+   "focus": "money",
+   "audio": "audio/d/d-019.m4a"
+  },
+  {
+   "id": "d-020",
+   "text": "He forgot to bring his identification to the exam.",
+   "focus": "linking",
+   "audio": "audio/d/d-020.m4a"
+  },
+  {
+   "id": "d-021",
+   "text": "He was born in 1998 in a small town.",
+   "focus": "date",
+   "audio": "audio/d/d-021.m4a"
+  },
+  {
+   "id": "d-022",
+   "text": "Room number 17 is on the second floor.",
+   "focus": "number",
+   "audio": "audio/d/d-022.m4a"
+  },
+  {
+   "id": "d-023",
+   "text": "The environment course starts in April, E-N-V-I-R-O-N-M-E-N-T.",
+   "focus": "spelling",
+   "audio": "audio/d/d-023.m4a"
+  },
+  {
+   "id": "d-024",
+   "text": "The registration fee is €18 per person this year.",
+   "focus": "money",
+   "audio": "audio/d/d-024.m4a"
+  },
+  {
+   "id": "d-025",
+   "text": "We waited for the bus for almost an hour yesterday.",
+   "focus": "linking",
+   "audio": "audio/d/d-025.m4a"
+  },
+  {
+   "id": "d-026",
+   "text": "The library closes early on Sunday the 9th.",
+   "focus": "date",
+   "audio": "audio/d/d-026.m4a"
+  },
+  {
+   "id": "d-027",
+   "text": "The discount applies to exactly 30% of the total order.",
+   "focus": "number",
+   "audio": "audio/d/d-027.m4a"
+  },
+  {
+   "id": "d-028",
+   "text": "The government office closes at five, G-O-V-E-R-N-M-E-N-T.",
+   "focus": "spelling",
+   "audio": "audio/d/d-028.m4a"
+  },
+  {
+   "id": "d-029",
+   "text": "Lunch at the campus cafe costs around £12.50.",
+   "focus": "money",
+   "audio": "audio/d/d-029.m4a"
+  },
+  {
+   "id": "d-030",
+   "text": "She asked him to explain the procedure again.",
+   "focus": "linking",
+   "audio": "audio/d/d-030.m4a"
+  },
+  {
+   "id": "d-031",
+   "text": "Please arrive by 7:45 pm for the orientation.",
+   "focus": "date",
+   "audio": "audio/d/d-031.m4a"
+  },
+  {
+   "id": "d-032",
+   "text": "Her house number is 70, not 17, on that road.",
+   "focus": "number",
+   "audio": "audio/d/d-032.m4a"
+  },
+  {
+   "id": "d-033",
+   "text": "Please keep the two forms separate, S-E-P-A-R-A-T-E.",
+   "focus": "spelling",
+   "audio": "audio/d/d-033.m4a"
+  },
+  {
+   "id": "d-034",
+   "text": "The deposit for the flat is £450, refundable later.",
+   "focus": "money",
+   "audio": "audio/d/d-034.m4a"
+  },
+  {
+   "id": "d-035",
+   "text": "I need to speak to someone about the delivery.",
+   "focus": "linking",
+   "audio": "audio/d/d-035.m4a"
+  },
+  {
+   "id": "d-036",
+   "text": "The exam is scheduled for the 2nd of March.",
+   "focus": "date",
+   "audio": "audio/d/d-036.m4a"
+  },
+  {
+   "id": "d-037",
+   "text": "The invoice shows a total of 12.75 kilograms received.",
+   "focus": "number",
+   "audio": "audio/d/d-037.m4a"
+  },
+  {
+   "id": "d-038",
+   "text": "The library opens at nine, L-I-B-R-A-R-Y.",
+   "focus": "spelling",
+   "audio": "audio/d/d-038.m4a"
+  },
+  {
+   "id": "d-039",
+   "text": "Her monthly transport pass costs $85 in the city.",
+   "focus": "money",
+   "audio": "audio/d/d-039.m4a"
+  },
+  {
+   "id": "d-040",
+   "text": "He was late for the lecture this morning.",
+   "focus": "linking",
+   "audio": "audio/d/d-040.m4a"
+  },
+  {
+   "id": "d-041",
+   "text": "They moved to Vancouver in the summer of 2019.",
+   "focus": "date",
+   "audio": "audio/d/d-041.m4a"
+  },
+  {
+   "id": "d-042",
+   "text": "Only 13 of the 30 applicants passed the interview.",
+   "focus": "number",
+   "audio": "audio/d/d-042.m4a"
+  },
+  {
+   "id": "d-043",
+   "text": "Her birthday falls in February, F-E-B-R-U-A-R-Y.",
+   "focus": "spelling",
+   "audio": "audio/d/d-043.m4a"
+  },
+  {
+   "id": "d-044",
+   "text": "The workshop materials cost an extra £30 per student.",
+   "focus": "money",
+   "audio": "audio/d/d-044.m4a"
+  },
+  {
+   "id": "d-045",
+   "text": "They arrived at the campus before the doors opened.",
+   "focus": "linking",
+   "audio": "audio/d/d-045.m4a"
+  },
+  {
+   "id": "d-046",
+   "text": "Her appointment was rebooked for Tuesday the 14th.",
+   "focus": "date",
+   "audio": "audio/d/d-046.m4a"
+  },
+  {
+   "id": "d-047",
+   "text": "The warehouse holds approximately 1,200 boxes of stock.",
+   "focus": "number",
+   "audio": "audio/d/d-047.m4a"
+  },
+  {
+   "id": "d-048",
+   "text": "The class meets every Wednesday, W-E-D-N-E-S-D-A-Y.",
+   "focus": "spelling",
+   "audio": "audio/d/d-048.m4a"
+  },
+  {
+   "id": "d-049",
+   "text": "They charged a late fee of $25 for the overdue book.",
+   "focus": "money",
+   "audio": "audio/d/d-049.m4a"
+  },
+  {
+   "id": "d-050",
+   "text": "She used to work at a pharmacy near here.",
+   "focus": "linking",
+   "audio": "audio/d/d-050.m4a"
+  },
+  {
+   "id": "d-051",
+   "text": "The bus leaves the depot at 6:30 am sharp.",
+   "focus": "date",
+   "audio": "audio/d/d-051.m4a"
+  },
+  {
+   "id": "d-052",
+   "text": "Call the office on 020 7946 0958 before noon.",
+   "focus": "number",
+   "audio": "audio/d/d-052.m4a"
+  },
+  {
+   "id": "d-053",
+   "text": "We booked a table at the restaurant, R-E-S-T-A-U-R-A-N-T.",
+   "focus": "spelling",
+   "audio": "audio/d/d-053.m4a"
+  },
+  {
+   "id": "d-054",
+   "text": "The pharmacy offers a 20% discount on repeat prescriptions.",
+   "focus": "money",
+   "audio": "audio/d/d-054.m4a"
+  },
+  {
+   "id": "d-055",
+   "text": "I'm looking forward to starting the apprenticeship next month.",
+   "focus": "linking",
+   "audio": "audio/d/d-055.m4a"
+  },
+  {
+   "id": "d-056",
+   "text": "Registration closes on the 30th of April this year.",
+   "focus": "date",
+   "audio": "audio/d/d-056.m4a"
+  },
+  {
+   "id": "d-057",
+   "text": "The parcel weighs 2.5 kilograms according to the label.",
+   "focus": "number",
+   "audio": "audio/d/d-057.m4a"
+  },
+  {
+   "id": "d-058",
+   "text": "Check the schedule before you leave, S-C-H-E-D-U-L-E.",
+   "focus": "spelling",
+   "audio": "audio/d/d-058.m4a"
+  },
+  {
+   "id": "d-059",
+   "text": "His electrician toolkit cost him $650 altogether.",
+   "focus": "money",
+   "audio": "audio/d/d-059.m4a"
+  },
+  {
+   "id": "d-060",
+   "text": "He apologised for missing the appointment last week.",
+   "focus": "linking",
+   "audio": "audio/d/d-060.m4a"
+  },
+  {
+   "id": "d-061",
+   "text": "The conference begins on Wednesday the 11th of November.",
+   "focus": "date",
+   "audio": "audio/d/d-061.m4a"
+  },
+  {
+   "id": "d-062",
+   "text": "There are 40 percent more orders this quarter than last.",
+   "focus": "number",
+   "audio": "audio/d/d-062.m4a"
+  },
+  {
+   "id": "d-063",
+   "text": "My hometown is called Whitby, W-H-I-T-B-Y, on the north coast.",
+   "focus": "spelling",
+   "audio": "audio/d/d-063.m4a"
+  },
+  {
+   "id": "d-064",
+   "text": "The application fee is £65 and is non-refundable.",
+   "focus": "money",
+   "audio": "audio/d/d-064.m4a"
+  },
+  {
+   "id": "d-065",
+   "text": "We're supposed to hand in the form by Friday.",
+   "focus": "linking",
+   "audio": "audio/d/d-065.m4a"
+  },
+  {
+   "id": "d-066",
+   "text": "He starts his apprenticeship on the 1st of October.",
+   "focus": "date",
+   "audio": "audio/d/d-066.m4a"
+  },
+  {
+   "id": "d-067",
+   "text": "Room 30 is reserved for the safety demonstration today.",
+   "focus": "number",
+   "audio": "audio/d/d-067.m4a"
+  },
+  {
+   "id": "d-068",
+   "text": "His first name is Kian, K-I-A-N, spelled just like that.",
+   "focus": "spelling",
+   "audio": "audio/d/d-068.m4a"
+  },
+  {
+   "id": "d-069",
+   "text": "She budgeted $1,200 for accommodation this semester.",
+   "focus": "money",
+   "audio": "audio/d/d-069.m4a"
+  },
+  {
+   "id": "d-070",
+   "text": "She decided to postpone the trip until October.",
+   "focus": "linking",
+   "audio": "audio/d/d-070.m4a"
+  },
+  {
+   "id": "d-071",
+   "text": "The lecture hall opens at 8:15 in the morning.",
+   "focus": "date",
+   "audio": "audio/d/d-071.m4a"
+  },
+  {
+   "id": "d-072",
+   "text": "He counted 17 boxes, not 70, on the shelf.",
+   "focus": "number",
+   "audio": "audio/d/d-072.m4a"
+  },
+  {
+   "id": "d-073",
+   "text": "The address includes Hartley Road, H-A-R-T-L-E-Y.",
+   "focus": "spelling",
+   "audio": "audio/d/d-073.m4a"
+  },
+  {
+   "id": "d-074",
+   "text": "The parking permit costs £180 for the whole year.",
+   "focus": "money",
+   "audio": "audio/d/d-074.m4a"
+  },
+  {
+   "id": "d-075",
+   "text": "I forgot to reply to his message yesterday.",
+   "focus": "linking",
+   "audio": "audio/d/d-075.m4a"
+  },
+  {
+   "id": "d-076",
+   "text": "Her contract ends on the 31st of December.",
+   "focus": "date",
+   "audio": "audio/d/d-076.m4a"
+  },
+  {
+   "id": "d-077",
+   "text": "The apprenticeship intake this year is 90 students.",
+   "focus": "number",
+   "audio": "audio/d/d-077.m4a"
+  },
+  {
+   "id": "d-078",
+   "text": "It occurred last Tuesday evening, O-C-C-U-R-R-E-D.",
+   "focus": "spelling",
+   "audio": "audio/d/d-078.m4a"
+  },
+  {
+   "id": "d-079",
+   "text": "A single ticket to the museum is £9.50.",
+   "focus": "money",
+   "audio": "audio/d/d-079.m4a"
+  },
+  {
+   "id": "d-080",
+   "text": "He's responsible for checking the stock every morning.",
+   "focus": "linking",
+   "audio": "audio/d/d-080.m4a"
+  },
+  {
+   "id": "d-081",
+   "text": "The pharmacy delivery arrives every Friday afternoon at four.",
+   "focus": "date",
+   "audio": "audio/d/d-081.m4a"
+  },
+  {
+   "id": "d-082",
+   "text": "Her extension number at work is 4413.",
+   "focus": "number",
+   "audio": "audio/d/d-082.m4a"
+  },
+  {
+   "id": "d-083",
+   "text": "This is a business matter, B-U-S-I-N-E-S-S, not personal.",
+   "focus": "spelling",
+   "audio": "audio/d/d-083.m4a"
+  },
+  {
+   "id": "d-084",
+   "text": "The delivery charge adds an extra $12 to each order.",
+   "focus": "money",
+   "audio": "audio/d/d-084.m4a"
+  },
+  {
+   "id": "d-085",
+   "text": "They agreed to meet at the library after class.",
+   "focus": "linking",
+   "audio": "audio/d/d-085.m4a"
+  },
+  {
+   "id": "d-086",
+   "text": "The electrical exam falls on the 5th of January.",
+   "focus": "date",
+   "audio": "audio/d/d-086.m4a"
+  },
+  {
+   "id": "d-087",
+   "text": "The voltage reading should stay below 13.8 volts.",
+   "focus": "number",
+   "audio": "audio/d/d-087.m4a"
+  },
+  {
+   "id": "d-088",
+   "text": "I will definitely attend the seminar, D-E-F-I-N-I-T-E-L-Y.",
+   "focus": "spelling",
+   "audio": "audio/d/d-088.m4a"
+  },
+  {
+   "id": "d-089",
+   "text": "He negotiated a discount of £75 on the repair bill.",
+   "focus": "money",
+   "audio": "audio/d/d-089.m4a"
+  },
+  {
+   "id": "d-090",
+   "text": "She was worried about the results of the test.",
+   "focus": "linking",
+   "audio": "audio/d/d-090.m4a"
+  },
+  {
+   "id": "d-091",
+   "text": "They celebrated their anniversary on the 22nd of July.",
+   "focus": "date",
+   "audio": "audio/d/d-091.m4a"
+  },
+  {
+   "id": "d-092",
+   "text": "Nearly 60% of the shipment arrived undamaged this morning.",
+   "focus": "number",
+   "audio": "audio/d/d-092.m4a"
+  },
+  {
+   "id": "d-093",
+   "text": "Please receive the package tomorrow, R-E-C-E-I-V-E, at reception.",
+   "focus": "spelling",
+   "audio": "audio/d/d-093.m4a"
+  },
+  {
+   "id": "d-094",
+   "text": "The exam resit fee is €95, payable online.",
+   "focus": "money",
+   "audio": "audio/d/d-094.m4a"
+  },
+  {
+   "id": "d-095",
+   "text": "I'm interested in applying for the scholarship this year.",
+   "focus": "linking",
+   "audio": "audio/d/d-095.m4a"
+  },
+  {
+   "id": "d-096",
+   "text": "The tour begins promptly at 9:00 on Saturday.",
+   "focus": "date",
+   "audio": "audio/d/d-096.m4a"
+  },
+  {
+   "id": "d-097",
+   "text": "The delivery truck can carry up to 1,500 kilograms.",
+   "focus": "number",
+   "audio": "audio/d/d-097.m4a"
+  },
+  {
+   "id": "d-098",
+   "text": "She studied a foreign language, F-O-R-E-I-G-N, at college.",
+   "focus": "spelling",
+   "audio": "audio/d/d-098.m4a"
+  },
+  {
+   "id": "d-099",
+   "text": "Her rent increased by $150 at the start of the year.",
+   "focus": "money",
+   "audio": "audio/d/d-099.m4a"
+  },
+  {
+   "id": "d-100",
+   "text": "He managed to fix the wiring before the deadline.",
+   "focus": "linking",
+   "audio": "audio/d/d-100.m4a"
+  },
+  {
+   "id": "d-101",
+   "text": "His visa interview is set for the 17th of February.",
+   "focus": "date",
+   "audio": "audio/d/d-101.m4a"
+  },
+  {
+   "id": "d-102",
+   "text": "Flat number 19 is just past the stairwell.",
+   "focus": "number",
+   "audio": "audio/d/d-102.m4a"
+  },
+  {
+   "id": "d-103",
+   "text": "He renewed his license last month, L-I-C-E-N-S-E.",
+   "focus": "spelling",
+   "audio": "audio/d/d-103.m4a"
+  },
+  {
+   "id": "d-104",
+   "text": "The course refund was only £200 out of £600.",
+   "focus": "money",
+   "audio": "audio/d/d-104.m4a"
+  },
+  {
+   "id": "d-105",
+   "text": "We're planning to move into the new flat soon.",
+   "focus": "linking",
+   "audio": "audio/d/d-105.m4a"
+  },
+  {
+   "id": "d-106",
+   "text": "The store restocks the shelves every second Wednesday morning.",
+   "focus": "date",
+   "audio": "audio/d/d-106.m4a"
+  },
+  {
+   "id": "d-107",
+   "text": "The pharmacy dispensed 15 prescriptions before lunchtime today.",
+   "focus": "number",
+   "audio": "audio/d/d-107.m4a"
+  },
+  {
+   "id": "d-108",
+   "text": "Send an apology letter first, A-P-O-L-O-G-Y, to the tenant.",
+   "focus": "spelling",
+   "audio": "audio/d/d-108.m4a"
+  },
+  {
+   "id": "d-109",
+   "text": "A monthly gym membership here costs $45.",
+   "focus": "money",
+   "audio": "audio/d/d-109.m4a"
+  },
+  {
+   "id": "d-110",
+   "text": "She reminded him to collect the parcel today.",
+   "focus": "linking",
+   "audio": "audio/d/d-110.m4a"
+  },
+  {
+   "id": "d-111",
+   "text": "The results will be published on the 8th of May.",
+   "focus": "date",
+   "audio": "audio/d/d-111.m4a"
+  },
+  {
+   "id": "d-112",
+   "text": "Only 3 of the 13 machines were working properly.",
+   "focus": "number",
+   "audio": "audio/d/d-112.m4a"
+  },
+  {
+   "id": "d-113",
+   "text": "The pharmacy closes at six, P-H-A-R-M-A-C-Y, on weekdays.",
+   "focus": "spelling",
+   "audio": "audio/d/d-113.m4a"
+  },
+  {
+   "id": "d-114",
+   "text": "The wholesale price dropped to $3.20 per unit.",
+   "focus": "money",
+   "audio": "audio/d/d-114.m4a"
+  },
+  {
+   "id": "d-115",
+   "text": "I used to live near the bus station downtown.",
+   "focus": "linking",
+   "audio": "audio/d/d-115.m4a"
+  },
+  {
+   "id": "d-116",
+   "text": "She caught the last train home at 11:50 pm.",
+   "focus": "date",
+   "audio": "audio/d/d-116.m4a"
+  },
+  {
+   "id": "d-117",
+   "text": "The reading on the meter showed 45.6 amps.",
+   "focus": "number",
+   "audio": "audio/d/d-117.m4a"
+  },
+  {
+   "id": "d-118",
+   "text": "My colleague will call you back, C-O-L-L-E-A-G-U-E.",
+   "focus": "spelling",
+   "audio": "audio/d/d-118.m4a"
+  },
+  {
+   "id": "d-119",
+   "text": "They quoted £2,400 for the full electrical rewiring job.",
+   "focus": "money",
+   "audio": "audio/d/d-119.m4a"
+  },
+  {
+   "id": "d-120",
+   "text": "They finished the assignment ahead of the deadline.",
+   "focus": "linking",
+   "audio": "audio/d/d-120.m4a"
+  },
+  {
+   "id": "d-121",
+   "text": "The safety briefing starts at quarter past two.",
+   "focus": "date",
+   "audio": "audio/d/d-121.m4a"
+  },
+  {
+   "id": "d-122",
+   "text": "Their reference code ends in 90, not 19.",
+   "focus": "number",
+   "audio": "audio/d/d-122.m4a"
+  },
+  {
+   "id": "d-123",
+   "text": "Please reply immediately to the email, I-M-M-E-D-I-A-T-E-L-Y.",
+   "focus": "spelling",
+   "audio": "audio/d/d-123.m4a"
+  },
+  {
+   "id": "d-124",
+   "text": "The visa fee came to $235 after taxes.",
+   "focus": "money",
+   "audio": "audio/d/d-124.m4a"
+  },
+  {
+   "id": "d-125",
+   "text": "He's used to working long shifts at the depot.",
+   "focus": "linking",
+   "audio": "audio/d/d-125.m4a"
+  },
+  {
+   "id": "d-126",
+   "text": "He finished the course back in the spring of 2021.",
+   "focus": "date",
+   "audio": "audio/d/d-126.m4a"
+  },
+  {
+   "id": "d-127",
+   "text": "The gate number for boarding is 14, not 40.",
+   "focus": "number",
+   "audio": "audio/d/d-127.m4a"
+  },
+  {
+   "id": "d-128",
+   "text": "There is a particular reason for the delay, P-A-R-T-I-C-U-L-A-R.",
+   "focus": "spelling",
+   "audio": "audio/d/d-128.m4a"
+  },
+  {
+   "id": "d-129",
+   "text": "Her prescription co-payment was only $4.50 this time.",
+   "focus": "money",
+   "audio": "audio/d/d-129.m4a"
+  },
+  {
+   "id": "d-130",
+   "text": "She offered to help with the electrical inspection.",
+   "focus": "linking",
+   "audio": "audio/d/d-130.m4a"
+  },
+  {
+   "id": "d-131",
+   "text": "The clinic is closed on the 25th of December.",
+   "focus": "date",
+   "audio": "audio/d/d-131.m4a"
+  },
+  {
+   "id": "d-132",
+   "text": "He measured the cable at exactly 2.75 metres.",
+   "focus": "number",
+   "audio": "audio/d/d-132.m4a"
+  },
+  {
+   "id": "d-133",
+   "text": "I recommend the electrical course, R-E-C-O-M-M-E-N-D, to beginners.",
+   "focus": "spelling",
+   "audio": "audio/d/d-133.m4a"
+  },
+  {
+   "id": "d-134",
+   "text": "The catering deposit of £300 is due by Friday.",
+   "focus": "money",
+   "audio": "audio/d/d-134.m4a"
+  },
+  {
+   "id": "d-135",
+   "text": "I'm grateful for the advice you gave me.",
+   "focus": "linking",
+   "audio": "audio/d/d-135.m4a"
+  },
+  {
+   "id": "d-136",
+   "text": "Their meeting was moved to the 19th of August.",
+   "focus": "date",
+   "audio": "audio/d/d-136.m4a"
+  },
+  {
+   "id": "d-137",
+   "text": "The order quantity increased from 13 units to 130.",
+   "focus": "number",
+   "audio": "audio/d/d-137.m4a"
+  },
+  {
+   "id": "d-138",
+   "text": "The village is called Neath, N-E-A-T-H, in the valley.",
+   "focus": "spelling",
+   "audio": "audio/d/d-138.m4a"
+  },
+  {
+   "id": "d-139",
+   "text": "He saved $18 using the student discount code.",
+   "focus": "money",
+   "audio": "audio/d/d-139.m4a"
+  },
+  {
+   "id": "d-140",
+   "text": "He continued to study even after the exam.",
+   "focus": "linking",
+   "audio": "audio/d/d-140.m4a"
+  },
+  {
+   "id": "d-141",
+   "text": "The night shift begins at 10:30 and ends at dawn.",
+   "focus": "date",
+   "audio": "audio/d/d-141.m4a"
+  },
+  {
+   "id": "d-142",
+   "text": "Her locker number is 80, near the entrance.",
+   "focus": "number",
+   "audio": "audio/d/d-142.m4a"
+  },
+  {
+   "id": "d-143",
+   "text": "Her maiden name was Boyce, B-O-Y-C-E, before marriage.",
+   "focus": "spelling",
+   "audio": "audio/d/d-143.m4a"
+  },
+  {
+   "id": "d-144",
+   "text": "The annual licence renewal costs £55 exactly.",
+   "focus": "money",
+   "audio": "audio/d/d-144.m4a"
+  },
+  {
+   "id": "d-145",
+   "text": "We're thankful for the opportunity to train here.",
+   "focus": "linking",
+   "audio": "audio/d/d-145.m4a"
+  },
+  {
+   "id": "d-146",
+   "text": "The next inspection is due on the 6th of June.",
+   "focus": "date",
+   "audio": "audio/d/d-146.m4a"
+  },
+  {
+   "id": "d-147",
+   "text": "The stock count showed 17 crates instead of 70.",
+   "focus": "number",
+   "audio": "audio/d/d-147.m4a"
+  },
+  {
+   "id": "d-148",
+   "text": "The word appliance is often misspelled, A-P-P-L-I-A-N-C-E.",
+   "focus": "spelling",
+   "audio": "audio/d/d-148.m4a"
+  },
+  {
+   "id": "d-149",
+   "text": "Shipping the parcel overseas cost an extra €22.",
+   "focus": "money",
+   "audio": "audio/d/d-149.m4a"
+  },
+  {
+   "id": "d-150",
+   "text": "She promised to send the invoice by tomorrow.",
+   "focus": "linking",
+   "audio": "audio/d/d-150.m4a"
+  }
+ ]
+}

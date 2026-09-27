@@ -1,0 +1,2229 @@
+{
+ "license": "BANDUP original content (questions, cue cards, prompts and model answers are self-written; not taken from IELTS, Cambridge, British Council or Hackers materials).",
+ "p1": [
+  {
+   "id": "p1-01",
+   "topic": "work",
+   "q": "What's your job?",
+   "q_ko": "무슨 일을 하세요?",
+   "upgrades": [
+    {
+     "plain": "job",
+     "better": "day job"
+    },
+    {
+     "plain": "very busy",
+     "better": "run off my feet"
+    }
+   ],
+   "sample": "My day job is at a pharmacy logistics company in Seoul, where I plan stock orders and deliveries. It keeps me on my toes because pharmacies call in urgent orders at short notice. Some afternoons I'm run off my feet just to make sure the warehouse doesn't run out of medicine.",
+   "sample_ko": [
+    "저는 서울에 있는 약국 물류 회사에 다니고, 거기서 재고 발주와 배송 계획을 짜요.",
+    "약국에서 급한 주문을 갑자기 넣는 경우가 많아서 늘 긴장하고 있어야 해요.",
+    "어떤 날 오후에는 창고에 약이 떨어지지 않게 하려고 정신없이 바빠요."
+   ]
+  },
+  {
+   "id": "p1-02",
+   "topic": "work",
+   "q": "Do you enjoy your work?",
+   "q_ko": "하시는 일이 즐거우세요?",
+   "upgrades": [
+    {
+     "plain": "like",
+     "better": "a big fan of"
+    },
+    {
+     "plain": "hard",
+     "better": "a real challenge"
+    }
+   ],
+   "sample": "I'm a big fan of my work because every order is a little puzzle to solve. Planning deliveries for a pharmacy is a real challenge when a driver calls in sick or a shipment is late. Last month I had to reroute three trucks in one morning, and it actually felt satisfying once everything arrived on time.",
+   "sample_ko": [
+    "저는 제 일이 정말 좋아요, 주문 하나하나가 풀어야 할 작은 퍼즐 같거든요.",
+    "기사님이 아파서 못 나오거나 물건이 늦게 오면 약국 배송 계획을 짜는 게 정말 힘들어요.",
+    "지난달에는 오전 한나절에 트럭 세 대의 경로를 바꿔야 했는데, 모든 게 제시간에 도착하고 나니 오히려 뿌듯했어요."
+   ]
+  },
+  {
+   "id": "p1-03",
+   "topic": "work",
+   "q": "What responsibilities do you have at work?",
+   "q_ko": "직장에서 어떤 일을 맡고 계세요?",
+   "upgrades": [
+    {
+     "plain": "responsible for",
+     "better": "in charge of"
+    },
+    {
+     "plain": "team",
+     "better": "crew"
+    }
+   ],
+   "sample": "I'm in charge of ordering stock and scheduling deliveries for several pharmacies around Seoul. This matters because a missing medicine can be a real problem for a patient waiting at the counter. I work closely with the warehouse crew, and last week we managed to fix a shortage before any pharmacist even noticed.",
+   "sample_ko": [
+    "저는 서울 곳곳에 있는 여러 약국의 재고 발주와 배송 일정을 맡고 있어요.",
+    "약이 하나라도 빠지면 카운터에서 기다리는 환자에게 큰 문제가 될 수 있어서 중요한 일이에요.",
+    "창고 직원들과 가깝게 일하는데, 지난주에는 약사님들이 알아채기도 전에 재고 부족 문제를 해결했어요."
+   ]
+  },
+  {
+   "id": "p1-04",
+   "topic": "work",
+   "q": "Would you like to change your job in the future?",
+   "q_ko": "나중에 직업을 바꾸고 싶으세요?",
+   "upgrades": [
+    {
+     "plain": "in the future",
+     "better": "down the line"
+    },
+    {
+     "plain": "change",
+     "better": "switch things up"
+    }
+   ],
+   "sample": "I'd like to switch things up down the line and become an electrician instead. Logistics is fine, but I want a trade that is more hands-on and portable. That's actually why I'm heading to BCIT in Canada, to train as an electrician and build a new career there.",
+   "sample_ko": [
+    "저는 나중에 방향을 바꿔서 전기 기술자가 되고 싶어요.",
+    "물류 일도 괜찮지만, 몸으로 직접 하고 어디서든 써먹을 수 있는 기술직을 하고 싶어요.",
+    "사실 그래서 캐나다에 있는 BCIT에 가서 전기 기술자 교육을 받고 거기서 새로운 커리어를 쌓으려고 해요."
+   ]
+  },
+  {
+   "id": "p1-05",
+   "topic": "hometown",
+   "q": "Where is your hometown?",
+   "q_ko": "고향이 어디세요?",
+   "upgrades": [
+    {
+     "plain": "big",
+     "better": "massive"
+    },
+    {
+     "plain": "near",
+     "better": "just around the corner from"
+    }
+   ],
+   "sample": "My hometown is Seoul, a massive city that never really sleeps. I like it because everything I need is just around the corner from my apartment, from the subway to the market. My parents still live there, close to the neighbourhood where I went to high school.",
+   "sample_ko": [
+    "제 고향은 서울인데, 정말 잠들지 않는 거대한 도시예요.",
+    "지하철부터 시장까지 필요한 건 전부 저희 집 바로 근처에 있어서 좋아요.",
+    "부모님은 아직 거기 사시는데, 제가 고등학교를 다녔던 동네랑 가까워요."
+   ]
+  },
+  {
+   "id": "p1-06",
+   "topic": "hometown",
+   "q": "What do you like about your hometown?",
+   "q_ko": "고향의 어떤 점이 좋으세요?",
+   "upgrades": [
+    {
+     "plain": "good",
+     "better": "second to none"
+    },
+    {
+     "plain": "convenient",
+     "better": "super handy"
+    }
+   ],
+   "sample": "The public transport in Seoul is second to none, so getting anywhere is never a problem. It's super handy because the subway connects almost every neighbourhood I need to visit for work. When I had to take urgent samples across the city last year, the subway basically saved me.",
+   "sample_ko": [
+    "서울 대중교통은 어디에도 뒤지지 않아서 어디든 가기가 전혀 어렵지 않아요.",
+    "제가 일 때문에 가야 하는 동네는 거의 다 지하철로 연결돼 있어서 정말 편해요.",
+    "작년에 급한 샘플을 들고 도시를 가로질러 가야 했을 때 지하철 덕분에 살았어요."
+   ]
+  },
+  {
+   "id": "p1-07",
+   "topic": "hometown",
+   "q": "Has your hometown changed much in recent years?",
+   "q_ko": "최근 몇 년 사이에 고향이 많이 변했나요?",
+   "upgrades": [
+    {
+     "plain": "a lot",
+     "better": "loads"
+    },
+    {
+     "plain": "modern",
+     "better": "sleeker"
+    }
+   ],
+   "sample": "Seoul has changed loads since I was a kid, especially near the river. The skyline looks far sleeker now, with glass towers where old markets used to stand. Even the logistics centre where I work moved into a brand new building last year with a proper loading dock.",
+   "sample_ko": [
+    "서울은 제가 어렸을 때보다 엄청 많이 변했어요, 특히 강 근처가요.",
+    "옛날 시장들이 있던 자리에 유리 건물들이 들어서서 스카이라인이 훨씬 세련돼 보여요.",
+    "제가 일하는 물류센터도 작년에 제대로 된 하역장이 있는 새 건물로 이사했어요."
+   ]
+  },
+  {
+   "id": "p1-08",
+   "topic": "hometown",
+   "q": "Would you like to live somewhere else in the future?",
+   "q_ko": "나중에 다른 곳에서 살아 보고 싶으세요?",
+   "upgrades": [
+    {
+     "plain": "in the future",
+     "better": "down the road"
+    },
+    {
+     "plain": "decide",
+     "better": "settled on"
+    }
+   ],
+   "sample": "Yes, down the road I'd like to live in Canada for a while. I haven't fully settled on a city yet, but Burnaby is likely since that's where BCIT is located. My partner already lives in the area, so it feels like a natural place to start.",
+   "sample_ko": [
+    "네, 나중에 캐나다에서 한동안 살아 보고 싶어요.",
+    "아직 도시를 완전히 정하진 않았지만, BCIT가 버나비에 있어서 아마 버나비가 될 것 같아요.",
+    "제 여자친구가 이미 그 지역에 살고 있어서 시작하기에 자연스러운 곳 같아요."
+   ]
+  },
+  {
+   "id": "p1-09",
+   "topic": "home",
+   "q": "Can you describe the place where you live?",
+   "q_ko": "사는 곳을 설명해 주시겠어요?",
+   "upgrades": [
+    {
+     "plain": "small",
+     "better": "cosy"
+    },
+    {
+     "plain": "near",
+     "better": "a stone's throw from"
+    }
+   ],
+   "sample": "I live in a small apartment that is cosy rather than spacious. It suits me fine because it's just a stone's throw from the subway station I use every morning. My desk by the window is where I study for my BCIT application in the evenings.",
+   "sample_ko": [
+    "저는 넓다기보다는 아늑한 작은 아파트에 살아요.",
+    "매일 아침 이용하는 지하철역이 엎어지면 코 닿을 거리라서 저한테 딱 맞아요.",
+    "저녁에는 창가에 있는 책상에서 BCIT 지원 준비 공부를 해요."
+   ]
+  },
+  {
+   "id": "p1-10",
+   "topic": "home",
+   "q": "What is your favorite room in your home?",
+   "q_ko": "집에서 제일 좋아하는 방이 어디예요?",
+   "upgrades": [
+    {
+     "plain": "favorite",
+     "better": "go-to"
+    },
+    {
+     "plain": "relax",
+     "better": "unwind"
+    }
+   ],
+   "sample": "My go-to room is the small living room with the sofa by the window. I like it because it's the best spot to unwind after a long shift at the warehouse. Most nights I sit there to plan my study schedule for the electrical exams ahead.",
+   "sample_ko": [
+    "제가 제일 자주 찾는 곳은 창가에 소파가 있는 작은 거실이에요.",
+    "창고에서 긴 근무를 마치고 쉬기에 제일 좋은 자리라서 좋아해요.",
+    "거의 매일 밤 거기 앉아서 앞으로 볼 전기 시험 공부 계획을 짜요."
+   ]
+  },
+  {
+   "id": "p1-11",
+   "topic": "home",
+   "q": "Would you like to move to a different home?",
+   "q_ko": "다른 집으로 이사하고 싶으세요?",
+   "upgrades": [
+    {
+     "plain": "want",
+     "better": "would love"
+    },
+    {
+     "plain": "quiet",
+     "better": "peaceful"
+    }
+   ],
+   "sample": "I would love a home that is a bit more peaceful than my current one. Traffic noise from the main road keeps me up some nights before an early shift. Once I move to Canada for BCIT, I'm hoping for a quieter street near campus.",
+   "sample_ko": [
+    "지금 집보다 조금 더 조용한 집이면 정말 좋겠어요.",
+    "큰길에서 나는 차 소리 때문에 아침 일찍 출근해야 하는 날 밤에 잠을 못 잘 때가 있어요.",
+    "BCIT 때문에 캐나다로 가면 캠퍼스 근처 조용한 동네에 살았으면 좋겠어요."
+   ]
+  },
+  {
+   "id": "p1-12",
+   "topic": "home",
+   "q": "Do you prefer living alone or with others?",
+   "q_ko": "혼자 사는 게 좋으세요, 아니면 누군가와 같이 사는 게 좋으세요?",
+   "upgrades": [
+    {
+     "plain": "prefer",
+     "better": "would rather"
+    },
+    {
+     "plain": "help each other",
+     "better": "look out for one another"
+    }
+   ],
+   "sample": "I would rather live with someone than completely alone. It's reassuring when two people look out for one another, especially after a tiring day of logistics work. My partner and I are actually planning to share a place once I join her in Canada.",
+   "sample_ko": [
+    "저는 완전히 혼자 사는 것보다 누군가와 같이 사는 게 좋아요.",
+    "특히 물류 일로 지친 날에는 두 사람이 서로 챙겨 주는 게 든든해요.",
+    "사실 제가 캐나다로 가서 여자친구랑 합치면 같이 살 계획이에요."
+   ]
+  },
+  {
+   "id": "p1-13",
+   "topic": "study",
+   "q": "What are you studying at the moment?",
+   "q_ko": "요즘 무엇을 공부하고 계세요?",
+   "upgrades": [
+    {
+     "plain": "study",
+     "better": "hit the books"
+    },
+    {
+     "plain": "difficult",
+     "better": "a tough one"
+    }
+   ],
+   "sample": "At the moment I hit the books most evenings to prepare for BCIT's electrical program. Basic circuit theory is a tough one for me since I never studied engineering before. Still, I finished a beginner electrical course online last month, and it gave me some confidence.",
+   "sample_ko": [
+    "요즘 저는 BCIT 전기 과정을 준비하느라 거의 매일 저녁 열심히 공부해요.",
+    "공학을 공부해 본 적이 없어서 기초 회로 이론이 저한테는 어려워요.",
+    "그래도 지난달에 온라인으로 전기 입문 과정을 끝냈는데, 그게 자신감을 좀 줬어요."
+   ]
+  },
+  {
+   "id": "p1-14",
+   "topic": "study",
+   "q": "Why did you choose this subject?",
+   "q_ko": "왜 그 분야를 선택하셨어요?",
+   "upgrades": [
+    {
+     "plain": "to learn",
+     "better": "to get some hands-on experience"
+    },
+    {
+     "plain": "good job",
+     "better": "a solid career"
+    }
+   ],
+   "sample": "I chose the electrical trade to get some hands-on experience with something more practical than office logistics. Warehouse work taught me that I enjoy fixing things and solving problems with my hands. Becoming a licensed electrician in Canada should give me a solid career once I finish the program at BCIT.",
+   "sample_ko": [
+    "사무실 물류 일보다 더 실용적인 걸 직접 해 보고 싶어서 전기 기술을 선택했어요.",
+    "창고 일을 하면서 제가 손으로 뭔가 고치고 문제를 해결하는 걸 좋아한다는 걸 알게 됐어요.",
+    "BCIT 과정을 마치고 캐나다에서 자격증 있는 전기 기술자가 되면 안정적인 커리어를 가질 수 있을 거예요."
+   ]
+  },
+  {
+   "id": "p1-15",
+   "topic": "study",
+   "q": "How do you usually study for exams?",
+   "q_ko": "시험 공부는 보통 어떻게 하세요?",
+   "upgrades": [
+    {
+     "plain": "practice a lot",
+     "better": "put in the hours"
+    },
+    {
+     "plain": "learn",
+     "better": "pick up"
+    }
+   ],
+   "sample": "I usually put in the hours every night rather than cramming before a test. That way I can pick up new vocabulary and technical terms bit by bit. For my English exam I even memorize short speeches, the way I once learned lines from a Steve Jobs talk.",
+   "sample_ko": [
+    "저는 시험 직전에 벼락치기하기보다 보통 매일 밤 꾸준히 시간을 들여요.",
+    "그렇게 하면 새 어휘랑 전문 용어를 조금씩 익힐 수 있어요.",
+    "영어 시험을 위해서는 짧은 연설을 외우기도 하는데, 예전에 스티브 잡스 연설 대사를 외웠던 것처럼요."
+   ]
+  },
+  {
+   "id": "p1-16",
+   "topic": "study",
+   "q": "Do you find studying stressful?",
+   "q_ko": "공부할 때 스트레스를 받으세요?",
+   "upgrades": [
+    {
+     "plain": "worry",
+     "better": "stress about"
+    },
+    {
+     "plain": "help",
+     "better": "a big help"
+    }
+   ],
+   "sample": "I do stress about studying sometimes, especially with a full-time job on top of it. Balancing warehouse shifts and English practice is not always easy. My partner in Canada has been a big help, since she checks my writing before I send my BCIT application forms.",
+   "sample_ko": [
+    "가끔은 공부 때문에 스트레스를 받아요, 특히 풀타임으로 일까지 하니까요.",
+    "창고 근무랑 영어 연습을 같이 하는 게 늘 쉽지는 않아요.",
+    "캐나다에 있는 여자친구가 BCIT 지원서를 보내기 전에 제 글을 봐 줘서 큰 도움이 돼요."
+   ]
+  },
+  {
+   "id": "p1-17",
+   "topic": "free-time",
+   "q": "What do you usually do in your free time?",
+   "q_ko": "여가 시간에는 보통 뭐 하세요?",
+   "upgrades": [
+    {
+     "plain": "relax",
+     "better": "chill out"
+    },
+    {
+     "plain": "go to the gym",
+     "better": "head to the gym"
+    }
+   ],
+   "sample": "In my free time I mostly chill out at home or head to the gym near my apartment. Lifting weights clears my head after a long day of stock orders and deliveries. On weekends I sometimes meet friends for dinner near Hongdae.",
+   "sample_ko": [
+    "쉬는 시간에는 주로 집에서 쉬거나 집 근처 헬스장에 가요.",
+    "재고 발주와 배송으로 긴 하루를 보내고 나서 웨이트를 하면 머리가 맑아져요.",
+    "주말에는 가끔 홍대 근처에서 친구들이랑 저녁을 먹어요."
+   ]
+  },
+  {
+   "id": "p1-18",
+   "topic": "free-time",
+   "q": "Do you prefer spending free time alone or with friends?",
+   "q_ko": "여가 시간은 혼자 보내는 게 좋으세요, 친구들이랑 보내는 게 좋으세요?",
+   "upgrades": [
+    {
+     "plain": "meet",
+     "better": "catch up with"
+    },
+    {
+     "plain": "enjoy",
+     "better": "right up my alley"
+    }
+   ],
+   "sample": "I'd rather catch up with friends than stay home alone. A relaxed dinner with good conversation is right up my alley after a busy week at work. Last weekend three of us went to a barbecue place near the warehouse where I work.",
+   "sample_ko": [
+    "저는 집에 혼자 있는 것보다 친구들 만나서 수다 떠는 게 더 좋아요.",
+    "바쁜 한 주를 보내고 나면 좋은 대화를 나누며 편하게 저녁 먹는 게 딱 제 취향이에요.",
+    "지난 주말에는 셋이서 제가 일하는 창고 근처에 있는 고깃집에 갔어요."
+   ]
+  },
+  {
+   "id": "p1-19",
+   "topic": "free-time",
+   "q": "Has your free time changed since you were younger?",
+   "q_ko": "어렸을 때랑 비교해서 여가 시간이 달라졌나요?",
+   "upgrades": [
+    {
+     "plain": "changed",
+     "better": "shifted"
+    },
+    {
+     "plain": "a lot",
+     "better": "quite a bit"
+    }
+   ],
+   "sample": "My free time has shifted quite a bit since I started working full time. As a student I had endless hours, but now every evening is planned carefully. These days I use most of my spare time to study English or read about electrical wiring.",
+   "sample_ko": [
+    "풀타임으로 일하기 시작한 뒤로 여가 시간이 꽤 많이 바뀌었어요.",
+    "학생 때는 시간이 끝도 없이 많았는데, 지금은 매일 저녁을 신경 써서 계획해요.",
+    "요즘은 남는 시간 대부분을 영어 공부나 전기 배선에 관한 글을 읽는 데 써요."
+   ]
+  },
+  {
+   "id": "p1-20",
+   "topic": "free-time",
+   "q": "What would you like to do more of in your free time?",
+   "q_ko": "여가 시간에 더 많이 하고 싶은 게 있나요?",
+   "upgrades": [
+    {
+     "plain": "want to",
+     "better": "would love to"
+    },
+    {
+     "plain": "is good for me",
+     "better": "does me a world of good"
+    }
+   ],
+   "sample": "I would love to travel more once my schedule at work is a little lighter. A short trip somewhere new always does me a world of good. I'm actually saving up to visit my partner in Canada before I start at BCIT.",
+   "sample_ko": [
+    "일정이 조금 여유로워지면 여행을 더 많이 다니고 싶어요.",
+    "새로운 곳으로 짧게 여행을 다녀오면 늘 정말 큰 힘이 돼요.",
+    "사실 BCIT를 시작하기 전에 캐나다에 있는 여자친구를 보러 가려고 돈을 모으고 있어요."
+   ]
+  },
+  {
+   "id": "p1-21",
+   "topic": "food",
+   "q": "What kind of food do you like?",
+   "q_ko": "어떤 음식을 좋아하세요?",
+   "upgrades": [
+    {
+     "plain": "delicious",
+     "better": "to die for"
+    },
+    {
+     "plain": "healthy",
+     "better": "good for you"
+    }
+   ],
+   "sample": "I love Korean food, especially soup that is to die for on a cold day. I also try to eat food that is good for you since gym sessions are pointless without proper meals. My go-to dish after a workout is grilled chicken with rice.",
+   "sample_ko": [
+    "저는 한식을 정말 좋아하는데, 특히 추운 날 먹는 국물 요리는 끝내줘요.",
+    "제대로 먹지 않으면 운동해도 소용없어서 몸에 좋은 음식도 먹으려고 해요.",
+    "운동 끝나고 제가 늘 먹는 메뉴는 닭가슴살 구이에 밥이에요."
+   ]
+  },
+  {
+   "id": "p1-22",
+   "topic": "food",
+   "q": "Do you cook for yourself?",
+   "q_ko": "직접 요리해 드세요?",
+   "upgrades": [
+    {
+     "plain": "cook",
+     "better": "whip up"
+    },
+    {
+     "plain": "easy",
+     "better": "a breeze"
+    }
+   ],
+   "sample": "I do cook for myself most nights since eating out gets expensive. Simple dishes like fried rice are a breeze to whip up after a long shift. My mother taught me a few recipes before I moved into my own apartment.",
+   "sample_ko": [
+    "외식은 돈이 많이 들어서 저는 거의 매일 밤 직접 요리해요.",
+    "볶음밥 같은 간단한 음식은 긴 근무 후에도 뚝딱 만들 수 있어요.",
+    "혼자 아파트로 나오기 전에 어머니가 요리법을 몇 가지 알려 주셨어요."
+   ]
+  },
+  {
+   "id": "p1-23",
+   "topic": "food",
+   "q": "What did you eat for breakfast today?",
+   "q_ko": "오늘 아침에 뭐 드셨어요?",
+   "upgrades": [
+    {
+     "plain": "eat quickly",
+     "better": "grabbed"
+    },
+    {
+     "plain": "quickly",
+     "better": "in no time"
+    }
+   ],
+   "sample": "This morning I grabbed a boiled egg and some rice and finished them in no time before rushing to work. I never have a big breakfast on weekdays because the warehouse opens early and I hate being late. On weekends I have a proper breakfast instead, usually with my partner over a video call.",
+   "sample_ko": [
+    "오늘 아침에는 삶은 달걀 하나랑 밥을 조금 챙겨서 금방 먹고 서둘러 출근했어요.",
+    "창고가 일찍 문을 열고 저는 늦는 게 정말 싫어서 평일에는 아침을 절대 많이 안 먹어요.",
+    "대신 주말에는 보통 여자친구랑 영상 통화를 하면서 아침을 제대로 먹어요."
+   ]
+  },
+  {
+   "id": "p1-24",
+   "topic": "food",
+   "q": "Would you like to try foreign food more often?",
+   "q_ko": "외국 음식을 더 자주 먹어 보고 싶으세요?",
+   "upgrades": [
+    {
+     "plain": "try",
+     "better": "give them a go"
+    },
+    {
+     "plain": "usually",
+     "better": "more often than not"
+    }
+   ],
+   "sample": "Yes, especially Canadian dishes, and I'd like to give them a go before I move there for BCIT. More often than not I stick to Korean food because it's what I know best. My partner has already sent me a list of local restaurants near her place in Burnaby.",
+   "sample_ko": [
+    "네, 특히 캐나다 음식이요, BCIT 때문에 거기로 가기 전에 한번 먹어 보고 싶어요.",
+    "저는 대부분 한식을 먹는데, 제가 제일 잘 아는 음식이라서요.",
+    "여자친구가 벌써 버나비에 있는 자기 집 근처 식당 목록을 보내 줬어요."
+   ]
+  },
+  {
+   "id": "p1-25",
+   "topic": "weather",
+   "q": "What's the weather like in your city today?",
+   "q_ko": "오늘 사시는 도시 날씨는 어때요?",
+   "upgrades": [
+    {
+     "plain": "hot",
+     "better": "scorching"
+    },
+    {
+     "plain": "rain heavily",
+     "better": "pour down"
+    }
+   ],
+   "sample": "It's fairly warm today, though last week Seoul was scorching during my delivery rounds. Whenever it starts to pour down, the trucks slow down and my whole schedule gets pushed back. I always check the forecast before planning a warehouse pickup now.",
+   "sample_ko": [
+    "오늘은 꽤 따뜻한 편인데, 지난주에 제가 배송을 돌 때는 서울이 엄청 더웠어요.",
+    "비가 쏟아지기 시작하면 트럭들이 느려져서 제 일정이 전부 뒤로 밀려요.",
+    "그래서 요즘은 창고 픽업 계획을 짜기 전에 항상 일기 예보를 확인해요."
+   ]
+  },
+  {
+   "id": "p1-26",
+   "topic": "weather",
+   "q": "What's your favorite season?",
+   "q_ko": "제일 좋아하는 계절이 뭐예요?",
+   "upgrades": [
+    {
+     "plain": "favourite",
+     "better": "hands down my favourite"
+    },
+    {
+     "plain": "cold",
+     "better": "freezing"
+    }
+   ],
+   "sample": "Autumn is hands down my favourite season in Korea. The air is cool without being freezing, which makes outdoor runs much more pleasant. I'm actually a little nervous about Canadian winters, since I've heard Burnaby gets properly cold and wet.",
+   "sample_ko": [
+    "한국에서 제가 제일 좋아하는 계절은 단연 가을이에요.",
+    "공기가 얼 정도로 춥지 않고 선선해서 밖에서 달리기가 훨씬 기분 좋아요.",
+    "사실 버나비는 꽤 춥고 비가 많이 온다고 들어서 캐나다 겨울이 조금 걱정돼요."
+   ]
+  },
+  {
+   "id": "p1-27",
+   "topic": "weather",
+   "q": "Does the weather affect your mood?",
+   "q_ko": "날씨가 기분에 영향을 주나요?",
+   "upgrades": [
+    {
+     "plain": "affects",
+     "better": "has a real effect on"
+    },
+    {
+     "plain": "tired",
+     "better": "wiped out"
+    }
+   ],
+   "sample": "Weather definitely has a real effect on my mood, more than I expected. On grey, rainy days I feel wiped out before the shift even starts. Sunny mornings, though, make the drive to the warehouse feel much shorter.",
+   "sample_ko": [
+    "날씨는 제 기분에 확실히 영향을 줘요, 생각했던 것보다 더요.",
+    "흐리고 비 오는 날에는 근무가 시작되기도 전에 녹초가 돼요.",
+    "그래도 화창한 아침에는 창고까지 운전하는 길이 훨씬 짧게 느껴져요."
+   ]
+  },
+  {
+   "id": "p1-28",
+   "topic": "weather",
+   "q": "Do you prefer hot or cold weather?",
+   "q_ko": "더운 날씨가 좋으세요, 추운 날씨가 좋으세요?",
+   "upgrades": [
+    {
+     "plain": "prefer",
+     "better": "lean towards"
+    },
+    {
+     "plain": "cold",
+     "better": "brutal"
+    }
+   ],
+   "sample": "I lean towards cooler weather rather than heat and humidity. Seoul summers can be brutal, especially loading a delivery van in the afternoon sun. That's partly why I'm curious how a milder Canadian climate near Vancouver will feel once I settle there.",
+   "sample_ko": [
+    "저는 덥고 습한 날씨보다는 선선한 날씨가 더 좋아요.",
+    "서울 여름은 정말 혹독할 수 있어요, 특히 오후 햇볕 아래에서 배송 밴에 짐을 실을 때요.",
+    "그래서 밴쿠버 근처에 자리 잡으면 캐나다의 온화한 날씨가 어떻게 느껴질지 궁금하기도 해요."
+   ]
+  },
+  {
+   "id": "p1-29",
+   "topic": "transport",
+   "q": "How do you usually get to work?",
+   "q_ko": "출근은 보통 어떻게 하세요?",
+   "upgrades": [
+    {
+     "plain": "take the bus",
+     "better": "hop on the bus"
+    },
+    {
+     "plain": "far",
+     "better": "a fair distance"
+    }
+   ],
+   "sample": "I usually hop on the bus to reach the warehouse each morning. It's a fair distance from my apartment, so the ride takes about forty minutes. Sometimes I take the subway instead if the roads look busy on the traffic app.",
+   "sample_ko": [
+    "저는 보통 매일 아침 버스를 타고 창고에 가요.",
+    "집에서 꽤 멀어서 가는 데 40분 정도 걸려요.",
+    "교통 앱에서 길이 막혀 보이면 가끔 지하철을 대신 타요."
+   ]
+  },
+  {
+   "id": "p1-30",
+   "topic": "transport",
+   "q": "Is public transport good in your city?",
+   "q_ko": "사시는 도시의 대중교통은 괜찮은 편이에요?",
+   "upgrades": [
+    {
+     "plain": "reliable",
+     "better": "runs like clockwork"
+    },
+    {
+     "plain": "crowded",
+     "better": "packed"
+    }
+   ],
+   "sample": "Public transport in Seoul generally runs like clockwork, arriving almost exactly on time. During rush hour the subway gets packed, and it can be hard to move at all. Even so, I depend on it every day to visit the pharmacies we supply.",
+   "sample_ko": [
+    "서울 대중교통은 대체로 시계처럼 정확해서 거의 딱 제시간에 와요.",
+    "출퇴근 시간에는 지하철이 꽉 차서 몸을 움직이기도 힘들 때가 있어요.",
+    "그래도 저는 저희가 약을 공급하는 약국들을 방문하려고 매일 지하철을 이용해요."
+   ]
+  },
+  {
+   "id": "p1-31",
+   "topic": "transport",
+   "q": "Do you prefer traveling by car or public transport?",
+   "q_ko": "차로 다니는 게 좋으세요, 대중교통이 좋으세요?",
+   "upgrades": [
+    {
+     "plain": "prefer",
+     "better": "would rather"
+    },
+    {
+     "plain": "get around",
+     "better": "get from A to B"
+    }
+   ],
+   "sample": "I would rather use public transport than drive myself around the city. It's a simple way to get from A to B without worrying about parking near the warehouse. In Canada, though, I expect I'll need a car since distances there are much greater.",
+   "sample_ko": [
+    "저는 시내에서 직접 운전하는 것보다 대중교통을 이용하는 게 더 좋아요.",
+    "창고 근처 주차 걱정 없이 원하는 곳에 가기 편한 방법이에요.",
+    "그래도 캐나다에서는 거리가 훨씬 멀어서 차가 필요할 것 같아요."
+   ]
+  },
+  {
+   "id": "p1-32",
+   "topic": "transport",
+   "q": "Have you ever had a bad experience with transport?",
+   "q_ko": "교통 때문에 안 좋은 일을 겪은 적 있으세요?",
+   "upgrades": [
+    {
+     "plain": "late",
+     "better": "behind schedule"
+    },
+    {
+     "plain": "stressful",
+     "better": "a real headache"
+    }
+   ],
+   "sample": "Yes, last winter a delayed train left me behind schedule for an important delivery. Explaining the delay to a pharmacist waiting for medicine was a real headache. Since then I always leave home earlier just in case something goes wrong.",
+   "sample_ko": [
+    "네, 작년 겨울에 기차가 늦어서 중요한 배송 일정에 늦었어요.",
+    "약을 기다리던 약사님께 늦은 이유를 설명하느라 정말 골치 아팠어요.",
+    "그 뒤로는 혹시 무슨 일이 생길까 봐 항상 집에서 더 일찍 나와요."
+   ]
+  },
+  {
+   "id": "p1-33",
+   "topic": "shopping",
+   "q": "Do you enjoy shopping?",
+   "q_ko": "쇼핑 좋아하세요?",
+   "upgrades": [
+    {
+     "plain": "like",
+     "better": "quite enjoy"
+    },
+    {
+     "plain": "spend money",
+     "better": "splash out"
+    }
+   ],
+   "sample": "I quite enjoy shopping, though I try not to splash out too often. Saving money matters right now since I'm preparing for tuition at BCIT. Still, I treated myself to new work boots last month after months of use wore the old ones out.",
+   "sample_ko": [
+    "쇼핑은 꽤 좋아하지만, 돈을 너무 자주 펑펑 쓰지 않으려고 해요.",
+    "지금은 BCIT 학비를 준비하고 있어서 돈을 모으는 게 중요해요.",
+    "그래도 지난달에는 몇 달 동안 신은 헌 작업화가 다 닳아서 새 작업화를 저한테 선물했어요."
+   ]
+  },
+  {
+   "id": "p1-34",
+   "topic": "shopping",
+   "q": "Where do you usually go shopping?",
+   "q_ko": "쇼핑은 보통 어디서 하세요?",
+   "upgrades": [
+    {
+     "plain": "go to",
+     "better": "head to"
+    },
+    {
+     "plain": "cheap",
+     "better": "a bargain"
+    }
+   ],
+   "sample": "I usually head to the market near my apartment for everyday items. Vegetables there are almost always a bargain compared with the large supermarket downtown. Occasionally I visit an outlet store to find gym clothes at a lower price.",
+   "sample_ko": [
+    "생필품은 보통 집 근처 시장에 가서 사요.",
+    "거기 채소는 시내 큰 마트에 비하면 거의 항상 싸요.",
+    "가끔은 운동복을 더 싸게 사려고 아웃렛 매장에 가요."
+   ]
+  },
+  {
+   "id": "p1-35",
+   "topic": "shopping",
+   "q": "Do you prefer shopping online or in stores?",
+   "q_ko": "온라인 쇼핑이 좋으세요, 매장에서 사는 게 좋으세요?",
+   "upgrades": [
+    {
+     "plain": "convenient",
+     "better": "handy"
+    },
+    {
+     "plain": "expensive",
+     "better": "pricey"
+    }
+   ],
+   "sample": "Shopping online is handy since I can order things between shifts at the warehouse. Delivery fees can be pricey, though, so I usually wait until I need several items. In stores I can also check the quality before I decide to buy anything electrical for my future work.",
+   "sample_ko": [
+    "온라인 쇼핑은 창고 근무 사이사이에 주문할 수 있어서 편해요.",
+    "그런데 배송비가 비쌀 수 있어서 보통 필요한 물건이 여러 개 생길 때까지 기다려요.",
+    "매장에서는 앞으로 일할 때 쓸 전기 용품을 사기 전에 품질을 직접 확인할 수도 있어요."
+   ]
+  },
+  {
+   "id": "p1-36",
+   "topic": "shopping",
+   "q": "What was the last thing you bought?",
+   "q_ko": "마지막으로 산 물건이 뭐예요?",
+   "upgrades": [
+    {
+     "plain": "bought",
+     "better": "picked up"
+    },
+    {
+     "plain": "useful",
+     "better": "a lifesaver"
+    }
+   ],
+   "sample": "The last thing I picked up was a proper toolbox for basic wiring practice. It's already a lifesaver while I study for the electrical program at BCIT. My partner suggested the brand after her own electrician friend recommended it in Canada.",
+   "sample_ko": [
+    "제가 마지막으로 산 건 기초 배선 연습용 제대로 된 공구함이에요.",
+    "BCIT 전기 과정 공부를 하는 데 벌써 엄청 요긴하게 쓰고 있어요.",
+    "캐나다에 있는 여자친구의 전기 기술자 친구가 추천한 브랜드를 여자친구가 알려 줬어요."
+   ]
+  },
+  {
+   "id": "p1-37",
+   "topic": "technology",
+   "q": "Do you use technology a lot in daily life?",
+   "q_ko": "일상생활에서 기술을 많이 쓰세요?",
+   "upgrades": [
+    {
+     "plain": "a lot",
+     "better": "constantly"
+    },
+    {
+     "plain": "phone",
+     "better": "mobile"
+    }
+   ],
+   "sample": "I use technology constantly, mostly through my mobile for work messages. Tracking apps let me see exactly where a delivery truck is at any moment. Without this device, planning stock orders for several pharmacies would honestly be much harder.",
+   "sample_ko": [
+    "저는 기술을 항상 쓰는데, 주로 휴대폰으로 업무 메시지를 주고받아요.",
+    "추적 앱으로 배송 트럭이 지금 정확히 어디 있는지 언제든 볼 수 있어요.",
+    "이 기기가 없으면 여러 약국의 재고 발주 계획을 짜는 게 솔직히 훨씬 힘들 거예요."
+   ]
+  },
+  {
+   "id": "p1-38",
+   "topic": "technology",
+   "q": "What device could you not live without?",
+   "q_ko": "없으면 못 사는 기기가 있나요?",
+   "upgrades": [
+    {
+     "plain": "device",
+     "better": "gadget"
+    },
+    {
+     "plain": "important",
+     "better": "a must"
+    }
+   ],
+   "sample": "My phone is the one gadget I could not live without at this point. It's a must for checking delivery schedules and studying English on the subway. I also use it to video call my partner in Canada most evenings before bed.",
+   "sample_ko": [
+    "지금 저한테 없으면 못 사는 기기는 휴대폰 하나예요.",
+    "배송 일정을 확인하고 지하철에서 영어 공부를 하려면 꼭 필요해요.",
+    "거의 매일 저녁 자기 전에 캐나다에 있는 여자친구랑 영상 통화할 때도 써요."
+   ]
+  },
+  {
+   "id": "p1-39",
+   "topic": "technology",
+   "q": "Has technology changed the way you work?",
+   "q_ko": "기술 때문에 일하는 방식이 달라졌나요?",
+   "upgrades": [
+    {
+     "plain": "changed a lot",
+     "better": "transformed things"
+    },
+    {
+     "plain": "help",
+     "better": "make life easier"
+    }
+   ],
+   "sample": "Technology has transformed things at the warehouse over the past few years. New software helps make life easier by tracking every order automatically instead of using paper forms. Before this system started, I used to write delivery routes by hand every single morning.",
+   "sample_ko": [
+    "지난 몇 년 동안 기술 덕분에 창고 일이 완전히 바뀌었어요.",
+    "새 소프트웨어가 종이 양식 대신 모든 주문을 자동으로 추적해 줘서 일이 훨씬 편해졌어요.",
+    "이 시스템이 생기기 전에는 매일 아침 배송 경로를 손으로 직접 적었어요."
+   ]
+  },
+  {
+   "id": "p1-40",
+   "topic": "technology",
+   "q": "Do you think people spend too much time on their phones?",
+   "q_ko": "사람들이 휴대폰을 너무 오래 본다고 생각하세요?",
+   "upgrades": [
+    {
+     "plain": "a lot of time",
+     "better": "glued to their phones"
+    },
+    {
+     "plain": "unhealthy",
+     "better": "not great for you"
+    }
+   ],
+   "sample": "I think a lot of people are glued to their phones, myself included some evenings. It's probably not great for you to scroll endlessly right before sleep. I try to put my phone away once I sit down to review electrical diagrams for BCIT.",
+   "sample_ko": [
+    "많은 사람들이 휴대폰만 붙잡고 있는 것 같아요, 저도 어떤 날 저녁에는 그렇고요.",
+    "자기 직전에 끝없이 화면을 넘기는 건 아마 몸에 별로 안 좋을 거예요.",
+    "저는 BCIT 준비로 전기 도면을 복습하려고 앉으면 휴대폰을 치워 두려고 해요."
+   ]
+  },
+  {
+   "id": "p1-41",
+   "topic": "sport",
+   "q": "Do you play any sports?",
+   "q_ko": "하시는 운동이 있나요?",
+   "upgrades": [
+    {
+     "plain": "exercise",
+     "better": "work out"
+    },
+    {
+     "plain": "go to the gym",
+     "better": "hit the gym"
+    }
+   ],
+   "sample": "I don't play team sports much, but I work out regularly instead. Most days after my shift I hit the gym near my apartment for an hour. Lifting weights there helps me stay strong enough for the physical side of warehouse work.",
+   "sample_ko": [
+    "팀 스포츠는 별로 안 하지만, 대신 꾸준히 운동을 해요.",
+    "대부분 근무가 끝나면 집 근처 헬스장에 가서 한 시간 운동해요.",
+    "거기서 웨이트를 하면 창고 일의 육체적인 부분을 버틸 만큼 튼튼하게 지낼 수 있어요."
+   ]
+  },
+  {
+   "id": "p1-42",
+   "topic": "sport",
+   "q": "Why is exercise important to you?",
+   "q_ko": "운동이 왜 중요하세요?",
+   "upgrades": [
+    {
+     "plain": "important",
+     "better": "non-negotiable"
+    },
+    {
+     "plain": "keep healthy",
+     "better": "keep fit"
+    }
+   ],
+   "sample": "Exercise is non-negotiable for me because my job still involves lifting boxes at the warehouse. Going to the gym helps me keep fit and avoid back injuries. I've even started a proper training plan to build strength before the physical work in Canada.",
+   "sample_ko": [
+    "아직도 창고에서 상자를 드는 일이 있어서 저한테 운동은 절대 빼먹을 수 없는 거예요.",
+    "헬스장에 다니면 몸 상태를 유지하고 허리 부상을 막는 데 도움이 돼요.",
+    "캐나다에서 할 육체노동에 대비해서 근력을 키우려고 제대로 된 운동 계획도 시작했어요."
+   ]
+  },
+  {
+   "id": "p1-43",
+   "topic": "sport",
+   "q": "Did you play sports when you were a child?",
+   "q_ko": "어렸을 때 운동을 하셨어요?",
+   "upgrades": [
+    {
+     "plain": "played",
+     "better": "used to play"
+    },
+    {
+     "plain": "fun",
+     "better": "a blast"
+    }
+   ],
+   "sample": "I used to play soccer with friends every weekend when I was younger. It was a blast, even when we lost most of our matches. I moved to weightlifting instead once I started working, since the schedule suited me better.",
+   "sample_ko": [
+    "어렸을 때는 주말마다 친구들이랑 축구를 했어요.",
+    "경기는 대부분 졌지만 그래도 정말 재미있었어요.",
+    "일을 시작하고 나서는 일정에 더 잘 맞아서 대신 웨이트 트레이닝으로 바꿨어요."
+   ]
+  },
+  {
+   "id": "p1-44",
+   "topic": "sport",
+   "q": "Would you like to try a new sport?",
+   "q_ko": "새로운 운동을 해 보고 싶으세요?",
+   "upgrades": [
+    {
+     "plain": "try",
+     "better": "have a go at"
+    },
+    {
+     "plain": "difficult",
+     "better": "a real challenge"
+    }
+   ],
+   "sample": "I'd love to have a go at rock climbing someday soon. It looks like a real challenge for both the body and the mind. Once I settle in Canada for BCIT, I'm hoping to find a climbing gym near campus.",
+   "sample_ko": [
+    "조만간 암벽 등반을 한번 해 보고 싶어요.",
+    "몸이랑 정신 둘 다에 진짜 도전이 될 것 같아요.",
+    "BCIT 때문에 캐나다에 자리 잡으면 캠퍼스 근처 클라이밍장을 찾아보려고요."
+   ]
+  },
+  {
+   "id": "p1-45",
+   "topic": "music",
+   "q": "What kind of music do you listen to?",
+   "q_ko": "어떤 음악을 들으세요?",
+   "upgrades": [
+    {
+     "plain": "listen to",
+     "better": "put on"
+    },
+    {
+     "plain": "relaxing music",
+     "better": "a chill playlist"
+    }
+   ],
+   "sample": "I usually put on a chill playlist while I'm commuting to the warehouse in the morning. Quiet acoustic songs help me stay calm before a busy shift of stock orders. On weekends, though, I sometimes turn the volume up for old rock songs instead.",
+   "sample_ko": [
+    "아침에 창고로 출근할 때는 보통 잔잔한 플레이리스트를 틀어요.",
+    "조용한 어쿠스틱 노래를 들으면 재고 발주로 바쁜 근무 전에 마음을 차분하게 유지할 수 있어요.",
+    "그래도 주말에는 가끔 대신 볼륨을 높이고 옛날 록 음악을 들어요."
+   ]
+  },
+  {
+   "id": "p1-46",
+   "topic": "music",
+   "q": "Do you play a musical instrument?",
+   "q_ko": "악기를 연주하세요?",
+   "upgrades": [
+    {
+     "plain": "learn",
+     "better": "pick up"
+    },
+    {
+     "plain": "difficult",
+     "better": "tricky"
+    }
+   ],
+   "sample": "I don't play an instrument now, though I tried to pick up the guitar once. Reading sheet music was tricky compared with memorizing English lines from movies. Maybe once I finish settling into life at BCIT I'll give it another try.",
+   "sample_ko": [
+    "지금은 악기를 안 하는데, 예전에 기타를 한번 배워 보려고 한 적은 있어요.",
+    "영화 속 영어 대사를 외우는 것에 비하면 악보 읽는 게 까다로웠어요.",
+    "BCIT 생활에 적응하고 나면 아마 다시 한번 해 볼 것 같아요."
+   ]
+  },
+  {
+   "id": "p1-47",
+   "topic": "music",
+   "q": "Is music important in your daily routine?",
+   "q_ko": "음악이 일상에서 중요한가요?",
+   "upgrades": [
+    {
+     "plain": "important",
+     "better": "a big part of"
+    },
+    {
+     "plain": "help me focus",
+     "better": "keep me in the zone"
+    }
+   ],
+   "sample": "Music is a big part of my daily routine, especially during long delivery drives. A steady playlist helps keep me in the zone when the schedule gets stressful. Without it, honestly, the warehouse mornings would feel a lot longer.",
+   "sample_ko": [
+    "음악은 제 일상에서 큰 부분이에요, 특히 오래 배송 운전을 할 때요.",
+    "일정이 스트레스받을 때 꾸준히 흐르는 플레이리스트가 집중을 유지하게 도와줘요.",
+    "솔직히 음악이 없으면 창고에서 보내는 아침이 훨씬 길게 느껴질 거예요."
+   ]
+  },
+  {
+   "id": "p1-48",
+   "topic": "music",
+   "q": "Have your music tastes changed over the years?",
+   "q_ko": "그동안 음악 취향이 변했나요?",
+   "upgrades": [
+    {
+     "plain": "changed",
+     "better": "moved on"
+    },
+    {
+     "plain": "popular",
+     "better": "all the rage"
+    }
+   ],
+   "sample": "My taste in music has moved on quite a bit since university. Back then whatever was all the rage on the radio was all I listened to. These days I prefer calmer songs that help me focus while I'm studying electrical theory at night.",
+   "sample_ko": [
+    "대학 시절 이후로 제 음악 취향이 꽤 많이 바뀌었어요.",
+    "그때는 라디오에서 유행하는 노래만 들었어요.",
+    "요즘은 밤에 전기 이론을 공부할 때 집중하는 데 도움이 되는 차분한 노래가 더 좋아요."
+   ]
+  },
+  {
+   "id": "p1-49",
+   "topic": "friends",
+   "q": "How often do you see your friends?",
+   "q_ko": "친구들은 얼마나 자주 만나세요?",
+   "upgrades": [
+    {
+     "plain": "often",
+     "better": "pretty regularly"
+    },
+    {
+     "plain": "meet",
+     "better": "catch up"
+    }
+   ],
+   "sample": "I see my friends pretty regularly, usually once or twice a month. We like to catch up over dinner near the area where I work. Balancing that with gym sessions and English study keeps my weekends fairly full these days.",
+   "sample_ko": [
+    "친구들은 꽤 자주 만나는 편이에요, 보통 한 달에 한두 번이요.",
+    "제가 일하는 곳 근처에서 저녁 먹으면서 근황 얘기하는 걸 좋아해요.",
+    "요즘은 그거랑 헬스장, 영어 공부까지 같이 하느라 주말이 꽤 꽉 차요."
+   ]
+  },
+  {
+   "id": "p1-50",
+   "topic": "friends",
+   "q": "What do you value most in a friendship?",
+   "q_ko": "우정에서 가장 중요하게 생각하는 게 뭐예요?",
+   "upgrades": [
+    {
+     "plain": "trust",
+     "better": "lean on each other"
+    },
+    {
+     "plain": "honest",
+     "better": "straight with me"
+    }
+   ],
+   "sample": "I value being able to lean on each other during hard times most of all. A good friend should be straight with me, even when the truth is uncomfortable. One friend from university still checks on me whenever a work deadline gets stressful.",
+   "sample_ko": [
+    "저는 힘들 때 서로 기댈 수 있는 걸 가장 중요하게 생각해요.",
+    "좋은 친구라면 진실이 불편하더라도 저한테 솔직하게 말해 줘야 해요.",
+    "대학 때 친구 한 명은 업무 마감 때문에 스트레스받을 때마다 아직도 저를 챙겨 줘요."
+   ]
+  },
+  {
+   "id": "p1-51",
+   "topic": "friends",
+   "q": "Do you have a close friend from childhood?",
+   "q_ko": "어릴 때부터 친한 친구가 있으세요?",
+   "upgrades": [
+    {
+     "plain": "known for a long time",
+     "better": "go way back"
+    },
+    {
+     "plain": "close",
+     "better": "tight-knit"
+    }
+   ],
+   "sample": "Yes, my best friend and I go way back to primary school in Seoul. Our small group has always been tight-knit, even after everyone got busy with different jobs. He actually helped me practice English speeches when I was learning from movie scripts years ago.",
+   "sample_ko": [
+    "네, 제일 친한 친구랑은 서울에서 초등학교 때부터 알고 지냈어요.",
+    "다들 각자 다른 일로 바빠진 뒤에도 저희 작은 무리는 늘 끈끈했어요.",
+    "사실 몇 년 전에 제가 영화 대본으로 영어를 배울 때 그 친구가 영어 연설 연습을 도와줬어요."
+   ]
+  },
+  {
+   "id": "p1-52",
+   "topic": "friends",
+   "q": "Will it be hard to stay close to friends after you move abroad?",
+   "q_ko": "해외로 가면 친구들이랑 계속 가깝게 지내기 힘들 것 같으세요?",
+   "upgrades": [
+    {
+     "plain": "stay in contact",
+     "better": "keep in touch"
+    },
+    {
+     "plain": "difficult",
+     "better": "a bit of a challenge"
+    }
+   ],
+   "sample": "I think it will be a bit of a challenge to keep in touch once I move to Canada for BCIT. Time differences make regular calls harder to arrange than I expected. Still, my partner has managed to stay close with her family just fine from Burnaby, so I'm hopeful.",
+   "sample_ko": [
+    "BCIT 때문에 캐나다로 가면 연락을 계속하는 게 좀 어려울 것 같아요.",
+    "시차 때문에 정기적으로 통화 시간을 잡는 게 생각보다 더 어려워요.",
+    "그래도 여자친구는 버나비에서도 가족들이랑 잘 가깝게 지내고 있어서 저도 희망적이에요."
+   ]
+  },
+  {
+   "id": "p1-53",
+   "topic": "travel",
+   "q": "Do you enjoy traveling?",
+   "q_ko": "여행 좋아하세요?",
+   "upgrades": [
+    {
+     "plain": "like",
+     "better": "love"
+    },
+    {
+     "plain": "trip",
+     "better": "getaway"
+    }
+   ],
+   "sample": "I love traveling whenever my work schedule allows a short getaway. Seeing a new place clears my head after weeks of planning deliveries. Last year I flew to Jeju Island for three days and came back feeling completely refreshed.",
+   "sample_ko": [
+    "저는 일정이 허락할 때마다 짧게 여행 가는 걸 정말 좋아해요.",
+    "몇 주 동안 배송 계획을 짜고 나서 새로운 곳을 보면 머리가 맑아져요.",
+    "작년에는 비행기 타고 제주도에 3일 동안 다녀왔는데, 완전히 재충전하고 돌아왔어요."
+   ]
+  },
+  {
+   "id": "p1-54",
+   "topic": "travel",
+   "q": "What's the most memorable trip you've been on?",
+   "q_ko": "가장 기억에 남는 여행이 뭐예요?",
+   "upgrades": [
+    {
+     "plain": "memorable",
+     "better": "stands out"
+    },
+    {
+     "plain": "amazing",
+     "better": "unforgettable"
+    }
+   ],
+   "sample": "The trip that stands out most was my first visit to see my partner in Canada. Everything about Vancouver felt unforgettable, from the mountains to the calm streets. That visit is actually part of why I decided to apply to BCIT in the first place.",
+   "sample_ko": [
+    "가장 기억에 남는 여행은 캐나다에 있는 여자친구를 처음 보러 갔던 거예요.",
+    "산부터 조용한 거리까지 밴쿠버의 모든 게 잊을 수 없었어요.",
+    "사실 그 여행이 제가 처음 BCIT에 지원하기로 마음먹은 이유 중 하나예요."
+   ]
+  },
+  {
+   "id": "p1-55",
+   "topic": "travel",
+   "q": "Do you prefer traveling alone or with others?",
+   "q_ko": "혼자 여행하는 게 좋으세요, 같이 가는 게 좋으세요?",
+   "upgrades": [
+    {
+     "plain": "prefer",
+     "better": "more my thing"
+    },
+    {
+     "plain": "comfortable",
+     "better": "more at ease"
+    }
+   ],
+   "sample": "Travelling with someone is more my thing than going solo. I feel more at ease when there's another person to share the planning with. My partner and I are already talking about a road trip once I move to Canada for BCIT.",
+   "sample_ko": [
+    "저는 혼자 가는 것보다 누군가와 같이 여행하는 게 더 잘 맞아요.",
+    "계획을 같이 나눌 사람이 있으면 마음이 더 편해요.",
+    "여자친구랑 저는 제가 BCIT 때문에 캐나다로 가면 자동차 여행을 하자고 벌써 얘기하고 있어요."
+   ]
+  },
+  {
+   "id": "p1-56",
+   "topic": "travel",
+   "q": "How do you usually prepare for a trip?",
+   "q_ko": "여행 준비는 보통 어떻게 하세요?",
+   "upgrades": [
+    {
+     "plain": "plan",
+     "better": "map out"
+    },
+    {
+     "plain": "pack light",
+     "better": "travel light"
+    }
+   ],
+   "sample": "I usually map out a rough schedule a few days before any trip. I also try to travel light so I'm not stuck carrying heavy bags around. Before my last flight to see my partner, I packed everything into a single carry-on bag.",
+   "sample_ko": [
+    "저는 보통 여행 며칠 전에 대략적인 일정을 짜요.",
+    "무거운 가방을 들고 다니지 않도록 짐도 가볍게 싸려고 해요.",
+    "지난번에 여자친구를 보러 비행기를 탔을 때는 기내용 가방 하나에 전부 넣었어요."
+   ]
+  },
+  {
+   "id": "p1-57",
+   "topic": "daily-routine",
+   "q": "What time do you usually get up?",
+   "q_ko": "보통 몇 시에 일어나세요?",
+   "upgrades": [
+    {
+     "plain": "get up early",
+     "better": "rise early"
+    },
+    {
+     "plain": "morning person",
+     "better": "an early bird"
+    }
+   ],
+   "sample": "I usually rise early, around six, to prepare for my shift at the warehouse. I'm honestly an early bird by nature, unlike most of my friends. The quiet morning hour before work is also when I review English vocabulary for my speaking test.",
+   "sample_ko": [
+    "저는 보통 창고 근무를 준비하려고 6시쯤 일찍 일어나요.",
+    "솔직히 저는 대부분의 친구들이랑 달리 원래 아침형 인간이에요.",
+    "출근 전 조용한 아침 한 시간은 스피킹 시험을 위해 영어 단어를 복습하는 시간이기도 해요."
+   ]
+  },
+  {
+   "id": "p1-58",
+   "topic": "daily-routine",
+   "q": "What is the first thing you do after waking up?",
+   "q_ko": "일어나서 제일 먼저 뭘 하세요?",
+   "upgrades": [
+    {
+     "plain": "check my phone",
+     "better": "scroll through my phone"
+    },
+    {
+     "plain": "always",
+     "better": "without fail"
+    }
+   ],
+   "sample": "The first thing I do is scroll through my phone for delivery updates from the warehouse. Without fail, there's always at least one message waiting about a pharmacy's order. After that I get dressed quickly since the bus to work leaves early.",
+   "sample_ko": [
+    "제일 먼저 휴대폰을 넘겨 보면서 창고에서 온 배송 소식을 확인해요.",
+    "어김없이 약국 주문에 관한 메시지가 적어도 하나는 와 있어요.",
+    "그다음에는 출근 버스가 일찍 떠나서 빨리 옷을 입어요."
+   ]
+  },
+  {
+   "id": "p1-59",
+   "topic": "daily-routine",
+   "q": "How do you usually spend your evenings?",
+   "q_ko": "저녁은 보통 어떻게 보내세요?",
+   "upgrades": [
+    {
+     "plain": "relax",
+     "better": "wind down"
+    },
+    {
+     "plain": "soon",
+     "better": "before long"
+    }
+   ],
+   "sample": "In the evening I try to wind down after a demanding day of stock orders and deliveries. Before long, though, I usually end up studying electrical terms for BCIT instead of resting completely. My partner calls around this time too, so the evening never feels too quiet.",
+   "sample_ko": [
+    "저녁에는 재고 발주와 배송으로 힘든 하루를 보낸 뒤 긴장을 풀려고 해요.",
+    "그런데 얼마 안 가서 보통 푹 쉬는 대신 BCIT 준비로 전기 용어를 공부하게 돼요.",
+    "여자친구도 이 시간쯤 전화를 해서 저녁이 너무 조용하게 느껴지진 않아요."
+   ]
+  },
+  {
+   "id": "p1-60",
+   "topic": "daily-routine",
+   "q": "Has your daily routine changed recently?",
+   "q_ko": "최근에 일상이 달라졌나요?",
+   "upgrades": [
+    {
+     "plain": "changed a lot",
+     "better": "turned upside down"
+    },
+    {
+     "plain": "recently",
+     "better": "these past few months"
+    }
+   ],
+   "sample": "My daily routine has been turned upside down these past few months, mostly because of my BCIT preparations. I now spend an extra hour every night on English speaking practice instead of watching television. It's tiring some days, but I know this routine is what will get me to Canada for the electrical program.",
+   "sample_ko": [
+    "지난 몇 달 동안 제 일상이 완전히 뒤바뀌었는데, 대부분 BCIT 준비 때문이에요.",
+    "이제 매일 밤 텔레비전을 보는 대신 영어 스피킹 연습에 한 시간을 더 써요.",
+    "어떤 날은 힘들지만, 이 루틴이 저를 캐나다 전기 과정으로 데려다줄 거라는 걸 알아요."
+   ]
+  }
+ ],
+ "p2": [
+  {
+   "id": "p2-01",
+   "card": "Describe a person who taught you a practical skill",
+   "bullets": [
+    "who this person is",
+    "what skill they taught you",
+    "how they taught it to you"
+   ],
+   "explain": "and explain how this skill has been useful to you since then",
+   "story": "person",
+   "sample": "I'd like to talk about my uncle, who taught me how to fix small electrical problems around the house when I was about sixteen. He used to work as a technician in a factory near Incheon, and every weekend he would come over and let me watch him rewire a lamp or replace a switch. At first I just handed him tools, but after a few months he started explaining why a wire was connected a certain way, not just how to do it. He was very patient, which surprised me, because at work he had a reputation for being strict. He would draw little diagrams on scrap paper to show me the circuit, and he always made me repeat the safety steps before I touched anything live. What I remember most is that he never finished the job for me completely; he would stop halfway through and ask, \"What do you think comes next?\" That taught me to think through a problem instead of memorizing steps. Years later, when I decided to apply to BCIT to study electrical work, that early training gave me a real head start, because a lot of the basic terms already felt familiar. If he had not spent those Saturday afternoons with me, I do not think I would have had the confidence to change careers at all. It is one of the reasons I am genuinely looking forward to the course."
+  },
+  {
+   "id": "p2-02",
+   "card": "Describe a colleague you rely on at work",
+   "bullets": [
+    "who this person is",
+    "what they do",
+    "why you rely on them"
+   ],
+   "explain": "and explain how working with this person has changed the way you work",
+   "story": "person",
+   "sample": "There is a colleague at the pharmacy logistics company where I work, a woman named Soo-jin, who is responsible for coordinating deliveries between our main warehouse and about twenty local pharmacies. She is the person I go to whenever a shipment gets delayed or a pharmacist calls to complain about a shortage. What makes her so reliable is that she never panics; she just opens the tracking system, figures out where the stock actually is, and calls the driver directly instead of waiting for someone else to sort it out. When I first started this job, I used to escalate every small problem to my manager, which wasted everyone's time. Soo-jin showed me how to trace an order myself, step by step, before asking for help. She also taught me to keep a short note of what went wrong each time, so the same mistake would not happen twice. If she ever left the company, I honestly think our delivery times would get noticeably worse for a while, because so much depends on her instinct for which routes are risky during holidays or bad weather. Working alongside her has made me much calmer under pressure, and I have started applying the same habit of writing quick notes to my own tasks. In a way, she is the person who turned me from someone who reacts to problems into someone who anticipates them."
+  },
+  {
+   "id": "p2-03",
+   "card": "Describe someone you know who moved abroad",
+   "bullets": [
+    "who this person is",
+    "where they moved to and why",
+    "what has changed about them since moving"
+   ],
+   "explain": "and explain how their experience has affected your own plans",
+   "story": "person",
+   "sample": "The person I want to describe is my partner, who moved to Canada about two years ago to study and eventually settle there. She had always wanted to leave Korea for a while, mainly because she felt the pace of life here left almost no room to slow down, and she had a cousin already living in Vancouver who kept encouraging her to come. Since she moved, she has become noticeably more direct in the way she speaks; she used to hesitate before disagreeing with someone, but now she just says what she thinks, which took some getting used to on my end. She has also picked up habits like walking everywhere and cooking from scratch, things she rarely did back in Seoul. We talk almost every day through video calls, and honestly, hearing her describe ordinary things, like how quiet her neighborhood is at night, made me start seriously considering a similar move myself. That is part of why I applied to BCIT to study electrical work; if I had not watched her adjust to a completely different country and come out more confident, I probably would not have taken the idea seriously. Her experience gave me a realistic picture of what moving abroad actually involves, the boring paperwork as well as the exciting parts, so I feel less nervous about it than I would have a few years ago."
+  },
+  {
+   "id": "p2-04",
+   "card": "Describe a person whose way of speaking English you admired and tried to copy",
+   "bullets": [
+    "who this person is",
+    "how you first encountered them",
+    "what was special about the way they spoke"
+   ],
+   "explain": "and explain how learning from them changed your own English",
+   "story": "person",
+   "sample": "I would like to describe Steve Jobs, or more precisely, the version of him I got to know through his old speeches, since I studied his 2005 Stanford commencement address almost word for word a few years ago. I first came across it on YouTube late one night when I was searching for something to improve my speaking, and I ended up watching it about ten times in a row. What struck me was how simple his sentences were; he did not use complicated vocabulary, but he paused in exactly the right places and repeated key phrases so the message stuck. I started memorizing whole paragraphs, not to recite them anywhere, but to train my mouth to produce natural rhythm instead of translating from Korean in my head. It was slow at first, and I would get stuck on the same three sentences for days. Gradually, though, I noticed I was borrowing his patterns without thinking, things like starting a sentence with \"and\" or letting a short sentence stand on its own for effect. If I had only studied grammar textbooks instead, I do not think my speaking would sound nearly as natural now. These days, when I practice for speaking tests, I still hear his rhythm in the back of my mind, and it has become one of the main reasons my spoken English improved faster than my writing did."
+  },
+  {
+   "id": "p2-05",
+   "card": "Describe a person who helped you make an important decision",
+   "bullets": [
+    "who this person is",
+    "what decision you needed to make",
+    "how they helped you"
+   ],
+   "explain": "and explain how you felt about the decision afterward",
+   "story": "person",
+   "sample": "The person I want to talk about is my older brother, who I turned to when I was trying to decide whether to leave my stable job at the pharmacy warehouse and apply to study electrical work at BCIT in Canada. It was a huge decision because I had already spent several years building a career in logistics, and giving that up for something so different felt risky. My brother, who had changed his own career twice, sat down with me one evening and, instead of telling me what to do, asked a lot of quiet questions: what I would regret more, staying or leaving, and whether the fear was about money or about starting over. He did not push me toward either option, which I appreciated, because I had already heard enough opinions from other people. What helped most was that he shared his own experience honestly, including the parts where he had struggled financially for a year after switching fields. That conversation made the decision feel less like a gamble and more like something I could plan for properly. Afterward, once I had actually submitted my application, I felt a mix of relief and nervous excitement, the kind you get when you have committed to something you cannot easily undo. Looking back, if he had not asked those specific questions, I think I would have kept delaying the decision for another year or two."
+  },
+  {
+   "id": "p2-06",
+   "card": "Describe a place where you like to go to think clearly",
+   "bullets": [
+    "where this place is",
+    "when you usually go there",
+    "what you do there"
+   ],
+   "explain": "and explain why this place helps you think clearly",
+   "story": "place",
+   "sample": "The place I want to describe is a small rooftop garden on top of the building where I work, which is close to Euljiro in central Seoul. I usually go up there around lunchtime, or sometimes right after a stressful call with a warehouse manager, when I need ten minutes away from my desk. There is not much up there, just a few plastic chairs, some potted plants that someone from the building management team looks after, and a view over the surrounding rooftops rather than the street below. I usually just sit and drink coffee, or occasionally scroll through my phone, but most of the time I do not do anything specific at all. What makes it different from my desk is that nobody expects anything from me up there; no messages, no delivery schedules to check. If I am honestly stuck on a problem, like how to reroute a delayed shipment, going up for even five minutes often helps more than staring at the screen would. I think it is partly the height and partly the quiet that does it, since the noise from the street barely reaches that far up. Since I started using it regularly, I have noticed I make fewer impulsive decisions at work, because I give myself that short pause before reacting. It has become such a habit that colleagues sometimes come looking for me there when I am not answering messages."
+  },
+  {
+   "id": "p2-07",
+   "card": "Describe a shop you visit often",
+   "bullets": [
+    "where the shop is",
+    "what it sells",
+    "how often you go there"
+   ],
+   "explain": "and explain why you prefer this shop to others nearby",
+   "story": "place",
+   "sample": "I would like to talk about a small hardware shop close to my apartment in Eunpyeong-gu, the kind of place that sells everything from screws to extension cords out of boxes stacked almost to the ceiling. It is run by an older man who has owned it for something like thirty years, and I probably go there once or twice a month now, more often since I started preparing for my electrical course. It does not really sell anything you could not buy online, just basic tools, wiring, light fittings, that sort of thing, but the prices are fair and everything is somehow exactly where he says it will be, even though the shelves look chaotic. What keeps me going back, rather than ordering from a big website, is that he actually explains things; if I ask for a certain cable, he will ask what I am using it for and sometimes tell me I am buying the wrong one. That kind of advice has saved me money and mistakes more than once. There is also something satisfying about walking there instead of waiting for a delivery, especially in the evening after work when I want to clear my head. If that shop ever closed, I think I would genuinely miss it, not just for the tools, but for the conversation that comes with buying them. It feels more like visiting someone than shopping."
+  },
+  {
+   "id": "p2-08",
+   "card": "Describe a place you are looking forward to visiting for the first time",
+   "bullets": [
+    "where this place is",
+    "why you want to go there",
+    "what you plan to do there"
+   ],
+   "explain": "and explain how you think this place will change your daily routine",
+   "story": "place",
+   "sample": "The place I have been thinking about a lot recently is Burnaby, a city near Vancouver in Canada, where I will be starting an electrical program at BCIT next year. I want to go there mainly because the course has a strong reputation, and because my partner has already been living in Canada for about two years, so it feels like a natural next step for us. Once I arrive, I am planning to spend the first few weeks just getting used to the campus and finding somewhere close to it to live, since I would rather walk to classes than deal with a long commute in a country whose transport system I do not know yet. After that, my plan is fairly simple: attend lectures in the morning, spend afternoons in the workshops actually wiring circuits instead of just reading about them, and go to the gym in the evening to keep some kind of routine that feels familiar. I imagine my daily life will change quite a bit, because right now my day revolves around warehouse schedules and delivery calls, whereas there it will be structured around lessons and assignments again, like being a student. If everything goes well, I think the hands-on training will suit me better than sitting at a desk does now. Honestly, I am a bit nervous about the change, but mostly I just want to get started."
+  },
+  {
+   "id": "p2-09",
+   "card": "Describe a place in your city that has changed a lot in recent years",
+   "bullets": [
+    "where this place is",
+    "what it used to be like",
+    "what it is like now"
+   ],
+   "explain": "and explain whether you think the change has been positive",
+   "story": "place",
+   "sample": "I want to describe Seongsu-dong, a neighborhood in eastern Seoul that used to be full of small factories and warehouses, an area I still pass through for work. When I first started visiting the area for deliveries years ago, it was mostly grey buildings, metal workshops, and the smell of machine oil in the air; nobody really went there unless they had business with a factory. These days the same streets are full of cafes converted from old warehouses, clothing brands, and young people taking photos outside converted brick buildings that are, ironically, sometimes former logistics offices like the one I still deliver to. It is strange walking through it now, because I remember what several of those buildings used to be, and it is hard to reconcile the two versions in my head. Whether the change has been positive really depends on who you ask; property prices near there have gone up a lot, which pushed out some of the original workshop owners, and a few of the smaller manufacturers I used to work with had to relocate further out of the city. On the other hand, the area does feel more alive now, and it has created new jobs, just different ones. Personally, I have mixed feelings about it, because I liked the rougher, more practical version of the neighborhood, even if I understand why it changed."
+  },
+  {
+   "id": "p2-10",
+   "card": "Describe a quiet place near your home where you relax",
+   "bullets": [
+    "where it is",
+    "how you discovered it",
+    "what it is usually like there"
+   ],
+   "explain": "and explain how spending time there affects your mood",
+   "story": "place",
+   "sample": "There is a small stream-side path near my apartment, part of a longer walking trail that runs along a stream in Eunpyeong-gu, and it is the place I go to when I actually want to switch my brain off after work. I discovered it almost by accident about two years ago, when I took a wrong turn trying to find a shortcut home and ended up on a path lined with trees and a few benches, much quieter than the main road I usually took. It is usually fairly empty in the early evening, apart from a few older residents doing stretching exercises and the occasional runner, so there is very little noise except water moving over the stones. I do not really do anything structured there; sometimes I walk the whole length of it, sometimes I just sit on one bench and check nothing on my phone at all. What I have noticed is that even fifteen minutes there puts me in a completely different mood compared to going straight home after a long shift at the warehouse. If I skip it for a few days, because of overtime or bad weather, I actually feel more irritable, which tells me it is doing more than I originally thought. It has become such a fixed part of my evening that I would probably feel a bit lost without somewhere similar once I move to Canada."
+  },
+  {
+   "id": "p2-11",
+   "card": "Describe an item you use at work almost every day",
+   "bullets": [
+    "what the item is",
+    "how you use it",
+    "how long you have used it"
+   ],
+   "explain": "and explain why this item is important for your job",
+   "story": "object",
+   "sample": "The object I want to describe is a handheld barcode scanner that I use every day at the pharmacy logistics company where I work, mainly for checking stock in and out of the warehouse before it gets sent to different branches. It is a fairly simple device, roughly the size of a large phone, with a trigger you pull to scan a barcode on each box, and it is connected wirelessly to the inventory system on my computer. I have been using more or less the same model for about three years now, although we did upgrade to a slightly newer version last year that finally has a decent battery life. Basically, every time a delivery arrives, I scan each item so the system automatically updates how much stock we actually have, rather than relying on someone counting boxes by hand, which used to cause constant errors. This little device matters more than people might assume, because a single mistake in stock records can mean a pharmacy runs out of an important medication without anyone noticing until it is too late. If it breaks, which has happened twice, our whole warehouse basically slows down until a replacement arrives, since we go back to writing numbers on paper. It is not glamorous, but it is genuinely one of the few tools I could not do my job properly without."
+  },
+  {
+   "id": "p2-12",
+   "card": "Describe something you bought that changed one of your daily habits",
+   "bullets": [
+    "what you bought",
+    "why you decided to buy it",
+    "how it changed your habit"
+   ],
+   "explain": "and explain whether you think it was worth the money",
+   "story": "object",
+   "sample": "I would like to talk about a set of adjustable dumbbells I bought for my apartment about eight months ago, mainly because my gym schedule kept falling apart whenever I had late deliveries to sort out at work. I decided to buy them after realizing I was skipping the gym roughly three times a week, always with the excuse that I did not have time to travel there and back. They are not particularly special, just a pair of dumbbells where you twist a dial to change the weight instead of needing a whole rack, but they take up barely any space in my small apartment. Since getting them, I have started doing a short routine most mornings before work, even if it is only twenty minutes, instead of planning an entire gym session that often got cancelled. That small shift changed my whole relationship with exercise, because it stopped feeling like an event I had to schedule and became something closer to brushing my teeth, just part of the morning. Honestly, I was a bit skeptical they would make a real difference, since I have bought equipment before that ended up unused in a corner. This time, though, it was worth every won, partly because I actually use them and partly because I sleep better on the days I do. If I had not bought them, I doubt I would have kept any consistent routine at all."
+  },
+  {
+   "id": "p2-13",
+   "card": "Describe a useful app or gadget you rely on regularly",
+   "bullets": [
+    "what the gadget or app is",
+    "how you started using it",
+    "how you use it now"
+   ],
+   "explain": "and explain how your life would be different without it",
+   "story": "object",
+   "sample": "The item I want to describe is actually an app on my phone, a route-planning app that our delivery drivers and I use constantly to work out the fastest way between the warehouse and dozens of small pharmacies across the city. I started using it a couple of years ago, when a driver showed me how he had been quietly relying on it instead of the outdated system our company had, which never accounted for road closures or construction. Now I use it almost every morning to check which routes look congested before I assign deliveries, and I will often reroute a driver halfway through the day if the app shows an accident ahead. What is useful about it is not just the maps, but that it lets you compare several routes side by side and see estimated delays in real time, rather than guessing based on habit. Without it, I think we would still be relying on drivers' instincts, which worked reasonably well but caused a lot of unnecessary delays during rush hour or bad weather. There have definitely been days when a last-minute reroute meant a pharmacy got its urgent order twenty minutes earlier than it would have otherwise, which genuinely matters when the delivery includes something time-sensitive. If this app disappeared tomorrow, our delivery times would probably get noticeably worse again, at least until we found something similar to replace it."
+  },
+  {
+   "id": "p2-14",
+   "card": "Describe an object that reminds you of someone important to you",
+   "bullets": [
+    "what the object is",
+    "how you got it",
+    "why it reminds you of that person"
+   ],
+   "explain": "and explain what memories come back when you see or use it",
+   "story": "object",
+   "sample": "I want to describe an old paperback copy of a Steve Jobs biography that my partner gave me a few years ago, before either of us had really talked about her eventually moving to Canada. She had noticed I kept watching his speeches on my phone to practice English, so she bought me the book almost as a joke, writing inside that I should stop memorizing the same three minutes over and over. It is fairly battered now, with a coffee stain on the cover and several pages folded down at the corner, because I actually did read most of it, slowly, over several months. It reminds me of her specifically because of the note on the first page, which is still in her handwriting, and because I remember exactly where we were sitting when she gave it to me, a small cafe near Hongdae that has since closed down. Whenever I pick it up now, usually to lend to someone or just tidy my shelf, I think about how different our lives were back then, before she left and before I had even considered studying abroad myself. It brings back a specific mix of memories, mostly good ones, but also a slight sadness, since so much has changed since that evening at the cafe. It is not valuable in any real sense, but I would be genuinely upset if I lost it."
+  },
+  {
+   "id": "p2-15",
+   "card": "Describe something you would take with you if you moved abroad",
+   "bullets": [
+    "what the item is",
+    "why it is important to you",
+    "how you would use it in a new place"
+   ],
+   "explain": "and explain whether it would be easy or difficult to replace",
+   "story": "object",
+   "sample": "If I had to choose one object to take with me when I move to Canada for my course at BCIT, it would be a small toolbox my uncle gave me years ago, back when he was teaching me basic electrical repairs around the house. It is nothing expensive, just a set of screwdrivers, a multimeter, and a few pliers in a metal case that is slightly rusted at the corners now, but every tool inside it is one I actually know how to use properly, unlike a brand new set I would have to get familiar with. I would want to bring it partly for practical reasons, since I will need basic tools for coursework and small repairs in a new apartment, and partly because it connects directly to the person who first got me interested in electrical work at all. In Burnaby, I imagine I would use it for exactly the same things I do now, fixing a loose socket or checking a fuse, except everything else around me would be unfamiliar. If it got lost or damaged, replacing the tools themselves would be simple enough, since a hardware store would have equivalents almost anywhere. What would not be replaceable is the case itself and the small scratches on it, which came from specific repairs I still remember doing with him. That is really the difference between an object having value and having meaning."
+  },
+  {
+   "id": "p2-16",
+   "card": "Describe a time you solved an unexpected problem at work",
+   "bullets": [
+    "what the problem was",
+    "how you found out about it",
+    "what you did to solve it"
+   ],
+   "explain": "and explain how you felt once it was solved",
+   "story": "event",
+   "sample": "I'd like to talk about a stock shortage that hit the pharmacy chain I work for last winter, right in the middle of flu season. I plan deliveries between our warehouse and about twenty branch pharmacies, and one Monday morning I got a call from a branch manager saying they'd completely run out of a popular flu medication, with a queue of customers already forming outside. I found out about it almost by accident, actually, because the automatic stock alert system had glitched overnight and hadn't flagged the shortage in time, which meant nobody had ordered a refill. Once I realized how bad it was, I checked which nearby branches still had spare stock sitting on their shelves, and I arranged an emergency transfer between three locations within about an hour, calling the warehouse staff directly instead of waiting for the usual online request to go through. I also asked a colleague to double check the delivery van's route so it wouldn't get stuck in traffic, since every minute mattered. By early afternoon the affected branch had enough stock to get through the day, and by the next morning our regular supplier had topped everything up. Honestly, once it was solved I felt this mix of relief and quiet pride, because if I hadn't caught it early, patients who badly needed that medication would have been turned away, which is the last thing you want in this job."
+  },
+  {
+   "id": "p2-17",
+   "card": "Describe a celebration you took part in that you really enjoyed",
+   "bullets": [
+    "what the celebration was",
+    "who you celebrated with",
+    "what happened during it"
+   ],
+   "explain": "and explain why it turned out to be more memorable than you expected",
+   "story": "event",
+   "sample": "One celebration that's stuck with me was my closest friend's wedding, which took place at a small garden venue just outside Seoul about two years ago. I'd known the groom since university, back when we used to stay up late memorising Steve Jobs speeches together to practice our English, so being there felt like watching years of friendship come together in one afternoon. We celebrated with maybe eighty guests, mostly family and a handful of us from university, and the whole thing had this relaxed, unpolished feel rather than the rigid banquet-hall format that most Korean weddings follow. What happened during it that really got to me was the speech the groom gave, where he thanked his parents in this shaky, half-laughing voice that set off almost everyone in the room, myself included. Afterwards we ended up staying until nearly midnight, just talking and taking photos under string lights, long after the official programme had finished. Honestly, I'd expected a fairly standard event, given how many weddings I'd already been to that year, so it turned out to be more memorable than I expected because of how genuinely emotional and unscripted it felt. It reminded me that the best celebrations aren't necessarily the most elaborate ones, but the ones where people actually let their guard down and mean what they say."
+  },
+  {
+   "id": "p2-18",
+   "card": "Describe a time you were late for something important",
+   "bullets": [
+    "what you were late for",
+    "why it happened",
+    "what you did when you realized"
+   ],
+   "explain": "and explain what you learned from the experience",
+   "story": "event",
+   "sample": "I want to describe the time I was almost late for an English speaking exam I'd booked months in advance, back when I was still getting used to studying English seriously alongside my job. The test centre was across the city, and I'd planned to leave with plenty of time to spare, but that morning the subway line I always take had a signal failure that wasn't announced until I was already stuck on the platform. Fifteen minutes went by with no train moving, and I remember checking my phone and realizing that if it lasted much longer I'd miss my slot entirely. Once I realized how serious it was, I climbed back up to the street, hailed a taxi, and basically pleaded with the driver to take the fastest route he could, even if it meant paying more through the toll roads. I ended up sprinting the last two hundred metres from where the taxi dropped me off and arrived with about four minutes to spare, completely out of breath and trying to calm myself down before going in. What I learned from that experience is that I should never rely on a single form of transport for something that important, no matter how reliable it normally is. Now I always build in a backup plan and leave earlier than feels necessary, which has saved me more than once since then."
+  },
+  {
+   "id": "p2-19",
+   "card": "Describe a time you received some surprising news",
+   "bullets": [
+    "what the news was",
+    "how you found out",
+    "how you reacted"
+   ],
+   "explain": "and explain how the news affected your plans afterwards",
+   "story": "event",
+   "sample": "The piece of news I want to talk about is the message I got from my partner telling me her visa application in Canada had finally been approved, after we'd been waiting on it for what felt like forever. I found out about it on an ordinary Tuesday evening, just scrolling through my phone after work, when a message popped up that simply said \"it's approved\" with about five exclamation marks after it. My first reaction, honestly, was disbelief, because we'd had a couple of setbacks earlier in the process and I'd almost stopped expecting good news from that particular email account. I read the message about three times before it actually sank in, and then I called her immediately instead of just replying by text, since it felt like something that needed an actual voice on the other end. Once it properly registered, I remember pacing around my apartment for a good ten minutes, unable to sit still. That news changed my plans quite directly, because it meant the timeline for my own move to study electrical work at BCIT suddenly became real rather than theoretical, and I started looking into course dates and accommodation within days instead of putting it off further. Looking back, that single message is probably what pushed me from vaguely planning a future in Canada to actually organizing one properly."
+  },
+  {
+   "id": "p2-20",
+   "card": "Describe a time you had to make a quick decision",
+   "bullets": [
+    "what the situation was",
+    "what options you had",
+    "what you decided to do"
+   ],
+   "explain": "and explain whether you think it was the right decision",
+   "story": "event",
+   "sample": "I'll describe a delivery mix-up that happened at work where two branch pharmacies had somehow been sent each other's orders, and I had maybe twenty minutes to sort it out before both places opened for the morning rush. The situation was that one branch was expecting a large shipment of prescription medication and had received mostly general items instead, while the other branch had the opposite problem. My options at that point were fairly limited: I could either wait for the standard reordering process, which would have taken most of the day, or I could get one of our drivers to swap the two loads directly between branches before either of them opened. I decided to go with the direct swap, even though it meant asking a driver to change his planned route at the very last minute and possibly annoying him in the process. I called him straight away, explained exactly what had gone wrong, and he agreed to reroute, arriving at both branches just as the shutters were going up. Looking back, I do think it was the right decision, since it avoided a situation where patients with genuine prescriptions might have been turned away that morning. If I'd hesitated any longer weighing up the alternatives, we simply wouldn't have had enough time left to fix it properly before opening."
+  },
+  {
+   "id": "p2-21",
+   "card": "Describe a skill you learned by watching online videos",
+   "bullets": [
+    "what the skill was",
+    "which videos you used",
+    "how long it took to learn"
+   ],
+   "explain": "and explain how this skill has helped you since",
+   "story": "skill",
+   "sample": "The skill I'd like to talk about is speaking English more naturally, which I mostly picked up by watching old speeches on video rather than through a textbook. I got into the habit of watching Steve Jobs' Stanford commencement speech over and over, along with a handful of famous movie monologues, pausing every few sentences to repeat them out loud until the rhythm started to feel automatic rather than something I was translating in my head. It took a good few months before I noticed any real difference, since at first I was just imitating sounds without fully grasping every word, but gradually the phrases started coming out of my own mouth in normal conversation without me consciously searching for them. What made this method work, I think, was that a real speech has natural pauses and stress patterns built in, which is something a grammar book simply cannot teach you. This skill has helped me since in a fairly direct way, because in my current job I sometimes have to explain a delivery problem to an English-speaking supplier over the phone, and having that instinct for natural phrasing means I don't freeze up mid-sentence the way I used to. It's also given me a bit more confidence heading into my speaking test, since I'm no longer just translating from Korean in my head before I answer out loud."
+  },
+  {
+   "id": "p2-22",
+   "card": "Describe a skill you would like to learn in the future",
+   "bullets": [
+    "what the skill is",
+    "why you want to learn it",
+    "how you plan to learn it"
+   ],
+   "explain": "and explain how learning it might change your life",
+   "story": "skill",
+   "sample": "A skill I'd genuinely like to develop in the near future is proper electrical wiring, which is actually the whole reason I'm heading to BCIT in Canada to study. Right now I only know the basics that anyone might pick up from general interest, nothing close to what you'd need to work safely on a real installation. I want to learn it because I'm at a point in my career where planning deliveries for a pharmacy chain, while stable enough, doesn't offer much room to grow into something more hands-on, and electrical work has always struck me as the kind of trade where you can see the direct result of what you've built. My plan is to start with the foundational courses at BCIT, work through the practical labs there, and then move into an apprenticeship afterwards so the classroom knowledge actually gets tested against real wiring problems rather than staying theoretical. Learning this skill would change my life fairly significantly, I think, because it would mean starting over in a new country, in a trade I currently know almost nothing about, which is honestly a bit intimidating. That said, if it works out the way I'm hoping, it could open up a completely different career path, possibly eventually with a utility company, and give me something closer to a permanent foothold in Canada alongside my partner there."
+  },
+  {
+   "id": "p2-23",
+   "card": "Describe a skill someone taught you that you found useful",
+   "bullets": [
+    "who taught you",
+    "what the skill was",
+    "how they taught you"
+   ],
+   "explain": "and explain why the skill turned out to be more useful than you expected",
+   "story": "skill",
+   "sample": "I want to talk about proper deadlift form, which one of the trainers at my gym taught me after he noticed I'd been doing it wrong for months without realizing. The skill itself was fairly technical, keeping the bar close to my shins, bracing my core before lifting rather than during it, and driving through my heels instead of my toes, all small adjustments that sound minor but change everything about how the movement feels. He taught me mostly by filming me on his phone and then playing it back in slow motion, pointing out exactly where my back started to round, which was far more effective than just being told verbally what I was doing wrong. It took a couple of sessions before the new position started to feel natural rather than deliberately forced, and there were a few awkward weeks where I had to lift much lighter than before just to retrain the habit properly. This skill turned out to be more useful than I expected because it wasn't only about lifting heavier weights safely, it also changed how I think about posture generally, including how I sit at my desk sorting delivery schedules all day. I probably would have ended up with a back injury eventually if that trainer hadn't stepped in when he did, so I'm genuinely grateful he bothered to correct me properly."
+  },
+  {
+   "id": "p2-24",
+   "card": "Describe a communication skill you developed",
+   "bullets": [
+    "what the skill was",
+    "how you developed it",
+    "what situation helped you improve it"
+   ],
+   "explain": "and explain how this skill affects your relationships with others",
+   "story": "skill",
+   "sample": "The communication skill I want to describe is being able to stay calm and clear when I'm explaining a problem to someone who's already frustrated, which comes up constantly in my job dealing with warehouse staff and pharmacists under pressure. I developed it mostly through repetition, to be honest, since dealing with delivery delays and stock issues week after week forced me to find a tone that got the message across without making the other person more anxious than they already were. One situation that really helped me improve it was a period last year when supply chain delays were happening almost every week, and I had to call the same handful of branch managers repeatedly with bad news, so I had to learn fast how to lead with a solution rather than just the problem itself. Over time I noticed that starting a conversation with what I was already doing to fix things, rather than what had gone wrong, completely changed how people responded to me. This skill affects my relationships with others in a fairly practical way, since colleagues who used to dread my phone calls during a crisis now seem to trust that I'll handle things properly, which has made working with the warehouse team noticeably smoother. It's also made me a calmer person outside work, if I'm honest, even during stressful conversations with my partner."
+  },
+  {
+   "id": "p2-25",
+   "card": "Describe a practical skill you use in your daily job",
+   "bullets": [
+    "what the skill is",
+    "how you first learned it",
+    "how often you use it"
+   ],
+   "explain": "and explain why this skill is important for your work",
+   "story": "skill",
+   "sample": "I'd like to talk about demand forecasting, which is the practical skill I probably rely on more than any other in my current role planning stock and deliveries for a pharmacy chain. In simple terms, it means looking at past sales patterns, seasonal illness trends, and even things like weather forecasts, to estimate how much of a given medication each branch is likely to need in the coming weeks. I first learned it fairly informally, through trial and error alongside a senior planner who showed me which numbers actually mattered and which ones were just noise, rather than through any formal course. I use it every single working day at this point, usually first thing in the morning when I'm reviewing overnight sales figures before deciding what to send out to each branch. This skill is important for my work because getting it wrong in either direction causes real problems, if I order too little we risk running out during something like a flu outbreak, and if I order too much we end up with medication sitting in a warehouse close to its expiry date, which is simply wasted money. Over time I've gotten reasonably good at reading the early signs of a spike in demand before it fully hits, which has saved us from a few near misses that could easily have turned into shortages otherwise."
+  },
+  {
+   "id": "p2-26",
+   "card": "Describe a change in your daily routine",
+   "bullets": [
+    "what your routine was before",
+    "what changed it",
+    "what your routine is now"
+   ],
+   "explain": "and explain how you feel about the new routine",
+   "story": "change",
+   "sample": "The change I want to describe is how my mornings look now compared with about a year ago. Before, my routine was fairly simple: wake up around seven, get ready quickly, and head straight to work without doing much else, since I told myself there simply wasn't time for anything extra. What changed it was deciding, quite suddenly, that I needed to get serious about my English if I was going to manage studying in Canada, which meant something had to give somewhere in my day. Rather than cutting into my evenings, which were already taken up with the gym and video calls with my partner, I decided to shift my whole morning earlier instead. Now my routine involves getting up around five-thirty, doing about forty minutes of speaking practice, mostly shadowing recordings and going over vocabulary, before getting ready for work as usual. It sounds fairly small written down like that, but it's meant going to bed much earlier too, which took some adjusting since I used to stay up quite late. Honestly, I feel pretty good about the new routine overall, even if the first couple of weeks were rough getting my body used to waking up in the dark. It's given me a sense that I'm actually working toward the move to Canada, rather than just talking about it indefinitely as before."
+  },
+  {
+   "id": "p2-27",
+   "card": "Describe a decision that changed your plans",
+   "bullets": [
+    "what the decision was",
+    "what led you to make it",
+    "what your plans had been before"
+   ],
+   "explain": "and explain how your life is different because of that decision",
+   "story": "change",
+   "sample": "I want to talk about the decision to leave a stable job in pharmacy logistics and pursue an electrical trade at BCIT in Canada instead, which is probably the biggest decision I've made as an adult. What led me to make it was a slow build-up of feeling that, while my current job was secure enough, it didn't offer much of a long-term path beyond what I was already doing, combined with the fact that my partner had already been living in Canada for some time. Before this decision, my plans had simply been to keep working my way up within the same company, maybe eventually managing a larger region of deliveries, and I hadn't seriously considered studying abroad at all. The turning point came after a few conversations with my partner about what our future actually looked like if we stayed on separate continents indefinitely, which made the idea of starting over somewhere new feel less like a risk and more like something we needed to do. My life is different because of that decision in almost every practical sense now, since I'm studying English intensively, researching apprenticeship routes, and preparing to leave a career I'd spent years building. It's unsettling in some ways, not knowing exactly how the electrical path will turn out, but it also feels like the first decision in a long time that I made for my own future."
+  },
+  {
+   "id": "p2-28",
+   "card": "Describe a change in a place you know well",
+   "bullets": [
+    "what the place is",
+    "what it used to be like",
+    "what has changed about it"
+   ],
+   "explain": "and explain how you feel about the change",
+   "story": "change",
+   "sample": "The place I want to describe is the warehouse I work near in Seoul, which has changed quite a lot over the two years I've been there. It used to be a fairly cramped, old-fashioned space, with stock organized mostly on paper lists and staff having to walk the length of the building to check whether an item was in. What has changed about it is that the company installed a proper digital inventory system last year, along with some automated shelving that can locate an item and bring it to the packing area itself, rather than someone searching for it by hand. On top of that, they knocked through one wall to make the loading bay bigger, since delivery vans used to have to queue outside during busy mornings, which caused delays that had nothing to do with the actual stock. Honestly, I have mixed feelings about the change. On one hand, it's made my job considerably easier, since I can check exact stock levels from my phone rather than calling someone inside to go and look. On the other hand, there's something about the old, slightly chaotic warehouse that I do miss a little, mainly the way everyone knew each other's names and helped out wherever needed, whereas now the system has taken over some of that coordination."
+  },
+  {
+   "id": "p2-29",
+   "card": "Describe a change in your health habits",
+   "bullets": [
+    "what your habits were like before",
+    "what caused the change",
+    "what you do differently now"
+   ],
+   "explain": "and explain what effect this change has had on your life",
+   "story": "change",
+   "sample": "I'd like to describe how my approach to exercise has changed since I started going to the gym regularly about eighteen months ago. Before that, my habits weren't particularly healthy, if I'm honest, since long hours planning deliveries meant I was mostly sitting at a desk all day and then too tired in the evenings to do much besides eat and sleep. What caused the change, oddly enough, was a minor back strain from lifting boxes awkwardly at the warehouse, which made me realize how weak certain muscles had become from years of a sedentary routine. A colleague who trained regularly suggested I come along with him a few times, mostly out of concern rather than to make a point, and I ended up sticking with it far longer than either of us expected. What I do differently now is train about four times a week, focusing on strength work rather than just cardio, and I've become far more conscious of things like posture and proper lifting technique, both at the gym and at work. This change has had a genuinely noticeable effect on my life, since the back pain that used to flare up every few weeks has more or less disappeared, and I generally have more energy in the evenings than I used to, which has been a welcome surprise."
+  },
+  {
+   "id": "p2-30",
+   "card": "Describe a big change you experienced when moving to a new stage of life",
+   "bullets": [
+    "what the change was",
+    "what caused it",
+    "how you adapted to it"
+   ],
+   "explain": "and explain what this change taught you about yourself",
+   "story": "change",
+   "sample": "The big change I want to talk about is the shift in my relationship once my partner moved to Canada while I stayed behind in Seoul, which turned what had been an everyday, in-person relationship into one conducted almost entirely through video calls and time-zone-juggling messages. What caused it was her accepting an opportunity there that we both agreed was too good to turn down, even though neither of us fully anticipated how different long-distance would feel compared with just talking about it in advance. Adapting to it meant rebuilding a lot of small habits, like fixing a regular time each week to properly video call rather than relying on scattered messages throughout the day, and getting used to the fact that a bad connection or a missed call carried far more weight than it would have if we'd simply seen each other that evening instead. It also meant learning to be more deliberate about staying close emotionally, since the easy, casual closeness of living in the same city doesn't happen automatically anymore. What this change taught me about myself, honestly, is that I'm more patient and more capable of maintaining something important across distance than I would have guessed beforehand. It also gave me the push to seriously pursue the move to Canada myself, since living apart indefinitely was never something either of us actually wanted."
+  }
+ ],
+ "p3": [
+  {
+   "id": "p3-01",
+   "p2": "p2-01",
+   "q": "Do you think young people today learn practical skills from older family members as much as they used to?",
+   "sample": "I would say less than before, mainly because families are smaller now and grandparents or uncles often do not live in the same house anymore. In the past, skills like cooking or basic repairs got passed down naturally just by living together. My own uncle taught me electrical basics this way, but a lot of my friends never had that chance, so they end up learning everything from online tutorials instead, which is useful but less personal."
+  },
+  {
+   "id": "p3-02",
+   "p2": "p2-01",
+   "q": "What are the advantages of learning a skill from a person rather than from a book or a video?",
+   "sample": "Learning from a person usually means you get immediate feedback, so mistakes get corrected before they become habits. A book or a video cannot tell if you are holding a tool wrong, for instance. When my uncle taught me wiring, he would stop me the moment I did something unsafe, which no video could have done. That said, videos are more flexible, since you can pause and repeat them whenever you want."
+  },
+  {
+   "id": "p3-03",
+   "p2": "p2-01",
+   "q": "Should schools teach more practical skills, such as basic home repairs, alongside academic subjects?",
+   "sample": "I think they should, because plenty of students leave school unable to do basic things like fixing a leaking tap or understanding a simple circuit. Academic subjects matter, obviously, but practical skills are what people actually need day to day. If schools offered even a short course in home maintenance, students would enter adulthood far more prepared, rather than learning everything the hard way once something breaks."
+  },
+  {
+   "id": "p3-04",
+   "p2": "p2-02",
+   "q": "How important is teamwork in modern workplaces compared to in the past?",
+   "sample": "I think it is arguably more important now, because most jobs involve constant coordination between departments rather than working alone. At my company, almost nothing gets done without at least two or three people communicating, especially in logistics, where one delay affects everyone downstream. In the past, roles were maybe more isolated. Without good teamwork now, a single miscommunication can cause problems across an entire supply chain."
+  },
+  {
+   "id": "p3-05",
+   "p2": "p2-02",
+   "q": "Do you think people should always ask for help when they face a problem at work, or try to solve it themselves first?",
+   "sample": "I think there should be a balance; trying to solve a problem yourself first builds confidence and understanding, but knowing when to ask is just as important. Early in my job, I used to escalate everything, which wasted time. Now I try to trace an issue myself first and only ask for help if I am genuinely stuck, which is more efficient for everyone involved."
+  },
+  {
+   "id": "p3-06",
+   "p2": "p2-02",
+   "q": "How has technology changed the way colleagues rely on each other at work?",
+   "sample": "Technology has made people both more independent and more connected at the same time, which sounds contradictory but it is true. Messaging apps and shared systems mean colleagues can solve problems instantly without walking to someone's desk, so we rely on each other constantly, just remotely. The downside is that some people lean on quick messages instead of learning to solve routine issues themselves, which can slow things down long term."
+  },
+  {
+   "id": "p3-07",
+   "p2": "p2-03",
+   "q": "Why do you think more people are choosing to move to another country to live or study nowadays?",
+   "sample": "There are probably several reasons, but I would say better opportunities and simple curiosity are the main ones. Many young Koreans feel that competition at home, especially for jobs, is extremely intense, so studying or working overseas looks like a fresh start. My partner moved to Canada partly for this reason. Cheaper international flights and constant exposure to life abroad through social media have also made the idea feel far less intimidating than it used to."
+  },
+  {
+   "id": "p3-08",
+   "p2": "p2-03",
+   "q": "What are the biggest challenges people face when they move to a new country?",
+   "sample": "Language is usually the first challenge, even for people who studied English for years, because everyday speech moves faster than textbook English. Beyond that, loneliness is a big issue, since you lose the casual friendships you had without noticing until you are somewhere new. My partner has mentioned struggling with this in Canada. Paperwork, from visas to opening a bank account, tends to be more tedious than people expect as well."
+  },
+  {
+   "id": "p3-09",
+   "p2": "p2-03",
+   "q": "Do you think it is becoming easier or harder for people to stay close to family and friends after moving abroad?",
+   "sample": "I would say it has actually gotten easier, at least in terms of communication, because video calls make it possible to talk almost daily despite the distance. My partner and I speak every evening, which would have been far harder or more expensive twenty years ago. That said, video calls cannot replace being physically present for important moments, like a family gathering, so something is inevitably still lost."
+  },
+  {
+   "id": "p3-10",
+   "p2": "p2-04",
+   "q": "What are the most effective ways for adults to improve their spoken English?",
+   "sample": "I think consistent speaking practice matters more than studying grammar rules in isolation, because fluency comes from repetition under real conditions. Personally, memorizing speeches helped me internalize natural rhythm rather than translating sentences in my head. Speaking with native speakers regularly would probably work even better, though that is not always accessible. Watching content without subtitles also forces your ear to adjust, which textbooks simply cannot replicate."
+  },
+  {
+   "id": "p3-11",
+   "p2": "p2-04",
+   "q": "Do you think watching films or speeches in English is a better way to learn than studying textbooks?",
+   "sample": "For speaking specifically, I would say films and speeches are more useful, since they show how language actually sounds in context, including pauses and tone. Textbooks are still necessary for grammar and structure, though. When I studied Steve Jobs' speeches, I picked up natural phrasing that no textbook exercise ever taught me. Ideally, people should combine both rather than relying entirely on one method."
+  },
+  {
+   "id": "p3-12",
+   "p2": "p2-04",
+   "q": "How important is English in Korea today compared to a generation ago?",
+   "sample": "English feels considerably more important now than a generation ago, largely because so many jobs, including mine in logistics, occasionally require reading documents or communicating with international suppliers. My parents' generation could build a solid career with almost no English. Now, especially for anyone considering studying or working abroad, it is practically assumed, which puts more pressure on students from a much younger age."
+  },
+  {
+   "id": "p3-13",
+   "p2": "p2-05",
+   "q": "Do people nowadays make important life decisions, like changing careers, more often than in the past?",
+   "sample": "I think people probably do change direction more often now, partly because job security is not guaranteed the way it once was, so switching careers feels less risky by comparison. Deciding to study electrical work abroad was a major decision for me. Previous generations tended to stay in one company or field for decades, whereas now it is fairly normal to reinvent yourself once or even twice."
+  },
+  {
+   "id": "p3-14",
+   "p2": "p2-05",
+   "q": "Should people rely on advice from family when making major decisions, or make them independently?",
+   "sample": "I would say a mix works best; family often knows you well enough to ask the right questions, but the final decision should still be yours, since you are the one living with the outcome. My brother helped me think through studying abroad by asking honest questions rather than giving instructions. Relying entirely on someone else's opinion, though, risks making a choice that suits them more than it suits you."
+  },
+  {
+   "id": "p3-15",
+   "p2": "p2-05",
+   "q": "What are the risks and benefits of changing careers later in life?",
+   "sample": "The main risk is obviously financial, since starting over often means a lower income for a while, and there is no guarantee the new path will work out. The benefit, though, is renewed motivation, since doing something you actually chose tends to feel less draining than staying somewhere purely out of habit. In my case, giving up steady income briefly felt frightening, but the potential for long-term satisfaction outweighed that."
+  },
+  {
+   "id": "p3-16",
+   "p2": "p2-06",
+   "q": "Why do you think people need quiet spaces to think, especially those living in busy cities?",
+   "sample": "Cities are constantly noisy and demanding attention, so people need somewhere to switch off mentally, even briefly, or stress builds up unnoticed. I go to a rooftop near my office for exactly this reason. Without such spaces, people tend to make more impulsive decisions, both at work and at home, because they never get a proper pause to think clearly."
+  },
+  {
+   "id": "p3-17",
+   "p2": "p2-06",
+   "q": "Are there enough public spaces in cities for people to relax, in your opinion?",
+   "sample": "Honestly, I think most cities, including Seoul, could use more small, quiet public spaces rather than just large parks that are far from where people actually work. There are plenty of parks, but they are not always convenient during a lunch break. A few benches or a small garden near office buildings would probably get used more than another large park across town."
+  },
+  {
+   "id": "p3-18",
+   "p2": "p2-06",
+   "q": "How does the environment we work in affect our productivity?",
+   "sample": "The environment definitely affects productivity, sometimes more than people realize. A noisy, cramped workspace makes it harder to concentrate, whereas even small changes, like natural light or somewhere quiet nearby, noticeably improve focus. At my office, stepping away to a quiet rooftop for a few minutes often helps me solve a problem faster than continuing to stare at my screen would."
+  },
+  {
+   "id": "p3-19",
+   "p2": "p2-07",
+   "q": "Do you think small local shops will still exist in the future, given how popular online shopping has become?",
+   "sample": "I think small shops will survive, but mostly the ones offering something online stores cannot, like genuine advice or specialized knowledge. The hardware shop near my apartment survives because the owner explains what you actually need, not just what you searched for. Purely convenience-based shops, though, especially ones selling identical products cheaper online, will probably struggle to keep customers long term."
+  },
+  {
+   "id": "p3-20",
+   "p2": "p2-07",
+   "q": "What are the advantages and disadvantages of shopping online compared with visiting a physical shop?",
+   "sample": "Online shopping is obviously more convenient and usually cheaper, since you can compare prices instantly without leaving home. Physical shops, though, offer immediate advice and let you actually see or test a product first. I still visit a local hardware shop for exactly this reason, even though everything there is technically available online for less."
+  },
+  {
+   "id": "p3-21",
+   "p2": "p2-07",
+   "q": "How has the relationship between shopkeepers and customers changed over time?",
+   "sample": "It has become far less personal, I think, because most transactions now happen through an app or a checkout screen rather than direct conversation. Previously, a shopkeeper might know regular customers by name and adjust their advice accordingly. The one shop where I still get that experience feels almost old-fashioned now, which says a lot about how much the norm has shifted toward anonymous, efficient transactions."
+  },
+  {
+   "id": "p3-22",
+   "p2": "p2-08",
+   "q": "Why do you think studying abroad has become so popular among young adults?",
+   "sample": "I think it is popular partly because international qualifications are seen as more valuable, and partly because social media constantly exposes young people to life overseas, making it feel achievable rather than distant. My own decision to study at BCIT was influenced by exactly this kind of exposure. Improved access to information about visas and scholarships has also removed a lot of the old uncertainty."
+  },
+  {
+   "id": "p3-23",
+   "p2": "p2-08",
+   "q": "What skills do people need to adapt successfully to living in a new country?",
+   "sample": "Adaptability is probably the most important skill, since almost everything, from grocery shopping to making friends, works slightly differently than at home. Patience matters too, because progress, whether with language or paperwork, is usually slower than expected. I would also say a willingness to ask for help is essential, since trying to figure everything out alone often leads to unnecessary stress."
+  },
+  {
+   "id": "p3-24",
+   "p2": "p2-08",
+   "q": "Do you think international students should be encouraged to return to their home country after finishing their studies?",
+   "sample": "I do not think it should be mandatory, since forcing someone back can waste talent they have developed abroad, but I understand why some countries encourage it, especially if the education was subsidized. Ideally, people should have the choice, based on where their opportunities and personal circumstances actually point, rather than an obligation imposed simply because of where they originally studied."
+  },
+  {
+   "id": "p3-25",
+   "p2": "p2-09",
+   "q": "Why do older neighborhoods in cities often change so much over time?",
+   "sample": "Neighborhoods change mainly because property becomes more valuable once an area gets attention, whether from artists, cafes, or media coverage, which then attracts investment. Seongsu-dong, which I pass through for work, is a clear example, having shifted from factories to trendy cafes within roughly a decade. Once rent rises, though, the very businesses that made the area interesting often cannot afford to stay."
+  },
+  {
+   "id": "p3-26",
+   "p2": "p2-09",
+   "q": "What are the disadvantages of redeveloping older parts of a city?",
+   "sample": "The main disadvantage is that long-term residents and small businesses often get pushed out once rents rise, even though they are the ones who originally gave the area its character. I have seen small workshops near Seongsu-dong close for exactly this reason. There is also a loss of history, since older buildings that could have been preserved sometimes get replaced entirely instead of adapted."
+  },
+  {
+   "id": "p3-27",
+   "p2": "p2-09",
+   "q": "Should governments do more to protect traditional neighborhoods from rapid change?",
+   "sample": "I think some protection makes sense, particularly for buildings with genuine historical value, but governments should not freeze entire neighborhoods either, since that can prevent necessary improvements like better infrastructure. A reasonable approach would be preserving specific structures while still allowing gradual, regulated development around them, rather than either extreme of full protection or unrestricted redevelopment."
+  },
+  {
+   "id": "p3-28",
+   "p2": "p2-10",
+   "q": "Why is access to nature or green spaces important for people living in cities?",
+   "sample": "Green spaces matter because constant exposure to concrete and traffic noise is genuinely tiring, even if people do not consciously notice it. A short walk along a stream near my apartment noticeably improves my mood after a stressful day. Without such spaces, city life would feel considerably more exhausting, and I suspect stress-related health problems would become even more common than they already are."
+  },
+  {
+   "id": "p3-29",
+   "p2": "p2-10",
+   "q": "Do people today spend enough time outdoors compared to previous generations?",
+   "sample": "I would guess people spend less time outdoors now, mainly because phones and streaming services make staying indoors far more entertaining than it used to be. Previous generations, without those distractions, probably spent more time simply walking or sitting outside by necessity rather than choice. Personally, I have to consciously remind myself to go outside, which suggests the habit does not come naturally anymore."
+  },
+  {
+   "id": "p3-30",
+   "p2": "p2-10",
+   "q": "How can city planners encourage people to use outdoor spaces more?",
+   "sample": "Planners could make outdoor spaces more convenient, since people are far more likely to use a small garden five minutes away than a large park requiring a longer trip. Adding simple seating, shade, or even better lighting for evenings would help too. The quiet path I use near my home became popular largely because it happened to connect two residential areas directly."
+  },
+  {
+   "id": "p3-31",
+   "p2": "p2-11",
+   "q": "How has technology changed the way logistics and delivery industries operate?",
+   "sample": "Technology has transformed logistics almost completely, from barcode scanners tracking stock to apps calculating the fastest delivery routes in real time. Previously, much of this relied on paper records and personal experience, which caused far more errors. Now, a single scan updates an entire inventory system instantly. The downside is that when systems fail, operations can slow down considerably until things are fixed manually."
+  },
+  {
+   "id": "p3-32",
+   "p2": "p2-11",
+   "q": "What are the risks of relying too heavily on machines or devices at work?",
+   "sample": "The main risk is that people lose the underlying skills once a device does the thinking for them, so if it breaks or malfunctions, everything grinds to a halt. At my warehouse, when our scanners failed briefly, we had to revert to counting stock by hand, which was slow and error-prone precisely because nobody had done it that way in years."
+  },
+  {
+   "id": "p3-33",
+   "p2": "p2-11",
+   "q": "Do you think automation will eventually replace jobs like warehouse work entirely?",
+   "sample": "I do not think it will replace warehouse work entirely, at least not soon, since plenty of tasks still require judgment, like deciding how to handle an unusual delivery problem. Automation will likely take over repetitive tasks, though, such as basic scanning or sorting. Realistically, the job will probably shift toward managing and troubleshooting these systems rather than disappearing altogether."
+  },
+  {
+   "id": "p3-34",
+   "p2": "p2-12",
+   "q": "Why do many people struggle to maintain healthy habits like regular exercise?",
+   "sample": "People often struggle because healthy habits require consistent effort with no immediate reward, unlike, say, finishing a project at work. Busy schedules make it easy to justify skipping exercise just once, which then becomes a pattern. I used to skip the gym constantly until I bought equipment for home, which removed the excuse of not having enough time to travel there."
+  },
+  {
+   "id": "p3-35",
+   "p2": "p2-12",
+   "q": "Do you think people today are less active than previous generations?",
+   "sample": "I would say yes, mainly because so many jobs and daily tasks that once required physical movement have been automated or moved online. Previous generations walked more just doing errands or commuting without cars. Now, between desk jobs and delivery apps, it is entirely possible to stay indoors for days without much movement at all, unless someone deliberately builds exercise into their routine."
+  },
+  {
+   "id": "p3-36",
+   "p2": "p2-12",
+   "q": "Is it better to exercise at home or go to a gym, in your opinion?",
+   "sample": "I think it depends on the person; a gym offers equipment and a certain social pressure that keeps some people motivated, whereas exercising at home removes the travel time that often becomes an excuse to skip a session. I switched partly to home workouts myself, since my irregular work schedule made committing to gym hours difficult, and it has suited me better overall."
+  },
+  {
+   "id": "p3-37",
+   "p2": "p2-13",
+   "q": "How have smartphone apps changed the way people manage daily tasks?",
+   "sample": "Apps have made daily tasks considerably faster and more predictable, from planning delivery routes to managing schedules. I rely on a routing app constantly at work, which replaced a lot of guesswork drivers previously depended on. The trade-off is that people, myself included, have become somewhat dependent on these tools, so a technical glitch can disrupt an entire day's plans."
+  },
+  {
+   "id": "p3-38",
+   "p2": "p2-13",
+   "q": "What are the downsides of relying heavily on apps and technology in daily life?",
+   "sample": "One downside is reduced patience; people expect instant answers now, which makes ordinary delays feel more frustrating than they probably should. There is also a loss of basic skills, like reading a physical map, since apps handle everything automatically. Occasionally, when an app gives outdated information, like a road that has since closed, it can actually cause more confusion than not having it at all."
+  },
+  {
+   "id": "p3-39",
+   "p2": "p2-13",
+   "q": "Do you think older generations find it harder to adapt to new technology than younger people?",
+   "sample": "Generally, yes, I think older generations often find new technology harder to adopt, partly due to less exposure and partly because unfamiliar interfaces feel intimidating at first. My own parents needed help setting up basic banking apps, for instance. That said, this gap seems to be narrowing gradually, since necessity, especially in recent years, has pushed even reluctant users to adapt."
+  },
+  {
+   "id": "p3-40",
+   "p2": "p2-14",
+   "q": "Why do people often keep objects that remind them of someone, even when the object has little practical use?",
+   "sample": "People keep sentimental objects mainly because they trigger specific memories that words alone do not capture as effectively. A worn book or an old photograph can instantly bring back an entire moment, including who was there and how it felt. I still have a book my partner gave me years ago for exactly this reason, even though it has no real practical use anymore."
+  },
+  {
+   "id": "p3-41",
+   "p2": "p2-14",
+   "q": "Do you think physical objects like photographs or letters will become less important as more memories are stored digitally?",
+   "sample": "I think physical objects will probably become less common, since photos and messages are increasingly stored on phones rather than printed or written by hand. That said, I do not think they will disappear entirely, because a physical object, unlike a digital file, carries texture and wear that somehow feels more personal. A handwritten note, for instance, feels different from the same words typed on a screen."
+  },
+  {
+   "id": "p3-42",
+   "p2": "p2-14",
+   "q": "How do people's attitudes toward keepsakes and sentimental objects differ between generations?",
+   "sample": "Older generations often kept physical keepsakes, letters, photographs, small objects, almost by necessity, since there was not really an alternative. Younger people now tend to store memories digitally instead, through photos or messages, which are arguably easier to lose track of despite feeling more convenient. I still value physical items myself, maybe because I grew up somewhere between these two habits."
+  },
+  {
+   "id": "p3-43",
+   "p2": "p2-15",
+   "q": "What kinds of things do people usually choose to take with them when they move to another country?",
+   "sample": "People usually bring a mix of practical items and sentimental ones, things they will genuinely need alongside a few objects with emotional value that are hard to leave behind. I am planning to take a small toolbox my uncle gave me for exactly this reason. Clothes and documents are obvious necessities, but it is often the small, seemingly unnecessary items that people regret leaving behind most."
+  },
+  {
+   "id": "p3-44",
+   "p2": "p2-15",
+   "q": "Do you think it is difficult for people to feel a sense of home in a foreign country?",
+   "sample": "I think it can be genuinely difficult at first, since familiar routines, food, and even small social customs suddenly disappear all at once. My partner mentioned feeling this way during her early months in Canada. Over time, though, people usually build a new version of normal, often by finding a small community or routine that replaces what they left behind."
+  },
+  {
+   "id": "p3-45",
+   "p2": "p2-15",
+   "q": "How important is it to stay connected to your own culture while living abroad?",
+   "sample": "I think it matters quite a lot, mainly because losing that connection entirely can leave people feeling somewhat rootless, even once they have adapted well to a new country. Simple things, like cooking familiar food or speaking your own language occasionally, help maintain that link. At the same time, staying too attached can make it harder to fully embrace the new environment, so some balance seems necessary."
+  },
+  {
+   "id": "p3-46",
+   "p2": "p2-16",
+   "q": "Why do you think some people handle problems at work calmly while others panic?",
+   "sample": "I think it mostly comes down to experience and how much responsibility someone is used to carrying. In Korea, people who've been in a job for years tend to have already faced similar problems before, so they instinctively know which steps to take first. Someone newer to a role, on the other hand, often panics simply because the situation feels unfamiliar, even if it's actually fairly minor once you look at it objectively."
+  },
+  {
+   "id": "p3-47",
+   "p2": "p2-16",
+   "q": "How important do you think teamwork is when solving problems at work?",
+   "sample": "I'd say it's essential in most modern jobs, since very few problems today can be solved by one person working in isolation. For example, in a supply chain like the one I work in, fixing a shortage usually requires warehouse staff, drivers, and planners all coordinating quickly together. Without that cooperation, even a simple issue can spiral into something far more serious, whereas a good team can often resolve it within hours."
+  },
+  {
+   "id": "p3-48",
+   "p2": "p2-16",
+   "q": "Do you think companies do enough to prepare employees for unexpected problems?",
+   "sample": "Honestly, I think many companies still fall short here, focusing training almost entirely on routine tasks rather than crisis situations. Where I work, for instance, new staff learn the standard ordering process in detail, but there's very little formal guidance on what to do when something goes wrong unexpectedly. This means employees often end up learning how to handle a crisis only after living through one themselves, which seems inefficient when structured training could shorten that learning curve considerably."
+  },
+  {
+   "id": "p3-49",
+   "p2": "p2-17",
+   "q": "Why do you think celebrations like weddings are important in a society?",
+   "sample": "Celebrations like weddings matter because they publicly mark a transition that affects not just two people but their wider families and communities. In Korean society particularly, a wedding brings together relatives who might otherwise rarely meet, reinforcing social bonds that daily life tends to erode. Beyond the personal significance, these events also give people a shared sense of continuity, a reminder that certain traditions and relationships persist across generations."
+  },
+  {
+   "id": "p3-50",
+   "p2": "p2-17",
+   "q": "How have celebrations changed compared to previous generations?",
+   "sample": "I think celebrations have become noticeably less formal and more personalized than they were for our parents' generation. Older weddings in Korea, for example, tended to follow a rigid, almost identical format regardless of the couple, whereas younger couples now often design something that reflects their own personality, sometimes skipping traditional elements altogether. This shift probably reflects a broader move toward individualism, where people feel entitled to shape events around themselves rather than convention."
+  },
+  {
+   "id": "p3-51",
+   "p2": "p2-17",
+   "q": "Do you think celebrations are more about the people involved or the event itself?",
+   "sample": "For me, it's really about the people rather than the event, since the same ceremony can feel completely different depending on who's there. A modest gathering with close friends can end up more memorable than an elaborate event full of distant acquaintances, simply because genuine connection is what people actually remember afterwards. The venue and decorations matter far less in the long run than whether people felt truly present with each other."
+  },
+  {
+   "id": "p3-52",
+   "p2": "p2-18",
+   "q": "Why do you think punctuality is valued differently across cultures?",
+   "sample": "Punctuality tends to be valued more in societies that run on tightly interconnected schedules, like Korea or Japan, where one delay can disrupt an entire chain of events, from public transport to business meetings. In cultures with a more relaxed pace of life, arriving a little late is often tolerated because the whole system isn't as rigidly timed. Ultimately it reflects how much a society depends on precise coordination between people."
+  },
+  {
+   "id": "p3-53",
+   "p2": "p2-18",
+   "q": "What are the consequences of being late in a professional setting?",
+   "sample": "The consequences can range from minor embarrassment to genuinely damaging someone's reputation, depending on the context. Missing an important meeting or interview, for instance, can suggest to others that you're unreliable, even if the delay was caused by something entirely outside your control, like transport problems. Over time, repeated lateness can quietly erode trust between colleagues, which is often harder to rebuild than the original mistake itself."
+  },
+  {
+   "id": "p3-54",
+   "p2": "p2-18",
+   "q": "Do modern technologies like navigation apps help people avoid being late?",
+   "sample": "They certainly help to some extent, since real-time traffic updates let people adjust their route before a delay becomes unavoidable. That said, I don't think technology solves the problem entirely, because unexpected events like a sudden subway malfunction can still catch anyone off guard regardless of how good their planning app is. So while these tools reduce the frequency of lateness, they can't remove the risk completely."
+  },
+  {
+   "id": "p3-55",
+   "p2": "p2-19",
+   "q": "How do people typically react differently to good news versus bad news?",
+   "sample": "People tend to react to good news with a kind of disbelief at first, almost double-checking that they've understood correctly, whereas bad news is often processed faster because the mind seems primed to expect problems. I think this happens because good news frequently arrives after a long period of uncertainty, so there's a gap before it feels real, while bad news, even when unexpected, fits more easily into what we're already bracing for."
+  },
+  {
+   "id": "p3-56",
+   "p2": "p2-19",
+   "q": "Do you think technology has changed the way people share important news with each other?",
+   "sample": "Definitely, since messaging apps now mean important news often arrives instantly as text rather than through a phone call or in person. This has made sharing news faster, which is convenient, but it can also strip away some of the emotional weight a piece of news deserves. In my own experience, receiving major news by text sometimes feels oddly flat until you actually hear the other person's voice."
+  },
+  {
+   "id": "p3-57",
+   "p2": "p2-19",
+   "q": "Why might unexpected news affect long-term decisions more than news people already anticipated?",
+   "sample": "I think unexpected news forces people to reconsider plans they'd otherwise never have questioned, simply because it disrupts assumptions they were operating under. Anticipated news, by contrast, tends to get absorbed gradually into existing plans without much disruption. A sudden piece of unexpected news can act almost like a shock that pushes someone to finally act on a decision they'd been putting off indefinitely."
+  },
+  {
+   "id": "p3-58",
+   "p2": "p2-20",
+   "q": "Do you think people generally make better decisions under time pressure or with plenty of time to think?",
+   "sample": "I'd say it really depends on the type of decision involved. For fairly mechanical, practical problems, time pressure can actually sharpen focus and cut through overthinking, since there simply isn't room to second-guess every option. For decisions involving long-term consequences, though, I think people generally benefit from more time, since rushing often means overlooking factors that only become obvious with reflection."
+  },
+  {
+   "id": "p3-59",
+   "p2": "p2-20",
+   "q": "What skills help someone make good decisions quickly?",
+   "sample": "Experience is probably the biggest factor, since someone who has faced similar situations before can recognize patterns almost instinctively rather than analyzing everything from scratch. Clear communication also matters a great deal, because a quick decision often needs to be explained and acted on by other people immediately, so being able to state it simply is just as important as making the right call in the first place."
+  },
+  {
+   "id": "p3-60",
+   "p2": "p2-20",
+   "q": "Is it becoming more common for workplaces to require fast decision-making?",
+   "sample": "I think it is, largely because modern supply chains and communication systems move so much faster than they used to, leaving less room for delayed responses. Where I work, for example, a stock issue that once might have taken a day to resolve now needs addressing within hours, simply because customers expect immediate solutions. This pace probably puts more pressure on employees than previous generations experienced in similar roles."
+  },
+  {
+   "id": "p3-61",
+   "p2": "p2-21",
+   "q": "Do you think online videos are an effective way to learn a new skill?",
+   "sample": "I think they can be extremely effective, particularly for skills that rely on repetition and observation, like language pronunciation or physical technique. Watching someone perform something correctly, over and over, lets learners absorb patterns naturally rather than through abstract explanation. That said, videos work best alongside some form of practice or feedback, since simply watching without applying it rarely leads to lasting improvement."
+  },
+  {
+   "id": "p3-62",
+   "p2": "p2-21",
+   "q": "How has the way people learn languages changed because of the internet?",
+   "sample": "It's changed enormously, since learners now have constant access to authentic spoken English through videos, rather than relying solely on textbooks written in fairly artificial, formal language. This means people can pick up natural rhythm and everyday expressions much earlier than previous generations did. On the other hand, it also means learners need more self-discipline, since there's no teacher structuring the material for them."
+  },
+  {
+   "id": "p3-63",
+   "p2": "p2-21",
+   "q": "Do you think self-taught skills are as valuable as those learned in a formal classroom?",
+   "sample": "I think they can be just as valuable, though the two often develop different strengths. A classroom tends to provide structure and correction that's harder to get alone, whereas self-taught learning often produces more genuine motivation, since the person chose to pursue it rather than being required to. In practice, the most effective learners usually combine both approaches rather than relying entirely on one."
+  },
+  {
+   "id": "p3-64",
+   "p2": "p2-22",
+   "q": "Why do you think manual or trade skills are becoming more valued again in some countries?",
+   "sample": "I think it's partly a reaction to how many people pursued office-based careers over the last couple of decades, which has created a shortage of skilled tradespeople in areas like electrical work or plumbing. As a result, these skills now often come with better pay and more job security than people assume. There's also a growing appreciation for work that produces something tangible, rather than purely digital output."
+  },
+  {
+   "id": "p3-65",
+   "p2": "p2-22",
+   "q": "Do you think it's harder for adults to learn a completely new skill compared to when they were younger?",
+   "sample": "In some ways yes, mainly because adults have less free time and more responsibilities competing for their attention. However, adults often learn more efficiently in other respects, since they understand their own learning style better and can apply life experience to a new skill faster than a child could. So while the process might look slower on the surface, it's not necessarily less effective overall."
+  },
+  {
+   "id": "p3-66",
+   "p2": "p2-22",
+   "q": "What role does government or education policy play in encouraging people to learn practical trades?",
+   "sample": "Policy can play a significant role, particularly through funding for vocational colleges or apprenticeship programs that make these paths financially accessible. In countries like Canada, for instance, structured apprenticeship systems make it realistic for someone to switch careers into a trade later in life. Without that kind of institutional support, many capable people would likely be discouraged simply by the cost or uncertainty of starting over."
+  },
+  {
+   "id": "p3-67",
+   "p2": "p2-23",
+   "q": "Why do you think mentorship is valuable in learning practical skills?",
+   "sample": "Mentorship is valuable because a mentor can spot mistakes that the learner genuinely cannot see in themselves, especially with physical skills where posture or technique feels correct even when it isn't. Beyond correction, a mentor also passes on shortcuts and judgment built from years of experience, which would otherwise take a learner much longer to discover through trial and error alone."
+  },
+  {
+   "id": "p3-68",
+   "p2": "p2-23",
+   "q": "Do you think people are less willing to accept correction from others nowadays?",
+   "sample": "I suspect some people are, particularly if correction is delivered bluntly rather than constructively, since that can feel more like criticism than help. That said, I think most people still welcome correction when it's clearly framed around helping them improve, especially in areas like fitness or a trade skill where the consequences of doing something wrong are fairly obvious and personal."
+  },
+  {
+   "id": "p3-69",
+   "p2": "p2-23",
+   "q": "Should schools focus more on teaching practical skills alongside academic subjects?",
+   "sample": "I think they should, since academic knowledge alone doesn't prepare students for a lot of everyday physical or practical challenges they'll eventually face. Including basic practical skills, whether that's simple mechanics or proper physical technique, would likely produce more well-rounded adults. Relying purely on academic subjects, as many school systems still do, leaves a gap that students often only notice once they're already independent adults."
+  },
+  {
+   "id": "p3-70",
+   "p2": "p2-24",
+   "q": "Why is clear communication especially important in stressful situations?",
+   "sample": "In stressful situations, people are already processing information less clearly than usual, so a confusing or emotional message tends to make the situation worse rather than better. Clear communication cuts through that noise by giving people something concrete to act on immediately. In a workplace context, this often determines whether a problem gets solved quickly or spirals into further confusion and frustration."
+  },
+  {
+   "id": "p3-71",
+   "p2": "p2-24",
+   "q": "Do you think communication skills can be taught, or are some people naturally better at it?",
+   "sample": "I think there's a natural element, since some people are simply more socially attuned from an early age, but the skill can absolutely be developed further with deliberate practice. Repeated exposure to difficult conversations, for example, tends to sharpen anyone's ability to stay calm and clear under pressure, regardless of their starting point. So while natural tendency gives some people a head start, it isn't the whole story."
+  },
+  {
+   "id": "p3-72",
+   "p2": "p2-24",
+   "q": "How has remote or written communication, like messaging apps, changed workplace relationships?",
+   "sample": "It's made communication faster and more constant, but I think it's also removed some of the tone and nuance that a phone call or face-to-face conversation naturally carries. Misunderstandings seem to happen more easily over text, since a straightforward message can come across as blunt or even rude without the sender intending that. This probably means workplaces now need to be more deliberate about phrasing."
+  },
+  {
+   "id": "p3-73",
+   "p2": "p2-25",
+   "q": "Why do you think forecasting or planning skills are increasingly important in modern jobs?",
+   "sample": "These skills matter more now because supply chains and customer expectations have both become far less predictable and far less forgiving of delay. A company that can anticipate demand accurately avoids costly shortages or waste, which directly affects its reputation and finances. As markets move faster, the gap between businesses that plan well and those that only react after a problem occurs keeps widening."
+  },
+  {
+   "id": "p3-74",
+   "p2": "p2-25",
+   "q": "Do you think experience or formal training is more valuable for developing practical job skills?",
+   "sample": "I'd say both matter, but in different ways. Formal training gives someone the underlying theory and a shared vocabulary to understand a problem, while experience teaches the practical judgment needed to apply that theory to messy, real situations that never quite match the textbook example. In practice, someone who has only one of the two usually struggles compared to a person with a reasonable mix of both."
+  },
+  {
+   "id": "p3-75",
+   "p2": "p2-25",
+   "q": "How might automation or AI change jobs that rely on skills like demand forecasting?",
+   "sample": "I think automation will likely take over much of the routine number-crunching involved, since software can process historical data far faster than a person can. That said, I don't think it will remove the need for human judgment entirely, particularly during unusual events like sudden outbreaks or supply disruptions, where a system trained on past patterns can still get caught out by something genuinely new."
+  },
+  {
+   "id": "p3-76",
+   "p2": "p2-26",
+   "q": "Why do people find it difficult to change their daily habits?",
+   "sample": "I think it's mainly because habits are tied so closely to comfort and familiarity, so any change, even a beneficial one, initially feels like extra effort rather than improvement. The mind resists the disruption before any benefit becomes obvious, which is why so many people give up in the first couple of weeks. Only once a new routine starts producing visible results does it start to feel sustainable rather than forced."
+  },
+  {
+   "id": "p3-77",
+   "p2": "p2-26",
+   "q": "Do you think people today have less time for personal development than previous generations?",
+   "sample": "In some ways yes, since modern jobs often blur the line between work and personal time far more than they used to, especially with constant messaging and emails. At the same time, I think people today have access to far more efficient tools for learning, which can offset some of that lost time. So it's less about having less time overall and more about how fragmented that time has become."
+  },
+  {
+   "id": "p3-78",
+   "p2": "p2-26",
+   "q": "How important is routine for achieving long-term goals?",
+   "sample": "Routine is extremely important, since long-term goals are rarely achieved through occasional bursts of motivation but through consistent, almost boring repetition over time. Someone studying a language or preparing for a big life change, for example, benefits far more from twenty minutes practiced daily than from an occasional long session done irregularly. Without some kind of routine, even strong initial motivation tends to fade before real progress is made."
+  },
+  {
+   "id": "p3-79",
+   "p2": "p2-27",
+   "q": "Why do people sometimes hesitate to make big life-changing decisions?",
+   "sample": "People often hesitate because a big decision usually involves giving up something certain, like a stable job, in exchange for something uncertain, and that trade-off can feel genuinely risky. There's also a natural fear of regret, wondering whether the new path will actually turn out better than the familiar one. This hesitation tends to fade once the discomfort of staying the same becomes greater than the fear of change itself."
+  },
+  {
+   "id": "p3-80",
+   "p2": "p2-27",
+   "q": "Do you think family or partners should have a strong influence on someone's major life decisions?",
+   "sample": "I think they naturally do and probably should, at least to some degree, since major decisions rarely affect only one person in isolation. A decision like relocating abroad, for example, has direct consequences for a partner's own plans and stability, so discussing it together usually leads to a more realistic outcome than deciding entirely alone. That said, the final responsibility should still rest with the person actually living out the consequences."
+  },
+  {
+   "id": "p3-81",
+   "p2": "p2-27",
+   "q": "Is it becoming more common for people to change careers completely later in life?",
+   "sample": "I believe it is, partly because job security in a single career path is far less guaranteed than it used to be for previous generations. People also seem more willing now to prioritize personal satisfaction over simply staying in a stable, familiar job. Combined with more accessible retraining programs in fields like the trades, switching careers entirely in your thirties or forties is far less unusual than it once was."
+  },
+  {
+   "id": "p3-82",
+   "p2": "p2-28",
+   "q": "Why do workplaces or public spaces get modernized or renovated so often nowadays?",
+   "sample": "Largely because efficiency has become such a central priority for most organizations, and outdated layouts or manual systems simply can't keep pace with rising demand. A renovated space, or one fitted with newer technology, can process far more work with the same number of staff, which makes the investment worthwhile even if the disruption during the change itself is inconvenient."
+  },
+  {
+   "id": "p3-83",
+   "p2": "p2-28",
+   "q": "Do you think technology in workplaces always improves the experience for employees?",
+   "sample": "Not always, in my view. While automation and digital systems often make tasks faster and more accurate, they can also remove some of the informal, human coordination that used to naturally develop between colleagues. Employees sometimes end up interacting more with a screen than with each other, which can make a workplace feel more efficient but somewhat less personal than it used to be."
+  },
+  {
+   "id": "p3-84",
+   "p2": "p2-28",
+   "q": "How do you think older employees generally react to changes in their workplace?",
+   "sample": "Reactions vary quite a bit, but I think older employees, who've often built up years of familiarity with the old system, can find the transition more frustrating initially, simply because habits that once felt automatic now require relearning. Younger employees, having less invested in the old way of doing things, often adapt more quickly. Over time, though, most people adjust once they see the practical benefit."
+  },
+  {
+   "id": "p3-85",
+   "p2": "p2-29",
+   "q": "Why do you think many adults struggle to maintain a regular exercise habit?",
+   "sample": "I think the main obstacle is simply that exercise rarely produces immediate, visible results, so it's easy to deprioritize when work or other responsibilities feel more urgent. Many adults also associate exercise with an all-or-nothing mindset, believing a short or imperfect session isn't worth doing, which discourages consistency. Building the habit usually requires lowering that initial bar rather than waiting for motivation to naturally appear."
+  },
+  {
+   "id": "p3-86",
+   "p2": "p2-29",
+   "q": "Do you think workplaces should encourage employees to exercise or stay healthy?",
+   "sample": "I do think they should, since a healthier workforce is generally more productive and takes fewer sick days, which benefits the company as much as the individual employee. Simple measures, like flexible hours that allow time for a gym session, or even just encouraging regular breaks from sitting, can make a noticeable difference. Unfortunately, many workplaces still treat health as entirely the employee's personal responsibility."
+  },
+  {
+   "id": "p3-87",
+   "p2": "p2-29",
+   "q": "How has awareness of physical health changed in society over the past few decades?",
+   "sample": "Awareness has increased considerably, mainly because information about the long-term effects of a sedentary lifestyle is far more accessible now than it was a generation ago. People today are generally more conscious of things like posture, diet, and regular movement, partly driven by social media and fitness culture. That said, greater awareness hasn't necessarily translated into consistently healthier habits for everyone, since knowing something and acting on it remain quite different things."
+  },
+  {
+   "id": "p3-88",
+   "p2": "p2-30",
+   "q": "Why do you think long-distance relationships have become more common in modern society?",
+   "sample": "I think globalization and career mobility play a big role, since people increasingly move abroad for study or work opportunities that simply weren't as accessible to earlier generations. This means partners are more likely to be separated geographically at some point than in the past, when most people tended to stay closer to home throughout their lives. Improved communication technology has made maintaining such relationships more manageable than it would have been decades ago."
+  },
+  {
+   "id": "p3-89",
+   "p2": "p2-30",
+   "q": "Do you think technology has made it easier or harder to maintain relationships across distance?",
+   "sample": "In many ways easier, since video calls and instant messaging allow a level of daily contact that simply wasn't possible for previous generations separated by distance. However, I'd say it can also create a false sense of closeness, where people rely on frequent messages without ever properly addressing the emotional gap that physical distance creates. So technology helps maintain a relationship, but it doesn't fully replace being physically present."
+  },
+  {
+   "id": "p3-90",
+   "p2": "p2-30",
+   "q": "What do you think people generally learn about themselves during a major life transition?",
+   "sample": "I think people often discover a level of resilience and patience they didn't know they had, since a major transition tends to strip away familiar routines that previously masked certain weaknesses or strengths. It can also reveal what someone truly values, since decisions made under pressure or uncertainty tend to be more honest than choices made when everything is comfortable and predictable."
+  }
+ ]
+}

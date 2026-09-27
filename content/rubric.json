@@ -1,0 +1,95 @@
+{
+ "license": "BANDUP original summary rubric, written for self-assessment and Gemini grading prompts. Not the official IELTS band descriptors, which are © IELTS Partners and linked in links.json.",
+ "items": [
+  {
+   "id": "rb-writing-ta",
+   "skill": "writing",
+   "crit": "TA",
+   "name": "Task Achievement (Task 1)",
+   "b5": "Reports some data but misses key features or has no real overview; details are listed one by one with little selection; some figures may be wrong or irrelevant.",
+   "b6": "Covers the main features and tries to give an overview, though it may be vague or buried; figures support the points but selection or accuracy is uneven.",
+   "b7": "Gives a clear, separate overview of the main trends or contrasts; groups the data sensibly and backs each point with accurate figures; minor lapses in coverage only.",
+   "check_ko": "개요 문단(숫자 없이 핵심 2개)이 있는가, 수치가 데이터와 맞는가"
+  },
+  {
+   "id": "rb-writing-tr",
+   "skill": "writing",
+   "crit": "TR",
+   "name": "Task Response (Task 2)",
+   "b5": "Answers the question only partly or drifts off topic; a view is stated but not clearly carried through; ideas are thin, listed rather than developed, or repeated.",
+   "b6": "Deals with all parts of the question and holds a relevant position, but some ideas stay general, lack examples, or the conclusion is repetitive or not fully justified.",
+   "b7": "Handles every part of the question with one clear position kept throughout; each main idea is explained and supported with a specific example; occasional over-generalisation is acceptable.",
+   "check_ko": "모든 질문에 답했는가, 입장이 처음부터 끝까지 같은가, 단락마다 설명+예시가 있는가"
+  },
+  {
+   "id": "rb-writing-cc",
+   "skill": "writing",
+   "crit": "CC",
+   "name": "Coherence and Cohesion",
+   "b5": "Some order is visible but the progression jumps around; linking words are few or used mechanically and sometimes wrongly; paragraphs are missing or poorly divided.",
+   "b6": "The text moves forward clearly overall; linking works but can feel formulaic or occasionally misused; references (it, this) are sometimes unclear; paragraphing mostly sensible.",
+   "b7": "Ideas follow a logical line from start to finish; linking and referencing (this, such, the latter) are used flexibly and naturally; each paragraph has one clear central point.",
+   "check_ko": "4단락인가, 연결어가 기계적이지 않은가, this/such 로 앞 문장을 받는가"
+  },
+  {
+   "id": "rb-writing-lr",
+   "skill": "writing",
+   "crit": "LR",
+   "name": "Lexical Resource",
+   "b5": "Vocabulary is basic and repeated; the writer often simplifies to avoid gaps; noticeable spelling or word-form errors sometimes make the reader work.",
+   "b6": "Vocabulary is adequate for the task and meaning is clear; some attempts at less common words, with occasional wrong collocation, word choice or spelling.",
+   "b7": "Uses a good range with some less common items and natural collocations; paraphrases the prompt rather than copying it; only occasional slips in word choice or form; no reliance on memorised stock phrases.",
+   "check_ko": "반복 단어, 콜로케이션 오류, 외운 상투구 사용 여부"
+  },
+  {
+   "id": "rb-writing-gra",
+   "skill": "writing",
+   "crit": "GRA",
+   "name": "Grammatical Range and Accuracy",
+   "b5": "Mostly simple sentences; complex sentences are attempted but usually contain errors; frequent mistakes with articles, verb forms or agreement can confuse the reader.",
+   "b6": "Mixes simple and complex sentences; errors appear (articles, tense, prepositions) but rarely block meaning; punctuation mostly controlled.",
+   "b7": "Handles a wide range of complex structures (relative, conditional, passive, participle clauses) with good control; many sentences are completely error-free; a few slips remain.",
+   "check_ko": "관사·be동사·전치사·과거시제·to부정사 오류 수, 오류 없는 문장 비율"
+  },
+  {
+   "id": "rb-speaking-fc",
+   "skill": "speaking",
+   "crit": "FC",
+   "name": "Fluency and Coherence",
+   "b5": "Keeps talking but slowly, with frequent repetition, self-correction and fillers; answers are short or loosely connected; the same few connectors are overused.",
+   "b6": "Willing to give longer answers and mostly keeps going; some hesitation, repetition or lost thread at times; connectors are used but not always appropriately.",
+   "b7": "Speaks at length with little visible effort; hesitation is mostly about ideas, not searching for words; uses a range of discourse markers and connectives naturally.",
+   "check_ko": "긴 멈춤 수, 필러(actually, um), 답이 3문장 이상 이어지는가"
+  },
+  {
+   "id": "rb-speaking-lr",
+   "skill": "speaking",
+   "crit": "LR",
+   "name": "Lexical Resource",
+   "b5": "Has enough words for familiar topics but little flexibility; paraphrase is attempted with mixed success; frequent basic word choices.",
+   "b6": "Has enough vocabulary to talk about topics at length and make meaning clear; paraphrases usually work; some awkward word choices.",
+   "b7": "Uses vocabulary flexibly across topics, reaching for some less usual words and natural idioms, and combines words the way native speakers do; occasional inappropriate choices.",
+   "check_ko": "업그레이드 표현 사용, 같은 단어 반복, 콜로케이션"
+  },
+  {
+   "id": "rb-speaking-gra",
+   "skill": "speaking",
+   "crit": "GRA",
+   "name": "Grammatical Range and Accuracy",
+   "b5": "Basic sentence forms are reasonably controlled; complex structures are rare and nearly always contain errors; basic errors (be-verb, articles, tense) are frequent.",
+   "b6": "Mixes short and complex sentences with limited flexibility; errors are common in complex forms but rarely stop understanding.",
+   "b7": "Uses both simple and complex sentences effectively; many sentences are error-free; a few basic errors still appear.",
+   "check_ko": "be동사 누락, 관사, 과거시제, 복문(관계절·if절) 시도"
+  },
+  {
+   "id": "rb-speaking-p",
+   "skill": "speaking",
+   "crit": "P",
+   "name": "Pronunciation",
+   "b5": "Generally understandable, but mispronounced sounds (f/p, r/l, v/b), flat rhythm or misplaced stress sometimes make the listener work hard.",
+   "b6": "The listener rarely has to strain to follow; uses some stress and intonation features, with uneven control; chunking into thought groups is mostly appropriate.",
+   "b7": "Easy to follow throughout; word and sentence stress, rhythm and intonation are used with fair control; L1 accent may show but rarely affects clarity.",
+   "check_ko": "f/p·r/l·v/b, 끝소리에 모음 붙이기, 강세·끊어 읽기"
+  }
+ ]
+}

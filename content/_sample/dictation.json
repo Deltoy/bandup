@@ -1,0 +1,41 @@
+{
+ "license": "SAMPLE fixture (v1 dev only). Self-written.",
+ "items": [
+  {
+   "id": "d-001",
+   "text": "The course starts on the fifteenth of September.",
+   "focus": "date",
+   "audio": "_sample/audio/d/d-001.m4a"
+  },
+  {
+   "id": "d-002",
+   "text": "The ticket costs twelve pounds fifty.",
+   "focus": "money",
+   "audio": "_sample/audio/d/d-002.m4a"
+  },
+  {
+   "id": "d-003",
+   "text": "My phone number is oh seven double four, three one nine.",
+   "focus": "number",
+   "audio": "_sample/audio/d/d-003.m4a"
+  },
+  {
+   "id": "d-004",
+   "text": "The library is on the second floor of the science building.",
+   "focus": "linking",
+   "audio": "audio/d/d-004.m4a"
+  },
+  {
+   "id": "d-005",
+   "text": "Please spell your name, it is Whitfield.",
+   "focus": "spelling",
+   "audio": "audio/d/d-005.m4a"
+  },
+  {
+   "id": "d-006",
+   "text": "We need three chairs and a small table.",
+   "focus": "linking",
+   "audio": "audio/d/d-006.m4a"
+  }
+ ]
+}

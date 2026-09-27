@@ -1,0 +1,192 @@
+{
+ "license": "SAMPLE fixture (v1 dev only). Self-written scripts.",
+ "items": [
+  {
+   "id": "l-p1-01",
+   "part": 1,
+   "title": "Booking a community hall",
+   "voices": [
+    {
+     "name": "Daniel",
+     "role": "agent"
+    },
+    {
+     "name": "Karen",
+     "role": "caller"
+    }
+   ],
+   "audio": "_sample/audio/l/l-p1-01.m4a",
+   "duration": 0,
+   "script": [
+    {
+     "spk": "agent",
+     "text": "Good morning, Riverside Community Hall. How can I help?"
+    },
+    {
+     "spk": "caller",
+     "text": "Hi, I would like to book the main room for a birthday party."
+    },
+    {
+     "spk": "agent",
+     "text": "Of course. Can I have your surname, please?"
+    },
+    {
+     "spk": "caller",
+     "text": "It is Harrington. H, A, double R, I, N, G, T, O, N."
+    },
+    {
+     "spk": "agent",
+     "text": "And what date were you thinking of?"
+    },
+    {
+     "spk": "caller",
+     "text": "The fourteenth of May. Sorry, make that the fifteenth."
+    },
+    {
+     "spk": "agent",
+     "text": "The room costs forty-five pounds for the evening, and we need a deposit."
+    },
+    {
+     "spk": "caller",
+     "text": "Do I need to bring any chairs?"
+    },
+    {
+     "spk": "agent",
+     "text": "No, but please bring your own plates."
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "type": "form",
+     "prompt": "Surname: ____",
+     "limit": "ONE WORD",
+     "answer": [
+      "Harrington"
+     ],
+     "accept": [],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 2,
+     "type": "form",
+     "prompt": "Date: ____ May",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "15th",
+      "15",
+      "fifteenth"
+     ],
+     "accept": [],
+     "trap_ko": "14일이라고 했다가 15일로 정정해요.",
+     "predict": "date"
+    },
+    {
+     "n": 3,
+     "type": "form",
+     "prompt": "Cost: £____",
+     "limit": "A NUMBER",
+     "answer": [
+      "45"
+     ],
+     "accept": [
+      "forty-five"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 4,
+     "type": "form",
+     "prompt": "Must bring: own ____",
+     "limit": "ONE WORD",
+     "answer": [
+      "plates"
+     ],
+     "accept": [],
+     "trap_ko": "의자는 필요 없다고 했어요.",
+     "predict": "plural-noun"
+    }
+   ]
+  },
+  {
+   "id": "l-p4-01",
+   "part": 4,
+   "title": "A lecture on urban trees",
+   "voices": [
+    {
+     "name": "Moira",
+     "role": "lecturer"
+    }
+   ],
+   "audio": "audio/l/l-p4-01.m4a",
+   "duration": 0,
+   "script": [
+    {
+     "spk": "lecturer",
+     "text": "Today I want to look at why cities plant trees. The first reason is temperature. A street with trees can be up to five degrees cooler in summer."
+    },
+    {
+     "spk": "lecturer",
+     "text": "The second reason is water. Tree roots slow down rainwater, which reduces flooding. Actually, the effect on flooding is larger than the effect on temperature."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Finally, trees affect mood. People who walk under trees report lower stress."
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "type": "note",
+     "prompt": "Streets with trees: up to ____ degrees cooler",
+     "limit": "A NUMBER",
+     "answer": [
+      "5",
+      "five"
+     ],
+     "accept": [],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 2,
+     "type": "note",
+     "prompt": "Roots slow down ____",
+     "limit": "ONE WORD",
+     "answer": [
+      "rainwater"
+     ],
+     "accept": [],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 3,
+     "type": "note",
+     "prompt": "Bigger effect: ____",
+     "limit": "ONE WORD",
+     "answer": [
+      "flooding"
+     ],
+     "accept": [],
+     "trap_ko": "actually 로 정정해요.",
+     "predict": "noun"
+    },
+    {
+     "n": 4,
+     "type": "note",
+     "prompt": "Walkers report lower ____",
+     "limit": "ONE WORD",
+     "answer": [
+      "stress"
+     ],
+     "accept": [],
+     "trap_ko": "",
+     "predict": "noun"
+    }
+   ]
+  }
+ ]
+}

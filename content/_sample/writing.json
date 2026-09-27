@@ -1,0 +1,239 @@
+{
+ "license": "SAMPLE fixture. Self-written.",
+ "t1": [
+  {
+   "id": "t1-01",
+   "kind": "line",
+   "prompt": "The graph shows electricity use per household in three countries from 2000 to 2020.",
+   "data": {
+    "title": "Household electricity use",
+    "units": "kWh (thousands)",
+    "xLabels": [
+     "2000",
+     "2005",
+     "2010",
+     "2015",
+     "2020"
+    ],
+    "series": [
+     {
+      "name": "Canada",
+      "values": [
+       11,
+       11.5,
+       11.2,
+       10.6,
+       10.1
+      ]
+     },
+     {
+      "name": "Korea",
+      "values": [
+       4.2,
+       5.1,
+       5.8,
+       6.3,
+       6.9
+      ]
+     },
+     {
+      "name": "UK",
+      "values": [
+       4.8,
+       4.6,
+       4.3,
+       4,
+       3.7
+      ]
+     }
+    ]
+   },
+   "model": "The line graph compares ...",
+   "overview_hint_ko": "캐나다가 가장 높지만 줄었고, 한국만 꾸준히 늘었다."
+  },
+  {
+   "id": "t1-02",
+   "kind": "bar",
+   "prompt": "The chart shows how students travel to a college.",
+   "data": {
+    "title": "Travel to college",
+    "units": "%",
+    "xLabels": [
+     "Bus",
+     "Car",
+     "Bike",
+     "Walk"
+    ],
+    "series": [
+     {
+      "name": "2010",
+      "values": [
+       30,
+       45,
+       10,
+       15
+      ]
+     },
+     {
+      "name": "2020",
+      "values": [
+       42,
+       28,
+       18,
+       12
+      ]
+     }
+    ]
+   },
+   "model": "...",
+   "overview_hint_ko": "버스가 자동차를 넘어 1위가 되었다."
+  },
+  {
+   "id": "t1-03",
+   "kind": "table",
+   "prompt": "The table shows visitors to three museums.",
+   "data": {
+    "title": "Museum visitors (thousands)",
+    "units": "thousands",
+    "xLabels": [
+     "2018",
+     "2019",
+     "2020"
+    ],
+    "series": [
+     {
+      "name": "Science",
+      "values": [
+       120,
+       135,
+       60
+      ]
+     },
+     {
+      "name": "Art",
+      "values": [
+       90,
+       95,
+       40
+      ]
+     },
+     {
+      "name": "History",
+      "values": [
+       70,
+       72,
+       55
+      ]
+     }
+    ]
+   },
+   "model": "...",
+   "overview_hint_ko": "2020년 모두 급감, 역사박물관이 가장 덜 줄었다."
+  },
+  {
+   "id": "t1-04",
+   "kind": "pie",
+   "prompt": "The chart shows household energy use.",
+   "data": {
+    "title": "Household energy use",
+    "units": "%",
+    "xLabels": [
+     "Heating",
+     "Water",
+     "Appliances",
+     "Lighting"
+    ],
+    "series": [
+     {
+      "name": "Share",
+      "values": [
+       52,
+       18,
+       22,
+       8
+      ]
+     }
+    ]
+   },
+   "model": "...",
+   "overview_hint_ko": "난방이 절반 이상."
+  },
+  {
+   "id": "t1-05",
+   "kind": "process",
+   "prompt": "The diagram shows how electricity is produced from wind.",
+   "data": {
+    "title": "Wind power",
+    "steps": [
+     "Wind turns the blades",
+     "The shaft spins a generator",
+     "A transformer raises the voltage",
+     "Power lines carry electricity to homes"
+    ]
+   },
+   "model": "...",
+   "overview_hint_ko": "4단계, 바람에서 가정까지."
+  },
+  {
+   "id": "t1-06",
+   "kind": "map",
+   "prompt": "The maps show a town centre in 2000 and today.",
+   "data": {
+    "title": "Town centre",
+    "before": [
+     "car park",
+     "bank",
+     "small shops",
+     "bus stop"
+    ],
+    "after": [
+     "public square",
+     "café",
+     "shopping centre",
+     "tram stop"
+    ]
+   },
+   "model": "...",
+   "overview_hint_ko": "차 중심에서 보행자 중심으로 바뀌었다."
+  }
+ ],
+ "t2": [
+  {
+   "id": "t2-01",
+   "type": "opinion",
+   "prompt": "Some people think that all university students should study whatever they like. Others believe they should only study subjects useful for the future. Do you agree or disagree that students should choose freely?",
+   "plan_ko": "입장 한쪽, 이유 2개, 각 예시.",
+   "model": "Model answer ..."
+  },
+  {
+   "id": "t2-02",
+   "type": "two-part",
+   "prompt": "Many people now work from home. Why is this happening? Is it a positive or negative development?",
+   "plan_ko": "질문 두 개 모두 답하기.",
+   "model": "Model answer ..."
+  }
+ ],
+ "franklin": [
+  {
+   "id": "fr-01",
+   "task": "t2",
+   "text": "One major advantage of working from home is the time it saves. Commuters in large cities often spend more than an hour travelling each day, which leaves them tired before work has even begun. When this journey disappears, employees can use the extra time to exercise, rest or study, and as a result they tend to feel more focused. For example, a recent survey of office workers in Seoul found that most remote staff slept longer and reported lower stress.",
+   "notes": [
+    "time it saves",
+    "commute an hour",
+    "extra time",
+    "survey Seoul"
+   ]
+  },
+  {
+   "id": "fr-02",
+   "task": "t1",
+   "text": "Overall, Canada used far more electricity per household than the other two countries throughout the period, although its figure fell slightly. Korea was the only country to show steady growth, rising from about 4,200 to 6,900 kilowatt hours. By contrast, consumption in the UK declined gradually and ended the period at the lowest level.",
+   "notes": [
+    "overall Canada",
+    "Korea only growth",
+    "UK declined"
+   ]
+  }
+ ]
+}

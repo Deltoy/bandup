@@ -1,0 +1,485 @@
+{
+ "license": "BANDUP original word list and example sentences. Audio is played with browser TTS.",
+ "items": [
+  {
+   "id": "mp-fp-01",
+   "pair": "f/p",
+   "a": "fan",
+   "b": "pan",
+   "ex_a": "The warehouse fan keeps the stock room cool.",
+   "ex_b": "She heated the pan before cooking dinner."
+  },
+  {
+   "id": "mp-fp-02",
+   "pair": "f/p",
+   "a": "fine",
+   "b": "pine",
+   "ex_a": "The medicine label looked fine after inspection.",
+   "ex_b": "A tall pine tree grew behind our BCIT dorm."
+  },
+  {
+   "id": "mp-fp-03",
+   "pair": "f/p",
+   "a": "fit",
+   "b": "pit",
+   "ex_a": "The new uniform should fit you well.",
+   "ex_b": "He dug a small pit near the fence."
+  },
+  {
+   "id": "mp-fp-04",
+   "pair": "f/p",
+   "a": "fill",
+   "b": "pill",
+   "ex_a": "Please fill in this form before your shift starts.",
+   "ex_b": "The pharmacist counted every pill twice."
+  },
+  {
+   "id": "mp-fp-05",
+   "pair": "f/p",
+   "a": "fast",
+   "b": "past",
+   "ex_a": "The delivery truck drove fast to the pharmacy.",
+   "ex_b": "In the past, we ordered stock by phone."
+  },
+  {
+   "id": "mp-fp-06",
+   "pair": "f/p",
+   "a": "fair",
+   "b": "pair",
+   "ex_a": "The manager gave everyone a fair schedule.",
+   "ex_b": "I bought a pair of gloves for the gym."
+  },
+  {
+   "id": "mp-fp-07",
+   "pair": "f/p",
+   "a": "few",
+   "b": "pew",
+   "ex_a": "Only a few boxes arrived this morning.",
+   "ex_b": "They sat in the front pew during the ceremony."
+  },
+  {
+   "id": "mp-fp-08",
+   "pair": "f/p",
+   "a": "fork",
+   "b": "pork",
+   "ex_a": "Pass me a fork for the salad, please.",
+   "ex_b": "We had pork for dinner after the gym."
+  },
+  {
+   "id": "mp-fp-09",
+   "pair": "f/p",
+   "a": "face",
+   "b": "pace",
+   "ex_a": "The warehouse staff face a busy Monday morning.",
+   "ex_b": "I kept a steady pace during my run."
+  },
+  {
+   "id": "mp-fp-10",
+   "pair": "f/p",
+   "a": "full",
+   "b": "pull",
+   "ex_a": "The shelves are full of new stock.",
+   "ex_b": "Pull the cart carefully through the warehouse."
+  },
+  {
+   "id": "mp-fp-11",
+   "pair": "f/p",
+   "a": "fry",
+   "b": "pry",
+   "ex_a": "He likes to fry vegetables for lunch.",
+   "ex_b": "Do not pry the panel open with a knife."
+  },
+  {
+   "id": "mp-fp-12",
+   "pair": "f/p",
+   "a": "feel",
+   "b": "peel",
+   "ex_a": "I feel confident about the wiring exam.",
+   "ex_b": "Please peel the label off the box."
+  },
+  {
+   "id": "mp-fp-13",
+   "pair": "f/p",
+   "a": "cuff",
+   "b": "cup",
+   "ex_a": "The nurse checked his blood pressure cuff.",
+   "ex_b": "She poured coffee into a paper cup."
+  },
+  {
+   "id": "mp-fp-14",
+   "pair": "f/p",
+   "a": "coffee",
+   "b": "copy",
+   "ex_a": "I drink coffee before the early shift.",
+   "ex_b": "Please copy the delivery list twice."
+  },
+  {
+   "id": "mp-fp-15",
+   "pair": "f/p",
+   "a": "leaf",
+   "b": "leap",
+   "ex_a": "A single leaf fell onto the warehouse floor.",
+   "ex_b": "He took a leap toward his new career."
+  },
+  {
+   "id": "mp-fp-16",
+   "pair": "f/p",
+   "a": "wife",
+   "b": "wipe",
+   "ex_a": "His wife works as a nurse in Burnaby.",
+   "ex_b": "Please wipe the counter before closing the pharmacy."
+  },
+  {
+   "id": "mp-fp-17",
+   "pair": "f/p",
+   "a": "cliff",
+   "b": "clip",
+   "ex_a": "The trail followed a steep cliff near Vancouver.",
+   "ex_b": "Use a clip to secure the loose wire."
+  },
+  {
+   "id": "mp-fp-18",
+   "pair": "f/p",
+   "a": "beef",
+   "b": "beep",
+   "ex_a": "We ordered beef for the team dinner.",
+   "ex_b": "The scanner made a beep at every box."
+  },
+  {
+   "id": "mp-fp-19",
+   "pair": "f/p",
+   "a": "chief",
+   "b": "cheap",
+   "ex_a": "The chief pharmacist checks every order.",
+   "ex_b": "These gloves were cheap but strong."
+  },
+  {
+   "id": "mp-fp-20",
+   "pair": "f/p",
+   "a": "fool",
+   "b": "pool",
+   "ex_a": "Do not fool around near the machines.",
+   "ex_b": "He swims in the pool after the gym."
+  },
+  {
+   "id": "mp-rl-01",
+   "pair": "r/l",
+   "a": "right",
+   "b": "light",
+   "ex_a": "Turn right at the warehouse entrance.",
+   "ex_b": "Switch on the light before checking the wires."
+  },
+  {
+   "id": "mp-rl-02",
+   "pair": "r/l",
+   "a": "read",
+   "b": "lead",
+   "ex_a": "I read the delivery schedule every morning.",
+   "ex_b": "She will lead the safety training tomorrow."
+  },
+  {
+   "id": "mp-rl-03",
+   "pair": "r/l",
+   "a": "rice",
+   "b": "lice",
+   "ex_a": "We cooked rice for the staff dinner.",
+   "ex_b": "The clinic checked the children for lice."
+  },
+  {
+   "id": "mp-rl-04",
+   "pair": "r/l",
+   "a": "row",
+   "b": "low",
+   "ex_a": "Each row of shelves holds different medicine.",
+   "ex_b": "The stock ran low before the weekend."
+  },
+  {
+   "id": "mp-rl-05",
+   "pair": "r/l",
+   "a": "rock",
+   "b": "lock",
+   "ex_a": "A loose rock blocked the delivery path.",
+   "ex_b": "Always lock the warehouse door at night."
+  },
+  {
+   "id": "mp-rl-06",
+   "pair": "r/l",
+   "a": "rate",
+   "b": "late",
+   "ex_a": "The delivery rate improved this month.",
+   "ex_b": "The truck arrived late because of traffic."
+  },
+  {
+   "id": "mp-rl-07",
+   "pair": "r/l",
+   "a": "road",
+   "b": "load",
+   "ex_a": "The road to the warehouse was closed today.",
+   "ex_b": "We need to load the truck before noon."
+  },
+  {
+   "id": "mp-rl-08",
+   "pair": "r/l",
+   "a": "rip",
+   "b": "lip",
+   "ex_a": "Do not rip the label off the box.",
+   "ex_b": "He bit his lip while lifting the panel."
+  },
+  {
+   "id": "mp-rl-09",
+   "pair": "r/l",
+   "a": "arrive",
+   "b": "alive",
+   "ex_a": "The shipment should arrive before Friday.",
+   "ex_b": "The patient was still alive when the ambulance came."
+  },
+  {
+   "id": "mp-rl-10",
+   "pair": "r/l",
+   "a": "free",
+   "b": "flee",
+   "ex_a": "The gym offers a free trial this week.",
+   "ex_b": "Workers had to flee when the alarm rang."
+  },
+  {
+   "id": "mp-rl-11",
+   "pair": "r/l",
+   "a": "grass",
+   "b": "glass",
+   "ex_a": "The warehouse yard is covered in grass.",
+   "ex_b": "Careful, that shelf is made of glass."
+  },
+  {
+   "id": "mp-rl-12",
+   "pair": "r/l",
+   "a": "correct",
+   "b": "collect",
+   "ex_a": "Please correct the order before shipping.",
+   "ex_b": "We collect empty boxes every evening."
+  },
+  {
+   "id": "mp-rl-13",
+   "pair": "r/l",
+   "a": "berry",
+   "b": "belly",
+   "ex_a": "She added berry syrup to her tea.",
+   "ex_b": "He felt it in his belly after the run."
+  },
+  {
+   "id": "mp-rl-14",
+   "pair": "r/l",
+   "a": "pray",
+   "b": "play",
+   "ex_a": "She likes to pray quietly before work.",
+   "ex_b": "The kids play near the loading dock."
+  },
+  {
+   "id": "mp-rl-15",
+   "pair": "r/l",
+   "a": "crime",
+   "b": "climb",
+   "ex_a": "The area has almost no crime at night.",
+   "ex_b": "Electricians often climb ladders on the job."
+  },
+  {
+   "id": "mp-rl-16",
+   "pair": "r/l",
+   "a": "grow",
+   "b": "glow",
+   "ex_a": "New skills grow with daily practice.",
+   "ex_b": "The warning light began to glow red."
+  },
+  {
+   "id": "mp-rl-17",
+   "pair": "r/l",
+   "a": "crowd",
+   "b": "cloud",
+   "ex_a": "A small crowd waited outside the pharmacy.",
+   "ex_b": "A dark cloud covered Burnaby that morning."
+  },
+  {
+   "id": "mp-rl-18",
+   "pair": "r/l",
+   "a": "wrong",
+   "b": "long",
+   "ex_a": "The wrong wire caused the circuit to fail.",
+   "ex_b": "It was a long shift at the warehouse."
+  },
+  {
+   "id": "mp-rl-19",
+   "pair": "r/l",
+   "a": "fry",
+   "b": "fly",
+   "ex_a": "Don't fry the eggs for too long.",
+   "ex_b": "We will fly to Vancouver next spring."
+  },
+  {
+   "id": "mp-rl-20",
+   "pair": "r/l",
+   "a": "root",
+   "b": "loot",
+   "ex_a": "Find the root cause of the delay first.",
+   "ex_b": "The thieves tried to loot the warehouse."
+  },
+  {
+   "id": "mp-vb-01",
+   "pair": "v/b",
+   "a": "vote",
+   "b": "boat",
+   "ex_a": "The team will vote on the new schedule.",
+   "ex_b": "We took a small boat around the harbor."
+  },
+  {
+   "id": "mp-vb-02",
+   "pair": "v/b",
+   "a": "van",
+   "b": "ban",
+   "ex_a": "The delivery van left the pharmacy at nine.",
+   "ex_b": "The city placed a ban on late deliveries."
+  },
+  {
+   "id": "mp-vb-03",
+   "pair": "v/b",
+   "a": "vest",
+   "b": "best",
+   "ex_a": "Wear a safety vest on the work site.",
+   "ex_b": "This is the best plan for the move."
+  },
+  {
+   "id": "mp-vb-04",
+   "pair": "v/b",
+   "a": "very",
+   "b": "berry",
+   "ex_a": "The wiring exam was very difficult today.",
+   "ex_b": "She picked a berry from the garden."
+  },
+  {
+   "id": "mp-vb-05",
+   "pair": "v/b",
+   "a": "vase",
+   "b": "base",
+   "ex_a": "A glass vase sat on the front desk.",
+   "ex_b": "Check the base of the ladder first."
+  },
+  {
+   "id": "mp-vb-06",
+   "pair": "v/b",
+   "a": "vat",
+   "b": "bat",
+   "ex_a": "The factory mixes the paint in a large vat.",
+   "ex_b": "He swung the bat at baseball practice."
+  },
+  {
+   "id": "mp-vb-07",
+   "pair": "v/b",
+   "a": "curve",
+   "b": "curb",
+   "ex_a": "The truck slowed down on the sharp curve.",
+   "ex_b": "Park the van close to the curb."
+  },
+  {
+   "id": "mp-vb-08",
+   "pair": "v/b",
+   "a": "veil",
+   "b": "bail",
+   "ex_a": "A thin veil of dust covered the shelves.",
+   "ex_b": "He had to bail out the flooded basement."
+  },
+  {
+   "id": "mp-vb-09",
+   "pair": "v/b",
+   "a": "volt",
+   "b": "bolt",
+   "ex_a": "A single volt won't hurt you, but high voltage will.",
+   "ex_b": "Tighten the bolt before turning on the power."
+  },
+  {
+   "id": "mp-vb-10",
+   "pair": "v/b",
+   "a": "vet",
+   "b": "bet",
+   "ex_a": "The vet checked the warehouse dog today.",
+   "ex_b": "I bet the delivery will be late."
+  },
+  {
+   "id": "mp-vb-11",
+   "pair": "v/b",
+   "a": "vow",
+   "b": "bow",
+   "ex_a": "He made a vow to finish the course.",
+   "ex_b": "She gave a small bow after the class."
+  },
+  {
+   "id": "mp-vb-12",
+   "pair": "v/b",
+   "a": "vent",
+   "b": "bent",
+   "ex_a": "Check the vent before starting the machine.",
+   "ex_b": "The old wire was bent near the socket."
+  },
+  {
+   "id": "mp-vb-13",
+   "pair": "v/b",
+   "a": "marvel",
+   "b": "marble",
+   "ex_a": "We marvel at how fast deliveries arrive now.",
+   "ex_b": "The floor was made of smooth marble."
+  },
+  {
+   "id": "mp-vb-14",
+   "pair": "v/b",
+   "a": "vary",
+   "b": "bury",
+   "ex_a": "Delivery times vary during the holiday season.",
+   "ex_b": "They chose to bury the old cables underground."
+  },
+  {
+   "id": "mp-vb-15",
+   "pair": "v/b",
+   "a": "carve",
+   "b": "carb",
+   "ex_a": "He learned to carve small wood pieces.",
+   "ex_b": "Rice is a common carb in his diet."
+  },
+  {
+   "id": "mp-vb-16",
+   "pair": "v/b",
+   "a": "vain",
+   "b": "bane",
+   "ex_a": "His effort was not in vain after all.",
+   "ex_b": "Late shipments are the bane of this job."
+  },
+  {
+   "id": "mp-vb-17",
+   "pair": "v/b",
+   "a": "veer",
+   "b": "beer",
+   "ex_a": "The van began to veer near the curb.",
+   "ex_b": "They shared a beer after the long shift."
+  },
+  {
+   "id": "mp-vb-18",
+   "pair": "v/b",
+   "a": "rove",
+   "b": "robe",
+   "ex_a": "Small robots rove the aisles of the new warehouse.",
+   "ex_b": "She put on a warm robe after her shower."
+  },
+  {
+   "id": "mp-vb-19",
+   "pair": "v/b",
+   "a": "vile",
+   "b": "bile",
+   "ex_a": "The smell in the old vat was vile.",
+   "ex_b": "Too much bile can upset the stomach."
+  },
+  {
+   "id": "mp-vb-20",
+   "pair": "v/b",
+   "a": "vanish",
+   "b": "banish",
+   "ex_a": "Errors in the order tend to vanish with practice.",
+   "ex_b": "The manager wanted to banish late deliveries for good."
+  }
+ ]
+}

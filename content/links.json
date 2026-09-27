@@ -1,0 +1,396 @@
+{
+ "license": "Links only. IELTS materials © IELTS Partners (personal, non-commercial use; not copied into this app). British Council and Hackers content belongs to their owners; external links only.",
+ "items": [
+  {
+   "id": "off-listening",
+   "title": "IELTS Academic sample questions: Listening",
+   "url": "https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test",
+   "kind": "official",
+   "note_ko": "공식 샘플 페이지의 Listening 섹션. 유형별 오디오·대본·정답 PDF. 개인 학습용으로만 열어서 풀고, 점수는 앱에 기록하세요.",
+   "ts": []
+  },
+  {
+   "id": "off-reading",
+   "title": "IELTS Academic sample questions: Reading",
+   "url": "https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test",
+   "kind": "official",
+   "note_ko": "같은 페이지의 Academic Reading 섹션. T/F/NG·Matching 등 유형별 지문과 정답 PDF.",
+   "ts": []
+  },
+  {
+   "id": "off-writing",
+   "title": "IELTS Academic Writing: example responses with band scores",
+   "url": "https://ielts.org/cdn/computer-delivered-sample-tests-academic-writing/ielts-academic-writing-example-responses-to-parts-1-and-2-with-band-scores-and-examiner-comments.pdf",
+   "kind": "official",
+   "note_ko": "Task 1·2 실제 답안과 밴드 점수, 채점관 코멘트. 내 글과 비교용.",
+   "ts": []
+  },
+  {
+   "id": "off-speaking",
+   "title": "IELTS Speaking sample tasks",
+   "url": "https://ielts.org/cdn/ielts-downloadable-assets/ielts-sample-tests/ielts-speaking-sample-tasks-2023.pdf",
+   "kind": "official",
+   "note_ko": "Part 1·2·3 공식 샘플 문항 PDF. 시험 형식 확인용.",
+   "ts": []
+  },
+  {
+   "id": "off-wdesc",
+   "title": "IELTS Writing band descriptors (official PDF)",
+   "url": "https://ielts.org/cdn/Guides/ielts-writing-band-descriptors.pdf",
+   "kind": "official",
+   "note_ko": "공식 Writing 채점 기준 원문. 앱의 채점 루브릭은 이것을 자체 요약한 것입니다.",
+   "ts": []
+  },
+  {
+   "id": "off-sdesc",
+   "title": "IELTS Speaking band descriptors (official PDF)",
+   "url": "https://ielts.org/cdn/ielts-guides/ielts-speaking-band-descriptors.pdf",
+   "kind": "official",
+   "note_ko": "공식 Speaking 채점 기준 원문(FC·LR·GRA·P).",
+   "ts": []
+  },
+  {
+   "id": "bc-ready",
+   "title": "British Council IELTS Ready",
+   "url": "https://takeielts.britishcouncil.org/prepare/ielts-ready",
+   "kind": "official",
+   "note_ko": "무료 가입 후 미니 모의고사(AI 피드백)와 풀 모의고사 2회. 모의고사 주에 사용.",
+   "ts": []
+  },
+  {
+   "id": "hk-vocab",
+   "title": "해커스 IELTS 필수 단어 1800개 (60 Days)",
+   "url": "https://www.youtube.com/watch?v=rWZG4_idwr8",
+   "kind": "hackers-video",
+   "note_ko": "4시간 43분 한 영상. Day 1–40 핵심, 41–50 리스닝, 51–60 리딩 주제. 업로더 챕터에 Day 50이 없어 Day 50은 앞뒤 챕터 사이 추정값입니다.",
+   "ts": [
+    {
+     "label": "Day 1",
+     "t": "0:00:00"
+    },
+    {
+     "label": "Day 2",
+     "t": "0:05:04"
+    },
+    {
+     "label": "Day 3",
+     "t": "0:09:50"
+    },
+    {
+     "label": "Day 4",
+     "t": "0:14:42"
+    },
+    {
+     "label": "Day 5",
+     "t": "0:19:34"
+    },
+    {
+     "label": "Day 6",
+     "t": "0:24:26"
+    },
+    {
+     "label": "Day 7",
+     "t": "0:29:25"
+    },
+    {
+     "label": "Day 8",
+     "t": "0:34:20"
+    },
+    {
+     "label": "Day 9",
+     "t": "0:39:15"
+    },
+    {
+     "label": "Day 10",
+     "t": "0:44:12"
+    },
+    {
+     "label": "Day 11",
+     "t": "0:48:59"
+    },
+    {
+     "label": "Day 12",
+     "t": "0:53:55"
+    },
+    {
+     "label": "Day 13",
+     "t": "0:58:42"
+    },
+    {
+     "label": "Day 14",
+     "t": "1:03:43"
+    },
+    {
+     "label": "Day 15",
+     "t": "1:08:34"
+    },
+    {
+     "label": "Day 16",
+     "t": "1:13:24"
+    },
+    {
+     "label": "Day 17",
+     "t": "1:18:18"
+    },
+    {
+     "label": "Day 18",
+     "t": "1:23:10"
+    },
+    {
+     "label": "Day 19",
+     "t": "1:28:11"
+    },
+    {
+     "label": "Day 20",
+     "t": "1:33:01"
+    },
+    {
+     "label": "Day 21",
+     "t": "1:37:56"
+    },
+    {
+     "label": "Day 22",
+     "t": "1:42:47"
+    },
+    {
+     "label": "Day 23",
+     "t": "1:47:38"
+    },
+    {
+     "label": "Day 24",
+     "t": "1:52:38"
+    },
+    {
+     "label": "Day 25",
+     "t": "1:57:39"
+    },
+    {
+     "label": "Day 26",
+     "t": "2:02:38"
+    },
+    {
+     "label": "Day 27",
+     "t": "2:07:37"
+    },
+    {
+     "label": "Day 28",
+     "t": "2:12:36"
+    },
+    {
+     "label": "Day 29",
+     "t": "2:17:31"
+    },
+    {
+     "label": "Day 30",
+     "t": "2:22:25"
+    },
+    {
+     "label": "Day 31",
+     "t": "2:27:25"
+    },
+    {
+     "label": "Day 32",
+     "t": "2:32:26"
+    },
+    {
+     "label": "Day 33",
+     "t": "2:37:32"
+    },
+    {
+     "label": "Day 34",
+     "t": "2:42:32"
+    },
+    {
+     "label": "Day 35",
+     "t": "2:47:27"
+    },
+    {
+     "label": "Day 36",
+     "t": "2:52:25"
+    },
+    {
+     "label": "Day 37",
+     "t": "2:57:19"
+    },
+    {
+     "label": "Day 38",
+     "t": "3:02:16"
+    },
+    {
+     "label": "Day 39",
+     "t": "3:07:14"
+    },
+    {
+     "label": "Day 40",
+     "t": "3:12:11"
+    },
+    {
+     "label": "Day 41",
+     "t": "3:17:06"
+    },
+    {
+     "label": "Day 42",
+     "t": "3:21:20"
+    },
+    {
+     "label": "Day 43",
+     "t": "3:25:34"
+    },
+    {
+     "label": "Day 44",
+     "t": "3:29:46"
+    },
+    {
+     "label": "Day 45",
+     "t": "3:33:56"
+    },
+    {
+     "label": "Day 46",
+     "t": "3:37:58"
+    },
+    {
+     "label": "Day 47",
+     "t": "3:42:04"
+    },
+    {
+     "label": "Day 48",
+     "t": "3:46:09"
+    },
+    {
+     "label": "Day 49",
+     "t": "3:50:16"
+    },
+    {
+     "label": "Day 50 (approx.)",
+     "t": "3:54:24"
+    },
+    {
+     "label": "Day 51",
+     "t": "3:58:32"
+    },
+    {
+     "label": "Day 52",
+     "t": "4:03:04"
+    },
+    {
+     "label": "Day 53",
+     "t": "4:07:26"
+    },
+    {
+     "label": "Day 54",
+     "t": "4:11:45"
+    },
+    {
+     "label": "Day 55",
+     "t": "4:16:07"
+    },
+    {
+     "label": "Day 56",
+     "t": "4:20:31"
+    },
+    {
+     "label": "Day 57",
+     "t": "4:24:55"
+    },
+    {
+     "label": "Day 58",
+     "t": "4:29:24"
+    },
+    {
+     "label": "Day 59",
+     "t": "4:34:04"
+    },
+    {
+     "label": "Day 60",
+     "t": "4:39:29"
+    }
+   ]
+  },
+  {
+   "id": "hk-speaking",
+   "title": "아이엘츠 스피킹 '이렇게' 연습해야 고득점 (윤성원)",
+   "url": "https://www.youtube.com/watch?v=sVpwZZudY3c",
+   "kind": "hackers-video",
+   "note_ko": "Part 1 세 문장 답변 만들기와 느리게·빠르게 두 번 녹음하기 시연.",
+   "ts": [
+    {
+     "label": "세 문장 규칙·녹음 준비",
+     "t": "0:00:00"
+    },
+    {
+     "label": "질문 읽고 해석",
+     "t": "0:00:18"
+    },
+    {
+     "label": "업그레이드 표현 1",
+     "t": "0:00:43"
+    },
+    {
+     "label": "표현 묶음",
+     "t": "0:01:31"
+    },
+    {
+     "label": "문장 조립",
+     "t": "0:02:19"
+    },
+    {
+     "label": "make sure to 추가",
+     "t": "0:03:13"
+    },
+    {
+     "label": "펜 내려놓고 읽기",
+     "t": "0:03:50"
+    },
+    {
+     "label": "녹음: 느리게→빠르게",
+     "t": "0:04:29"
+    },
+    {
+     "label": "표현 암기",
+     "t": "0:05:20"
+    }
+   ]
+  },
+  {
+   "id": "hk-listening",
+   "title": "아이엘츠 리스닝 PART1 쉽게 푸는 법 (함시윤)",
+   "url": "https://www.youtube.com/watch?v=lyGNDEcaOTM",
+   "kind": "hackers-video",
+   "note_ko": "Part 1 빈칸 답 유형을 듣기 전에 예측하는 법.",
+   "ts": [
+    {
+     "label": "지시문과 단어 수 제한",
+     "t": "0:00:00"
+    },
+    {
+     "label": "상황·화자 예측",
+     "t": "0:00:17"
+    },
+    {
+     "label": "주소 칸은 숫자",
+     "t": "0:01:09"
+    },
+    {
+     "label": "years 복수 = 2 이상",
+     "t": "0:01:47"
+    },
+    {
+     "label": "한 달 몇 번",
+     "t": "0:02:01"
+    },
+    {
+     "label": "an 뒤는 모음 소리",
+     "t": "0:02:13"
+    },
+    {
+     "label": "travel by = 교통수단",
+     "t": "0:03:16"
+    },
+    {
+     "label": "교통수단은 단수로",
+     "t": "0:03:41"
+    }
+   ]
+  }
+ ]
+}

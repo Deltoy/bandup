@@ -1,0 +1,37 @@
+{
+ "license": "SAMPLE fixture (v1 dev only). SAMPLE text is self-written (real files use VOA Learning English, public domain).",
+ "items": [
+  {
+   "id": "voa-01",
+   "title": "Sleep and Learning (sample)",
+   "url": "https://learningenglish.voanews.com/",
+   "credit": "VOA Learning English (public domain)",
+   "audio": "_sample/audio/voa/voa-01.m4a",
+   "start": 0,
+   "end": 20,
+   "transcript": "Scientists say that getting enough sleep helps young people learn. In a new study, students who slept eight hours remembered more words than students who slept five hours. The researchers say memory grows stronger during deep sleep.",
+   "blanks": [
+    {
+     "word": "enough",
+     "idx": 4
+    },
+    {
+     "word": "study",
+     "idx": 13
+    },
+    {
+     "word": "remembered",
+     "idx": 19
+    },
+    {
+     "word": "memory",
+     "idx": 31
+    },
+    {
+     "word": "deep",
+     "idx": 35
+    }
+   ]
+  }
+ ]
+}

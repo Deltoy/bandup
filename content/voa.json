@@ -1,0 +1,133 @@
+{
+ "license": "VOA Learning English audio and text are public domain (produced by Voice of America; stories chosen are VOA-written, not AP/Reuters/AFP). No photos are used.",
+ "items": [
+  {
+   "id": "voa-01",
+   "title": "Wilbur and Orville Wright: The First Airplane",
+   "url": "https://learningenglish.voanews.com/a/wilbur-and-orville-wright-the-first-airplane/7998765.html",
+   "credit": "VOA Learning English (public domain). Story by Marilyn Rice Christiano; adapted by John Russell. Clip = source audio 0:57.2-2:23.6.",
+   "audio": "audio/voa/voa-01.m4a",
+   "start": 0,
+   "end": 86.4,
+   "transcript": "Soon, they needed a place to test their ideas about flight. The best place with the best wind conditions seemed to be a piece of sandy land in North Carolina along the coast of the Atlantic Ocean. It was called Kill Devil Hill, near the town of Kitty Hawk. The Wright brothers did many tests with gliders at Kitty Hawk. With these tests, they learned how to solve many problems. By the autumn of 1903, Wilbur and Orville had designed and built an airplane powered by a gasoline engine. The plane had wings 12 meters across. It weighed about 340 kilograms, including the pilot. On December 17th, 1903, they made the world's first flight in a machine that was heavier than air and powered by an engine. Orville flew the plane 36 meters. He was in the air for 12 seconds. The two brothers made three more flights that day.",
+   "blanks": [
+    {
+     "word": "gliders",
+     "idx": 56
+    },
+    {
+     "word": "gasoline",
+     "idx": 87
+    },
+    {
+     "word": "340",
+     "idx": 99
+    },
+    {
+     "word": "heavier",
+     "idx": 119
+    },
+    {
+     "word": "seconds",
+     "idx": 140
+    }
+   ]
+  },
+  {
+   "id": "voa-02",
+   "title": "American Inventors: Rocket Scientist Robert Goddard",
+   "url": "https://learningenglish.voanews.com/a/american-inventors-rocket-scientist-robert-goddard/7979682.html",
+   "credit": "VOA Learning English (public domain). Story by Shirley Griffith; adapted by Bryan Lynn. Clip = source audio 0:57.1-2:16.5.",
+   "audio": "audio/voa/voa-02.m4a",
+   "start": 0,
+   "end": 79.4,
+   "transcript": "More than one hundred years ago, Goddard carried out studies and tests of rocket engines. He developed and flew many rockets that got their power from solid fuels: chemicals that formed a hard substance. In 1925, he made and tested the first rocket engine using a soft chemical fuel. The next year, he successfully launched the world's first liquid-fuel rocket. Many historians consider liquid-fuel rocket flight to be as important as the first airplane flight by the American brothers Orville and Wilbur Wright. Goddard's work proved that machines could travel outside of Earth's atmosphere and into space. During his early research, he received money and support from the U.S. Smithsonian Institution. The Smithsonian published several reports about his efforts.",
+   "blanks": [
+    {
+     "word": "solid",
+     "idx": 26
+    },
+    {
+     "word": "1925",
+     "idx": 35
+    },
+    {
+     "word": "liquid-fuel",
+     "idx": 58
+    },
+    {
+     "word": "atmosphere",
+     "idx": 93
+    },
+    {
+     "word": "reports",
+     "idx": 115
+    }
+   ]
+  },
+  {
+   "id": "voa-03",
+   "title": "Learn New Skills with Microcredentials",
+   "url": "https://learningenglish.voanews.com/a/learn-new-skills-with-microcredentials-/7908673.html",
+   "credit": "VOA Learning English (public domain). Story by Jill Robbins. Clip = source audio 1:34.3-2:59.1.",
+   "audio": "audio/voa/voa-03.m4a",
+   "start": 0,
+   "end": 84.8,
+   "transcript": "Coursera, an online educational service, recently released a report on how microcredentials are preparing students for jobs and affecting higher education schools. It says that 51 percent of colleges in the United States that offer microcredentials also provide school credit and more plan to do so in the next few years. Some colleges include one or more courses leading to microcredentials as part of their usual programs. At Hawaii Pacific University, school leaders say including professional certifications in its business program has sharply increased the number of interested students. For students, Credential Finder offers a way to search for the right microcredential offerings by field of study or industry. For example, if you are studying information science, you may take Google Data Analytics or an IBM Data Analyst course. If you are working toward a degree in business administration, you may take a Google Project Management course.",
+   "blanks": [
+    {
+     "word": "51",
+     "idx": 25
+    },
+    {
+     "word": "credit",
+     "idx": 39
+    },
+    {
+     "word": "certifications",
+     "idx": 76
+    },
+    {
+     "word": "industry",
+     "idx": 108
+    },
+    {
+     "word": "administration",
+     "idx": 138
+    }
+   ]
+  },
+  {
+   "id": "voa-04",
+   "title": "Images Can Help You Retain Vocabulary",
+   "url": "https://learningenglish.voanews.com/a/images-can-help-you-retain-vocabulary/5651046.html",
+   "credit": "VOA Learning English (public domain). Story by Alice Bryant; edited by Susan Shand. Clip = source audio 0:00.0-1:22.9.",
+   "audio": "audio/voa/voa-04.m4a",
+   "start": 0,
+   "end": 82.9,
+   "transcript": "Suppose you are listening to a program in English and hear the word \"borrow.\" You have heard this word many times but forget its meaning. So, you look up the equivalent word in your own language. Ahh, yes, now you remember! A few days later, you see the word again, but again cannot remember its meaning. Why? It is easy to blame yourself or think, \"I have a terrible memory!\" But your memory is not the problem. The problem is that translating a word to its equivalent word in your language is not an effective way to learn vocabulary. This is because it does not create strong connections in the brain, something critical for remembering information. To really learn words, you have to bring attention to them and connect them with mental images or your existing knowledge. This helps your brain recall words quickly and easily when you need them.",
+   "blanks": [
+    {
+     "word": "equivalent",
+     "idx": 30
+    },
+    {
+     "word": "blame",
+     "idx": 61
+    },
+    {
+     "word": "effective",
+     "idx": 94
+    },
+    {
+     "word": "connections",
+     "idx": 107
+    },
+    {
+     "word": "images",
+     "idx": 132
+    }
+   ]
+  }
+ ]
+}

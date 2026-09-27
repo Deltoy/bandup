@@ -1,0 +1,77 @@
+{
+ "license": "SAMPLE fixture (v1 dev only). Self-written + public domain.",
+ "items": [
+  {
+   "id": "sh-01",
+   "src": "self",
+   "credit": "BANDUP original",
+   "title": "My job at a pharmacy",
+   "level": 1,
+   "audio": "_sample/audio/sh/sh-01.m4a",
+   "lines": [
+    {
+     "en": "I work as a planner at a pharmacy.",
+     "ko": "저는 약국에서 기획자로 일해요.",
+     "stress": "I WORK as a PLANner at a PHARmacy",
+     "chunks": "I work as a planner / at a pharmacy",
+     "focus": "article"
+    },
+    {
+     "en": "My job is busy, but it is never boring.",
+     "ko": "제 일은 바쁘지만 지루하지 않아요.",
+     "stress": "my JOB is BUSy, but it is NEVer BORing",
+     "chunks": "My job is busy, / but it is never boring",
+     "focus": "be"
+    },
+    {
+     "en": "Last year I moved to a new team to learn more.",
+     "ko": "작년에 더 배우려고 새 팀으로 옮겼어요.",
+     "stress": "LAST YEAR I MOVED to a NEW TEAM to LEARN MORE",
+     "chunks": "Last year / I moved to a new team / to learn more",
+     "focus": "tense"
+    }
+   ]
+  },
+  {
+   "id": "sh-02",
+   "src": "public-domain",
+   "credit": "John F. Kennedy, Inaugural Address, 1961 (public domain)",
+   "title": "Ask not",
+   "level": 3,
+   "audio": "",
+   "lines": [
+    {
+     "en": "And so, my fellow Americans: ask not what your country can do for you, ask what you can do for your country.",
+     "ko": "그러니 국민 여러분, 나라가 여러분을 위해 무엇을 할지 묻지 말고, 여러분이 나라를 위해 무엇을 할지 물으십시오.",
+     "stress": "ASK NOT what your COUNtry can DO for YOU",
+     "chunks": "And so, my fellow Americans: / ask not / what your country can do for you, / ask what you can do / for your country.",
+     "focus": ""
+    }
+   ]
+  },
+  {
+   "id": "sh-03",
+   "src": "self",
+   "credit": "BANDUP original",
+   "title": "A place I often go to",
+   "level": 2,
+   "audio": "",
+   "lines": [
+    {
+     "en": "There is a small park near my house.",
+     "ko": "우리 집 근처에 작은 공원이 있어요.",
+     "stress": "there is a SMALL PARK near my HOUSE",
+     "chunks": "There is a small park / near my house",
+     "focus": "article"
+    },
+    {
+     "en": "I go there to clear my head after work.",
+     "ko": "퇴근 후 머리를 식히려고 거기에 가요.",
+     "stress": "i GO there to CLEAR my HEAD after WORK",
+     "chunks": "I go there / to clear my head / after work",
+     "focus": "toinf"
+    }
+   ]
+  }
+ ]
+}

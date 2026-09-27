@@ -1,0 +1,175 @@
+{
+ "license": "SAMPLE fixture (v1 dev only). Self-written.",
+ "items": [
+  {
+   "id": "g-article-001",
+   "type": "article",
+   "kind": "mcq",
+   "prompt": "I work at ___ pharmacy near the station.",
+   "prompt_ko": "",
+   "options": [
+    "a",
+    "the",
+    "—"
+   ],
+   "answer": "a",
+   "why_ko": "처음 말하는 셀 수 있는 단수 명사 앞에는 a."
+  },
+  {
+   "id": "g-article-002",
+   "type": "article",
+   "kind": "cloze",
+   "prompt": "She is ___ engineer.",
+   "prompt_ko": "",
+   "options": [],
+   "answer": "an",
+   "why_ko": "모음 소리로 시작하면 an."
+  },
+  {
+   "id": "g-article-003",
+   "type": "article",
+   "kind": "fix",
+   "prompt": "I went to the Canada last year.",
+   "prompt_ko": "",
+   "options": [],
+   "answer": "I went to Canada last year.",
+   "why_ko": "대부분의 나라 이름에는 the를 붙이지 않아요."
+  },
+  {
+   "id": "g-be-001",
+   "type": "be",
+   "kind": "mcq",
+   "prompt": "My job ___ very busy these days.",
+   "prompt_ko": "",
+   "options": [
+    "is",
+    "—",
+    "are"
+   ],
+   "answer": "is",
+   "why_ko": "주어 뒤 형용사 앞에는 be동사가 필요해요."
+  },
+  {
+   "id": "g-be-002",
+   "type": "be",
+   "kind": "fix",
+   "prompt": "The weather very cold in winter.",
+   "prompt_ko": "",
+   "options": [],
+   "answer": "The weather is very cold in winter.",
+   "why_ko": "형용사만으로는 동사가 되지 않아요."
+  },
+  {
+   "id": "g-be-003",
+   "type": "be",
+   "kind": "ko2en",
+   "prompt": "나는 일 때문에 피곤해요.",
+   "prompt_ko": "나는 일 때문에 피곤해요.",
+   "options": [],
+   "answer": "I am tired because of work.",
+   "why_ko": "tired 앞에 am."
+  },
+  {
+   "id": "g-tense-001",
+   "type": "tense",
+   "kind": "mcq",
+   "prompt": "Yesterday I ___ to the gym after work.",
+   "prompt_ko": "",
+   "options": [
+    "go",
+    "went",
+    "gone"
+   ],
+   "answer": "went",
+   "why_ko": "yesterday는 과거시제 신호예요."
+  },
+  {
+   "id": "g-tense-002",
+   "type": "tense",
+   "kind": "cloze",
+   "prompt": "Last year we ___ (move) to Vancouver.",
+   "prompt_ko": "",
+   "options": [],
+   "answer": "moved",
+   "why_ko": "last year → 과거형."
+  },
+  {
+   "id": "g-tense-003",
+   "type": "tense",
+   "kind": "fix",
+   "prompt": "When I was a child, I live in Seoul.",
+   "prompt_ko": "",
+   "options": [],
+   "answer": "When I was a child, I lived in Seoul.",
+   "why_ko": "과거 이야기는 동사도 과거형."
+  },
+  {
+   "id": "g-prep-001",
+   "type": "prep",
+   "kind": "mcq",
+   "prompt": "I usually arrive ___ the office at 9.",
+   "prompt_ko": "",
+   "options": [
+    "at",
+    "to",
+    "in"
+   ],
+   "answer": "at",
+   "why_ko": "arrive at + 장소(지점)."
+  },
+  {
+   "id": "g-prep-002",
+   "type": "prep",
+   "kind": "cloze",
+   "prompt": "She is interested ___ design.",
+   "prompt_ko": "",
+   "options": [],
+   "answer": "in",
+   "why_ko": "interested in."
+  },
+  {
+   "id": "g-prep-003",
+   "type": "prep",
+   "kind": "fix",
+   "prompt": "I will meet you in Monday.",
+   "prompt_ko": "",
+   "options": [],
+   "answer": "I will meet you on Monday.",
+   "why_ko": "요일 앞에는 on."
+  },
+  {
+   "id": "g-toinf-001",
+   "type": "toinf",
+   "kind": "mcq",
+   "prompt": "I went to Canada ___ English.",
+   "prompt_ko": "",
+   "options": [
+    "to study",
+    "for study",
+    "studying"
+   ],
+   "answer": "to study",
+   "why_ko": "목적(~하려고)은 to + 동사원형."
+  },
+  {
+   "id": "g-toinf-002",
+   "type": "toinf",
+   "kind": "cloze",
+   "prompt": "He saved money ___ buy a car.",
+   "prompt_ko": "",
+   "options": [],
+   "answer": "to",
+   "why_ko": "목적의 to부정사."
+  },
+  {
+   "id": "g-toinf-003",
+   "type": "toinf",
+   "kind": "ko2en",
+   "prompt": "나는 전기를 배우려고 BCIT에 갈 거예요.",
+   "prompt_ko": "나는 전기를 배우려고 BCIT에 갈 거예요.",
+   "options": [],
+   "answer": "I will go to BCIT to learn electrical work.",
+   "why_ko": "목적은 to learn."
+  }
+ ]
+}

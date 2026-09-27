@@ -1,0 +1,53 @@
+{
+ "license": "SAMPLE fixture (v1 dev only). Self-written.",
+ "items": [
+  {
+   "id": "mp-fp-01",
+   "pair": "f/p",
+   "a": "fan",
+   "b": "pan",
+   "ex_a": "Say fan again.",
+   "ex_b": "Say pan again."
+  },
+  {
+   "id": "mp-fp-02",
+   "pair": "f/p",
+   "a": "fast",
+   "b": "past",
+   "ex_a": "Say fast again.",
+   "ex_b": "Say past again."
+  },
+  {
+   "id": "mp-rl-03",
+   "pair": "r/l",
+   "a": "rice",
+   "b": "lice",
+   "ex_a": "Say rice again.",
+   "ex_b": "Say lice again."
+  },
+  {
+   "id": "mp-rl-04",
+   "pair": "r/l",
+   "a": "right",
+   "b": "light",
+   "ex_a": "Say right again.",
+   "ex_b": "Say light again."
+  },
+  {
+   "id": "mp-vb-05",
+   "pair": "v/b",
+   "a": "vest",
+   "b": "best",
+   "ex_a": "Say vest again.",
+   "ex_b": "Say best again."
+  },
+  {
+   "id": "mp-vb-06",
+   "pair": "v/b",
+   "a": "very",
+   "b": "berry",
+   "ex_a": "Say very again.",
+   "ex_b": "Say berry again."
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "license": "SAMPLE fixture (v1 dev only). Self-written.",
+ "items": [
+  {
+   "base": "fly",
+   "past": "flew",
+   "pp": "flown",
+   "ko": "날다",
+   "ex": "She flew to Canada to extend her visa."
+  },
+  {
+   "base": "buy",
+   "past": "bought",
+   "pp": "bought",
+   "ko": "사다",
+   "ex": "I bought a ticket yesterday."
+  },
+  {
+   "base": "teach",
+   "past": "taught",
+   "pp": "taught",
+   "ko": "가르치다",
+   "ex": "My mother taught me to cook."
+  },
+  {
+   "base": "choose",
+   "past": "chose",
+   "pp": "chosen",
+   "ko": "고르다",
+   "ex": "We chose the cheaper hotel."
+  },
+  {
+   "base": "lead",
+   "past": "led",
+   "pp": "led",
+   "ko": "이끌다",
+   "ex": "He led the team last year."
+  },
+  {
+   "base": "spend",
+   "past": "spent",
+   "pp": "spent",
+   "ko": "쓰다",
+   "ex": "I spent two hours on the essay."
+  },
+  {
+   "base": "bring",
+   "past": "brought",
+   "pp": "brought",
+   "ko": "가져오다",
+   "ex": "She brought her laptop to class."
+  },
+  {
+   "base": "feel",
+   "past": "felt",
+   "pp": "felt",
+   "ko": "느끼다",
+   "ex": "I felt tired after work."
+  }
+ ]
+}

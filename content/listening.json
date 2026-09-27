@@ -1,0 +1,4392 @@
+{
+ "license": "Self-written for BANDUP (original scripts and questions). Audio rendered with macOS say.",
+ "items": [
+  {
+   "id": "l-p1-01",
+   "part": 1,
+   "title": "Joining Fernhill Leisure Centre",
+   "voices": [
+    {
+     "name": "Moira",
+     "role": "receptionist"
+    },
+    {
+     "name": "Daniel",
+     "role": "caller"
+    }
+   ],
+   "script": [
+    {
+     "spk": "receptionist",
+     "text": "Good morning, Fernhill Leisure Centre, Moira speaking."
+    },
+    {
+     "spk": "caller",
+     "text": "Oh, hi there. I'd like to join the centre, if that's possible."
+    },
+    {
+     "spk": "receptionist",
+     "text": "Of course, that's easy enough to sort out. Have you been to the centre before, or would this be your first visit?"
+    },
+    {
+     "spk": "caller",
+     "text": "Actually, my first visit. A friend of mine recommended the pool here, and I've been meaning to get back into swimming for a while now."
+    },
+    {
+     "spk": "receptionist",
+     "text": "That's brilliant, we've actually just had the whole pool area refurbished, so the timing works out well for you."
+    },
+    {
+     "spk": "caller",
+     "text": "Oh, perfect, I can't wait to try it out."
+    },
+    {
+     "spk": "receptionist",
+     "text": "Right, let me just take a few details from you then. Could I have your surname, please?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, it's Bracewell."
+    },
+    {
+     "spk": "receptionist",
+     "text": "Sorry, could you spell that for me?"
+    },
+    {
+     "spk": "caller",
+     "text": "Sure. B-R-A-C-E-W-E-L-L."
+    },
+    {
+     "spk": "receptionist",
+     "text": "Thank you. And your first name?"
+    },
+    {
+     "spk": "caller",
+     "text": "Thomas."
+    },
+    {
+     "spk": "receptionist",
+     "text": "Lovely, thanks Thomas. And what's your date of birth?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's July 3rd, 1991."
+    },
+    {
+     "spk": "receptionist",
+     "text": "Great. Now, what's your home address?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's flat 38 — actually, sorry, hold on, it's flat 83, Fairview Road."
+    },
+    {
+     "spk": "receptionist",
+     "text": "No problem, flat 83, Fairview Road. And could I take a mobile number, just in case we need to reach you?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, it's 07822 154690."
+    },
+    {
+     "spk": "receptionist",
+     "text": "Perfect, thank you. Now, what type of membership were you thinking of? We do have a standard membership, but there's also an off-peak option, which works out cheaper if you're mostly free during the day."
+    },
+    {
+     "spk": "caller",
+     "text": "Actually, off-peak sounds perfect, since I'm usually free in the mornings."
+    },
+    {
+     "spk": "receptionist",
+     "text": "Great, I'll put you down for off-peak. Classes normally start on the 24th of April, but that week is fully booked already, so we can start you on May 1st instead."
+    },
+    {
+     "spk": "caller",
+     "text": "That's absolutely fine, no rush at all."
+    },
+    {
+     "spk": "receptionist",
+     "text": "There's a joining fee of £45, which covers your induction session with one of our trainers."
+    },
+    {
+     "spk": "caller",
+     "text": "OK, that sounds reasonable."
+    },
+    {
+     "spk": "receptionist",
+     "text": "Just so you know as well, the centre's open from 6am to 10pm on weekdays, and slightly shorter hours at the weekend."
+    },
+    {
+     "spk": "caller",
+     "text": "Good to know, thanks. And is there parking here?"
+    },
+    {
+     "spk": "receptionist",
+     "text": "Yes, there's a car park just behind the building, and it's free for members."
+    },
+    {
+     "spk": "caller",
+     "text": "Perfect, that's really handy."
+    },
+    {
+     "spk": "receptionist",
+     "text": "One more thing — if you're planning to use the pool, please bring your own goggles, since we don't provide those here."
+    },
+    {
+     "spk": "caller",
+     "text": "Right, noted, I'll bring some."
+    },
+    {
+     "spk": "receptionist",
+     "text": "And finally, could I take an emergency contact for you?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, please put down my sister."
+    },
+    {
+     "spk": "receptionist",
+     "text": "Lovely. So just to confirm everything: that's Thomas Bracewell, home address flat 83, Fairview Road, mobile 07822 154690, off-peak membership starting May 1st, with a joining fee of £45, and your sister as emergency contact. Does that all sound right to you?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, that's all correct, thanks so much for your help."
+    },
+    {
+     "spk": "receptionist",
+     "text": "Perfect, thanks Thomas, that's everything sorted. We'll see you on May 1st."
+    },
+    {
+     "spk": "caller",
+     "text": "Great, thank you very much, bye now."
+    }
+   ],
+   "audio": "audio/l/l-p1-01.m4a",
+   "duration": 198,
+   "questions": [
+    {
+     "n": 1,
+     "type": "form",
+     "prompt": "Surname: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Bracewell"
+     ],
+     "accept": [
+      "bracewell"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 2,
+     "type": "form",
+     "prompt": "Date of birth: ____ 1991",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "July 3rd"
+     ],
+     "accept": [
+      "3 july",
+      "3rd july",
+      "3rd of july",
+      "july 3",
+      "july 3rd",
+      "the 3rd of july"
+     ],
+     "trap_ko": "",
+     "predict": "date"
+    },
+    {
+     "n": 3,
+     "type": "form",
+     "prompt": "Flat number: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "83"
+     ],
+     "accept": [
+      "83"
+     ],
+     "trap_ko": "처음에 flat 38이라고 했다가 'actually, sorry... it's flat 83'로 정정함 → 정답은 83",
+     "predict": "number"
+    },
+    {
+     "n": 4,
+     "type": "form",
+     "prompt": "Street: ____ Road",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Fairview"
+     ],
+     "accept": [
+      "fairview"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 5,
+     "type": "form",
+     "prompt": "Mobile number: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "07822154690"
+     ],
+     "accept": [
+      "07822 154690",
+      "07822154690"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 6,
+     "type": "form",
+     "prompt": "Type of membership: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Off-peak"
+     ],
+     "accept": [
+      "off peak",
+      "off-peak"
+     ],
+     "trap_ko": "standard 멤버십이 먼저 언급되지만 화자가 off-peak을 선택함 → 정답 Off-peak (언급된 뒤 거절된 옵션 주의)",
+     "predict": "noun"
+    },
+    {
+     "n": 7,
+     "type": "form",
+     "prompt": "Start date: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "May 1st"
+     ],
+     "accept": [
+      "1 may",
+      "1st may",
+      "1st of may",
+      "may 1",
+      "may 1st",
+      "the 1st of may"
+     ],
+     "trap_ko": "4월 24일이 먼저 언급되지만 그 주가 이미 예약이 꽉 차서 5월 1일로 변경됨 → 정답 May 1st",
+     "predict": "date"
+    },
+    {
+     "n": 8,
+     "type": "form",
+     "prompt": "Joining fee: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "45"
+     ],
+     "accept": [
+      "45",
+      "45.00",
+      "£45"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 9,
+     "type": "form",
+     "prompt": "Please bring your own ____ for the pool",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "goggles"
+     ],
+     "accept": [
+      "goggles"
+     ],
+     "trap_ko": "",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 10,
+     "type": "form",
+     "prompt": "Emergency contact: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "sister"
+     ],
+     "accept": [
+      "sister"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    }
+   ]
+  },
+  {
+   "id": "l-p1-02",
+   "part": 1,
+   "title": "Booking a stay at Willowbrook Cottage",
+   "voices": [
+    {
+     "name": "Samantha",
+     "role": "agent"
+    },
+    {
+     "name": "Karen",
+     "role": "caller"
+    }
+   ],
+   "script": [
+    {
+     "spk": "agent",
+     "text": "Good afternoon, Willowbrook Cottage Bookings, Samantha speaking."
+    },
+    {
+     "spk": "caller",
+     "text": "Hi, I'd like to book a cottage for a family holiday, please."
+    },
+    {
+     "spk": "agent",
+     "text": "Wonderful, I'd be glad to help. Have you stayed with us before, or is this your first time?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's our first time, actually. My sister stayed last year and said it was lovely, so we thought we'd try it too."
+    },
+    {
+     "spk": "agent",
+     "text": "That's great to hear, she must have enjoyed it. Right, let me take a few details then. Can I take your surname first?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, it's Whitfield."
+    },
+    {
+     "spk": "agent",
+     "text": "Could you spell that for me, please?"
+    },
+    {
+     "spk": "caller",
+     "text": "Of course. W-H-I-T-F-I-E-L-D."
+    },
+    {
+     "spk": "agent",
+     "text": "Thanks so much. And how many guests will there be?"
+    },
+    {
+     "spk": "caller",
+     "text": "There'll be 4 of us — oh no, sorry, actually 5, my sister's coming too."
+    },
+    {
+     "spk": "agent",
+     "text": "No problem, 5 guests. And when would you like to arrive?"
+    },
+    {
+     "spk": "caller",
+     "text": "We're hoping for June 14th, if that's available."
+    },
+    {
+     "spk": "agent",
+     "text": "Let me just check the calendar for you... right, yes, that date's free. And how many nights would you like? Did you want 5 nights, or 7?"
+    },
+    {
+     "spk": "caller",
+     "text": "7, please, we've got a bit of extra time this year."
+    },
+    {
+     "spk": "agent",
+     "text": "Perfect, 7 nights it is. Now, would you prefer a cabin or a cottage? I should mention we don't have any cabins left that week."
+    },
+    {
+     "spk": "caller",
+     "text": "A cottage's absolutely fine, then."
+    },
+    {
+     "spk": "agent",
+     "text": "Great, I'll book you into a cottage. There's a deposit of £120 to secure the booking, and the rest is payable on arrival."
+    },
+    {
+     "spk": "caller",
+     "text": "That's fine, I can pay that today."
+    },
+    {
+     "spk": "agent",
+     "text": "Great. The cottage itself has two bedrooms, a small garden, and a wood-burning stove, which is lovely this time of year."
+    },
+    {
+     "spk": "caller",
+     "text": "Oh, that sounds really cosy, we'll enjoy that."
+    },
+    {
+     "spk": "agent",
+     "text": "Wonderful. Also, are you bringing any pets? We do allow up to two dogs, just so you know."
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, actually, we're bringing our two dogs."
+    },
+    {
+     "spk": "agent",
+     "text": "Lovely, I'll note that down. And what's the best contact number for you?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's 04127 336580."
+    },
+    {
+     "spk": "agent",
+     "text": "Thank you. The cottage is quite close to a village called Bramwell, which has a small shop and a pub, if that's useful."
+    },
+    {
+     "spk": "caller",
+     "text": "Oh, that's handy, thanks. Is it within walking distance?"
+    },
+    {
+     "spk": "agent",
+     "text": "It's about a fifteen-minute walk along a footpath, or a couple of minutes by car if the weather's bad."
+    },
+    {
+     "spk": "caller",
+     "text": "Perfect, we'll probably walk down at least once."
+    },
+    {
+     "spk": "agent",
+     "text": "And lastly, would you prefer we contact you by phone or by email for the confirmation?"
+    },
+    {
+     "spk": "caller",
+     "text": "Email's easier for me, please."
+    },
+    {
+     "spk": "agent",
+     "text": "No problem. So just to confirm: that's Whitfield, 5 guests, arriving June 14th for 7 nights in a cottage, with a deposit of £120, bringing two dogs, and your number is 04127 336580. Does all of that sound correct?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, that's everything, spot on."
+    },
+    {
+     "spk": "agent",
+     "text": "I'll send the confirmation by email. Thanks so much, and we'll see you on June 14th."
+    },
+    {
+     "spk": "caller",
+     "text": "Thank you, bye now."
+    }
+   ],
+   "audio": "audio/l/l-p1-02.m4a",
+   "duration": 178,
+   "questions": [
+    {
+     "n": 1,
+     "type": "form",
+     "prompt": "Surname: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Whitfield"
+     ],
+     "accept": [
+      "whitfield"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 2,
+     "type": "form",
+     "prompt": "Number of guests: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "5"
+     ],
+     "accept": [
+      "5",
+      "five"
+     ],
+     "trap_ko": "처음에 4명이라고 했다가 'oh no, sorry, actually 5'로 정정함 → 정답 5",
+     "predict": "number"
+    },
+    {
+     "n": 3,
+     "type": "form",
+     "prompt": "Arrival date: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "June 14th"
+     ],
+     "accept": [
+      "14 june",
+      "14th june",
+      "14th of june",
+      "june 14",
+      "june 14th",
+      "the 14th of june"
+     ],
+     "trap_ko": "",
+     "predict": "date"
+    },
+    {
+     "n": 4,
+     "type": "form",
+     "prompt": "Length of stay: ____ nights",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "7"
+     ],
+     "accept": [
+      "7",
+      "seven"
+     ],
+     "trap_ko": "5박과 7박 두 숫자가 모두 언급되지만 손님이 7박을 선택함 → 정답 7 (먼저 언급된 5는 오답)",
+     "predict": "number"
+    },
+    {
+     "n": 5,
+     "type": "form",
+     "prompt": "Type of accommodation: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "cottage"
+     ],
+     "accept": [
+      "cottage"
+     ],
+     "trap_ko": "cabin이 먼저 언급되지만 그 주에는 없다고 해서 거절됨 → 정답 cottage",
+     "predict": "noun"
+    },
+    {
+     "n": 6,
+     "type": "form",
+     "prompt": "Deposit required: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "120"
+     ],
+     "accept": [
+      "120",
+      "120.00",
+      "£120"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 7,
+     "type": "form",
+     "prompt": "Pets: up to two ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "dogs"
+     ],
+     "accept": [
+      "dogs"
+     ],
+     "trap_ko": "",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 8,
+     "type": "form",
+     "prompt": "Contact number: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "04127336580"
+     ],
+     "accept": [
+      "04127 336580",
+      "04127336580"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 9,
+     "type": "form",
+     "prompt": "Nearby village: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Bramwell"
+     ],
+     "accept": [
+      "bramwell"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 10,
+     "type": "form",
+     "prompt": "Preferred contact method: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "email"
+     ],
+     "accept": [
+      "email"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    }
+   ]
+  },
+  {
+   "id": "l-p1-03",
+   "part": 1,
+   "title": "Reporting a lost bag on the train",
+   "voices": [
+    {
+     "name": "Moira",
+     "role": "officer"
+    },
+    {
+     "name": "Samantha",
+     "role": "caller"
+    }
+   ],
+   "script": [
+    {
+     "spk": "officer",
+     "text": "Good afternoon, lost property office, Moira speaking, how can I help?"
+    },
+    {
+     "spk": "caller",
+     "text": "Hi, I think I left my bag on the train this afternoon."
+    },
+    {
+     "spk": "officer",
+     "text": "Oh no, sorry to hear that, that's never fun. Don't worry though, quite a lot of bags do turn up. Let's see what we can do. Can I take your surname, please?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, it's Yeboah."
+    },
+    {
+     "spk": "officer",
+     "text": "Could you spell that for me?"
+    },
+    {
+     "spk": "caller",
+     "text": "Sure. Y-E-B-O-A-H."
+    },
+    {
+     "spk": "officer",
+     "text": "Thank you. And a contact number, in case we find it?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's 06913 448257. That's my mobile, so you should be able to reach me any time of day."
+    },
+    {
+     "spk": "officer",
+     "text": "Great, thanks. Now, what date did you travel?"
+    },
+    {
+     "spk": "caller",
+     "text": "It was September 9th."
+    },
+    {
+     "spk": "officer",
+     "text": "And roughly what time of day was that, morning or afternoon?"
+    },
+    {
+     "spk": "caller",
+     "text": "It was in the morning, on my way into the city for a meeting."
+    },
+    {
+     "spk": "officer",
+     "text": "OK, that's useful context. And do you remember which service you were on?"
+    },
+    {
+     "spk": "caller",
+     "text": "I think it was the 10:15 — oh wait, actually, sorry, it was the 10:45, I remember now because I only just made it."
+    },
+    {
+     "spk": "officer",
+     "text": "No problem, the 10:45. And which station did you get off at?"
+    },
+    {
+     "spk": "caller",
+     "text": "Kingsbridge."
+    },
+    {
+     "spk": "officer",
+     "text": "And did you notice where on the train you were sitting? That sometimes helps us narrow down where a bag ends up."
+    },
+    {
+     "spk": "caller",
+     "text": "I think it was near the middle of the train, close to the doors, but I can't be completely sure."
+    },
+    {
+     "spk": "officer",
+     "text": "That's still helpful, thank you. Now, can you describe the bag for me?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's black, a medium-sized backpack, with a small tear on one side. There's a little luggage tag on the handle too, with my name on it."
+    },
+    {
+     "spk": "officer",
+     "text": "That's helpful, it'll make it much easier to identify. And what was inside it, roughly?"
+    },
+    {
+     "spk": "caller",
+     "text": "Just my keys, and a paperback book."
+    },
+    {
+     "spk": "officer",
+     "text": "OK, I've noted that. Nothing valuable like a laptop or a wallet, then?"
+    },
+    {
+     "spk": "caller",
+     "text": "No, thankfully I had my wallet with me, so it's really just those two things."
+    },
+    {
+     "spk": "officer",
+     "text": "That's good to hear. And roughly what would you say the bag and its contents are worth, just for our records?"
+    },
+    {
+     "spk": "caller",
+     "text": "Maybe around £85 altogether."
+    },
+    {
+     "spk": "officer",
+     "text": "Thanks, that's helpful. So, just to confirm: Yeboah, contact number 06913 448257, travelling September 9th on the 10:45 from Kingsbridge, a black backpack containing keys and a book, valued at around £85."
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, that's all correct."
+    },
+    {
+     "spk": "officer",
+     "text": "I've logged everything under reference 4829. If it turns up, you can collect it from this office within two weeks. We'll also give you a call the moment it's found."
+    },
+    {
+     "spk": "caller",
+     "text": "Great, thank you so much for your help."
+    },
+    {
+     "spk": "officer",
+     "text": "You're welcome. Just keep the reference number handy, in case you need to call back and check on it."
+    },
+    {
+     "spk": "caller",
+     "text": "Will do, I've written it down. Thanks again."
+    },
+    {
+     "spk": "officer",
+     "text": "No problem at all, take care."
+    }
+   ],
+   "audio": "audio/l/l-p1-03.m4a",
+   "duration": 176,
+   "questions": [
+    {
+     "n": 1,
+     "type": "form",
+     "prompt": "Surname: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Yeboah"
+     ],
+     "accept": [
+      "yeboah"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 2,
+     "type": "form",
+     "prompt": "Contact number: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "06913448257"
+     ],
+     "accept": [
+      "06913 448257",
+      "06913448257"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 3,
+     "type": "form",
+     "prompt": "Date of travel: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "September 9th"
+     ],
+     "accept": [
+      "9 september",
+      "9th of september",
+      "9th september",
+      "september 9",
+      "september 9th",
+      "the 9th of september"
+     ],
+     "trap_ko": "",
+     "predict": "date"
+    },
+    {
+     "n": 4,
+     "type": "form",
+     "prompt": "Train time: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "10:45"
+     ],
+     "accept": [
+      "10.45",
+      "10:45"
+     ],
+     "trap_ko": "처음에 10시 15분이라고 했다가 'oh wait, actually, sorry, it was the 10:45'로 정정함 → 정답 10:45",
+     "predict": "date"
+    },
+    {
+     "n": 5,
+     "type": "form",
+     "prompt": "Station: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Kingsbridge"
+     ],
+     "accept": [
+      "kingsbridge"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 6,
+     "type": "form",
+     "prompt": "Colour of bag: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "black"
+     ],
+     "accept": [
+      "black"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 7,
+     "type": "form",
+     "prompt": "Contents: ____ and a paperback book",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "keys"
+     ],
+     "accept": [
+      "keys"
+     ],
+     "trap_ko": "",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 8,
+     "type": "form",
+     "prompt": "Estimated value: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "85"
+     ],
+     "accept": [
+      "85",
+      "85.00",
+      "£85"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 9,
+     "type": "form",
+     "prompt": "Reference number: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "4829"
+     ],
+     "accept": [
+      "4829"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 10,
+     "type": "form",
+     "prompt": "Next step: ____ it from the lost property office",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "collect"
+     ],
+     "accept": [
+      "collect"
+     ],
+     "trap_ko": "",
+     "predict": "verb"
+    }
+   ]
+  },
+  {
+   "id": "l-p1-04",
+   "part": 1,
+   "title": "Enrolling on an evening electrical wiring course",
+   "voices": [
+    {
+     "name": "Karen",
+     "role": "coordinator"
+    },
+    {
+     "name": "Daniel",
+     "role": "student"
+    }
+   ],
+   "script": [
+    {
+     "spk": "coordinator",
+     "text": "Good evening, Evening Learning Programme, Karen speaking."
+    },
+    {
+     "spk": "student",
+     "text": "Hi, I'd like to enrol on the basic electrical wiring course, please."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Great choice, that's one of our most popular evening courses. Have you done any of our courses with us before?"
+    },
+    {
+     "spk": "student",
+     "text": "No, this would be my first one. I've just moved into an older house, and I'd like to learn how to do some basic repairs myself."
+    },
+    {
+     "spk": "coordinator",
+     "text": "That's exactly the kind of thing this course covers, so it should suit you well. Let me take a few details then. Can I take your surname first?"
+    },
+    {
+     "spk": "student",
+     "text": "Yes, it's Fitzgerald."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Could you spell that for me?"
+    },
+    {
+     "spk": "student",
+     "text": "Sure. F-I-T-Z-G-E-R-A-L-D."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Thanks. And your first name?"
+    },
+    {
+     "spk": "student",
+     "text": "Daniel."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Lovely, thanks Daniel. And a contact number for you?"
+    },
+    {
+     "spk": "student",
+     "text": "It's 05238 619740."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Perfect. Now, the course usually starts on September 29th, but that group's already full, so I can offer you October 6th instead."
+    },
+    {
+     "spk": "student",
+     "text": "October 6th works for me, that's fine. Is there much of a waiting list for these courses generally?"
+    },
+    {
+     "spk": "coordinator",
+     "text": "It varies, but the electrical wiring course is always one of the first to fill up, so you were lucky to catch a space."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Great. Classes run on Tuesdays at 7 — sorry, actually, hold on, it's 7:30, my mistake."
+    },
+    {
+     "spk": "student",
+     "text": "No worries, 7:30 it is."
+    },
+    {
+     "spk": "coordinator",
+     "text": "We usually run the course over 10 weeks, but this term it's just 8."
+    },
+    {
+     "spk": "student",
+     "text": "That's fine, 8 weeks is plenty."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Classes are held in the Elmwood building, room 12, which is just past the main entrance and up one flight of stairs."
+    },
+    {
+     "spk": "student",
+     "text": "Elmwood, got it, that shouldn't be hard to find."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Now, we do have an advanced class too, but that one's completely full already, so I'll put you on the beginner course, which is exactly what you need anyway."
+    },
+    {
+     "spk": "student",
+     "text": "Perfect, beginner's exactly right for me."
+    },
+    {
+     "spk": "coordinator",
+     "text": "The course fee is £95, and that includes all your course materials, so you won't need to buy anything separately."
+    },
+    {
+     "spk": "student",
+     "text": "Great, that sounds reasonable, and quite good value actually."
+    },
+    {
+     "spk": "coordinator",
+     "text": "One more thing — please bring some gloves to the first session, since you'll be doing some hands-on wiring practice."
+    },
+    {
+     "spk": "student",
+     "text": "Sure, I'll bring some. Do I need to bring any tools of my own?"
+    },
+    {
+     "spk": "coordinator",
+     "text": "No, don't worry, we provide all the tools and equipment for the sessions, you just need the gloves for safety."
+    },
+    {
+     "spk": "student",
+     "text": "That's great, one less thing to buy."
+    },
+    {
+     "spk": "coordinator",
+     "text": "And finally, could you bring some identification on the first night, just so we can confirm your enrolment?"
+    },
+    {
+     "spk": "student",
+     "text": "No problem, I'll bring my passport."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Perfect. So just to confirm: Fitzgerald, starting October 6th at 7:30, over 8 weeks in the Elmwood building, on the beginner course, with a fee of £95. Please remember to bring gloves and some identification."
+    },
+    {
+     "spk": "student",
+     "text": "Yes, that's all correct, thanks for going through it."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Perfect, thanks Daniel. That's everything sorted. We'll see you on October 6th."
+    },
+    {
+     "spk": "student",
+     "text": "Great, thank you very much."
+    }
+   ],
+   "audio": "audio/l/l-p1-04.m4a",
+   "duration": 189,
+   "questions": [
+    {
+     "n": 1,
+     "type": "form",
+     "prompt": "Surname: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Fitzgerald"
+     ],
+     "accept": [
+      "fitzgerald"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 2,
+     "type": "form",
+     "prompt": "Contact number: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "05238619740"
+     ],
+     "accept": [
+      "05238 619740",
+      "05238619740"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 3,
+     "type": "form",
+     "prompt": "Start date: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "October 6th"
+     ],
+     "accept": [
+      "6 october",
+      "6th october",
+      "6th of october",
+      "october 6",
+      "october 6th",
+      "the 6th of october"
+     ],
+     "trap_ko": "9월 29일이 먼저 언급되지만 그 그룹이 이미 다 차서 10월 6일로 변경됨 → 정답 October 6th",
+     "predict": "date"
+    },
+    {
+     "n": 4,
+     "type": "form",
+     "prompt": "Class time: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "7:30"
+     ],
+     "accept": [
+      "7.30",
+      "7:30"
+     ],
+     "trap_ko": "처음에 7시라고 했다가 'sorry, actually, hold on, it's 7:30'로 정정함 → 정답 7:30",
+     "predict": "date"
+    },
+    {
+     "n": 5,
+     "type": "form",
+     "prompt": "Course length: ____ weeks",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "8"
+     ],
+     "accept": [
+      "8",
+      "eight"
+     ],
+     "trap_ko": "보통 10주 과정이지만 이번 학기는 8주라고 정정함 → 정답 8 (10은 오답)",
+     "predict": "number"
+    },
+    {
+     "n": 6,
+     "type": "form",
+     "prompt": "Building: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Elmwood"
+     ],
+     "accept": [
+      "elmwood"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 7,
+     "type": "form",
+     "prompt": "Course level: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "beginner"
+     ],
+     "accept": [
+      "beginner"
+     ],
+     "trap_ko": "advanced 반이 먼저 언급되지만 자리가 없어서 거절되고 beginner로 배정됨 → 정답 beginner",
+     "predict": "noun"
+    },
+    {
+     "n": 8,
+     "type": "form",
+     "prompt": "Course fee: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "95"
+     ],
+     "accept": [
+      "95",
+      "95.00",
+      "£95"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 9,
+     "type": "form",
+     "prompt": "Please bring some ____ to the first session",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "gloves"
+     ],
+     "accept": [
+      "gloves"
+     ],
+     "trap_ko": "",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 10,
+     "type": "form",
+     "prompt": "Also bring: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "identification"
+     ],
+     "accept": [
+      "id",
+      "identification"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    }
+   ]
+  },
+  {
+   "id": "l-p1-05",
+   "part": 1,
+   "title": "Hiring a van for a house move",
+   "voices": [
+    {
+     "name": "Daniel",
+     "role": "agent"
+    },
+    {
+     "name": "Karen",
+     "role": "caller"
+    }
+   ],
+   "script": [
+    {
+     "spk": "agent",
+     "text": "Good morning, Metro Van Hire, Daniel speaking, how can I help you today?"
+    },
+    {
+     "spk": "caller",
+     "text": "Hi there, I would like to book a van to help move house next month, please."
+    },
+    {
+     "spk": "agent",
+     "text": "No problem at all, we can sort that out for you. Can I take your name first?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's Grace Delaney."
+    },
+    {
+     "spk": "agent",
+     "text": "Lovely, and could you spell your surname for me, just so I get it right?"
+    },
+    {
+     "spk": "caller",
+     "text": "Sure, it's D-E-L-A-N-E-Y."
+    },
+    {
+     "spk": "agent",
+     "text": "Thanks very much, Grace. Could I get a contact number too, in case we need to reach you?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's 07700 900461."
+    },
+    {
+     "spk": "agent",
+     "text": "Perfect, that's on file now. Is this a local move, or are you going further afield?"
+    },
+    {
+     "spk": "caller",
+     "text": "Just across town really, from one side of the city to the other."
+    },
+    {
+     "spk": "agent",
+     "text": "That's easy enough then. Now, what size van are you after? We have got a small Transit, or a larger Luton for bigger moves."
+    },
+    {
+     "spk": "caller",
+     "text": "It's a whole house, so I think the Luton would be safer, to be honest."
+    },
+    {
+     "spk": "agent",
+     "text": "Good choice, that's our most popular option for a full house move. When do you need it?"
+    },
+    {
+     "spk": "caller",
+     "text": "October 14th, if that date is free."
+    },
+    {
+     "spk": "agent",
+     "text": "Let me just check the calendar for you... yes, that date is open, so we can pencil you in."
+    },
+    {
+     "spk": "caller",
+     "text": "Great, thank you."
+    },
+    {
+     "spk": "agent",
+     "text": "What time should we bring it round on the day? Shall we say 10:00?"
+    },
+    {
+     "spk": "caller",
+     "text": "Actually, could we make that 10:30 instead? I need a bit longer to finish packing everything up."
+    },
+    {
+     "spk": "agent",
+     "text": "That's absolutely fine, 10:30 it is. Do you need any packing equipment as well, like boxes or wrapping?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, could you include some blankets, please, just to protect the furniture during the drive?"
+    },
+    {
+     "spk": "agent",
+     "text": "Of course, we will add blankets to the order at no extra charge. Now, there is a deposit to pay before the day."
+    },
+    {
+     "spk": "caller",
+     "text": "Right, how much is that?"
+    },
+    {
+     "spk": "agent",
+     "text": "It's normally £40, but for a one day hire it works out at £25 instead."
+    },
+    {
+     "spk": "caller",
+     "text": "Okay, £25, that sounds fair enough to me."
+    },
+    {
+     "spk": "agent",
+     "text": "Great, I will send a link over so you can pay that today if you like. And which depot would you like to collect from? We have branches in Kingston and Richmond."
+    },
+    {
+     "spk": "caller",
+     "text": "Kingston is closer for me, so I will go with that one, if that's alright."
+    },
+    {
+     "spk": "agent",
+     "text": "That's no trouble at all, plenty of people choose Kingston. Last thing, would you like basic cover or fully comprehensive insurance for the hire?"
+    },
+    {
+     "spk": "caller",
+     "text": "I will take comprehensive, just to be safe, since we've got quite a lot to carry."
+    },
+    {
+     "spk": "agent",
+     "text": "Sensible choice, most people do for a full house move like this. Is there anything else I can help you with before we finish up?"
+    },
+    {
+     "spk": "caller",
+     "text": "No, I think that covers everything, thank you."
+    },
+    {
+     "spk": "agent",
+     "text": "All sorted then, Grace. We will see you on October 14th at 10:30, and good luck with the move."
+    },
+    {
+     "spk": "caller",
+     "text": "Thanks so much, bye for now."
+    }
+   ],
+   "audio": "audio/l/l-p1-05.m4a",
+   "duration": 173,
+   "questions": [
+    {
+     "n": 1,
+     "type": "form",
+     "prompt": "Surname: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Delaney"
+     ],
+     "accept": [
+      "delaney"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 2,
+     "type": "form",
+     "prompt": "First name: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Grace"
+     ],
+     "accept": [
+      "grace"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 3,
+     "type": "form",
+     "prompt": "Contact number: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "07700900461"
+     ],
+     "accept": [
+      "07700 900461",
+      "07700900461"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 4,
+     "type": "form",
+     "prompt": "Van size needed: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Luton"
+     ],
+     "accept": [
+      "luton"
+     ],
+     "trap_ko": "먼저 작은 Transit을 언급했지만 집 전체 이사라 더 큰 Luton으로 선택 → 정답 Luton (Transit은 오답 함정)",
+     "predict": "noun"
+    },
+    {
+     "n": 5,
+     "type": "form",
+     "prompt": "Date needed: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "October 14th"
+     ],
+     "accept": [
+      "14 october",
+      "14th october",
+      "14th of october",
+      "october 14",
+      "october 14th",
+      "the 14th of october"
+     ],
+     "trap_ko": "",
+     "predict": "date"
+    },
+    {
+     "n": 6,
+     "type": "form",
+     "prompt": "Pick-up time: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "10:30"
+     ],
+     "accept": [
+      "10.30",
+      "10:30",
+      "half past 10"
+     ],
+     "trap_ko": "처음에 10:00으로 제안했다가 고객이 'Actually, could we make that 10:30'로 정정 → 정답 10:30 (10:00은 오답 함정)",
+     "predict": "date"
+    },
+    {
+     "n": 7,
+     "type": "form",
+     "prompt": "Extra equipment needed: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "blankets"
+     ],
+     "accept": [
+      "blanket",
+      "blankets"
+     ],
+     "trap_ko": "복수형 blankets 주의 (단수 blanket 아님)",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 8,
+     "type": "form",
+     "prompt": "Deposit: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "25"
+     ],
+     "accept": [
+      "25",
+      "25.00",
+      "£25"
+     ],
+     "trap_ko": "평소 보증금은 £40이라고 먼저 말했다가 'for a one day hire it works out at £25 instead'로 정정 → 정답 25 (40은 오답 함정)",
+     "predict": "money"
+    },
+    {
+     "n": 9,
+     "type": "form",
+     "prompt": "Collection depot: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Kingston"
+     ],
+     "accept": [
+      "kingston"
+     ],
+     "trap_ko": "Kingston과 Richmond 두 지점이 언급되지만 고객이 Kingston을 선택 → 정답 Kingston (Richmond는 오답 함정)",
+     "predict": "place"
+    },
+    {
+     "n": 10,
+     "type": "form",
+     "prompt": "Insurance type chosen: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "comprehensive"
+     ],
+     "accept": [
+      "comprehensive",
+      "fully comprehensive"
+     ],
+     "trap_ko": "basic cover와 fully comprehensive 중 comprehensive를 선택 → 정답 comprehensive (basic은 오답 함정)",
+     "predict": "noun"
+    }
+   ]
+  },
+  {
+   "id": "l-p1-06",
+   "part": 1,
+   "title": "Registering with a temporary job agency",
+   "voices": [
+    {
+     "name": "Moira",
+     "role": "staff"
+    },
+    {
+     "name": "Samantha",
+     "role": "caller"
+    }
+   ],
+   "script": [
+    {
+     "spk": "staff",
+     "text": "Good afternoon, BrightWork Recruitment, this is Moira speaking, how can I help?"
+    },
+    {
+     "spk": "caller",
+     "text": "Hi Moira, I would like to register for some temporary work, please, if that's possible."
+    },
+    {
+     "spk": "staff",
+     "text": "Of course, that's exactly what we're here for. Let's get a few details down first. Could I take your surname to begin with?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's Pemberton."
+    },
+    {
+     "spk": "staff",
+     "text": "Thanks, and could you spell that for me, please, just so I have it correctly?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, P-E-M-B-E-R-T-O-N."
+    },
+    {
+     "spk": "staff",
+     "text": "Perfect, thank you very much. And your first name?"
+    },
+    {
+     "spk": "caller",
+     "text": "Rachel."
+    },
+    {
+     "spk": "staff",
+     "text": "Great, Rachel. Can I take your date of birth as well, for our records?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's June 9th, 1998."
+    },
+    {
+     "spk": "staff",
+     "text": "Thank you. And a contact number, in case we need to reach you quickly about a job?"
+    },
+    {
+     "spk": "caller",
+     "text": "07892 331204."
+    },
+    {
+     "spk": "staff",
+     "text": "Lovely, that's all noted down. Now, what type of work are you looking for? We place people in admin, reception, or warehouse roles at the moment."
+    },
+    {
+     "spk": "caller",
+     "text": "I would prefer reception work, if there's anything going, since that's what I've done before in my last job."
+    },
+    {
+     "spk": "staff",
+     "text": "There's quite a bit at the moment, actually, so that shouldn't be a problem for you. What sort of hourly rate are you hoping for?"
+    },
+    {
+     "spk": "caller",
+     "text": "I was thinking £15, but if there's something a bit higher I would consider £18."
+    },
+    {
+     "spk": "staff",
+     "text": "We can usually manage £18 for reception work, so that's not an issue at all for a client like ours. And which town are you based in?"
+    },
+    {
+     "spk": "caller",
+     "text": "Bristol, near the city centre, so I can get to most places easily by bus."
+    },
+    {
+     "spk": "staff",
+     "text": "Perfect, that's a good area for us, plenty of clients nearby need cover. Now, when you come in for your registration, could you bring your passport and two references?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, of course, I will bring those along with me on the day."
+    },
+    {
+     "spk": "staff",
+     "text": "Lovely, that makes things much quicker for us. Let's get an interview booked in as well. Are you free on Monday at 2:00?"
+    },
+    {
+     "spk": "caller",
+     "text": "Actually, Monday's difficult for me, could we make it Wednesday instead, same time?"
+    },
+    {
+     "spk": "staff",
+     "text": "Wednesday at 2:00, that's no trouble at all, I'll pop that straight in the diary. Last thing, would you prefer an employer reference or a personal one for your file?"
+    },
+    {
+     "spk": "caller",
+     "text": "An employer reference would be better, I think, since it's more recent and relevant."
+    },
+    {
+     "spk": "staff",
+     "text": "Great, I'll note that down for the office right away. Is there anything else you would like to ask before we finish up?"
+    },
+    {
+     "spk": "caller",
+     "text": "Just one thing, how soon could I start working, once everything is approved?"
+    },
+    {
+     "spk": "staff",
+     "text": "Usually within a week or so, once your references come back to us. We'll call you as soon as something suitable comes up on our books."
+    },
+    {
+     "spk": "caller",
+     "text": "That sounds great, thank you so much for your help today."
+    },
+    {
+     "spk": "staff",
+     "text": "No problem at all, Rachel, it was lovely speaking with you. We'll see you Wednesday at 2:00."
+    }
+   ],
+   "audio": "audio/l/l-p1-06.m4a",
+   "duration": 172,
+   "questions": [
+    {
+     "n": 1,
+     "type": "form",
+     "prompt": "Surname: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Pemberton"
+     ],
+     "accept": [
+      "pemberton"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 2,
+     "type": "form",
+     "prompt": "First name: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Rachel"
+     ],
+     "accept": [
+      "rachel"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 3,
+     "type": "form",
+     "prompt": "Date of birth: ____ 1998",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "June 9th"
+     ],
+     "accept": [
+      "9 june",
+      "9th june",
+      "9th of june",
+      "june 9",
+      "june 9th",
+      "the 9th of june"
+     ],
+     "trap_ko": "",
+     "predict": "date"
+    },
+    {
+     "n": 4,
+     "type": "form",
+     "prompt": "Contact number: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "07892331204"
+     ],
+     "accept": [
+      "07892 331204",
+      "07892331204"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 5,
+     "type": "form",
+     "prompt": "Type of work wanted: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Reception"
+     ],
+     "accept": [
+      "reception",
+      "receptionist"
+     ],
+     "trap_ko": "admin, reception, warehouse 세 가지 중 reception을 선택 → 정답 Reception (admin, warehouse는 오답 함정)",
+     "predict": "noun"
+    },
+    {
+     "n": 6,
+     "type": "form",
+     "prompt": "Hourly rate agreed: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "18"
+     ],
+     "accept": [
+      "18",
+      "£18"
+     ],
+     "trap_ko": "고객이 처음 £15를 말했지만 £18도 가능하다고 하자 직원이 £18로 확정 → 정답 18 (15는 오답 함정)",
+     "predict": "money"
+    },
+    {
+     "n": 7,
+     "type": "form",
+     "prompt": "Town: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Bristol"
+     ],
+     "accept": [
+      "bristol"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 8,
+     "type": "form",
+     "prompt": "Documents to bring: passport and two ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "references"
+     ],
+     "accept": [
+      "reference",
+      "references"
+     ],
+     "trap_ko": "복수형 references 주의",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 9,
+     "type": "form",
+     "prompt": "Interview day: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Wednesday"
+     ],
+     "accept": [
+      "wednesday"
+     ],
+     "trap_ko": "처음 Monday로 제안했다가 고객이 'Monday's difficult, could we make it Wednesday instead'로 정정 → 정답 Wednesday (Monday는 오답 함정)",
+     "predict": "date"
+    },
+    {
+     "n": 10,
+     "type": "form",
+     "prompt": "Reference type requested: ____ reference",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "employer"
+     ],
+     "accept": [
+      "employer",
+      "employer's"
+     ],
+     "trap_ko": "employer reference와 personal reference 중 employer를 선택 → 정답 employer (personal은 오답 함정)",
+     "predict": "noun"
+    }
+   ]
+  },
+  {
+   "id": "l-p1-07",
+   "part": 1,
+   "title": "Getting a quote from a removals and cleaning company",
+   "voices": [
+    {
+     "name": "Karen",
+     "role": "staff"
+    },
+    {
+     "name": "Daniel",
+     "role": "caller"
+    }
+   ],
+   "script": [
+    {
+     "spk": "staff",
+     "text": "Sparkle Clean and Move, Karen speaking, how can I help you today?"
+    },
+    {
+     "spk": "caller",
+     "text": "Hi there, I'm hoping to get a quote for a house move and an end of tenancy clean, if you do both together."
+    },
+    {
+     "spk": "staff",
+     "text": "We do indeed, we handle quite a few jobs like that at the same time. Can I take your surname first, please?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's Harrington."
+    },
+    {
+     "spk": "staff",
+     "text": "Could you spell that for me, please, just to be sure I've got it right?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, H-A-R-R-I-N-G-T-O-N."
+    },
+    {
+     "spk": "staff",
+     "text": "Thanks very much for that. And how many bedrooms are we talking about, roughly?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's a 3 bedroom flat, so nothing too big, thankfully."
+    },
+    {
+     "spk": "staff",
+     "text": "Right, that's a common size for us, shouldn't be a problem at all. And besides the general clean, is there anything extra you need, like windows or carpets?"
+    },
+    {
+     "spk": "caller",
+     "text": "Could you do the carpets as well? They're quite marked from the tenants before us, unfortunately."
+    },
+    {
+     "spk": "staff",
+     "text": "No problem at all, we'll add carpets to the job then, that's easily arranged. When is the move actually happening?"
+    },
+    {
+     "spk": "caller",
+     "text": "November 22nd."
+    },
+    {
+     "spk": "staff",
+     "text": "Let me note that down. And shall we book the clean for the same day, in the afternoon, say 2:00?"
+    },
+    {
+     "spk": "caller",
+     "text": "Actually, could we do the morning instead, around 9:00? The new tenants are coming in later that same day."
+    },
+    {
+     "spk": "staff",
+     "text": "9:00 it is then, I'll note that down straight away. Now, for the cleaning with the carpets included, that comes to £70."
+    },
+    {
+     "spk": "caller",
+     "text": "£70, got it, that sounds reasonable to me."
+    },
+    {
+     "spk": "staff",
+     "text": "And for the removal van, our standard rate is £120, but since it's a weekday move, it'll only come to £100."
+    },
+    {
+     "spk": "caller",
+     "text": "That's great, thank you, weekday works well for us anyway."
+    },
+    {
+     "spk": "staff",
+     "text": "Which area is the property in? We only cover certain postcodes from this particular branch."
+    },
+    {
+     "spk": "caller",
+     "text": "It's in Headingley, is that alright for you to reach?"
+    },
+    {
+     "spk": "staff",
+     "text": "Yes, that's well within our range, plenty of our regular jobs are round that way. Is there anywhere for the van to park, or is it on a busy road?"
+    },
+    {
+     "spk": "caller",
+     "text": "There's a driveway at the front, so parking shouldn't be a problem for the crew."
+    },
+    {
+     "spk": "staff",
+     "text": "That's handy, it makes the whole job much quicker when we don't have to carry things far. Last couple of things, how many movers would you like, 2 or 3?"
+    },
+    {
+     "spk": "caller",
+     "text": "Let's go with 2, we can manage some of the smaller boxes ourselves."
+    },
+    {
+     "spk": "staff",
+     "text": "Understood, I'll book 2 in for you on the day. And how would you like to pay, card or bank transfer?"
+    },
+    {
+     "spk": "caller",
+     "text": "Card's easiest for me, if that's alright with you."
+    },
+    {
+     "spk": "staff",
+     "text": "That's absolutely fine, we take card on the day without any bother at all. Is there anything else you'd like to ask before we finish up?"
+    },
+    {
+     "spk": "caller",
+     "text": "No, I think that's everything, thanks so much for your help."
+    },
+    {
+     "spk": "staff",
+     "text": "Perfect, I'll get that all booked in for you, and we'll see you on November 22nd."
+    },
+    {
+     "spk": "caller",
+     "text": "Brilliant, thank you very much, speak soon."
+    }
+   ],
+   "audio": "audio/l/l-p1-07.m4a",
+   "duration": 173,
+   "questions": [
+    {
+     "n": 1,
+     "type": "note",
+     "prompt": "Surname: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Harrington"
+     ],
+     "accept": [
+      "harrington"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 2,
+     "type": "note",
+     "prompt": "Property size: ____ bedrooms",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "3"
+     ],
+     "accept": [
+      "3",
+      "three"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 3,
+     "type": "note",
+     "prompt": "Extra service requested: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "carpets"
+     ],
+     "accept": [
+      "carpet",
+      "carpets"
+     ],
+     "trap_ko": "복수형 carpets 주의",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 4,
+     "type": "note",
+     "prompt": "Moving date: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "November 22nd"
+     ],
+     "accept": [
+      "22 november",
+      "22nd november",
+      "22nd of november",
+      "november 22",
+      "november 22nd",
+      "the 22nd of november"
+     ],
+     "trap_ko": "",
+     "predict": "date"
+    },
+    {
+     "n": 5,
+     "type": "note",
+     "prompt": "Cleaning time: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "9:00"
+     ],
+     "accept": [
+      "9 am",
+      "9.00",
+      "9:00",
+      "9am"
+     ],
+     "trap_ko": "처음 오후 2:00을 제안했다가 고객이 'Actually, could we do the morning instead, around 9:00'으로 정정 → 정답 9:00 (2:00은 오답 함정)",
+     "predict": "date"
+    },
+    {
+     "n": 6,
+     "type": "note",
+     "prompt": "Cleaning cost (with carpets): £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "70"
+     ],
+     "accept": [
+      "70",
+      "£70"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 7,
+     "type": "note",
+     "prompt": "Removal van cost: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "100"
+     ],
+     "accept": [
+      "100",
+      "£100"
+     ],
+     "trap_ko": "평소 요금 £120을 먼저 말했다가 평일 이사라 £100으로 정정 → 정답 100 (120은 오답 함정)",
+     "predict": "money"
+    },
+    {
+     "n": 8,
+     "type": "note",
+     "prompt": "Property area: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Headingley"
+     ],
+     "accept": [
+      "headingley"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 9,
+     "type": "note",
+     "prompt": "Number of movers requested: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "2"
+     ],
+     "accept": [
+      "2",
+      "two"
+     ],
+     "trap_ko": "2명과 3명 중 고객이 2명을 선택 → 정답 2 (3은 오답 함정)",
+     "predict": "number"
+    },
+    {
+     "n": 10,
+     "type": "note",
+     "prompt": "Payment method: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "card"
+     ],
+     "accept": [
+      "card",
+      "cards"
+     ],
+     "trap_ko": "card와 bank transfer 중 card를 선택 → 정답 card (bank transfer는 오답 함정)",
+     "predict": "noun"
+    }
+   ]
+  },
+  {
+   "id": "l-p1-08",
+   "part": 1,
+   "title": "Booking a room and catering for a team event",
+   "voices": [
+    {
+     "name": "Samantha",
+     "role": "coordinator"
+    },
+    {
+     "name": "Moira",
+     "role": "caller"
+    }
+   ],
+   "script": [
+    {
+     "spk": "coordinator",
+     "text": "Good morning, The Willow Room events line, Samantha speaking, how can I help?"
+    },
+    {
+     "spk": "caller",
+     "text": "Hi there, I would like to book a room for a small work event, please, if you have availability."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Of course, we'd be happy to help with that, we host quite a few small team events here. Could I take your surname first?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's Ashworth."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Could you spell that for me, please?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, A-S-H-W-O-R-T-H."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Lovely, thank you very much. And how many people will be attending altogether?"
+    },
+    {
+     "spk": "caller",
+     "text": "There'll be 12 of us, it's our pharmacy team, we're celebrating a good year."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Great, 12 should fit nicely in one of our smaller rooms, they can be quite cosy and comfortable for groups that size. What date were you thinking of?"
+    },
+    {
+     "spk": "caller",
+     "text": "December 3rd."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Let me just check... yes, that date is free. We have the Garden Room or the Terrace Room available, the Garden Room is a bit quieter."
+    },
+    {
+     "spk": "caller",
+     "text": "The Garden Room sounds perfect for us, actually."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Lovely choice, it's a favourite with smaller groups. And what time would you like to start? Shall we say 1:00?"
+    },
+    {
+     "spk": "caller",
+     "text": "Actually, could we start a bit earlier, at 12:30? A few of us finish work at midday."
+    },
+    {
+     "spk": "coordinator",
+     "text": "12:30, no problem at all, I'll change that now. Now, for catering, would you like sandwiches, or a hot buffet instead?"
+    },
+    {
+     "spk": "caller",
+     "text": "Sandwiches would be great, that's easier for everyone on the day."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Lovely, that's a popular choice for us. That works out at £15 per person, so with 12 of you, that's £180 in total."
+    },
+    {
+     "spk": "caller",
+     "text": "That sounds fine to me."
+    },
+    {
+     "spk": "coordinator",
+     "text": "We'll need a deposit to secure the booking, that's £50."
+    },
+    {
+     "spk": "caller",
+     "text": "No problem, I can pay that today if that helps."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Perfect, that speeds things up nicely, we can take that over the phone if you like. Are there any dietary requirements we should know about for the catering?"
+    },
+    {
+     "spk": "caller",
+     "text": "Yes, a couple of the team have allergies, so please could you note that down for the kitchen."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Absolutely, I'll flag that straight away so nothing gets missed on the day. Will you need any equipment in the room, like a screen or a speaker for music?"
+    },
+    {
+     "spk": "caller",
+     "text": "A screen would be helpful, we're planning to show a short presentation before lunch."
+    },
+    {
+     "spk": "coordinator",
+     "text": "That's no trouble, the Garden Room already has a screen fitted, so that's included at no extra cost. Finally, could I get a contact number in case we need to reach you beforehand?"
+    },
+    {
+     "spk": "caller",
+     "text": "It's 07456 213890."
+    },
+    {
+     "spk": "coordinator",
+     "text": "Perfect, that's everything booked in for you now. Is there anything else I can help with today?"
+    },
+    {
+     "spk": "caller",
+     "text": "No, that's everything, thank you so much for your help with all of this."
+    },
+    {
+     "spk": "coordinator",
+     "text": "You're very welcome, we'll see your team on December 3rd, and I do hope the celebration goes really well."
+    }
+   ],
+   "audio": "audio/l/l-p1-08.m4a",
+   "duration": 167,
+   "questions": [
+    {
+     "n": 1,
+     "type": "note",
+     "prompt": "Surname: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Ashworth"
+     ],
+     "accept": [
+      "ashworth"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 2,
+     "type": "note",
+     "prompt": "Number of guests: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "12"
+     ],
+     "accept": [
+      "12",
+      "twelve"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 3,
+     "type": "note",
+     "prompt": "Event date: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "December 3rd"
+     ],
+     "accept": [
+      "3 december",
+      "3rd december",
+      "3rd of december",
+      "december 3",
+      "december 3rd",
+      "the 3rd of december"
+     ],
+     "trap_ko": "",
+     "predict": "date"
+    },
+    {
+     "n": 4,
+     "type": "note",
+     "prompt": "Room booked: ____ Room",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "Garden"
+     ],
+     "accept": [
+      "garden"
+     ],
+     "trap_ko": "Garden Room과 Terrace Room 중 Garden Room을 선택 → 정답 Garden (Terrace는 오답 함정)",
+     "predict": "noun"
+    },
+    {
+     "n": 5,
+     "type": "note",
+     "prompt": "Start time: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "12:30"
+     ],
+     "accept": [
+      "12.30",
+      "12:30"
+     ],
+     "trap_ko": "처음 1:00을 제안했다가 고객이 'could we start a bit earlier, at 12:30'으로 정정 → 정답 12:30 (1:00은 오답 함정)",
+     "predict": "date"
+    },
+    {
+     "n": 6,
+     "type": "note",
+     "prompt": "Catering choice: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "sandwiches"
+     ],
+     "accept": [
+      "sandwich",
+      "sandwiches"
+     ],
+     "trap_ko": "sandwiches와 hot buffet 중 sandwiches를 선택 → 정답 sandwiches (복수형 주의, buffet은 오답 함정)",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 7,
+     "type": "note",
+     "prompt": "Total catering cost: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "180"
+     ],
+     "accept": [
+      "180",
+      "£180"
+     ],
+     "trap_ko": "1인당 £15가 먼저 언급되지만 질문은 총액 → 정답 180 (15는 오답 함정)",
+     "predict": "money"
+    },
+    {
+     "n": 8,
+     "type": "note",
+     "prompt": "Deposit required: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "50"
+     ],
+     "accept": [
+      "50",
+      "£50"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 9,
+     "type": "note",
+     "prompt": "Dietary requirements: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "allergies"
+     ],
+     "accept": [
+      "allergies",
+      "allergy"
+     ],
+     "trap_ko": "복수형 allergies 주의",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 10,
+     "type": "note",
+     "prompt": "Contact number: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "07456213890"
+     ],
+     "accept": [
+      "07456 213890",
+      "07456213890"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    }
+   ]
+  },
+  {
+   "id": "l-p2-01",
+   "part": 2,
+   "title": "A guide to a restored historic mill",
+   "voices": [
+    {
+     "name": "Karen",
+     "role": "announcer"
+    },
+    {
+     "name": "Daniel",
+     "role": "guide"
+    }
+   ],
+   "script": [
+    {
+     "spk": "announcer",
+     "text": "Good afternoon, everyone, and welcome to Millbrook Mill. I'll now hand you over to our guide, Daniel, who'll take you round the site."
+    },
+    {
+     "spk": "guide",
+     "text": "Thanks, Karen, and welcome, everyone, to Millbrook Mill. Let me give you a bit of background before we go inside: the mill stands beside the River Fenwick, right on the edge of the old town, and it was originally built in 1834 by a local businessman."
+    },
+    {
+     "spk": "guide",
+     "text": "The building had actually fallen into disrepair by the 1960s, and it took almost ten years of restoration work by local volunteers and heritage engineers before it reopened to the public, so what you're about to see is very much a labor of love."
+    },
+    {
+     "spk": "guide",
+     "text": "Now, in terms of opening times: we're open every day of the week - oh, sorry, that's not right, actually we're closed on Mondays, so we're open six days a week, Tuesday through Sunday, from ten in the morning until four in the afternoon."
+    },
+    {
+     "spk": "guide",
+     "text": "During the winter months, from November through February, we do close a little earlier, around three in the afternoon, mainly because the light fades so quickly here beside the river."
+    },
+    {
+     "spk": "guide",
+     "text": "Let's talk about tickets. An adult ticket costs £8.50, and if you've got a family with two adults and three children, the family ticket covers the whole group - you might see an old figure of £25 advertised online, but that's out of date, it's actually £22 now."
+    },
+    {
+     "spk": "guide",
+     "text": "If you're coming as part of a larger group, of ten people or more, we do ask that you book ahead by phone so we can arrange a dedicated time slot and a guide just for you."
+    },
+    {
+     "spk": "guide",
+     "text": "Moving on to what you'll see inside: the star of the show is our magnificent waterwheel, still turning after all these years, and just beyond that you'll find the original grinding stones. Please don't touch the machinery - some of the belts and gears are original, and they're quite delicate."
+    },
+    {
+     "spk": "guide",
+     "text": "For anyone who needs it, there's step-free access to the ground floor and the toilets, though I should say the upper gallery is only reachable by a fairly steep staircase, so do ask a member of staff if you'd like help finding an alternative route."
+    },
+    {
+     "spk": "guide",
+     "text": "The mill itself was founded by a man named Josiah Barrow - that's spelled B-A-R-R-O-W - and there's a small display about his life just past the ticket desk."
+    },
+    {
+     "spk": "guide",
+     "text": "On your way out, do pop into the gift shop, where we sell local honey made by bees kept right here on the mill grounds, as well as handmade pottery and a small booklet on the mill's history."
+    },
+    {
+     "spk": "guide",
+     "text": "Once you've finished the tour, there's also a little tearoom on site serving soup, sandwiches, and cake, and it's a lovely spot to sit and watch the water go by."
+    },
+    {
+     "spk": "guide",
+     "text": "One last thing before we head in - the floors near the wheel can get a little slippery, so please do watch your step, especially if it's been raining."
+    },
+    {
+     "spk": "guide",
+     "text": "Finally, if you're interested in a bigger event, mark your calendars: our heritage open day this year falls on the 14th of September, with free entry and extra demonstrations. Right, that's everything - enjoy your visit!"
+    }
+   ],
+   "audio": "audio/l/l-p2-01.m4a",
+   "duration": 183,
+   "questions": [
+    {
+     "n": 1,
+     "type": "note",
+     "prompt": "The mill stands beside the River ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "Fenwick"
+     ],
+     "accept": [
+      "fenwick"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 2,
+     "type": "note",
+     "prompt": "Originally built in ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "1834"
+     ],
+     "accept": [
+      "1834"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 3,
+     "type": "note",
+     "prompt": "Closed on ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "Mondays"
+     ],
+     "accept": [
+      "mondays"
+     ],
+     "trap_ko": "처음에 '매일 연다'고 했다가 'oh sorry, actually 월요일에는 닫는다'로 정정 → 정답은 복수형 Mondays (단수 Monday 아님)",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 4,
+     "type": "note",
+     "prompt": "Adult ticket: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "8.50"
+     ],
+     "accept": [
+      "8.5",
+      "8.50",
+      "£8.50"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 5,
+     "type": "note",
+     "prompt": "Family ticket (2 adults, 3 children): £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "22"
+     ],
+     "accept": [
+      "22",
+      "£22"
+     ],
+     "trap_ko": "온라인에는 25파운드로 나오지만 이는 예전 가격, 최종 정정 가격은 22파운드",
+     "predict": "money"
+    },
+    {
+     "n": 6,
+     "type": "note",
+     "prompt": "Main attraction: the ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "waterwheel"
+     ],
+     "accept": [
+      "waterwheel"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 7,
+     "type": "note",
+     "prompt": "Visitors must not touch the ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "machinery"
+     ],
+     "accept": [
+      "machinery"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 8,
+     "type": "note",
+     "prompt": "Founder's surname: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "Barrow"
+     ],
+     "accept": [
+      "barrow"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 9,
+     "type": "note",
+     "prompt": "Gift shop sells local ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "honey"
+     ],
+     "accept": [
+      "honey"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 10,
+     "type": "note",
+     "prompt": "Heritage open day: ____",
+     "limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+     "answer": [
+      "14th of September"
+     ],
+     "accept": [
+      "14 september",
+      "14th of september",
+      "14th september",
+      "september 14",
+      "september 14th",
+      "september the 14th",
+      "the 14th of september"
+     ],
+     "trap_ko": "",
+     "predict": "date"
+    }
+   ]
+  },
+  {
+   "id": "l-p2-02",
+   "part": 2,
+   "title": "A local radio announcement about a weekend community festival",
+   "voices": [
+    {
+     "name": "Daniel",
+     "role": "host"
+    },
+    {
+     "name": "Karen",
+     "role": "reporter"
+    }
+   ],
+   "script": [
+    {
+     "spk": "host",
+     "text": "You're listening to Weekend Update on Hillside FM. Coming up, we've got all the details on this weekend's big event in town, and honestly, it sounds like a lovely way to spend a Saturday, so let's cross over to our reporter, Karen, who's down at Oakfield Park right now."
+    },
+    {
+     "spk": "reporter",
+     "text": "Thanks, Daniel! I'm here at Oakfield Park, where everything's being set up for the Oakfield Community Festival. It's looking fantastic already - this is actually the twelfth year the festival's been running, and organizers reckon it's the biggest one yet."
+    },
+    {
+     "spk": "reporter",
+     "text": "Quick correction to what we said earlier on air - the festival opens on Saturday the 19th - sorry, no, that's wrong, it's actually Saturday the 20th, so make a note of that."
+    },
+    {
+     "spk": "reporter",
+     "text": "Gates open at 10:00 each day, and entry to the festival itself is free, though if you're driving, parking on-site will cost you £3 for the day - that's payable by card only at the gate, no cash."
+    },
+    {
+     "spk": "reporter",
+     "text": "If you'd rather come by public transport, the number 14 bus stops right outside the main gate, and there's also a park and ride running from the town center every twenty minutes throughout the day."
+    },
+    {
+     "spk": "reporter",
+     "text": "This year's headline act is a folk band called Kestrel - that's spelled K-E-S-T-R-E-L - and they'll be playing on the main stage in the evening."
+    },
+    {
+     "spk": "reporter",
+     "text": "Away from the main stage, there's a smaller acoustic stage down by the lake, along with a craft market where local makers will be selling everything from candles to jewelry."
+    },
+    {
+     "spk": "reporter",
+     "text": "There'll be more than 40 stalls this year, selling everything from local cheese to handmade jewelry, so bring an appetite and maybe an empty bag."
+    },
+    {
+     "spk": "reporter",
+     "text": "All the money raised from stalls and parking this year is going to the local children's hospital, so it's a great cause as well as a great day out."
+    },
+    {
+     "spk": "reporter",
+     "text": "If you're bringing the dog, that's absolutely fine, but please keep them on a lead at all times, especially near the food stalls."
+    },
+    {
+     "spk": "reporter",
+     "text": "Speaking of food, there'll be over twenty food trucks parked along the riverside path, everything from wood-fired pizza to Thai street food."
+    },
+    {
+     "spk": "reporter",
+     "text": "One more thing: organizers are asking everyone to book their entry tickets online in advance this year, just to help manage numbers on the day, even though entry itself is free."
+    },
+    {
+     "spk": "reporter",
+     "text": "Do bring wellies or something waterproof for your feet - it's been pretty wet lately, and parts of the park can get quite muddy underfoot."
+    },
+    {
+     "spk": "reporter",
+     "text": "And finally, for the kids, there's free face painting running all weekend, right next to the main stage. Music finishes at nine each night, just so residents nearby aren't kept up too late. Right, that's everything from me - back to you in the studio, Daniel."
+    }
+   ],
+   "audio": "audio/l/l-p2-02.m4a",
+   "duration": 154,
+   "questions": [
+    {
+     "n": 1,
+     "type": "note",
+     "prompt": "Venue: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "Oakfield Park"
+     ],
+     "accept": [
+      "oakfield park"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 2,
+     "type": "note",
+     "prompt": "Festival day: ____",
+     "limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+     "answer": [
+      "Saturday the 20th"
+     ],
+     "accept": [
+      "20th",
+      "saturday 20th",
+      "saturday the 20th",
+      "the 20th"
+     ],
+     "trap_ko": "처음에 'Saturday the 19th'라고 했다가 'sorry, no, actually Saturday the 20th'로 정정 → 정답은 20th",
+     "predict": "date"
+    },
+    {
+     "n": 3,
+     "type": "note",
+     "prompt": "Gates open at ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "10:00"
+     ],
+     "accept": [
+      "10 am",
+      "10:00",
+      "10am"
+     ],
+     "trap_ko": "",
+     "predict": "date"
+    },
+    {
+     "n": 4,
+     "type": "note",
+     "prompt": "Parking: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "3"
+     ],
+     "accept": [
+      "3",
+      "£3"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 5,
+     "type": "note",
+     "prompt": "Headline act: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "Kestrel"
+     ],
+     "accept": [
+      "kestrel"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 6,
+     "type": "note",
+     "prompt": "Number of stalls: more than ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "40"
+     ],
+     "accept": [
+      "40"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 7,
+     "type": "note",
+     "prompt": "Dogs must be kept on a ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "lead"
+     ],
+     "accept": [
+      "lead"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 8,
+     "type": "note",
+     "prompt": "Food option: over twenty food ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "trucks"
+     ],
+     "accept": [
+      "trucks"
+     ],
+     "trap_ko": "",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 9,
+     "type": "note",
+     "prompt": "Visitors are asked to ____ tickets online",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "book"
+     ],
+     "accept": [
+      "book"
+     ],
+     "trap_ko": "",
+     "predict": "verb"
+    },
+    {
+     "n": 10,
+     "type": "note",
+     "prompt": "Free activity for children: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "face painting"
+     ],
+     "accept": [
+      "face painting"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    }
+   ]
+  },
+  {
+   "id": "l-p2-03",
+   "part": 2,
+   "title": "A manager's induction talk for new volunteers at a wildlife park",
+   "voices": [
+    {
+     "name": "Moira",
+     "role": "manager"
+    }
+   ],
+   "script": [
+    {
+     "spk": "manager",
+     "text": "Right, welcome everyone, and thanks so much for coming along to today's induction here at Foxglove Wildlife Park - we're delighted to have you all on board as volunteers."
+    },
+    {
+     "spk": "manager",
+     "text": "Just so you know what you've signed up for, we look after everything here from red foxes and barn owls to a small herd of rescue goats, so honestly, no two days are ever quite the same."
+    },
+    {
+     "spk": "manager",
+     "text": "First things first: every morning when you arrive, please sign in at the reception desk, just so we know who's on site in case of an emergency."
+    },
+    {
+     "spk": "manager",
+     "text": "You'll be given a green polo shirt and a name badge on your first day, and we do ask that everyone wears closed-toe shoes at all times, for obvious reasons around the animals."
+    },
+    {
+     "spk": "manager",
+     "text": "You'll each be given a small kit to get started, but there's one thing we'd like you to bring yourselves: your own gloves, since you'll be handling feed and, occasionally, cleaning equipment."
+    },
+    {
+     "spk": "manager",
+     "text": "For your first two weeks, you'll be paired with an experienced volunteer who'll show you the ropes before you're left to do things on your own."
+    },
+    {
+     "spk": "manager",
+     "text": "In terms of timing, training sessions normally start at 9:00 - oh sorry, actually, that's changed this year, training now starts at 9:30, so please don't arrive too early, there won't be anyone here to let you in before then."
+    },
+    {
+     "spk": "manager",
+     "text": "Depending on the day, you might be helping with the morning feeding round, guiding school groups, or working on the till in the gift shop."
+    },
+    {
+     "spk": "manager",
+     "text": "A few basic rules: you need to be at least 16 years old to volunteer with us, mainly for insurance reasons, and we ask for a minimum of 4 hours a week, just so the animals get to know familiar faces."
+    },
+    {
+     "spk": "manager",
+     "text": "We can't pay a wage, of course, since this is a volunteer role, but we do offer £5 towards your travel costs on each shift, paid at the end of the month."
+    },
+    {
+     "spk": "manager",
+     "text": "You'll also get a 20% discount in our gift shop, which is honestly one of the nicer perks, especially around Christmas."
+    },
+    {
+     "spk": "manager",
+     "text": "There's a small volunteers' kitchen where you can make tea or coffee, and we do ask that you take a proper break if you're here for more than four hours at a time."
+    },
+    {
+     "spk": "manager",
+     "text": "If you're driving, please park in the overflow field rather than the main visitor car park, just to leave space for paying guests."
+    },
+    {
+     "spk": "manager",
+     "text": "If you've got any questions day to day, our volunteer coordinator is Deirdre O'Malley - that's spelled O-M-A-L-L-E-Y - and she's based in the office just behind the cafe."
+    },
+    {
+     "spk": "manager",
+     "text": "One really important habit to get into: always check with a keyholder before you open any enclosure gate, even if you think it's fine, just for everyone's safety, including the animals."
+    },
+    {
+     "spk": "manager",
+     "text": "And finally, if any of your friends are interested in joining us, the next induction day for new volunteers is the 3rd of October, so do spread the word. Thanks again, everyone, and welcome to the team."
+    }
+   ],
+   "audio": "audio/l/l-p2-03.m4a",
+   "duration": 173,
+   "questions": [
+    {
+     "n": 1,
+     "type": "note",
+     "prompt": "Sign in at the ____ desk",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "reception"
+     ],
+     "accept": [
+      "reception"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 2,
+     "type": "note",
+     "prompt": "New volunteers should bring their own ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "gloves"
+     ],
+     "accept": [
+      "gloves"
+     ],
+     "trap_ko": "",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 3,
+     "type": "note",
+     "prompt": "Training now starts at ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "9:30"
+     ],
+     "accept": [
+      "9.30",
+      "9:30",
+      "half past nine"
+     ],
+     "trap_ko": "처음에 9:00라고 했다가 'oh sorry, actually 9:30'로 정정 → 정답은 9:30",
+     "predict": "date"
+    },
+    {
+     "n": 4,
+     "type": "note",
+     "prompt": "Minimum age: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "16"
+     ],
+     "accept": [
+      "16"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 5,
+     "type": "note",
+     "prompt": "Minimum commitment: ____ hours a week",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "4"
+     ],
+     "accept": [
+      "4"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 6,
+     "type": "note",
+     "prompt": "Travel allowance: £____ per shift",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "5"
+     ],
+     "accept": [
+      "5",
+      "£5"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 7,
+     "type": "note",
+     "prompt": "Gift shop discount: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "20%"
+     ],
+     "accept": [
+      "20",
+      "20 percent",
+      "20%"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 8,
+     "type": "note",
+     "prompt": "Volunteer coordinator's surname: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "O'Malley"
+     ],
+     "accept": [
+      "o'malley",
+      "omalley"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 9,
+     "type": "note",
+     "prompt": "Always ____ with a keyholder before opening a gate",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "check"
+     ],
+     "accept": [
+      "check"
+     ],
+     "trap_ko": "",
+     "predict": "verb"
+    },
+    {
+     "n": 10,
+     "type": "note",
+     "prompt": "Next induction day: ____",
+     "limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+     "answer": [
+      "3rd of October"
+     ],
+     "accept": [
+      "3 october",
+      "3rd october",
+      "3rd of october",
+      "october 3",
+      "october 3rd",
+      "october the 3rd",
+      "the 3rd of october"
+     ],
+     "trap_ko": "",
+     "predict": "date"
+    }
+   ]
+  },
+  {
+   "id": "l-p2-04",
+   "part": 2,
+   "title": "A council officer explaining a new bike-share scheme",
+   "voices": [
+    {
+     "name": "Moira",
+     "role": "chair"
+    },
+    {
+     "name": "Samantha",
+     "role": "officer"
+    }
+   ],
+   "script": [
+    {
+     "spk": "chair",
+     "text": "Thanks everyone for coming to this evening's residents' meeting, and thanks for your patience while we got the projector working. I'll hand straight over to Samantha from the council's transport team, who's going to talk us through the new bike scheme."
+    },
+    {
+     "spk": "officer",
+     "text": "Thanks, and good evening, everyone. I'm here to talk you through CityCycle, our new bike-share scheme launching very soon."
+    },
+    {
+     "spk": "officer",
+     "text": "The idea behind it is pretty simple: giving people a cheap, easy way to get around the city center for short trips, without needing to take the car."
+    },
+    {
+     "spk": "officer",
+     "text": "We'll be launching officially at Riverside Square, right by the fountain, with a small public event."
+    },
+    {
+     "spk": "officer",
+     "text": "In terms of timing: we're planning to launch on the 1st of November - sorry, actually, that's been pushed back slightly, the confirmed launch date is now the 8th of November, so mark that one down instead."
+    },
+    {
+     "spk": "officer",
+     "text": "To start with, we'll have 25 docking stations across the city center, with more planned for next year if the scheme takes off."
+    },
+    {
+     "spk": "officer",
+     "text": "Assuming this first phase goes well, we're hoping to add a second batch of stations out toward the university campus sometime next year."
+    },
+    {
+     "spk": "officer",
+     "text": "To join, you'll need to download the app and register a debit or credit card - there's no cash option, I'm afraid, and no separate deposit required beyond the membership fee."
+    },
+    {
+     "spk": "officer",
+     "text": "On cost: an annual membership is £45, and that gets you unlimited rides of up to 30 minutes each."
+    },
+    {
+     "spk": "officer",
+     "text": "After that first 30 minutes, you'll be charged £1 for every extra 30 minutes, which is billed automatically to your card."
+    },
+    {
+     "spk": "officer",
+     "text": "If a bike isn't returned to a station within twenty-four hours, there's an additional late fee added automatically to your account, so do keep an eye on the time."
+    },
+    {
+     "spk": "officer",
+     "text": "One thing to remember: bikes can only be picked up and dropped off at a docking station, not left anywhere on the street, so do plan your route with that in mind."
+    },
+    {
+     "spk": "officer",
+     "text": "Each bike comes with a small basket at the front, which is handy if you're just popping to the shops, though I should say these aren't electric bikes, at least not yet."
+    },
+    {
+     "spk": "officer",
+     "text": "Our first pickup point will be on Fenchurch Street - that's spelled F-E-N-C-H-U-R-C-H - right outside the library."
+    },
+    {
+     "spk": "officer",
+     "text": "To get going, you'll just need the app: you scan the bike's code and unlock it, and off you go."
+    },
+    {
+     "spk": "officer",
+     "text": "And finally, on safety: helmets are recommended but not compulsory, so if you've got your own, please do bring it along, especially for busier roads."
+    },
+    {
+     "spk": "officer",
+     "text": "We'll also have a small number of adapted bikes available on request for anyone who needs them - just get in touch with our team directly to arrange one."
+    },
+    {
+     "spk": "officer",
+     "text": "That's everything from me for now - happy to take questions."
+    }
+   ],
+   "audio": "audio/l/l-p2-04.m4a",
+   "duration": 156,
+   "questions": [
+    {
+     "n": 1,
+     "type": "note",
+     "prompt": "Launch event location: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "Riverside Square"
+     ],
+     "accept": [
+      "riverside square"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 2,
+     "type": "note",
+     "prompt": "Confirmed launch date: ____",
+     "limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+     "answer": [
+      "8th of November"
+     ],
+     "accept": [
+      "8 november",
+      "8th november",
+      "8th of november",
+      "november 8",
+      "november 8th",
+      "november the 8th",
+      "the 8th of november"
+     ],
+     "trap_ko": "처음에 'the 1st of November'라고 했다가 'sorry, actually the 8th of November'로 정정 → 정답은 8th of November",
+     "predict": "date"
+    },
+    {
+     "n": 3,
+     "type": "note",
+     "prompt": "Docking stations at launch: ____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "25"
+     ],
+     "accept": [
+      "25"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 4,
+     "type": "note",
+     "prompt": "Annual membership: £____",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "45"
+     ],
+     "accept": [
+      "45",
+      "£45"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 5,
+     "type": "note",
+     "prompt": "Free ride time: ____ minutes",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "30"
+     ],
+     "accept": [
+      "30"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 6,
+     "type": "note",
+     "prompt": "Charge after that: £____ per extra 30 minutes",
+     "limit": "ONE WORD AND/OR A NUMBER",
+     "answer": [
+      "1"
+     ],
+     "accept": [
+      "1",
+      "£1"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 7,
+     "type": "note",
+     "prompt": "Bikes must be returned to a ____ station",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "docking"
+     ],
+     "accept": [
+      "docking"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 8,
+     "type": "note",
+     "prompt": "First pickup point: ____ Street",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "Fenchurch"
+     ],
+     "accept": [
+      "fenchurch"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 9,
+     "type": "note",
+     "prompt": "Use the app to scan and ____ the bike",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "unlock"
+     ],
+     "accept": [
+      "unlock"
+     ],
+     "trap_ko": "",
+     "predict": "verb"
+    },
+    {
+     "n": 10,
+     "type": "note",
+     "prompt": "____ are recommended but not required",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "Helmets"
+     ],
+     "accept": [
+      "helmets"
+     ],
+     "trap_ko": "",
+     "predict": "plural-noun"
+    }
+   ]
+  },
+  {
+   "id": "l-p3-01",
+   "part": 3,
+   "title": "Planning a group project on campus energy use",
+   "voices": [
+    {
+     "name": "Daniel",
+     "role": "tutor"
+    },
+    {
+     "name": "Karen",
+     "role": "student1"
+    },
+    {
+     "name": "Samantha",
+     "role": "student2"
+    }
+   ],
+   "script": [
+    {
+     "spk": "tutor",
+     "text": "Come in, Karen, Samantha, grab a seat. So, today I want us to nail down the plan for the campus energy project before you two start collecting any data."
+    },
+    {
+     "spk": "student1",
+     "text": "Sounds good. To be honest, we've been going back and forth on the method for a while."
+    },
+    {
+     "spk": "tutor",
+     "text": "Right, let's start there then. What are you thinking?"
+    },
+    {
+     "spk": "student1",
+     "text": "Our first idea was to interview students in the library, but that only reaches a small group, and it takes forever to write up afterwards."
+    },
+    {
+     "spk": "student2",
+     "text": "Yeah, so instead I think we should put a short questionnaire on a poster with a QR code, so people can just answer on their phones. It's quicker for us to process too, since the answers come in as a spreadsheet."
+    },
+    {
+     "spk": "tutor",
+     "text": "I agree, a questionnaire is definitely the way to go here, rather than interviews. How many buildings are you planning to cover?"
+    },
+    {
+     "spk": "student1",
+     "text": "We were originally going to cover ten, but actually, once we added the new library wing to the list, that brought it up to twelve."
+    },
+    {
+     "spk": "tutor",
+     "text": "Twelve buildings, good, that gives you a fairly solid spread across the whole campus."
+    },
+    {
+     "spk": "student2",
+     "text": "We also want to check the actual electricity use, not just people's opinions, so we're going to read the meters as well, building by building."
+    },
+    {
+     "spk": "tutor",
+     "text": "Where are the meters normally kept?"
+    },
+    {
+     "spk": "student1",
+     "text": "In most buildings they're down in the basement, usually next to the cleaning cupboard, which took us a while to figure out."
+    },
+    {
+     "spk": "tutor",
+     "text": "OK, the basement, make a note of that in your methodology section, examiners do like precise detail like that."
+    },
+    {
+     "spk": "student2",
+     "text": "For logging all the readings we're using a tool called BrightMetric, it's free for students and it syncs straight to a shared file."
+    },
+    {
+     "spk": "tutor",
+     "text": "Can you spell that for me, just so I've got it right?"
+    },
+    {
+     "spk": "student2",
+     "text": "Sure, B-R-I-G-H-T-M-E-T-R-I-C."
+    },
+    {
+     "spk": "tutor",
+     "text": "Got it, thanks. Now, one thing you mentioned by email was a researcher whose method you're following quite closely."
+    },
+    {
+     "spk": "student1",
+     "text": "Right, we're basing our whole survey design on a paper by Doctor Hasegawa, spelled H-A-S-E-G-A-W-A. She studied energy habits in student accommodation a few years ago."
+    },
+    {
+     "spk": "tutor",
+     "text": "Good, make sure you cite that properly in the reference list. Now let's talk about timing. When's the first draft actually due?"
+    },
+    {
+     "spk": "student2",
+     "text": "We were originally told November 10th, but actually, the department moved it, it's now November 15th."
+    },
+    {
+     "spk": "tutor",
+     "text": "November 15th, right, I'll note that down. And what about the final report?"
+    },
+    {
+     "spk": "student1",
+     "text": "That's due sometime in December, there isn't a fixed date for that one yet, we're still waiting to hear."
+    },
+    {
+     "spk": "tutor",
+     "text": "Fine, that gives you some breathing room. Let's talk about splitting the tasks between the two of you. Karen, can you take the literature review?"
+    },
+    {
+     "spk": "student1",
+     "text": "Happy to, and I'll also organise the meter readings across all twelve buildings."
+    },
+    {
+     "spk": "tutor",
+     "text": "Samantha, that leaves the questionnaire design and the write-up of results to you then."
+    },
+    {
+     "spk": "student2",
+     "text": "Sure, that works for me. We'll also need a small budget approved for printing the posters."
+    },
+    {
+     "spk": "tutor",
+     "text": "How much are you asking for exactly?"
+    },
+    {
+     "spk": "student2",
+     "text": "We costed the printing at £40, but with the QR code stickers added in, it comes to £55 altogether."
+    },
+    {
+     "spk": "tutor",
+     "text": "£55, that should be approved without any trouble at all. One more thing, how many responses are you aiming for overall?"
+    },
+    {
+     "spk": "student1",
+     "text": "We want at least 200, so we end up with a response rate of around 30%, which should be enough to draw some real conclusions."
+    },
+    {
+     "spk": "tutor",
+     "text": "30%, that's realistic for a project this size. Last thing, where should you actually hand in the signed consent forms?"
+    },
+    {
+     "spk": "student2",
+     "text": "We were told to leave them at the reception desk, but actually, the office just told us to email them straight to the ethics committee instead."
+    },
+    {
+     "spk": "tutor",
+     "text": "Good, email them then, don't leave paper copies lying around anywhere. Anything else on your minds?"
+    },
+    {
+     "spk": "student1",
+     "text": "I don't think so, thanks so much for your help with all this."
+    },
+    {
+     "spk": "tutor",
+     "text": "No problem at all, good luck with the data collection."
+    }
+   ],
+   "audio": "audio/l/l-p3-01.m4a",
+   "duration": 235,
+   "questions": [
+    {
+     "n": 1,
+     "type": "note",
+     "prompt": "Method chosen to collect students' opinions: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "questionnaire"
+     ],
+     "accept": [
+      "questionnaire"
+     ],
+     "trap_ko": "도서관에서 인터뷰하는 방식이 먼저 제안되지만 소수만 참여할 수 있어 거부되고, questionnaire(설문지) 방식으로 결정됨.",
+     "predict": "noun"
+    },
+    {
+     "n": 2,
+     "type": "note",
+     "prompt": "Total number of buildings to be included in the survey: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "twelve"
+     ],
+     "accept": [
+      "12",
+      "twelve"
+     ],
+     "trap_ko": "처음 ten(10곳)이라고 했다가 'actually'로 정정됨 → 정답은 twelve(12).",
+     "predict": "number"
+    },
+    {
+     "n": 3,
+     "type": "note",
+     "prompt": "Location where the energy meters are usually kept: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "basement"
+     ],
+     "accept": [
+      "basement"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 4,
+     "type": "note",
+     "prompt": "Name of the software used to log meter readings: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "BrightMetric"
+     ],
+     "accept": [
+      "brightmetric"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 5,
+     "type": "note",
+     "prompt": "Surname of the researcher whose survey design they are following: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "Hasegawa"
+     ],
+     "accept": [
+      "hasegawa"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 6,
+     "type": "note",
+     "prompt": "Revised date for submitting the first draft: ____",
+     "limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+     "answer": [
+      "November 15th"
+     ],
+     "accept": [
+      "15 november",
+      "15th november",
+      "15th of november",
+      "november 15",
+      "november 15th",
+      "the 15th of november"
+     ],
+     "trap_ko": "처음 November 10th라고 했다가 'actually'로 정정 → 정답은 November 15th.",
+     "predict": "date"
+    },
+    {
+     "n": 7,
+     "type": "note",
+     "prompt": "Total cost approved for printing the posters: £____",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "55"
+     ],
+     "accept": [
+      "55",
+      "£55"
+     ],
+     "trap_ko": "£40이 먼저 언급되지만 QR코드 스티커 비용이 추가되어 최종 £55로 바뀜(배경 정보, 시그널 단어 없음).",
+     "predict": "money"
+    },
+    {
+     "n": 8,
+     "type": "note",
+     "prompt": "Minimum number of survey responses needed: ____",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "200"
+     ],
+     "accept": [
+      "200"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 9,
+     "type": "note",
+     "prompt": "Target response rate for the survey: ____%",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "30"
+     ],
+     "accept": [
+      "30",
+      "30%"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 10,
+     "type": "note",
+     "prompt": "Where completed consent forms must actually be sent: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "ethics committee"
+     ],
+     "accept": [
+      "ethics committee"
+     ],
+     "trap_ko": "처음 reception desk에 제출하라고 했다가 'actually'로 정정됨 → 정답은 ethics committee(이메일로 전송).",
+     "predict": "noun"
+    }
+   ]
+  },
+  {
+   "id": "l-p3-02",
+   "part": 3,
+   "title": "Feedback on a presentation about urban green spaces",
+   "voices": [
+    {
+     "name": "Moira",
+     "role": "student1"
+    },
+    {
+     "name": "Daniel",
+     "role": "student2"
+    }
+   ],
+   "script": [
+    {
+     "spk": "student1",
+     "text": "Did you get a chance to look at the feedback from Professor Lindqvist on our slides? She's spelled it out for us before, L-I-N-D-Q-V-I-S-T."
+    },
+    {
+     "spk": "student2",
+     "text": "Yeah, I read through it this morning actually. Overall it's fairly positive, but there are a few things we still need to change before Friday."
+    },
+    {
+     "spk": "student1",
+     "text": "That's a relief, I was honestly worried she'd tell us to redo the whole thing from scratch."
+    },
+    {
+     "spk": "student2",
+     "text": "No, nothing that drastic, thankfully. She actually seemed impressed with how much data we'd gathered already."
+    },
+    {
+     "spk": "student1",
+     "text": "Right, OK, what's the main one?"
+    },
+    {
+     "spk": "student2",
+     "text": "She said the introduction is far too long, we need to cut it right down to one minute."
+    },
+    {
+     "spk": "student1",
+     "text": "One minute, OK, that's tight, but doable I suppose. What did she say about the case study slide?"
+    },
+    {
+     "spk": "student2",
+     "text": "She actually liked that part a lot, but she wants us to add visitor numbers as a chart, rather than just describing them in words like we did."
+    },
+    {
+     "spk": "student1",
+     "text": "Fair enough, that makes sense. Which park are we still using as the case study, by the way?"
+    },
+    {
+     "spk": "student2",
+     "text": "Chesswood Park, that's spelled C-H-E-S-S-W-O-O-D. We're sticking with that one since we already have all the data."
+    },
+    {
+     "spk": "student1",
+     "text": "Good, because we've already spent so long collecting everything for that particular site anyway."
+    },
+    {
+     "spk": "student1",
+     "text": "Got it. And how many visitors did the most recent count actually show?"
+    },
+    {
+     "spk": "student2",
+     "text": "The council reported 800 a day in summer, but actually, once they added the weekend numbers in, it came to 900 overall."
+    },
+    {
+     "spk": "student1",
+     "text": "900, right, I'll update the chart with that new figure. Did she comment much on our recommendations section?"
+    },
+    {
+     "spk": "student2",
+     "text": "Yes, she said it needs a lot more detail on funding, not just a description of what should happen next."
+    },
+    {
+     "spk": "student1",
+     "text": "How much funding is the local council actually offering for new green spaces this year?"
+    },
+    {
+     "spk": "student2",
+     "text": "£12,000, according to the report we quoted, though that figure might still change apparently."
+    },
+    {
+     "spk": "student1",
+     "text": "£12,000, that's definitely worth including directly on the slide then. What about the conclusion?"
+    },
+    {
+     "spk": "student2",
+     "text": "It's a fairly modest amount really, but it should still make our recommendations look a lot more convincing."
+    },
+    {
+     "spk": "student2",
+     "text": "She wants a clearer link back to our original question, and honestly, she thought the font on the last slide was much too small to read."
+    },
+    {
+     "spk": "student1",
+     "text": "Easy fix, we can sort that out this afternoon. Did she say anything about our sources?"
+    },
+    {
+     "spk": "student2",
+     "text": "Just one thing, we need to add the article by Doctor Osei, spelled O-S-E-I, because we quoted him in the text but never actually listed him."
+    },
+    {
+     "spk": "student1",
+     "text": "That's an easy thing to miss when you're citing so many different papers at once."
+    },
+    {
+     "spk": "student2",
+     "text": "Definitely, I nearly missed two others as well while I was checking through everything last night."
+    },
+    {
+     "spk": "student1",
+     "text": "Right, I'll add that reference in properly. When do we need to submit the revised slides by?"
+    },
+    {
+     "spk": "student2",
+     "text": "We were told Friday the 6th, but actually, she's pushed it back to Monday the 9th, since the seminar room's booked for another group on the Friday."
+    },
+    {
+     "spk": "student1",
+     "text": "Monday the 9th, OK, that at least gives us the weekend to work on it. One last thing, how long should the final talk actually run?"
+    },
+    {
+     "spk": "student2",
+     "text": "Eight minutes total, with two minutes set aside for questions afterwards."
+    },
+    {
+     "spk": "student1",
+     "text": "Two minutes for questions, got it, that's useful to know. I think that covers everything on the list."
+    },
+    {
+     "spk": "student2",
+     "text": "We should also print a short handout for the audience, just in case anyone wants to look at the numbers afterwards."
+    },
+    {
+     "spk": "student1",
+     "text": "Good idea, I'll sort that out once the chart's finished."
+    },
+    {
+     "spk": "student2",
+     "text": "Yeah, I think so too, let's get started on that chart first."
+    }
+   ],
+   "audio": "audio/l/l-p3-02.m4a",
+   "duration": 219,
+   "questions": [
+    {
+     "n": 1,
+     "type": "note",
+     "prompt": "Tutor who gave feedback on the presentation: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "Lindqvist"
+     ],
+     "accept": [
+      "lindqvist"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 2,
+     "type": "note",
+     "prompt": "New length required for the introduction: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "one minute"
+     ],
+     "accept": [
+      "1 minute",
+      "one minute"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 3,
+     "type": "note",
+     "prompt": "New element to add to the case study slide: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "visitor numbers"
+     ],
+     "accept": [
+      "visitor numbers"
+     ],
+     "trap_ko": "",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 4,
+     "type": "note",
+     "prompt": "Park still used as the case study: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "Chesswood Park"
+     ],
+     "accept": [
+      "chesswood park"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 5,
+     "type": "note",
+     "prompt": "Latest daily visitor figure once weekend numbers were added: ____",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "900"
+     ],
+     "accept": [
+      "900"
+     ],
+     "trap_ko": "처음 800이라고 했다가 'actually'로 정정됨 → 정답은 900.",
+     "predict": "number"
+    },
+    {
+     "n": 6,
+     "type": "note",
+     "prompt": "Funding the council is offering for new green spaces: £____",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "12,000"
+     ],
+     "accept": [
+      "12,000",
+      "12000",
+      "£12,000"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 7,
+     "type": "note",
+     "prompt": "What the conclusion needs a clearer link back to: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "original question"
+     ],
+     "accept": [
+      "original question"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 8,
+     "type": "note",
+     "prompt": "Author whose article must be added as a reference: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "Osei"
+     ],
+     "accept": [
+      "osei"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 9,
+     "type": "note",
+     "prompt": "Total length of the final talk: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "eight minutes"
+     ],
+     "accept": [
+      "8 minutes",
+      "eight minutes"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 10,
+     "type": "note",
+     "prompt": "Time reserved for questions after the talk: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "two minutes"
+     ],
+     "accept": [
+      "2 minutes",
+      "two minutes"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    }
+   ]
+  },
+  {
+   "id": "l-p4-01",
+   "part": 4,
+   "title": "How electricity reaches homes",
+   "voices": [
+    {
+     "name": "Karen",
+     "role": "lecturer"
+    }
+   ],
+   "script": [
+    {
+     "spk": "lecturer",
+     "text": "Good morning, everyone. Today's lecture is about how electricity actually travels from a power station all the way to your own front door, and since most of you are starting an electrical trades programme next term, this is really the map you'll keep coming back to throughout the course."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Let's start with generation. Inside a power station, whether it's gas, coal, or increasingly wind, a turbine spins a generator, and that generator produces electricity at what's actually a fairly modest voltage, around 11,000 volts."
+    },
+    {
+     "spk": "lecturer",
+     "text": "That might sound like a lot to begin with, but compared to what comes next, it's actually quite low, and it isn't suitable for travelling any real distance on its own."
+    },
+    {
+     "spk": "lecturer",
+     "text": "You'll actually see meters marked with figures like this later in the course, so it's worth remembering the numbers now rather than looking them up every single time."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Moving on to step-up transformers. Before that electricity can travel any real distance, it has to pass through a step-up transformer, which raises the voltage right up to 400,000 volts."
+    },
+    {
+     "spk": "lecturer",
+     "text": "The key point here is that higher voltage means lower current for the same amount of power being carried, and lower current means far less energy is wasted as heat along the cables, which matters enormously once you're talking about hundreds of kilometres of wire."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Let's turn to transmission itself. Those very high voltage cables, usually carried on the tall steel towers you see out in the countryside, make up what we call the transmission network."
+    },
+    {
+     "spk": "lecturer",
+     "text": "This part of the system can carry electricity for hundreds of kilometres with only a small loss, and it's designed to be extremely reliable, since a single break can affect a huge area."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Next, substations. Before electricity reaches a town, it passes through a substation, where a transformer steps the voltage back down, in stages, to something more manageable, typically down to 11,000 volts again for the local area."
+    },
+    {
+     "spk": "lecturer",
+     "text": "One substation I'd like you to remember for your assignment is at Ashcombe, spelled A-S-H-C-O-M-B-E, which was actually rebuilt in 2019, sorry, actually, let me correct that, it was rebuilt in 2021, once funding had finally been approved after the original site flooded."
+    },
+    {
+     "spk": "lecturer",
+     "text": "That rebuild cost a little over 2.5 million pounds, most of which went on new switching equipment rather than on the transformers themselves, since those had actually survived the flooding intact."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Moving on to distribution. From the substation, the electricity travels along local distribution lines, the ones you'll actually be working on most often once you qualify, until it reaches a final small transformer, often mounted on a pole, or sometimes tucked into a green cabinet on the street instead."
+    },
+    {
+     "spk": "lecturer",
+     "text": "This last transformer steps the voltage down one more time, to 230 volts, which is the standard supply for a home."
+    },
+    {
+     "spk": "lecturer",
+     "text": "The key point here is that every single stage, generation, step-up, transmission, the substation, and distribution, has to work correctly, because a fault at any one of those stages can cut power to thousands of homes at once, sometimes for hours."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Finally, a word on safety, since you'll be working with this system directly once you're qualified. Even the 230 volts arriving at an ordinary house is enough to be fatal, so always treat every single cable as live until it's been tested and proven otherwise, no exceptions, ever."
+    },
+    {
+     "spk": "lecturer",
+     "text": "That's everything for today. Next week we'll look at how a ring circuit is actually wired inside a house, building directly on everything we've covered here today."
+    }
+   ],
+   "audio": "audio/l/l-p4-01.m4a",
+   "duration": 216,
+   "questions": [
+    {
+     "n": 1,
+     "type": "note",
+     "prompt": "Typical voltage produced at the generator: ____ volts",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "11,000"
+     ],
+     "accept": [
+      "11,000",
+      "11000"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 2,
+     "type": "note",
+     "prompt": "Voltage the step-up transformer raises the supply to: ____ volts",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "400,000"
+     ],
+     "accept": [
+      "400,000",
+      "400000"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 3,
+     "type": "note",
+     "prompt": "What decreases when the voltage is raised for transmission: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "current"
+     ],
+     "accept": [
+      "current"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 4,
+     "type": "note",
+     "prompt": "Structures used to carry the transmission cables: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "steel towers"
+     ],
+     "accept": [
+      "steel towers"
+     ],
+     "trap_ko": "",
+     "predict": "plural-noun"
+    },
+    {
+     "n": 5,
+     "type": "note",
+     "prompt": "Substation the lecturer gives as an example: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "Ashcombe"
+     ],
+     "accept": [
+      "ashcombe"
+     ],
+     "trap_ko": "",
+     "predict": "place"
+    },
+    {
+     "n": 6,
+     "type": "note",
+     "prompt": "Year the Ashcombe substation was actually rebuilt: ____",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "2021"
+     ],
+     "accept": [
+      "2021"
+     ],
+     "trap_ko": "처음 2019년이라고 했다가 'sorry, actually'로 정정 → 정답은 2021년.",
+     "predict": "date"
+    },
+    {
+     "n": 7,
+     "type": "note",
+     "prompt": "Cost of the substation rebuild: £____ million",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "2.5"
+     ],
+     "accept": [
+      "2.5",
+      "2.5 million",
+      "£2.5 million"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 8,
+     "type": "note",
+     "prompt": "Where the final small transformer is often mounted: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "pole"
+     ],
+     "accept": [
+      "pole"
+     ],
+     "trap_ko": "green cabinet가 대안으로 언급되지만, 정답은 먼저 언급된 pole.",
+     "predict": "noun"
+    },
+    {
+     "n": 9,
+     "type": "note",
+     "prompt": "Standard voltage supplied to a home: ____ volts",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "230"
+     ],
+     "accept": [
+      "230"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 10,
+     "type": "note",
+     "prompt": "Topic planned for next week's lecture: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "ring circuit"
+     ],
+     "accept": [
+      "ring circuit"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    }
+   ]
+  },
+  {
+   "id": "l-p4-02",
+   "part": 4,
+   "title": "How honeybees find their way home",
+   "voices": [
+    {
+     "name": "Moira",
+     "role": "lecturer"
+    }
+   ],
+   "script": [
+    {
+     "spk": "lecturer",
+     "text": "Good afternoon, everyone. Today's lecture continues our look at animal navigation, and this time we're focusing on something surprisingly precise, how honeybees actually find their way back to the hive after a long trip out foraging."
+    },
+    {
+     "spk": "lecturer",
+     "text": "We've already looked at how ants and pigeons manage this, so it's worth comparing bees against what you already know from those two earlier lectures."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Let's start with the waggle dance. When a forager bee finds a good source of nectar, she returns to the hive and performs a figure-of-eight movement on the vertical comb, and the angle of that waggle run, relative to straight up, actually tells the other bees the direction of the food relative to the sun outside."
+    },
+    {
+     "spk": "lecturer",
+     "text": "The key point here is that bees aren't just reacting instinctively, they're communicating a genuine set of coordinates, distance and direction both, entirely through movement, and they do this in complete darkness inside the hive, which is remarkable when you think about it."
+    },
+    {
+     "spk": "lecturer",
+     "text": "It took decades of careful observation before scientists were even convinced this dance was a real language rather than just random excitement after finding food."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Moving on to how they track the sun itself. Bees use what's called a sun compass, and remarkably, they can still navigate even when the sun's hidden behind cloud, because they can detect the pattern of polarised light scattered across the sky, and that pattern alone is enough to work out roughly where the sun actually is."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Let's turn to a related sense, the ability to detect the earth's magnetic field directly. Recent work led by a researcher named Doctor Ferreira, spelled F-E-R-R-E-I-R-A, suggests that bees have tiny particles of a mineral called magnetite in their abdomen, which may act as an internal compass, particularly useful on heavily overcast days when the sky pattern isn't clear."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Doctor Ferreira's team published their main paper on this in 2022, sorry, actually, I should say 2023, once the peer review process had finally finished, which apparently took longer than expected."
+    },
+    {
+     "spk": "lecturer",
+     "text": "That project received a grant of £180,000 to fund three years of fieldwork across several different hive sites, which is actually a fairly modest budget for this kind of long-term research."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Most of that money apparently went on tiny radio tags glued to individual bees, rather than on laboratory equipment back at the university itself."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Moving on to distance. Bees appear to judge distance travelled using something called optic flow, essentially how fast the ground appears to move beneath them as they fly, rather than by tracking energy used or the time taken to get somewhere."
+    },
+    {
+     "spk": "lecturer",
+     "text": "The key point here is that this whole system only really works reliably over distances up to around 6 kilometres from the hive, beyond that, foragers apparently start making far more navigation errors and often fail to return at all."
+    },
+    {
+     "spk": "lecturer",
+     "text": "Finally, why does any of this matter outside the hive itself? Well, understanding bee navigation has become genuinely central to tracking colony health, since a bee that can't find its way home is often an early sign of pesticide exposure or disease within the colony."
+    },
+    {
+     "spk": "lecturer",
+     "text": "So overall, bees combine several separate systems, the waggle dance, the sun compass, polarised light, and this magnetic sense, rather than relying on any single method on its own."
+    },
+    {
+     "spk": "lecturer",
+     "text": "That brings us to the end of today's session. Next time, we'll look at how migratory birds solve a very similar problem, but over far greater distances than any bee could manage."
+    }
+   ],
+   "audio": "audio/l/l-p4-02.m4a",
+   "duration": 219,
+   "questions": [
+    {
+     "n": 1,
+     "type": "note",
+     "prompt": "Movement a forager bee performs to share the location of food: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "waggle dance"
+     ],
+     "accept": [
+      "waggle dance"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 2,
+     "type": "note",
+     "prompt": "What the angle of the waggle run indicates, along with distance: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "direction"
+     ],
+     "accept": [
+      "direction"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 3,
+     "type": "note",
+     "prompt": "Pattern in the sky bees use to locate the sun on a cloudy day: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "polarised light"
+     ],
+     "accept": [
+      "polarised light",
+      "polarized light"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 4,
+     "type": "note",
+     "prompt": "Researcher who led the study on magnetic field detection: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "Ferreira"
+     ],
+     "accept": [
+      "ferreira"
+     ],
+     "trap_ko": "",
+     "predict": "name"
+    },
+    {
+     "n": 5,
+     "type": "note",
+     "prompt": "Mineral thought to help bees detect the earth's magnetic field: ____",
+     "limit": "ONE WORD ONLY",
+     "answer": [
+      "magnetite"
+     ],
+     "accept": [
+      "magnetite"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 6,
+     "type": "note",
+     "prompt": "Year the main paper on magnetic detection was actually published: ____",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "2023"
+     ],
+     "accept": [
+      "2023"
+     ],
+     "trap_ko": "처음 2022년이라고 했다가 'sorry, actually'로 정정 → 정답은 2023년.",
+     "predict": "date"
+    },
+    {
+     "n": 7,
+     "type": "note",
+     "prompt": "Grant awarded to fund the three years of fieldwork: £____",
+     "limit": "ONE WORD ONLY AND/OR A NUMBER",
+     "answer": [
+      "180,000"
+     ],
+     "accept": [
+      "180,000",
+      "180000",
+      "£180,000"
+     ],
+     "trap_ko": "",
+     "predict": "money"
+    },
+    {
+     "n": 8,
+     "type": "note",
+     "prompt": "Method bees use to judge distance travelled: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "optic flow"
+     ],
+     "accept": [
+      "optic flow"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    },
+    {
+     "n": 9,
+     "type": "note",
+     "prompt": "Maximum distance from the hive before navigation errors increase: ____",
+     "limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+     "answer": [
+      "6 kilometres"
+     ],
+     "accept": [
+      "6 kilometers",
+      "6 kilometres",
+      "6 km",
+      "6km",
+      "six kilometres"
+     ],
+     "trap_ko": "",
+     "predict": "number"
+    },
+    {
+     "n": 10,
+     "type": "note",
+     "prompt": "What tracking bee navigation problems helps monitor: ____",
+     "limit": "NO MORE THAN TWO WORDS",
+     "answer": [
+      "colony health"
+     ],
+     "accept": [
+      "colony health"
+     ],
+     "trap_ko": "",
+     "predict": "noun"
+    }
+   ]
+  }
+ ]
+}

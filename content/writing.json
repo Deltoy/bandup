@@ -1,0 +1,1003 @@
+{
+ "license": "BANDUP original content (questions, cue cards, prompts and model answers are self-written; not taken from IELTS, Cambridge, British Council or Hackers materials).",
+ "t1": [
+  {
+   "id": "t1-01",
+   "kind": "line",
+   "prompt": "The graph below shows the percentage of electricity generated from three different energy sources in one country between 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "Percentage of electricity generated from three energy sources, 2000-2020",
+    "units": "%",
+    "xLabels": [
+     "2000",
+     "2005",
+     "2010",
+     "2015",
+     "2020"
+    ],
+    "series": [
+     {
+      "name": "Coal",
+      "values": [
+       55,
+       50,
+       40,
+       28,
+       18
+      ]
+     },
+     {
+      "name": "Natural gas",
+      "values": [
+       25,
+       28,
+       32,
+       34,
+       36
+      ]
+     },
+     {
+      "name": "Renewables",
+      "values": [
+       8,
+       12,
+       18,
+       28,
+       40
+      ]
+     }
+    ]
+   },
+   "model": "The line graph illustrates how the share of electricity produced from coal, natural gas and renewable sources changed in one country over a two-decade period from 2000 to 2020.\n\nOverall, the country moved away from reliance on coal and turned increasingly to renewable sources, while gas held a steadier, more moderate role throughout. A particularly striking feature is that renewables, which started as the smallest contributor, eventually overtook coal to become the leading source of power by the end of the period.\n\nIn 2000, coal was clearly dominant, supplying 55% of electricity, more than double the 25% share from gas. Coal then fell steadily, dropping to 40% by 2010 and continuing its decline to just 18% in 2020. Gas, by contrast, rose only gradually, from 25% to 36% across the same twenty years.\n\nRenewables followed the opposite trajectory to coal. Starting from a mere 8% in 2000, this figure climbed to 18% by 2010 and then accelerated sharply, reaching 28% in 2015 and 40% in 2020. Notably, renewables and coal were equal at 28% in 2015, after which renewables pulled ahead decisively, ending the period as the country's leading source of electricity.",
+   "overview_hint_ko": "개요에는 (1) 석탄 비중이 꾸준히 줄고 재생에너지 비중이 늘어난 큰 흐름과 (2) 재생에너지가 결국 석탄을 앞지르는 역전(교차) 포인트, 이 두 가지만 쓰세요. 가스는 본문에서 다루고 개요에는 숫자 없이 방향만 적으세요. 팁: overtook처럼 역전을 나타내는 동사를 익혀두면 유용합니다."
+  },
+  {
+   "id": "t1-02",
+   "kind": "line",
+   "prompt": "The graph below shows the average number of hours per week that adults spent on three types of media between 1995 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "Average weekly hours spent on television, internet and reading, 1995-2020",
+    "units": "hours per week",
+    "xLabels": [
+     "1995",
+     "2000",
+     "2005",
+     "2010",
+     "2015",
+     "2020"
+    ],
+    "series": [
+     {
+      "name": "Television",
+      "values": [
+       18,
+       19,
+       17,
+       14,
+       10,
+       7
+      ]
+     },
+     {
+      "name": "Internet",
+      "values": [
+       1,
+       4,
+       9,
+       15,
+       21,
+       27
+      ]
+     },
+     {
+      "name": "Reading print media",
+      "values": [
+       7,
+       6,
+       5,
+       4,
+       3,
+       2
+      ]
+     }
+    ]
+   },
+   "model": "The graph compares the average weekly hours that adults devoted to television, the internet and printed reading material between 1995 and 2020.\n\nThe most obvious pattern is a complete reversal in media habits: time spent online rose continuously while both television viewing and reading fell throughout the period. Internet use, which was negligible at the start, eventually became by far the most time-consuming activity, overtaking television roughly halfway through the period.\n\nIn 1995, television was watched for far longer than any other medium, at 18 hours a week, whereas people spent just one hour online and seven hours reading print. Television viewing then declined gradually, to 14 hours by 2010, before falling more sharply to only 7 hours in 2020.\n\nInternet use, in comparison, rose every five years without exception, climbing from 4 hours in 2000 to 15 hours in 2010, when it overtook television for the first time. It then continued to increase, reaching 27 hours a week by 2020, almost four times the figure for television. Reading followed a slower and steadier downward path, decreasing from 7 hours in 1995 to just 2 hours by 2020, ending as the least popular of the three activities.",
+   "overview_hint_ko": "개요에는 (1) 인터넷 이용 시간은 계속 늘고 TV·독서 시간은 계속 줄었다는 큰 방향과 (2) 인터넷이 어느 시점에 TV를 앞질러 결국 가장 많이 쓰이는 매체가 되었다는 교차점을 쓰세요. 숫자는 넣지 말고 추세만 서술하세요. 팁: whereas, in contrast 같은 대조 표현을 연습해보세요."
+  },
+  {
+   "id": "t1-03",
+   "kind": "line",
+   "prompt": "The graph below shows the percentage of paper, glass and plastic waste that was recycled in a city between 2005 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "Percentage of paper, glass and plastic waste recycled in a city, 2005-2025",
+    "units": "%",
+    "xLabels": [
+     "2005",
+     "2010",
+     "2015",
+     "2020",
+     "2025"
+    ],
+    "series": [
+     {
+      "name": "Paper",
+      "values": [
+       30,
+       42,
+       55,
+       64,
+       70
+      ]
+     },
+     {
+      "name": "Glass",
+      "values": [
+       45,
+       50,
+       58,
+       62,
+       66
+      ]
+     },
+     {
+      "name": "Plastic",
+      "values": [
+       10,
+       15,
+       22,
+       35,
+       50
+      ]
+     }
+    ]
+   },
+   "model": "The chart shows the percentage of paper, glass and plastic waste that was recycled in a city across two decades, from 2005 to 2025.\n\nIn general, recycling rates for all three materials improved considerably over the period, although plastic started from a much lower base and improved at the fastest rate. Paper recycling eventually overtook glass to become the material with the highest recycling rate by the end of the period.\n\nGlass recycling began the period as the highest, at 45%, compared with 30% for paper and only 10% for plastic. Glass continued to climb steadily, reaching 58% in 2015, but its growth then slowed, ending at 66% in 2025.\n\nPaper recycling rose more consistently, moving from 30% in 2005 to 55% in 2015, before overtaking glass to reach 64% in 2020 and 70% in 2025, the highest rate among the three materials. Plastic recycling, despite starting far behind the others, expanded fastest in percentage terms, rising from just 10% to 50% across the whole period, though it remained the least recycled material throughout.",
+   "overview_hint_ko": "개요에는 (1) 세 재료 모두 재활용률이 전반적으로 상승했다는 공통점과 (2) 플라스틱이 가장 낮은 출발점에서 가장 빠르게 증가했고 종이가 결국 유리를 앞질러 1위가 되었다는 순위 변화를 쓰세요. 팁: started from a much lower base 같은 표현으로 출발점 차이를 자연스럽게 언급해보세요."
+  },
+  {
+   "id": "t1-04",
+   "kind": "line",
+   "prompt": "The graph below shows the population of three Canadian cities between 1980 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "Population of three Canadian cities, 1980-2020",
+    "units": "million",
+    "xLabels": [
+     "1980",
+     "1990",
+     "2000",
+     "2010",
+     "2020"
+    ],
+    "series": [
+     {
+      "name": "Vancouver",
+      "values": [
+       1.2,
+       1.6,
+       2.0,
+       2.3,
+       2.6
+      ]
+     },
+     {
+      "name": "Calgary",
+      "values": [
+       0.6,
+       0.8,
+       1.0,
+       1.3,
+       1.5
+      ]
+     },
+     {
+      "name": "Winnipeg",
+      "values": [
+       0.8,
+       0.9,
+       0.95,
+       1.0,
+       1.05
+      ]
+     }
+    ]
+   },
+   "model": "The graph presents population figures for three Canadian cities, Vancouver, Calgary and Winnipeg, over four decades from 1980 to 2020.\n\nVancouver remained the largest city throughout the whole period and its population grew steadily larger. The more interesting development concerns the other two cities: Calgary began as the smallest but eventually overtook Winnipeg, whose population grew only marginally.\n\nIn 1980, Vancouver's population stood at 1.2 million, considerably larger than Winnipeg's 0.8 million and Calgary's 0.6 million. Vancouver then expanded consistently over the following decades, reaching 2.0 million by 2000 and 2.6 million by 2020, roughly double its original size.\n\nWinnipeg's population increased only slightly across the period, from 0.8 million in 1980 to just over 1 million by 2020, a rise of barely a quarter of a million people. Calgary, in contrast, grew far more quickly: it overtook Winnipeg sometime between 1990 and 2000, when its population rose from 0.8 million to 1.0 million, and continued to expand afterwards, finishing at 1.5 million in 2020 and well ahead of Winnipeg.",
+   "overview_hint_ko": "개요에는 (1) 밴쿠버가 전 기간 동안 가장 큰 도시 자리를 유지했다는 점과 (2) 캘거리가 원래 가장 작았지만 위니펙을 추월했다는 역전을 쓰세요. 숫자 없이 순위 변화 중심으로 쓰세요. 팁: overtook, fell behind 같은 순위 변화 동사를 반복 연습하세요."
+  },
+  {
+   "id": "t1-05",
+   "kind": "bar",
+   "prompt": "The chart below shows the main method of travel to work used by residents of a city in 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "Main method of travel to work in a city, 2000 and 2020",
+    "units": "%",
+    "xLabels": [
+     "Car",
+     "Bus",
+     "Train",
+     "Bicycle"
+    ],
+    "series": [
+     {
+      "name": "2000",
+      "values": [
+       58,
+       22,
+       12,
+       8
+      ]
+     },
+     {
+      "name": "2020",
+      "values": [
+       39,
+       20,
+       24,
+       17
+      ]
+     }
+    ]
+   },
+   "model": "The bar chart illustrates how residents of a city travelled to work, comparing the situation in 2000 with that in 2020.\n\nThe clearest change is a substantial shift away from private cars towards more active and public forms of transport. Journeys by train and bicycle, which were relatively uncommon in 2000, became considerably more popular by 2020, while car use fell markedly.\n\nIn 2000, the car was overwhelmingly the most common method of travel, used by 58% of workers, far ahead of the bus at 22%. Train and bicycle were used by only 12% and 8% of commuters respectively, making them minor options at that time.\n\nBy 2020, the picture had changed considerably. Car use dropped to 39%, still the leading method but no longer dominant, while bus use edged down slightly to 20%. Meanwhile, both train and bicycle use rose substantially, to 24% and 17% respectively, so that together they accounted for a much larger proportion of journeys to work than they had two decades earlier.",
+   "overview_hint_ko": "개요에는 (1) 자동차 이용이 크게 줄고 기차·자전거 이용이 늘어난 전반적 이동수단 변화와 (2) 대중교통·친환경 수단으로의 뚜렷한 전환이라는 두 가지를 쓰세요. 팁: shift away from A towards B 구조를 그대로 외워서 다른 그래프에도 재사용하세요."
+  },
+  {
+   "id": "t1-06",
+   "kind": "bar",
+   "prompt": "The chart below shows average daily household water consumption for three purposes across four countries in 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "Average daily household water consumption by purpose in four countries, 2020",
+    "units": "litres per person",
+    "xLabels": [
+     "Australia",
+     "Brazil",
+     "Germany",
+     "South Korea"
+    ],
+    "series": [
+     {
+      "name": "Bathing",
+      "values": [
+       90,
+       70,
+       60,
+       55
+      ]
+     },
+     {
+      "name": "Laundry",
+      "values": [
+       40,
+       35,
+       50,
+       45
+      ]
+     },
+     {
+      "name": "Kitchen",
+      "values": [
+       25,
+       30,
+       20,
+       22
+      ]
+     }
+    ]
+   },
+   "model": "The chart compares average daily household water consumption for three purposes, bathing, laundry and cooking, across four countries in 2020.\n\nBathing was the largest single use of water in every country shown, while kitchen use was consistently the smallest. Australia recorded the highest overall consumption, whereas South Korea had the lowest total consumption of the four.\n\nAustralian households used 90 litres per person on bathing, the highest figure among the four countries, along with 40 litres for laundry and 25 litres in the kitchen. Brazil followed a broadly similar pattern, with 70 litres used for bathing but a comparatively low 30 litres for kitchen purposes.\n\nGermany and South Korea showed a different balance between categories. German households used 60 litres per person for bathing, 50 litres for laundry and 20 litres in the kitchen, a fairly even spread compared with the other countries. South Korea recorded the lowest overall consumption, with bathing, laundry and kitchen use at 55, 45 and 22 litres respectively, only slightly below Germany's figures in most categories.",
+   "overview_hint_ko": "개요에는 (1) 모든 나라에서 목욕(bathing)이 가장 큰 물 사용 항목이고 주방이 가장 작은 항목이라는 공통 패턴과 (2) 호주가 전체적으로 가장 많이 쓰고 한국이 가장 적게 쓴다는 국가 간 대조를 쓰세요. 팁: consistently the smallest 같은 표현으로 공통 패턴을 요약하는 연습을 해보세요."
+  },
+  {
+   "id": "t1-07",
+   "kind": "bar",
+   "prompt": "The chart below shows the number of visitors to a city science museum by age group in 2015 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "Number of visitors to a city science museum by age group, 2015 and 2023",
+    "units": "thousand visitors",
+    "xLabels": [
+     "Under 12",
+     "12-18",
+     "19-40",
+     "Over 40"
+    ],
+    "series": [
+     {
+      "name": "2015",
+      "values": [
+       45,
+       30,
+       60,
+       25
+      ]
+     },
+     {
+      "name": "2023",
+      "values": [
+       70,
+       42,
+       55,
+       38
+      ]
+     }
+    ]
+   },
+   "model": "The chart shows the number of visitors to a city science museum in two different years, broken down by four age groups.\n\nVisitor numbers increased for every age group except one over this period, and the largest group of visitors changed from young adults to children. The most dramatic rise occurred among children under twelve, indicating that the museum became noticeably more popular with families.\n\nIn 2015, adults aged 19 to 40 made up the largest group of visitors, at 60 thousand, followed by children under 12 with 45 thousand. Teenagers aged 12 to 18 numbered 30 thousand, while those over 40 formed the smallest group, at just 25 thousand.\n\nBy 2023, visitor numbers among children under 12 had risen sharply to 70 thousand, overtaking the 19-40 age group, whose numbers fell slightly to 55 thousand and were no longer the museum's largest audience. Teenagers increased moderately to 42 thousand, and visitors over 40 also grew, reaching 38 thousand, well above their 2015 level and the strongest relative gain of any group besides the youngest children.",
+   "overview_hint_ko": "개요에는 (1) 한 그룹을 제외하고 모든 연령대에서 방문객 수가 늘었다는 전반적 증가와 (2) 어린이(12세 미만) 방문객이 가장 크게 늘어 박물관이 가족 단위 방문객에게 더 인기를 끌었다는 점을 쓰세요. 팁: except one 같은 예외를 짚어주는 표현을 연습하세요."
+  },
+  {
+   "id": "t1-08",
+   "kind": "table",
+   "prompt": "The table below shows carbon dioxide emissions per capita in five countries in 2000, 2010 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "Carbon dioxide emissions per capita in five countries, 2000, 2010 and 2020",
+    "units": "tonnes per person",
+    "columns": [
+     "Country",
+     "2000",
+     "2010",
+     "2020"
+    ],
+    "rows": [
+     [
+      "Canada",
+      16.8,
+      15.2,
+      13.4
+     ],
+     [
+      "Australia",
+      18.5,
+      16.9,
+      14.7
+     ],
+     [
+      "South Korea",
+      9.1,
+      11.4,
+      11.8
+     ],
+     [
+      "Germany",
+      10.6,
+      9.3,
+      7.9
+     ],
+     [
+      "India",
+      1.0,
+      1.5,
+      1.9
+     ]
+    ]
+   },
+   "model": "The table details carbon dioxide emissions per person in five countries, recorded in 2000, 2010 and 2020.\n\nEmissions per capita fell in most of the countries listed, with Australia and Canada remaining the highest emitters despite this downward trend. South Korea stood out as the only country whose emissions rose consistently, while India remained by far the lowest emitter throughout, though its figure also increased gradually.\n\nAustralia had the highest emissions per capita in 2000, at 18.5 tonnes, slightly ahead of Canada's 16.8 tonnes. Both countries reduced their emissions over the next two decades; Canada fell to 13.4 tonnes by 2020, and Australia to 14.7 tonnes, so the two remained close to each other throughout.\n\nGermany's emissions declined more sharply, from 10.6 tonnes in 2000 to 7.9 tonnes in 2020. South Korea moved in the opposite direction, rising from 9.1 to 11.8 tonnes and overtaking Germany by 2010. India's emissions, meanwhile, stayed far below the other four countries, growing only from 1.0 to 1.9 tonnes across the whole period.",
+   "overview_hint_ko": "개요에는 (1) 대부분의 나라에서 1인당 배출량이 줄었지만 호주와 캐나다가 여전히 가장 높은 배출국이라는 점과 (2) 한국만 유일하게 계속 증가했고 인도는 가장 낮지만 서서히 늘었다는 대조를 쓰세요. 팁: the only country whose emissions rose 같은 관계절 구조를 연습해보세요."
+  },
+  {
+   "id": "t1-09",
+   "kind": "table",
+   "prompt": "The table below shows the number of international students from five countries of origin who were enrolled at a Canadian college in 2010, 2015 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "Number of international students at a Canadian college by country of origin, 2010, 2015 and 2020",
+    "units": "number of students",
+    "columns": [
+     "Country of origin",
+     "2010",
+     "2015",
+     "2020"
+    ],
+    "rows": [
+     [
+      "China",
+      320,
+      580,
+      610
+     ],
+     [
+      "India",
+      150,
+      410,
+      890
+     ],
+     [
+      "South Korea",
+      280,
+      300,
+      260
+     ],
+     [
+      "Brazil",
+      60,
+      120,
+      180
+     ],
+     [
+      "Nigeria",
+      40,
+      95,
+      240
+     ]
+    ]
+   },
+   "model": "The table shows the number of international students from five countries of origin who were enrolled at a Canadian college in 2010, 2015 and 2020.\n\nEnrolments from most countries of origin grew substantially over the decade, with India recording by far the largest increase and eventually becoming the leading source of international students. South Korea was the only country to see a decline, albeit a small one, over the same period.\n\nIn 2010, China sent the most students, 320, compared with just 150 from India and 280 from South Korea. Numbers from Brazil and Nigeria were much smaller at this point, at 60 and 40 respectively.\n\nBy 2020, India had overtaken China to become the largest source, with enrolments rising dramatically from 150 to 890, while China's numbers grew more modestly, from 320 to 610. South Korea's figures fell slightly, from 280 to 260, the only decrease among the five countries, whereas Brazil and Nigeria both saw their numbers rise considerably, to 180 and 240 respectively, well above their 2010 levels.",
+   "overview_hint_ko": "개요에는 (1) 대부분 국가에서 유학생 수가 크게 늘었고 그중 인도가 가장 크게 늘어 결국 1위가 되었다는 점과 (2) 한국만 유일하게 소폭 감소했다는 대조를 쓰세요. 팁: overtook X to become the largest source처럼 순위 역전을 설명하는 문장을 재사용하세요."
+  },
+  {
+   "id": "t1-10",
+   "kind": "pie",
+   "prompt": "The charts below show the sources used to generate electricity in a country in 1990 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "Electricity generation mix in a country, 1990 and 2020",
+    "units": "%",
+    "charts": [
+     {
+      "label": "1990",
+      "slices": [
+       {
+        "name": "Coal",
+        "value": 48
+       },
+       {
+        "name": "Gas",
+        "value": 20
+       },
+       {
+        "name": "Nuclear",
+        "value": 18
+       },
+       {
+        "name": "Hydro",
+        "value": 10
+       },
+       {
+        "name": "Other renewables",
+        "value": 4
+       }
+      ]
+     },
+     {
+      "label": "2020",
+      "slices": [
+       {
+        "name": "Coal",
+        "value": 15
+       },
+       {
+        "name": "Gas",
+        "value": 25
+       },
+       {
+        "name": "Nuclear",
+        "value": 12
+       },
+       {
+        "name": "Hydro",
+        "value": 13
+       },
+       {
+        "name": "Other renewables",
+        "value": 35
+       }
+      ]
+     }
+    ]
+   },
+   "model": "The two pie charts compare the sources used to generate electricity in a country in 1990 and 2020.\n\nThe most significant change is a major shift away from coal towards other renewable sources, which grew from a minor contributor to the largest single source of electricity. Nuclear power's share also shrank considerably, while gas and hydro remained comparatively stable across the thirty-year period.\n\nIn 1990, coal was responsible for almost half of all electricity generated, at 48%, with gas contributing 20% and nuclear power 18%. Hydro and other renewables together made up the remaining 14%, split into 10% and 4% respectively, making them minor sources at that time.\n\nBy 2020, coal's share had collapsed to just 15%, while other renewables expanded dramatically to 35%, becoming the leading source of electricity in place of coal. Gas increased slightly to 25%, overtaking coal, and hydro edged up to 13%, whereas nuclear power's contribution fell to 12%, roughly a third smaller than it had been three decades earlier, leaving it the smallest of the five sources by the end of the period.",
+   "overview_hint_ko": "개요에는 (1) 석탄 비중이 크게 줄고 기타 재생에너지가 가장 큰 비중을 차지하게 된 변화와 (2) 원자력 비중은 줄고 가스·수력은 비교적 안정적이었다는 대조를 쓰세요. 팁: shrank considerably, remained comparatively stable 같은 짝을 이루는 표현을 함께 연습하세요."
+  },
+  {
+   "id": "t1-11",
+   "kind": "process",
+   "prompt": "The diagram below shows the process of recycling a used plastic bottle into a new one. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "The process of recycling a plastic bottle",
+    "cycle": true,
+    "steps": [
+     {
+      "n": 1,
+      "label": "Collection",
+      "detail": "Used plastic bottles are collected from household recycling bins."
+     },
+     {
+      "n": 2,
+      "label": "Transport",
+      "detail": "Collected bottles are transported by truck to a sorting facility."
+     },
+     {
+      "n": 3,
+      "label": "Sorting",
+      "detail": "Machines and workers sort the bottles by colour and plastic type."
+     },
+     {
+      "n": 4,
+      "label": "Washing",
+      "detail": "Sorted bottles are washed to remove labels, glue and dirt."
+     },
+     {
+      "n": 5,
+      "label": "Shredding",
+      "detail": "Clean bottles are shredded into small plastic flakes."
+     },
+     {
+      "n": 6,
+      "label": "Melting",
+      "detail": "The flakes are melted at high temperature into liquid plastic."
+     },
+     {
+      "n": 7,
+      "label": "Pelletising",
+      "detail": "The liquid plastic is cooled and cut into small pellets."
+     },
+     {
+      "n": 8,
+      "label": "Manufacturing",
+      "detail": "Pellets are used to manufacture new bottles, and the cycle repeats."
+     }
+    ]
+   },
+   "model": "The diagram illustrates the stages involved in recycling a used plastic bottle into a new one, forming a continuous cycle.\n\nOverall, the process consists of a sequence of mechanical and chemical stages that transform a discarded bottle into raw material suitable for manufacturing, after which the cycle begins again. Two particularly important stages are the sorting of bottles by type and the melting of plastic flakes, both of which are essential before any new product can be made.\n\nThe cycle begins when used bottles are collected from household recycling bins and then transported by truck to a sorting facility. There, machines and workers separate the bottles according to their colour and plastic type, after which the sorted bottles are washed to remove any labels, glue and remaining dirt.\n\nOnce cleaned, the bottles are shredded into small plastic flakes, which are then melted at a high temperature to produce liquid plastic. This liquid is subsequently cooled and cut into small pellets, and these pellets are used to manufacture brand new bottles. At this point the cycle repeats itself, as the new bottles will eventually be collected for recycling once again.",
+   "overview_hint_ko": "개요에는 공정을 한두 문장으로 요약(수거된 병이 여러 단계를 거쳐 새 병이 되는 순환 과정)하고, 그중 가장 중요한 두 단계(예: 분류와 용융)를 언급하세요. 숫자는 없으니 단계 이름과 흐름 위주로 쓰면 됩니다. 팁: is located, is used to 같은 be동사·to부정사 구조를 단계 설명에서 반복 연습하세요."
+  },
+  {
+   "id": "t1-12",
+   "kind": "map",
+   "prompt": "The maps below show a town centre in 2005 and in 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+   "data": {
+    "title": "Plan of a town centre, 2005 and 2025",
+    "before": {
+     "label": "2005",
+     "features": [
+      {
+       "name": "car park",
+       "x": 10,
+       "y": 60,
+       "w": 25,
+       "h": 20,
+       "type": "parking"
+      },
+      {
+       "name": "warehouse",
+       "x": 40,
+       "y": 60,
+       "w": 25,
+       "h": 25,
+       "type": "building"
+      },
+      {
+       "name": "Main Road",
+       "x": 0,
+       "y": 40,
+       "w": 100,
+       "h": 8,
+       "type": "road"
+      },
+      {
+       "name": "corner shop",
+       "x": 70,
+       "y": 65,
+       "w": 15,
+       "h": 12,
+       "type": "shop"
+      },
+      {
+       "name": "grass field",
+       "x": 10,
+       "y": 10,
+       "w": 40,
+       "h": 25,
+       "type": "park"
+      },
+      {
+       "name": "river",
+       "x": 70,
+       "y": 10,
+       "w": 25,
+       "h": 25,
+       "type": "water"
+      },
+      {
+       "name": "footpath",
+       "x": 50,
+       "y": 40,
+       "w": 5,
+       "h": 50,
+       "type": "path"
+      }
+     ]
+    },
+    "after": {
+     "label": "2025",
+     "features": [
+      {
+       "name": "public library",
+       "x": 10,
+       "y": 60,
+       "w": 20,
+       "h": 20,
+       "type": "building"
+      },
+      {
+       "name": "town park",
+       "x": 35,
+       "y": 55,
+       "w": 25,
+       "h": 25,
+       "type": "park"
+      },
+      {
+       "name": "bicycle path",
+       "x": 0,
+       "y": 45,
+       "w": 100,
+       "h": 5,
+       "type": "path"
+      },
+      {
+       "name": "Main Road",
+       "x": 0,
+       "y": 35,
+       "w": 100,
+       "h": 6,
+       "type": "road"
+      },
+      {
+       "name": "corner shop",
+       "x": 70,
+       "y": 65,
+       "w": 15,
+       "h": 12,
+       "type": "shop"
+      },
+      {
+       "name": "river",
+       "x": 70,
+       "y": 10,
+       "w": 25,
+       "h": 25,
+       "type": "water"
+      },
+      {
+       "name": "new housing",
+       "x": 10,
+       "y": 10,
+       "w": 40,
+       "h": 25,
+       "type": "housing"
+      }
+     ]
+    }
+   },
+   "model": "The two maps depict the layout of a town centre in 2005 and how it had changed by 2025.\n\nThe most significant change is that the vacant field in the north of the site was replaced with new housing, while the car park in the south-west made way for a public library and a park. In addition, a bicycle path was introduced alongside the main road, reflecting a shift towards more sustainable transport.\n\nIn 2005, the site was dominated by a large car park and an adjacent warehouse, both located in the southern half of the area. A single main road ran across the centre of the site, with a footpath connecting it to the corner shop in the south-east. The northern section consisted mainly of an empty grass field, and a river bordered the eastern edge.\n\nBy 2025, the car park and warehouse had been removed and replaced with a public library and a spacious town park. The vacant field to the north was developed into new housing, and a bicycle path now runs the length of the site parallel to the main road. The corner shop and the river remained unchanged throughout the redevelopment.",
+   "overview_hint_ko": "개요에는 (1) 남서쪽 주차장 자리가 도서관과 공원으로 바뀐 것과 (2) 북쪽 공터가 새 주택단지로 개발된 것, 이 두 가지 가장 큰 변화를 쓰세요. 팁: was replaced with, was developed into 같은 수동태 과거형을 위치 변화 설명에 반복해서 연습하세요."
+  }
+ ],
+ "t2": [
+  {
+   "id": "t2-01",
+   "type": "opinion",
+   "prompt": "Many schools now allow students to choose which subjects to study from an early age, rather than following a fixed curriculum. To what extent do you agree or disagree with giving young students this much freedom over their own education?",
+   "plan_ko": "유형: opinion (동의 정도)\n질문 체크: 조기 과목선택 자유 - 동의? 어느 정도?\n입장: 반대(너무 이른 자유는 위험)\n본문1 TEEC: 기초학력 - 조기 특화시 수학 등 포기 -> 대학/진로 제한 -> 한국 문/이과 사례\n본문2 TEEC: 미성숙 - 단기취향으로 결정 -> 좋은 과목도 포기 -> 15세 이후 점진 도입이 낫다\n결론: 넓은 필수교육 유지 후 중반부터 선택 도입",
+   "model": "In some school systems, children as young as ten or eleven can already choose which subjects to keep and which to drop entirely. I disagree with giving students this much control so early, mainly because it can leave permanent gaps in their knowledge and because most children are not yet ready to make such decisions wisely.\n\nA broad, compulsory curriculum in the early years ensures that students build a foundation they cannot easily recover later. A twelve-year-old who dislikes mathematics might drop it completely, only to discover at eighteen that the course he wants at university requires basic algebra. In Korea, students who specialise too early into either science or humanities tracks sometimes find their university options sharply narrowed, and switching back demands extra years of catch-up study. Early freedom, without guidance, can close doors rather than open them.\n\nChildren at this age are also still forming their interests and are easily swayed by short-term preferences, such as which teacher happens to be friendliest that term. A student might abandon science after one difficult unit, even though he could excel at it with more patience and better teaching. If schools instead introduced meaningful choice from around age fourteen or fifteen, once students had tried a wide range of subjects and matured somewhat, their decisions would likely be sounder and less regretted later.\n\nFor these reasons, I believe schools should keep a broad, largely compulsory curriculum until the mid-teenage years, introducing real choice only once students have both the knowledge and the maturity to use it well."
+  },
+  {
+   "id": "t2-02",
+   "type": "opinion",
+   "prompt": "Companies increasingly expect employees to be available by email and phone outside normal working hours. To what extent do you agree or disagree that this expectation is reasonable in modern working life?",
+   "plan_ko": "유형: opinion\n질문 체크: 근무 외 시간 상시대기 - 합리적인가?\n입장: 대체로 반대\n본문1 TEEC: 회복시간 침해 -> 피로누적 -> 실수/이직률 증가 -> 창고 매니저 예시\n본문2 TEEC: 공정성/신뢰 문제 -> 무급노동 인식 -> 반대로 경계지키는 회사는 인재유지\n결론: 긴급상황 예외는 인정, 상시기대는 해롭다",
+   "model": "Employers who expect staff to answer emails and calls late at night or on weekends have become common, especially in office jobs connected by smartphones. I do not think this expectation is reasonable, since it blurs the line between work and rest and tends to reduce productivity rather than improve it.\n\nOne reason is that constant availability erodes the recovery time employees need to perform well. When a warehouse manager, for instance, is expected to check delivery schedules on his phone every evening, he rarely gets a proper mental break, and this fatigue eventually shows up as mistakes during working hours. Companies that pride themselves on round-the-clock responsiveness often see higher staff turnover, because employees burn out and start looking for jobs with clearer boundaries.\n\nA second reason concerns fairness and trust. If a company hires someone for a forty-hour week but treats every evening as optional overtime, it is effectively asking for unpaid labour, and this can breed resentment even among otherwise loyal staff who feel their private life is no longer respected. By contrast, firms that respect personal time, contacting employees after hours only for genuine emergencies, tend to keep skilled workers longer and receive better effort during the hours that are actually scheduled, since employees trust that their private time will be protected rather than quietly treated as extra working hours.\n\nOverall, while some flexibility is useful in urgent situations, treating after-hours availability as a routine expectation does more harm than good, both to employees' wellbeing and to the quality of the work they eventually produce for the company."
+  },
+  {
+   "id": "t2-03",
+   "type": "opinion",
+   "prompt": "Some people believe that facial recognition technology should be used freely by governments and businesses to identify individuals in public places. To what extent do you agree or disagree with the widespread use of this technology?",
+   "plan_ko": "유형: opinion\n질문 체크: 안면인식 자유사용 - 동의?\n입장: 반대\n본문1 TEEC: 사생활 침해 -> 일상 추적 -> 시위대 감시 사례\n본문2 TEEC: 정확도 문제 -> 특정집단 오인식 높음 -> 억울한 검문 위험\n결론: 엄격한 규제 하에서만 제한적 사용",
+   "model": "Cameras equipped with facial recognition can now identify a person walking down a street within seconds, and some governments and businesses want to use this power with few restrictions. I disagree with such unrestricted use, mainly because it threatens personal privacy and because the technology itself is not yet reliable enough to be trusted with important decisions.\n\nConstant identification in public spaces removes a kind of everyday privacy that most people take for granted. If every entry to a subway station or shopping mall logs a person's face and movements, individuals lose the ability to go about ordinary business without being tracked, even when they have done nothing wrong. In cities that have installed such systems widely, civil rights groups have reported cases where the data was later used for purposes far beyond its original aim, including monitoring peaceful protesters.\n\nIn addition, facial recognition software is known to make more errors when identifying certain groups, including women and people with darker skin tones, which raises the risk of wrongful accusations. A misidentified shopper could be stopped and questioned by security staff for a crime they did not commit, simply because an algorithm matched their face incorrectly. Until the accuracy of these systems improves significantly and clear legal limits exist on how the data can be stored and shared, their use should remain restricted rather than open to any agency that wants it.\n\nTechnology of this kind may eventually prove useful against genuine security threats, but it should be introduced carefully, with strict oversight, rather than adopted freely across public life."
+  },
+  {
+   "id": "t2-04",
+   "type": "opinion",
+   "prompt": "A number of governments have introduced taxes on sugary drinks and snacks to reduce obesity rates. To what extent do you agree or disagree that taxing unhealthy food is an effective way to improve public health?",
+   "plan_ko": "유형: opinion\n질문 체크: 설탕세 - 공중보건에 효과적인가?\n입장: 대체로 동의 (다른 정책과 병행 시)\n본문1 TEEC: 가격상승->구매습관 변화 -> 슈퍼마켓 판매량 감소 예시\n본문2 TEEC: 세수 재투자 -> 학교 급식/병원 프로그램 -> 재투자 없으면 효과 제한적\n결론: 교육/재투자 병행해야 진짜 효과",
+   "model": "To fight rising obesity rates, several governments now add extra tax to sugary drinks and snacks, hoping that a higher price will discourage people from buying them. I largely agree that such taxes are effective, though I would add that they work best alongside other public health measures rather than on their own.\n\nRaising the price of unhealthy products has been shown to change buying habits, especially among younger consumers and families on tight budgets. When a country introduces a tax on sugary drinks, supermarket sales figures typically show a noticeable drop within the first year, as shoppers switch to water or unsweetened alternatives to save money. This kind of direct financial pressure tends to work faster than health advice alone, because it affects a decision people make every day at the till, not just their long-term intentions.\n\nThe revenue collected from such taxes can also be redirected sensibly into public health programmes, creating a second, longer-lasting benefit beyond the initial change in behaviour. A government might use the funds to build sports facilities, support school nutrition programmes, or fund obesity treatment in hospitals, all of which reinforce healthier habits over time. Without this reinvestment, however, a sugar tax risks becoming just another cost passed on to consumers with little lasting effect, so how the money is spent matters almost as much as the tax itself.\n\nIn short, taxing unhealthy food and drink can meaningfully improve public health, provided the policy is paired with education and reinvestment rather than treated as a complete solution by itself."
+  },
+  {
+   "id": "t2-05",
+   "type": "opinion",
+   "prompt": "Several major cities have started banning private cars from their downtown areas to reduce pollution. To what extent do you agree or disagree with this kind of ban?",
+   "plan_ko": "유형: opinion\n질문 체크: 도심 자동차 금지 - 동의?\n입장: 동의\n본문1 TEEC: 대기질 개선 -> 유럽 도시 사례 -> 호흡기질환 병원방문 감소\n본문2 TEEC: 이동성/상권 개선 -> 인도/자전거도로 확장 -> 상점 유동인구 증가\n결론: 대중교통 투자 병행하면 더 많은 도시가 도입해야",
+   "model": "A growing number of city centres now prohibit private cars altogether, allowing only buses, bicycles, and pedestrians into their downtown streets. I agree with this kind of ban, since it addresses both air pollution and traffic congestion more directly than most alternative measures.\n\nOne clear advantage of such schemes is the improvement in air quality that follows almost immediately after cars are removed from a city core. Vehicle exhaust is a major source of fine particulate matter, and several European cities that introduced car-free zones recorded measurable drops in pollution levels within months, along with fewer hospital visits related to respiratory problems. For residents who previously lived near busy intersections, this change can make a genuine difference to daily health, not just to statistics.\n\nA second benefit is that removing cars tends to make a downtown area more pleasant and, ironically, easier to move through. Without private vehicles competing for space, cities can widen pavements, add cycle lanes, and let public transport run more reliably, since buses are no longer stuck behind traffic at every intersection. Local shops in these zones often report increased footfall too, because people are more willing to walk and browse when they are not dodging cars, which suggests the ban helps commerce rather than harming it, as critics sometimes fear it will.\n\nGiven these environmental and practical gains, I believe more cities should adopt similar restrictions, provided they also invest properly in the public transport needed to replace the journeys that private cars used to provide for residents and visitors alike."
+  },
+  {
+   "id": "t2-06",
+   "type": "opinion",
+   "prompt": "As cities grow, many old neighbourhoods are demolished to make way for high-rise apartments and modern shopping centres. To what extent do you agree or disagree that this kind of redevelopment benefits a city more than it harms it?",
+   "plan_ko": "유형: opinion\n질문 체크: 재개발이 도시에 이득 > 피해? 동의?\n입장: 반대\n본문1 TEEC: 공동체/역사성 파괴 -> 오래된 가게 사라짐 -> 회복 불가\n본문2 TEEC: 저소득층 내몰림(젠트리피케이션) -> 통근/공동체 단절\n결론: 철거보다 기존 동네 개보수 우선해야",
+   "model": "In many growing cities, older neighbourhoods with low-rise houses and small shops are torn down to build tall apartment blocks and large shopping centres. I disagree that this kind of redevelopment benefits a city more than it harms it, because it often destroys community ties and historical character that cannot easily be rebuilt.\n\nDemolishing an established neighbourhood tends to scatter the community that lived there, replacing long-term neighbours who knew and supported each other with residents who have little connection to the area or its history. Small, family-run shops that served a district for decades are usually replaced by chain stores in the new development, and streets that once had a distinct character start to look like every other modern development. Once this social fabric is lost, it rarely returns, even if the new buildings themselves are of high quality.\n\nRedevelopment projects also frequently push out lower-income residents who can no longer afford the area once rents rise around the new apartments and shopping centres. A family that has rented a small flat near their workplace for years may be forced to move far away, adding a long commute to daily life and separating them from schools and clinics they relied on. City planners sometimes justify this displacement by pointing to increased tax revenue and modern infrastructure, but these gains offer little comfort to the people who had to leave the area they called home.\n\nFor these reasons, cities should focus on renovating and improving existing neighbourhoods rather than replacing them outright, preserving both their communities and their character while still allowing gradual modernisation."
+  },
+  {
+   "id": "t2-07",
+   "type": "discussion",
+   "prompt": "Some people think governments should spend more public money on hospitals and schools, while others argue that funding for the arts and cultural projects is just as important. Discuss both views and give your own opinion.",
+   "plan_ko": "유형: discussion (both views + opinion)\n질문 체크: 병원/학교 지출 vs 문화예술 지출, 내 의견 필요\n입장: 병원/학교 우선\n본문1 TEEC(view1): 필수서비스 논리 -> 병원/교육 부족의 즉각적 피해 -> 경기침체시 병원예산 삭감 사례\n본문2 TEEC(view2): 문화지출 논리 -> 정체성/관광수익 -> 하지만 필수서비스만큼 급하지 않음\n결론: 예산 제한시 병원/학교 우선, 문화는 축소된 예산으로도 유지 가능",
+   "model": "Governments constantly have to decide how to divide a limited budget, and one recurring debate is whether hospitals and schools should take priority over museums, theatres, and other cultural projects. While I recognise the value cultural funding brings to a society, I believe essential services such as healthcare and education should come first when budgets are tight.\n\nThose who favour prioritising hospitals and schools point out that these services meet needs no family can simply do without. A country with overcrowded hospitals or underfunded classrooms is failing its citizens at a basic level, since illness and poor education affect people's whole lives, from job prospects to life expectancy. During recent economic downturns, several governments that cut healthcare spending saw waiting lists grow so long that patients delayed treatment until conditions worsened, which ultimately cost the health system more than the original savings were worth.\n\nSupporters of cultural funding, on the other hand, argue that museums, orchestras, and public art enrich communities in ways that go beyond immediate survival, building shared identity and attracting tourism that benefits the wider economy. A city with a thriving arts scene often draws visitors who also spend money in local restaurants and hotels, indirectly supporting jobs unrelated to the arts themselves. This view has merit, since a society focused only on hospitals and classrooms, with no cultural life at all, would struggle to inspire creativity or civic pride.\n\nWeighing both sides, I still think hospitals and schools deserve the larger share of funding when a government must choose, because their absence causes immediate harm, whereas modest cultural funding can usually survive a reduced budget without similar damage."
+  },
+  {
+   "id": "t2-08",
+   "type": "discussion",
+   "prompt": "Some people think globalisation has made countries more similar to each other, weakening local cultures and traditions. Others argue that it mainly brings economic benefits and greater choice for consumers. Discuss both views and give your own opinion.",
+   "plan_ko": "유형: discussion\n질문 체크: 세계화 - 문화약화 vs 경제이득, 내 의견\n입장: 경제이득이 더 크다 (문화우려도 타당)\n본문1 TEEC(view1): 문화획일화 -> 프랜차이즈가 전통찻집 대체 -> 지역지식 소실\n본문2 TEEC(view2): 소비자선택/수출기회 -> 한국 중소기업 해외판매 예시 -> 소득향상\n결론: 경제이득이 크지만 정부가 전통보호 병행해야",
+   "model": "As international trade and travel have expanded, some observers worry that globalisation is making countries feel increasingly alike, while others focus on the economic gains it brings to ordinary consumers. In my view, the economic advantages are real and substantial, though the cultural concerns raised by critics should not be dismissed.\n\nSupporters of the first view note that shopping streets in Seoul, London, and Toronto now carry many of the same international brands, and younger generations across these cities often share similar tastes in music, films, and fashion. This convergence can weaken smaller local traditions, particularly when a global coffee chain replaces a traditional teahouse that had served a neighbourhood for generations. Once such small businesses close, the specific knowledge and customs they carried are difficult to recover, and this loss is a legitimate concern.\n\nAt the same time, globalisation has given consumers access to a far wider range of products and services at lower prices than a closed, purely domestic economy could offer. A shopper in Seoul can now buy fresh produce imported from several continents, and a small Korean electronics firm can sell its products to customers worldwide instead of relying only on the local market. This exchange has lifted incomes in many exporting countries and allowed consumers everywhere to access goods that used to be unavailable or prohibitively expensive, representing a genuine improvement in living standards.\n\nOn balance, I believe the economic benefits of globalisation outweigh the cultural risks, especially if governments make a deliberate effort to protect local traditions and small businesses alongside the wider opening of markets."
+  },
+  {
+   "id": "t2-09",
+   "type": "discussion",
+   "prompt": "Some people believe that governments should encourage more young people to learn a trade, such as becoming an electrician or a plumber, instead of pursuing a university degree. Others think a university education still offers better long-term prospects. Discuss both views and give your own opinion.",
+   "plan_ko": "유형: discussion\n질문 체크: 기술직 장려 vs 대학진학, 내 의견\n입장: 기술직 장려 쪽 지지\n본문1 TEEC(view1): 인력부족+안정적 소득 -> 전기공 견습 사례 -> 학자금 부채 없음\n본문2 TEEC(view2): 전문직 진입경로 -> 의사/법조인/경영 -> 단, 진로불명확한 학생에겐 약함\n결론: 실용적 성향 학생에겐 기술직이 더 빠르고 안전한 길",
+   "model": "As university degrees have become more common, some people now argue that governments should actively encourage young people toward practical trades such as electrical work or plumbing, while others maintain that a university education still leads to better opportunities. I lean towards the first view, mainly because skilled trades currently offer strong job security and clear career progression.\n\nAdvocates of trade training point out that many economies face a genuine shortage of qualified electricians, plumbers, and mechanics, even as university graduates in some fields struggle to find work related to their degree. A young person who completes an apprenticeship as an electrician can begin earning a stable income within a few years and often has a clear route to becoming a certified journeyman or eventually running an independent business. This hands-on training also avoids the large student debt that many university graduates carry for years after leaving school.\n\nThose who favour university study counter that a degree still opens doors to careers, such as medicine, law, or research, that require years of academic study and cannot be replaced by trade skills. A university education also develops broader analytical and communication abilities that many employers value, and graduates in fields like engineering or business often reach senior management roles that would be harder to access through a trade alone. This argument holds true for certain professions, though it applies less to students who are unsure what they want to study and end up in a general degree with limited job prospects.\n\nTaking both arguments into account, I still believe governments should invest more in promoting trades, since they offer a faster, more affordable path to stable employment for students whose strengths are practical rather than academic."
+  },
+  {
+   "id": "t2-10",
+   "type": "discussion",
+   "prompt": "Some people think that employees should be allowed to work from home permanently if their job allows it. Others believe that regular time in the office is necessary for teamwork and career development. Discuss both views and give your own opinion.",
+   "plan_ko": "유형: discussion\n질문 체크: 완전재택 허용 vs 사무실 필요, 내 의견\n입장: 하이브리드 지지 (사무실 시간 일부 필요)\n본문1 TEEC(view1): 재택 장점 - 통근시간 절약/유연성 -> 육아부모 예시 -> 독립업무엔 적합\n본문2 TEEC(view2): 대면 장점 - 신입 학습/협업 -> 창고 물류팀 예시 -> 이메일로는 느림\n결론: 완전재택보다 하이브리드가 유연성과 협업 둘다 확보",
+   "model": "Since many companies discovered that staff could work productively from home, a debate has grown over whether employees should be permitted to work remotely on a permanent basis or whether regular time in the office remains necessary. I believe that while full-time remote work suits some roles, most employees still benefit from spending part of their week physically with colleagues.\n\nThose in favour of permanent remote work highlight the flexibility and time saved by avoiding a daily commute, which can add up to several hours a week for workers in large cities. A parent, for instance, can better balance childcare and work if he is not required to be at a desk downtown every day, and companies save on office space when fewer staff are present at once. For roles involving mostly independent tasks, such as software development or writing, this arrangement can work well without a real drop in output.\n\nHowever, those who argue for regular office time point to the informal learning and relationship-building that happens naturally when colleagues share a physical space. A new employee tends to pick up unwritten rules and practical skills far more quickly by watching and asking a nearby colleague than by messaging someone who might reply hours later. Warehouse and logistics teams, where coordination between departments matters constantly, generally suffer when key staff are hard to reach in person, since problems a quick face-to-face conversation would solve in minutes can drag on through email instead.\n\nFor these reasons, I support a hybrid approach over fully remote arrangements, since it preserves the flexibility employees value while keeping the collaboration and mentoring that in-person work still does best."
+  },
+  {
+   "id": "t2-11",
+   "type": "discussion",
+   "prompt": "Some people think that replacing warehouse workers with robots and automated systems mainly benefits companies through lower costs. Others argue that automation ultimately creates better and safer jobs for workers. Discuss both views and give your own opinion.",
+   "plan_ko": "유형: discussion\n질문 체크: 창고 자동화 - 기업이익 vs 근로자에게 더 안전한 일자리, 내 의견\n입장: 재교육 병행시 근로자에게도 이득\n본문1 TEEC(view1): 비용절감 논리 -> 인력감축, 해고된 직원 저임금 재취업 -> 이익은 주주에게\n본문2 TEEC(view2): 안전/업그레이드 논리 -> 위험작업 감소, 약국 물류센터 사례, 기술직 신설\n결론: 재교육 투자하면 자동화가 진짜 근로환경 개선으로 이어짐",
+   "model": "As warehouses install more robots and automated sorting systems, opinions differ over who actually benefits: some argue the main winners are company owners through reduced costs, while others believe automation improves conditions for the workers themselves. I think both effects are real, but that automation can genuinely benefit workers when it is combined with proper retraining.\n\nThose who see automation mainly as a cost-cutting measure note that companies often replace dozens of workers with a handful of technicians who oversee the machines, reducing wage bills significantly while workers who are let go struggle to find comparable employment elsewhere. A logistics firm that automates its picking and packing lines, for example, may see profits rise sharply the following year, even as former warehouse staff take lower-paid jobs in unrelated sectors. This pattern supports the view that the immediate financial benefit flows mostly to shareholders rather than to employees.\n\nOn the other hand, automation can remove some of the most physically demanding and dangerous parts of warehouse work, such as repeatedly lifting heavy boxes or operating forklifts in tight spaces. Workers who remain often move into roles that involve monitoring equipment, handling exceptions, or maintaining machinery, positions that typically pay better and cause fewer injuries than manual lifting did. A pharmacy distribution centre that introduced automated shelving, for instance, reported fewer back injuries among staff within a year, along with new technical positions for employees willing to learn the new systems.\n\nIn my view, automation benefits workers most reliably when companies invest part of their savings into retraining existing staff, rather than simply replacing them, since this turns a potential job loss into a genuine improvement in working conditions."
+  },
+  {
+   "id": "t2-12",
+   "type": "adv-disadv",
+   "prompt": "An increasing number of countries are actively recruiting skilled workers from abroad to fill shortages in fields such as healthcare and construction. What are the advantages and disadvantages of this approach?",
+   "plan_ko": "유형: adv-disadv\n질문 체크: 해외 숙련인력 유치 - 장점/단점 둘다 서술\n입장: 장점이 더 크나 관리 필요\n본문1 TEEC(장점): 인력부족 신속해결 -> 캐나다 이민 기술인력 사례 -> 세금/소비 기여\n본문2 TEEC(단점): 송출국 두뇌유출 -> 자격인정/언어장벽 -> 초기 마찰\n결론: 장점 크나 자격인정 지원 + 송출국 배려 필요",
+   "model": "More and more countries are actively recruiting nurses, doctors, construction workers, and other skilled staff from abroad to fill gaps in their own labour markets. This approach brings clear advantages for the receiving country, though it also creates some real disadvantages that governments need to manage carefully.\n\nThe most immediate advantage is that urgent shortages get filled far faster than domestic training programmes could manage alone. Training a new doctor or electrician from scratch can take five to ten years, while an experienced professional recruited from abroad can start working within months of arriving. Canada, for example, has relied heavily on internationally trained tradespeople and healthcare workers to keep hospitals staffed and construction projects moving, especially in provinces facing rapid population growth. Beyond filling immediate gaps, these workers often bring years of practical experience that benefit local colleagues and, over time, the wider economy through the taxes and spending that come with steady employment.\n\nThe main disadvantage falls on the countries these workers leave behind, which can suffer a serious loss of skilled professionals just when they need them most. A hospital in a developing country that trains nurses at public expense, only to see many move abroad for higher salaries a few years later, ends up subsidising a wealthier nation's healthcare system instead of its own. In the receiving country, meanwhile, newly arrived workers sometimes face difficulty getting their qualifications recognised, and language barriers can slow their integration into workplaces, creating friction with employers who expected them to contribute immediately.\n\nOn balance, recruiting skilled workers from abroad brings significant benefits to the receiving country, but these gains are only fully justified if governments also support fair recognition of qualifications and, where possible, help ease the shortages this creates back home."
+  },
+  {
+   "id": "t2-13",
+   "type": "adv-disadv",
+   "prompt": "More people now order groceries, clothes and electronics online instead of visiting physical shops, and as a result delivery vans and motorbikes have become a constant presence on city streets. Do the advantages of this trend outweigh the disadvantages?",
+   "plan_ko": "유형: 장단점형(advantage outweigh)\n모든질문 체크: 장점 언급? 단점 언급? 어느쪽이 크다고 결론낼지?\n입장 한줄: 편의성 이득이 크지만 교통혼잡 문제는 관리가 필요\n본문1 TEEC: 장점(시간절약) - 설명 - 예시(약국 발주 경험) - 결과(효율 향상)\n본문2 TEEC: 단점(교통혼잡,안전) - 설명 - 예시(좁은골목 배달오토바이) - 결과(사고,오염)\n결론: 정책 보완(배송존,전기바이크)이 있으면 전체적으로 이득이 큼",
+   "model": "Shopping habits have changed dramatically over the past decade, with groceries, clothing and gadgets now routinely ordered from a phone rather than picked up in a shop. One visible side effect is that vans and motorbikes carrying parcels have become a fixture of daily street life. In my view, the convenience this trend brings outweighs the traffic problems it creates, provided cities manage the added congestion sensibly.\n\nThe clearest benefit is the time that households and small businesses save. Rather than travelling to a store, checking stock and queuing at a till, a customer can compare prices and place an order within minutes, often with same-day delivery. I manage stock orders for a pharmacy, and what used to take an entire afternoon of visiting wholesalers by van now happens through an app in under half an hour. This has allowed staff to spend more time serving customers face to face instead of chasing suppliers, which has genuinely improved the service we offer.\n\nThe disadvantage, however, is the pressure this puts on narrow city streets. Delivery riders frequently double-park or mount pavements to save time, and in dense residential areas such as parts of Mapo in Seoul, lanes barely wide enough for one car are often blocked during peak hours. This has led to a rise in near-miss accidents involving pedestrians, particularly children and older residents, along with extra noise and exhaust fumes from idling engines.\n\nOn balance, though, these problems stem from poor planning rather than the practice itself. Designated loading zones, staggered delivery windows and a shift toward electric bikes could resolve much of the congestion without sacrificing convenience, so the overall advantages still win out."
+  },
+  {
+   "id": "t2-14",
+   "type": "adv-disadv",
+   "prompt": "In many countries the population is ageing rapidly, and neighbourhood pharmacies are increasingly expected to provide health advice and basic monitoring rather than simply dispensing medicine. Do the advantages of pharmacies taking on this expanded role outweigh the disadvantages?",
+   "plan_ko": "유형: 장단점형\n모든질문 체크: 장점? 단점? 결론 방향?\n입장 한줄: 확대된 역할의 이득이 크지만 인력 부담 문제 존재\n본문1 TEEC: 장점(접근성) - 설명 - 예시(혈압체크 단골) - 결과(조기발견,입원감소)\n본문2 TEEC: 단점(인력부담) - 설명 - 예시(약사 근무시간 증가) - 결과(피로,대기시간 증가)\n결론: 인력·교육 투자로 보완하면 전체적으로 이득이 큼",
+   "model": "Populations in much of East Asia and Europe are greying fast, and pharmacies that once just handed over prescriptions are now being asked to check blood pressure, advise on chronic conditions and even flag when a patient should see a doctor. I would argue that this expanded role brings far more benefits than drawbacks, though it does place real strain on pharmacy staff.\n\nThe most significant advantage is that pharmacies sit on almost every corner, making them easier to reach than a hospital. An elderly person with a long-term condition such as high blood pressure can drop in without an appointment and be seen within minutes. At the pharmacy where I coordinate stock orders, several regulars in their seventies now come in weekly simply to have their blood pressure checked rather than to collect medicine. Because staff flag unusual readings immediately, patients are referred to a doctor before a condition becomes serious, which likely prevents avoidable hospital admissions.\n\nThe obvious disadvantage is the strain this places on staff trained mainly to dispense medicine rather than manage ongoing health monitoring. Our head pharmacist now spends close to two extra hours a day fielding questions once handled by a GP, on top of overseeing the deliveries and inventory that fall to me. When the shop is short-staffed, this slows service for customers who only came in to pick up a prescription, and queues have grown noticeably longer during busy afternoons.\n\nEven so, given how quickly the elderly population is growing, I believe these growing pains are worth tolerating rather than avoiding. With modest investment in extra staff and basic clinical training, pharmacies could retain the advantage of convenience while easing the burden currently falling on a handful of overworked employees, so the balance still tips toward benefit."
+  },
+  {
+   "id": "t2-15",
+   "type": "adv-disadv",
+   "prompt": "Convenience stores, pharmacies and even gyms in many cities now stay open around the clock, and customers have come to expect that something is always available whenever they need it. Do the advantages of this always-open culture outweigh the disadvantages?",
+   "plan_ko": "유형: 장단점형\n모든질문 체크: 장점? 단점? 결론에서 균형잡기\n입장 한줄: 비상,교대근무자에게 이득 크지만 야간근무자 부담이 대가\n본문1 TEEC: 장점(교대근무자 안전망) - 설명 - 예시(새벽 물류팀+24시 약국) - 결과(업무연속성)\n본문2 TEEC: 단점(직원 부담) - 설명 - 예시(야간 이직률 2배) - 결과(번아웃,결국 단축운영)\n결론: 야간 수당·교대 배려 병행하면 유지할 가치 있음",
+   "model": "Walk through Seoul or Tokyo at three in the morning and you will still find a convenience store lit up, a pharmacy counter staffed, sometimes even a gym with the lights on. This round-the-clock availability has become something people simply assume rather than appreciate, and I think its benefits for shift workers and emergencies outweigh the costs, even though those costs fall unevenly on the staff who keep the lights on.\n\nThe advantage is clearest as a safety net for people whose schedules fall outside normal hours. Nurses, delivery drivers and warehouse staff often work through the night, and having somewhere to turn matters more than it might for a typical office worker. My own logistics team sometimes loads trucks at four in the morning before a public holiday, and being able to grab painkillers or a meal from a nearby 24-hour pharmacy means a minor problem does not derail the whole shift. This kind of constant availability keeps essential services running smoothly in an economy that increasingly operates at all hours.\n\nThe disadvantage is the cost it places on the people who actually staff these overnight hours. Someone has to work through the night, usually for only a modest pay premium, and a friend who manages a 24-hour pharmacy told me that her overnight staff leave far more often than her daytime team, since few people can sustain disrupted sleep for long. This leads to constant retraining, tired employees, and occasionally stores quietly cutting their hours anyway, which undermines the very promise of round-the-clock service.\n\nOn the whole, I still lean toward keeping certain essential services open all night, but this should be paired with fair overnight pay and rotating shifts, so the convenience customers rely on does not come at the expense of the workers providing it."
+  },
+  {
+   "id": "t2-16",
+   "type": "adv-disadv",
+   "prompt": "Governments in several countries are pushing drivers to switch from petrol cars to electric vehicles within the next decade, a shift that will require a large increase in electricity generation and grid capacity. Do the advantages of this rapid switch outweigh the disadvantages?",
+   "plan_ko": "유형: 장단점형\n모든질문 체크: 장점? 단점? 결론 방향?\n입장 한줄: 환경적 이득이 크지만 전력망·기술인력 부담을 더 신중히 관리해야 함\n본문1 TEEC: 장점(오염감소) - 설명 - 예시(선전 전기버스) - 결과(대기질 개선,기후목표)\n본문2 TEEC: 단점(전력망,전기기사 부족) - 설명 - 예시(캐나다 전기기사 부족 보도) - 결과(정전,비용상승)\n결론: 기술인력 훈련·변전소 투자로 해결 가능, 전체적으로 이득이 큼",
+   "model": "Several governments have set firm deadlines for phasing out petrol cars in favour of electric ones, a shift that sounds straightforward until you consider how much extra electricity the grid will need to generate. I believe the environmental gains from this switch outweigh the strain it places on infrastructure, though the transition needs to be paced more carefully than politicians often admit.\n\nThe clearest advantage is the reduction in emissions from transport, which is one of the largest sources of urban air pollution and carbon output. Cities that have already electrified large parts of their bus and taxi fleets, such as Shenzhen, have reported noticeably cleaner air and quieter streets within just a few years. As more private cars follow the same path, public health should improve and countries move closer to climate targets that would otherwise remain out of reach.\n\nThe disadvantage is that charging millions of vehicles requires new substations, cabling and, crucially, technicians to install and maintain all of it, and many countries are already short of qualified electricians. In Canada, where I am moving to train in the trade, industry reports already describe a shortage of workers capable of upgrading residential wiring for home chargers, let alone the wider grid. Without enough trained staff, some regions risk delays, rolling brownouts during peak charging hours, and rising costs passed straight on to consumers.\n\nOverall, though, these are solvable bottlenecks rather than permanent flaws in the plan. Investing now in training more electricians and upgrading substations ahead of demand would let the environmental benefits arrive without the grid buckling under the pressure, so the advantages should ultimately outweigh the disadvantages."
+  },
+  {
+   "id": "t2-17",
+   "type": "problem-solution",
+   "plan_ko": "유형: 문제-해결형\n모든질문 체크: 문제는? 해결책은? 둘 다 답했는지\n입장: 설명형(공중보건 문제로 다뤄야 함)\n본문1 TEEC: 문제(수면,건강) - 설명 - 예시(고양 공사장 경험) - 결과(스트레스,혈압)\n본문2 TEEC: 해결(규제+건축설계) - 설명 - 예시(이중창,방음벽) - 결과(민원감소,수면개선)\n결론: 공중보건 문제로 인식하고 규제+설계 병행하면 완화 가능",
+   "prompt": "Many residents of large cities complain that constant traffic, construction and nightlife noise is affecting their sleep and mental health. What problems does this cause, and what solutions can be suggested?",
+   "model": "Anyone who has tried to sleep in a city apartment above a main road knows how relentless urban noise can be, from early morning traffic to construction that starts before most people are awake and bars that empty out well past midnight. This constant noise creates real problems for residents' health, but a combination of stricter regulation and smarter building design could go a long way toward solving it.\n\nThe main problem is that chronic noise exposure disrupts sleep and, over time, mental health, since the body stays in a mild state of alertness rather than settling into deep rest. When I lived near a construction site in Goyang, drilling that started at seven each morning left me exhausted and short-tempered for months, and a neighbour eventually developed high blood pressure that her doctor linked partly to poor sleep. Beyond individual health, this kind of chronic fatigue reduces concentration at work and raises stress levels across an entire neighbourhood, not just for the person nearest the noise.\n\nA workable solution combines tighter regulation with better building design. City authorities could restrict construction and heavy delivery traffic to set hours in residential zones, while developers could be required to fit stronger sound insulation into new apartments, especially those near elevated roads. Some Korean apartment complexes have already begun installing double-glazed windows and noise barriers along busy routes, and residents there report noticeably better sleep as a result. Such measures do not stop a city from growing, but they soften its worst side effects on the people living closest to it.\n\nNoise pollution will likely never disappear entirely in a busy city, but treating it as a public health issue rather than a minor annoyance, through enforced quiet hours and better-insulated buildings, would ease its most damaging effects considerably."
+  },
+  {
+   "id": "t2-18",
+   "type": "problem-solution",
+   "plan_ko": "유형: 문제-해결형\n모든질문 체크: 문제는? 해결책은?\n입장: 설명형\n본문1 TEEC: 문제(환경+사회적모순) - 설명 - 예시(서울 폐기 리포트) - 결과(메탄가스,식품은행 부족)\n본문2 TEEC: 해결(재분배+라벨개선) - 설명 - 예시(영국 앱 할인판매) - 결과(폐기 감소,저렴한 장보기)\n결론: 새 기술 없이도 라벨,재분배 정책만으로 개선 가능",
+   "prompt": "Supermarkets in wealthy countries throw away large quantities of food that is still fit to eat, often because it has passed a printed sell-by date or does not look perfect. What problems does this practice cause, and what solutions would you suggest?",
+   "model": "Walk past the bins behind almost any large supermarket at closing time and you are likely to find crates of vegetables, bread and dairy products that are still perfectly edible, discarded simply because a date on the label has passed or the produce looks slightly bruised. This habit creates serious environmental and social problems, though several practical measures could reduce it considerably.\n\nThe clearest problem is the combined environmental and social cost of this waste. Food that rots in landfill produces methane, a potent greenhouse gas, while perfectly good meals are denied to people who cannot afford groceries. In many large cities, supermarkets account for a disproportionate share of discarded but unspoiled food, even as nearby food banks struggle to meet demand. The result is a strange contradiction in which abundance and hunger exist within a few streets of each other, and needless emissions are produced in the process.\n\nA more sustainable approach would pair redistribution with clearer labelling. Supermarkets could partner with food banks and charities to collect unsold stock daily, while governments could replace vague \"best before\" wording with guidance that clearly distinguishes quality from actual safety. Several UK chains now sell near-expiry items at a steep discount through an app, which has cut waste at those stores by a noticeable margin within a year. This approach benefits everyone involved: shoppers pay less, charities receive a steadier supply, and less food ends up rotting unnecessarily.\n\nNone of this requires new technology, only a shift in how supermarkets and regulators define waste, so with modest policy pressure the problem could be meaningfully reduced rather than merely managed."
+  },
+  {
+   "id": "t2-19",
+   "type": "problem-solution",
+   "plan_ko": "유형: 문제-해결형\n모든질문 체크: 문제는? 해결책은?\n입장: 설명형\n본문1 TEEC: 문제(환경오염,미세플라스틱) - 설명 - 예시(가나 의류더미) - 결과(수출된 오염,탄소배출)\n본문2 TEEC: 해결(생산자책임제) - 설명 - 예시(유럽 EPR 제도) - 결과(내구성 향상,폐기 감소)\n결론: 완전 금지 아닌 생산자 책임 강화로 완화 가능",
+   "prompt": "Clothing brands now produce new collections almost every few weeks, encouraging shoppers to buy cheap items and discard them after only a handful of wears. What problems does this fast fashion model cause, and what solutions can be proposed?",
+   "model": "Clothing used to change with the seasons; now new collections appear in shop windows almost weekly, priced low enough that a shirt can be worn a few times and thrown away without much thought. This model causes serious environmental damage and encourages wasteful habits, though a mix of regulation and changed consumer behaviour could soften its impact.\n\nThe main problem is the environmental damage this cycle produces at every stage. Cheap synthetic fabrics shed microplastics when washed, and garments discarded after minimal use pile up in landfill or get shipped abroad once local donation bins overflow. Much of the unwanted clothing donated in Korea and elsewhere ends up dumped in countries such as Ghana, where mountains of unsellable garments now clog beaches and drainage channels. In effect, wealthier countries export their pollution while the textile industry as a whole remains responsible for a striking share of global carbon emissions.\n\nA more workable solution is to hold brands financially responsible for the waste their products eventually create. Some European countries are trialling an \"extended producer responsibility\" scheme that requires clothing companies to pay into a recycling fund based on how much they sell, which has already pushed several brands to use more durable fabric rather than the cheapest available option. Alongside this, encouraging repair and resale over instant replacement, through repair cafes or resale apps, gives shoppers a genuine alternative to simply discarding clothes.\n\nFast fashion will not disappear while it remains this profitable, but holding producers financially responsible for the waste they generate is a realistic way to curb its worst effects without banning cheap clothing outright."
+  },
+  {
+   "id": "t2-20",
+   "type": "problem-solution",
+   "plan_ko": "유형: 문제-해결형\n모든질문 체크: 문제는? 해결책은?\n입장: 설명형\n본문1 TEEC: 문제(지연,비용,안전) - 설명 - 예시(BC 전력망 지연 보도) - 결과(재생에너지 목표 지연,화재위험)\n본문2 TEEC: 해결(도제제도,대학-기업 협력) - 설명 - 예시(캐나다 가속과정) - 결과(인력공급 안정,경력경로)\n결론: 인프라 투자만큼 인력 훈련도 진지하게 다뤄야 함",
+   "prompt": "As countries invest heavily in wind farms, solar panels and electric grids, many report a shortage of qualified electricians and technicians to build and maintain this new infrastructure. What problems does this shortage cause, and what solutions can be suggested?",
+   "model": "Governments have poured money into wind turbines, solar farms and upgraded electrical grids over the past decade, but in country after country the workers needed to actually install and maintain this equipment are in short supply. This gap between ambition and available labour is already causing delays and cost overruns, though targeted training programmes and clearer career pathways could close it over time.\n\nThe problem shows up first as delays and rising costs, and in the worst cases as safety risk. Without enough licensed electricians, projects stall waiting for qualified inspectors, or get finished by under-trained workers instead. I am relocating to Canada partly because electricians are in strong demand in British Columbia, where some grid upgrade projects have reportedly fallen behind schedule because of a shortage of qualified tradespeople rather than a lack of funding. As a result, renewable energy targets slip, electricity prices rise as scarce labour becomes more expensive, and poorly supervised wiring occasionally creates avoidable fire risks.\n\nA realistic solution lies in building faster, better-paid training pipelines. Apprenticeship programmes that pay trainees while they learn, combined with partnerships between colleges and utility companies, can bring workers into the trade faster than traditional routes allow. Some Canadian technical colleges now offer accelerated certificates aimed specifically at the renewable sector, combining classroom study with paid placements on live grid projects. This produces a steadier supply of qualified electricians, fewer project delays, and a genuine career path for young people who might otherwise treat the trades as a fallback rather than a first choice.\n\nThe shortage is ultimately a planning failure rather than an unavoidable side effect of going green, and treating skilled trades training as seriously as the panels and turbines themselves would let the transition proceed at the pace governments have promised."
+  },
+  {
+   "id": "t2-21",
+   "type": "two-part",
+   "plan_ko": "유형: 2문항형(원인+긍정/부정)\n모든질문 체크: 왜 일어나는가? 긍정/부정인가? 둘 다 답했는지\n입장: 단기적으로 송출국에는 부정적,장기 정책 대응에 달림\n본문1 TEEC(질문1 원인): 임금격차,커리어기회 - 설명 - 예시(본인 캐나다 이주,전기기사) - 결과(고학력 인력 유출)\n본문2 TEEC(질문2 긍정/부정): 단기 인구감소,세수손실 - 설명 - 예시(한국 지방소멸) - 결과(장기적으로는 정책에 달림)\n결론: 정부가 인재 환류 정책을 펴지 않으면 부정적 효과가 더 큼",
+   "prompt": "In many countries, growing numbers of young adults are leaving to study or work abroad rather than building a career at home. Why is this happening, and is it a positive or negative development for the countries they leave behind?",
+   "model": "Departure halls in Seoul, Manila and Warsaw increasingly carry a similar story: a young adult heading abroad not for a holiday but to build a career elsewhere. I will look at why this is happening before arguing that it carries both real costs and some genuine benefits for the countries left behind, rather than being simply one or the other.\n\nThis trend is largely driven by young people comparing salaries, working hours and career progression at home against what is advertised abroad, and increasingly finding the gap hard to ignore. I am moving to Canada myself to retrain as an electrician, drawn partly by wages noticeably higher than a similar role pays in Korea and partly by a training system that lets you earn while you study rather than pay upfront. Multiplied across thousands of individual decisions like mine, countries with strong economies but limited domestic opportunity, such as Korea and the Philippines, end up watching a steady outflow of exactly the workers they invested in educating.\n\nWhether this counts as positive or negative depends on the timeframe, though the short-term effect is clearly negative for the sending country. Remittances sent home and skills eventually brought back can benefit an economy, but the immediate impact is a loss of tax revenue, a shrinking pool of workers to care for an ageing population, and a brain drain that is hard to reverse. Rural Korean towns already struggling with low birth rates report even faster population decline once their most qualified young residents move overseas, leaving fewer people to sustain local services.\n\nIn the short run this trend weakens the countries young people leave, though the long-term picture depends heavily on whether governments actively work to bring skills and capital back rather than simply watching them go."
+  },
+  {
+   "id": "t2-22",
+   "type": "two-part",
+   "plan_ko": "유형: 2문항형(원인+긍정/부정)\n모든질문 체크: 왜 증가? 긍정/부정?\n입장: 전반적으로 부정적(디자인이 주의력을 노림)\n본문1 TEEC(원인): 저렴한기기,알고리즘 앱 - 설명 - 예시(재택근무,본인 저녁 스크롤) - 결과(화면이 기본값이 됨)\n본문2 TEEC(긍정/부정): 수면,집중력저하 - 설명 - 예시(교사들의 관찰) - 결과(집중력,대면소통 어려움)\n결론: 의도적 사용이면 유익하나 현재 수준은 전반적으로 부정적",
+   "prompt": "Children and adults alike now spend several hours a day looking at phone or computer screens, far more than in previous generations. Why has screen time increased so dramatically, and is this a positive or negative development?",
+   "model": "A decade ago, checking a phone dozens of times a day would have seemed excessive; now it barely raises an eyebrow, and children as young as five navigate tablets more confidently than some adults handle a printed map. I want to explain what has driven this sharp rise in screen use before concluding that, on balance, it has done more harm than good, at least in its current largely unregulated form.\n\nCheaper devices, faster internet and apps deliberately designed to hold attention have combined to make screens the default way people work, study and relax. Since the shift to hybrid work, even my own logistics meetings and supplier orders now happen almost entirely through a screen rather than in person, and my evenings often end with an hour of scrolling I did not consciously plan. Screens have effectively become woven into nearly every daily task, which makes reduced use feel almost impractical rather than a simple lifestyle choice.\n\nOn the question of whether this is positive or negative, the evidence leans clearly toward negative. Excessive screen time is linked to disrupted sleep, shorter attention spans and, in children, delayed social development, and these effects appear to outweigh the convenience gained. Teachers in several Korean schools have reported that students now struggle to sit through a single uninterrupted lesson without checking a device, a pattern rarely seen a generation ago. This suggests a population, especially the young, that finds sustained concentration and face-to-face interaction increasingly difficult.\n\nScreens are not going away, and used deliberately they clearly offer real benefits, but the current level of exposure, driven largely by design choices meant to maximise engagement rather than wellbeing, tips this development toward the negative."
+  },
+  {
+   "id": "t2-23",
+   "type": "two-part",
+   "plan_ko": "유형: 2문항형(원인+긍정/부정)\n모든질문 체크: 왜 비용상승? 긍정/부정?\n입장: 학생 입장에서 대체로 부정적\n본문1 TEEC(원인): 정부지원 축소,주거난 - 설명 - 예시(밴쿠버 학비,월세 2배) - 결과(중산층 접근성 하락)\n본문2 TEEC(긍정/부정): 다양성 축소,생활비 부담 - 설명 - 예시(동기의 진학 포기 사례) - 결과(부유층만 접근 가능해짐)\n결론: 대학·지역경제는 이득이나 학생과 인재풀 다양성엔 손해",
+   "prompt": "Studying at a university overseas has become significantly more expensive over the past ten years due to rising tuition fees and living costs. Why have these costs risen so much, and is this a positive or negative development for students?",
+   "model": "A degree abroad that might once have been within reach for a middle-class family now often requires years of saving, a loan, or both, as tuition fees and rent in popular study destinations have climbed steadily. I want to consider what has driven this rise before arguing that, despite some benefits for universities and host cities, it represents a mostly negative shift for the students themselves.\n\nMuch of the rise traces back to reduced public funding for universities alongside intense competition for scarce housing near campuses. Many governments have cut subsidies, pushing institutions to rely more heavily on the higher fees international students are willing to pay, while a growing number of applicants competing for limited housing drives rent upward at the same time. Friends applying to Canadian colleges alongside me have found that international tuition at some Vancouver-area schools has roughly doubled in a decade, even as nearby rents have risen just as fast.\n\nFor students, this development looks mostly negative. High costs push away capable applicants who cannot afford them, narrowing the diversity of people gaining the skills these programmes are meant to spread, and pressure many who do attend into part-time jobs that eat into study time. A classmate from my preparation course was accepted onto a strong programme but had to decline once she calculated total living costs, choosing a cheaper and less relevant option instead. Talented but less wealthy students end up under-served by a system that increasingly filters on ability to pay rather than ability alone.\n\nUniversities and local economies undeniably benefit from the extra revenue, but for the students who bear the actual cost, and for the countries hoping to draw a wide range of talent, this trend looks like a step backward rather than progress."
+  },
+  {
+   "id": "t2-24",
+   "type": "two-part",
+   "plan_ko": "유형: 2문항형(원인+긍정/부정)\n모든질문 체크: 왜 전직? 긍정/부정?\n입장: 전반적으로 긍정적\n본문1 TEEC(원인): 자동화,불만족,유연한 재교육 - 설명 - 예시(본인 약국물류→전기기사) - 결과(30대를 전환기로 인식)\n본문2 TEEC(긍정/부정): 전이가능한 기술,인력부족 산업에 도움 - 설명 - 예시(교관들의 평가) - 결과(고용주·전직자 모두 이득)\n결론: 위험은 있지만 전반적으로 긍정적 흐름",
+   "prompt": "An increasing number of people in their thirties are leaving established careers to retrain in a completely different field. Why do you think this is happening, and is it a positive or negative development?",
+   "model": "Ten years into a career that once seemed sensible, a growing number of people in their thirties are quietly starting over, trading an office job for a trade, a classroom, or a completely unrelated industry. I will explain why this pattern has become so common before concluding that it is, on the whole, a positive development both for the individuals involved and for the economies that absorb them.\n\nMany people in their thirties have enough experience to recognise a career that no longer suits them, while remote learning and flexible college programmes have made switching fields far less daunting than it once was. I am doing exactly this myself, leaving a job in pharmacy logistics planning to train as an electrician in Canada, partly because automation and inventory software have steadily reduced the human judgement my current role once required. Rather than staying in a shrinking or unfulfilling role out of inertia, people increasingly see their thirties as a reasonable window to redirect a career instead of waiting for retirement regret.\n\nThis shift looks largely positive when viewed from the perspective of both the individual and the wider labour market. Workers who switch fields bring transferable skills, such as project management or customer service, into industries facing labour shortages, which benefits employers as much as the person chasing a better fit. Trade instructors often observe that career-changers in their thirties often outperform school leavers in practical modules, since years of workplace discipline transfer directly onto a job site.\n\nLeaving a stable career in your thirties carries genuine risk and a period of reduced income, but the flexibility this trend reflects benefits both the person taking the leap and the industries gaining fresh, disciplined talent."
+  }
+ ],
+ "franklin": [
+  {
+   "id": "fr-01",
+   "task": "t2",
+   "text": "Many companies now allow their employees to work from home for part of the week, and this shift has changed how people balance their jobs with the rest of their lives. Employees who work remotely often save the time they would otherwise spend commuting, and they can invest this saved time in exercise, family, or extra sleep. At my own workplace, a warehouse supervisor who used to travel two hours a day was permitted to log in from home on Fridays, and her output actually increased. This was because fewer interruptions from colleagues meant she could concentrate on urgent orders without constant distraction. Such arrangements are not suitable for every role, however, since staff who are responsible for physical stock still need to be present in the warehouse. As a consequence, many firms are adopting a hybrid model, in which employees split their week between the office and home to gain the advantages of both.",
+   "notes": [
+    "remote work / commuting / life balance",
+    "saved time / exercise / sleep",
+    "warehouse supervisor / home Fridays / output increased",
+    "fewer interruptions / concentration / urgent orders",
+    "not suitable / physical stock / presence required",
+    "hybrid model / split week / advantages both"
+   ]
+  },
+  {
+   "id": "fr-02",
+   "task": "t2",
+   "text": "Universities increasingly offer online courses alongside traditional lectures, and this option has made higher education accessible to students who cannot attend a campus every day. A student who works full time, for example, can watch recorded lectures at night and still submit assignments on schedule. This flexibility is especially valuable for adults who returned to study after several years in the workforce. Nevertheless, online learners often report that they miss the direct feedback a lecturer gives in a classroom, since a question typed into a forum is not answered as quickly as one raised in person. Some universities have addressed this gap by scheduling live video sessions where students can ask questions directly. As a result, the most successful programs now combine recorded content with these live sessions to balance convenience against interaction.",
+   "notes": [
+    "online courses / lectures / accessible education",
+    "full-time student / recorded lectures / assignments",
+    "flexibility / adults / returned study",
+    "miss feedback / forum question / slower answer",
+    "live video sessions / direct questions",
+    "combine recorded / live sessions / balance convenience"
+   ]
+  },
+  {
+   "id": "fr-03",
+   "task": "t2",
+   "text": "Smartphones were designed to keep people connected, but for many users they have become a constant source of distraction rather than a convenience. Notifications from messaging apps and social media interrupt concentration dozens of times a day, and this fragmentation makes deep, focused work far harder to sustain. A colleague of mine, who is responsible for tracking delivery schedules, once missed an important supplier email because her phone was buried under a pile of promotional alerts. To avoid such problems, some companies now ask staff to silence non-essential notifications during core working hours. This small change has allowed employees to finish tasks faster and with fewer errors. The wider lesson is that technology intended to save time can waste it just as easily if it is not managed with discipline.",
+   "notes": [
+    "smartphones / connection / distraction",
+    "notifications / interrupt concentration / fragmentation",
+    "colleague / missed email / promotional alerts",
+    "silence notifications / core hours / avoid problems",
+    "faster tasks / fewer errors",
+    "technology / save time / waste time / discipline"
+   ]
+  },
+  {
+   "id": "fr-04",
+   "task": "t2",
+   "text": "Plastic packaging was once seen as a cheap and hygienic solution for retailers, but it is now recognized as one of the main contributors to household waste. A single supermarket trip can generate several bags of plastic that are used for only a few minutes before being thrown away. To reduce this waste, some pharmacies and grocery stores have switched to paper bags or reusable containers that customers bring with them. My own workplace introduced refillable containers for common items, and this change cut our plastic disposal by nearly a third within six months. Such measures require an initial investment in new packaging systems, which discourages smaller retailers from adopting them immediately. Even so, the long-term environmental benefit, along with growing customer demand for sustainable options, is likely to push more businesses toward similar changes.",
+   "notes": [
+    "plastic packaging / cheap hygienic / household waste",
+    "supermarket trip / bags / thrown away",
+    "paper bags / reusable containers / reduce waste",
+    "refillable containers / plastic disposal cut / six months",
+    "initial investment / discourages / smaller retailers",
+    "long-term benefit / customer demand / more businesses"
+   ]
+  },
+  {
+   "id": "fr-05",
+   "task": "t2",
+   "text": "Poor sleep is often dismissed as a minor inconvenience, yet it is directly linked to reduced concentration and a weaker immune system. Adults who regularly sleep less than six hours a night tend to make more mistakes at work and recover more slowly from minor illnesses. When I started training at the gym early each morning, I initially cut my sleep short to fit the sessions in before my shift. This decision backfired, since I became irritable and struggled to focus on inventory checks by the afternoon. After adjusting my schedule to protect at least seven hours of sleep, my energy and mood improved noticeably. This experience suggests that treating sleep as a fixed priority, rather than something to sacrifice for convenience, pays off in the long run.",
+   "notes": [
+    "poor sleep / concentration / immune system",
+    "less than six hours / mistakes / slow recovery",
+    "gym training / early morning / sleep cut short",
+    "backfired / irritable / focus struggle",
+    "seven hours / energy / mood improved",
+    "sleep priority / not sacrifice / long run"
+   ]
+  },
+  {
+   "id": "fr-06",
+   "task": "t2",
+   "text": "Cities that were built rapidly during periods of economic growth often prioritized housing and roads over public parks, leaving residents with few places to relax outdoors. This shortage of green space has been linked to higher stress levels among city dwellers, particularly those living in small apartments. Seoul has responded by converting several disused rail lines and unused rooftops into small parks that are open to the public. Residents near these new spaces report walking more often and meeting neighbors they had never spoken to before. Such projects are relatively inexpensive compared to building an entirely new park from scratch, since they reuse land that already exists. Consequently, more cities facing similar space shortages are likely to look to these conversions as a practical model to follow.",
+   "notes": [
+    "rapid growth / housing roads / few parks",
+    "shortage / stress levels / small apartments",
+    "Seoul / disused rail lines / rooftops / parks",
+    "residents / walking more / meeting neighbors",
+    "inexpensive / reuse land / new park",
+    "more cities / practical model"
+   ]
+  },
+  {
+   "id": "fr-07",
+   "task": "t2",
+   "text": "Vocational training for trades such as electrical work has traditionally been undervalued compared with a university degree, even though skilled tradespeople are in constant demand. An apprenticeship allows a trainee to earn a wage while learning directly from an experienced electrician on real job sites. This hands-on approach often prepares workers for practical problems faster than classroom instruction alone could. I am moving to Canada partly to complete such training, since the country offers a structured path from apprentice to certified electrician. Employers there value this certification because it guarantees a consistent standard of safety and skill across the industry. As energy systems become more complex, with solar panels and electric vehicle chargers becoming common in homes, demand for certified electricians is expected to keep rising.",
+   "notes": [
+    "vocational training / trades / undervalued / demand",
+    "apprenticeship / earn wage / experienced electrician",
+    "hands-on / practical problems / faster",
+    "moving Canada / structured path / certified electrician",
+    "employers value / certification / safety standard",
+    "energy systems / solar EV chargers / demand rising"
+   ]
+  },
+  {
+   "id": "fr-08",
+   "task": "t2",
+   "text": "Countries facing labor shortages in specific trades have opened immigration pathways for skilled workers who are willing to relocate. Such programs typically require applicants to demonstrate relevant work experience, along with a reasonable level of English or French. For many migrants, the hardest adjustment is not the paperwork but the process of building a new social network from scratch. My partner, who moved to Canada before me, spent her first few months feeling isolated because she was not yet familiar with the local customs. She eventually joined a community group for newcomers, which helped her make friends and understand how the local job market operated. This suggests that practical support for settling in, not just a visa, is essential if skilled migration is to succeed for both the migrant and the host country.",
+   "notes": [
+    "labor shortages / immigration pathways / skilled workers",
+    "applicants / work experience / English French",
+    "hardest adjustment / social network / paperwork",
+    "partner / moved Canada / isolated / local customs",
+    "community group / newcomers / friends / job market",
+    "practical support / not just visa / migration success"
+   ]
+  },
+  {
+   "id": "fr-09",
+   "task": "t2",
+   "text": "Online shopping has made it possible to compare prices and order goods without leaving home, but it has also encouraged a habit of over-ordering that did not exist when people shopped in physical stores. Many customers now order several sizes or colors of the same item, intending to return whatever does not fit. This practice generates enormous volumes of returned parcels, many of which are discarded rather than resold, since restocking costs more than the item is worth. At the warehouse where I work, we handle hundreds of such returns each week, and a large proportion are never put back on the shelf. Some retailers have begun charging a small fee for returns to discourage this behavior. Whether this measure changes consumer habits remains uncertain, but it has already reduced the number of unnecessary orders at several stores I supply.",
+   "notes": [
+    "online shopping / compare prices / over-ordering",
+    "order sizes colors / intend return",
+    "returned parcels / discarded / restocking cost",
+    "warehouse / hundreds returns / not restocked",
+    "return fee / discourage behavior",
+    "uncertain / reduced unnecessary orders"
+   ]
+  },
+  {
+   "id": "fr-10",
+   "task": "t1",
+   "text": "The line graph illustrates the amount of electricity consumed by three sectors -- residential, industrial, and commercial -- in a mid-sized country between 2000 and 2020, measured in terawatt-hours. Overall, industrial consumption remained the largest of the three throughout the period, although its share declined gradually as the other two sectors expanded. In 2000, industrial use stood at approximately 120 terawatt-hours, more than double the residential figure of 55. Residential consumption then rose steadily, reaching around 95 terawatt-hours by 2020, as more households acquired air conditioners and electronic devices. Commercial consumption showed the sharpest increase of the three, climbing from just 40 terawatt-hours in 2000 to 110 by 2020, a rise that coincided with rapid growth in the retail and office sectors. By the end of the period, the gap between industrial and commercial use had narrowed considerably, with only about 15 terawatt-hours separating them.",
+   "notes": [
+    "line graph / electricity / three sectors / 2000-2020",
+    "industrial largest / share declined",
+    "2000 industrial 120 / residential 55",
+    "residential rose / 95 by 2020 / devices",
+    "commercial sharpest increase / 40 to 110 / retail office",
+    "gap narrowed / 15 terawatt-hours"
+   ]
+  },
+  {
+   "id": "fr-11",
+   "task": "t1",
+   "text": "The bar chart compares the main method of commuting to work among residents of four cities -- Busan, Osaka, Manila, and Vancouver -- based on a survey conducted in 2019. Overall, public transport was the most popular choice in Busan and Osaka, whereas private cars dominated in the other two cities. In Busan, 58 percent of respondents traveled by subway or bus, compared with only 22 percent who drove a private car. Osaka showed a similar pattern, with 61 percent relying on trains, the highest proportion recorded for any city in the survey. By contrast, 64 percent of commuters in Vancouver used a private car, a figure attributed to the city's lower population density and limited rail coverage. Manila fell between these extremes, with car use and public transport almost evenly split at around 45 percent each, while a notable 10 percent still commuted on foot or by bicycle.",
+   "notes": [
+    "bar chart / commuting method / four cities / 2019",
+    "public transport popular / Busan Osaka / cars dominated",
+    "Busan 58 percent subway bus / 22 percent car",
+    "Osaka 61 percent trains / highest",
+    "Vancouver 64 percent car / low density / limited rail",
+    "Manila even split 45 / 10 percent foot bicycle"
+   ]
+  },
+  {
+   "id": "fr-12",
+   "task": "t1",
+   "text": "The two pie charts show how an average household's monthly spending was distributed across six categories in 1990 and in 2020. Overall, the proportion spent on food fell considerably over the thirty years, while spending on housing and technology rose to take up a much larger share. In 1990, food accounted for 34 percent of household spending, the largest single category, whereas housing made up just 21 percent. By 2020, this order had reversed, with housing responsible for 38 percent of the total and food reduced to only 19 percent. Spending on technology, which was barely measurable in 1990 at around 3 percent, had grown to 15 percent by 2020, reflecting the cost of devices and internet subscriptions. Spending on clothing and leisure remained comparatively stable across both years, each accounting for roughly a tenth of the household budget, while miscellaneous items made up the remainder.",
+   "notes": [
+    "two pie charts / household spending / six categories / 1990 2020",
+    "food fell / housing technology rose",
+    "1990 food 34 percent / housing 21 percent",
+    "2020 reversed / housing 38 / food 19",
+    "technology 3 to 15 percent / devices internet",
+    "clothing leisure stable / tenth each / miscellaneous remainder"
+   ]
+  }
+ ]
+}

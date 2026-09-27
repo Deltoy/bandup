@@ -1,0 +1,549 @@
+{
+ "license": "SAMPLE fixture (v1 dev only). NGSL/NAWL © Browne, Culligan & Phillips, CC BY-SA 4.0. Korean meanings and examples are derivative works of this app, shared under CC BY-SA 4.0.",
+ "items": [
+  {
+   "id": "nawl:0412",
+   "w": "allocate",
+   "pos": "v",
+   "ko": "할당하다, 배분하다",
+   "ex": "The council allocated funds to the new library.",
+   "ex_ko": "시의회는 새 도서관에 자금을 배정했다.",
+   "col": [
+    "allocate resources",
+    "allocate funds to"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "_sample/audio/v/nawl-0412.m4a",
+   "tReveal": 4.73
+  },
+  {
+   "id": "ngsl:1350",
+   "w": "approach",
+   "pos": "n",
+   "ko": "접근법",
+   "ex": "This approach is popular in many schools.",
+   "ex_ko": "이 접근법은 많은 학교에서 인기가 있다.",
+   "col": [
+    "a new approach",
+    "approach to"
+   ],
+   "src": "NGSL",
+   "deck": "core",
+   "topic": "",
+   "audio": "_sample/audio/v/ngsl-1350.m4a",
+   "tReveal": 4.89
+  },
+  {
+   "id": "nawl:0101",
+   "w": "significant",
+   "pos": "adj",
+   "ko": "중요한, 상당한",
+   "ex": "There was a significant rise in prices last year.",
+   "ex_ko": "작년에 물가가 크게 올랐다.",
+   "col": [
+    "significant increase",
+    "statistically significant"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "_sample/audio/v/nawl-0101.m4a",
+   "tReveal": 5.26
+  },
+  {
+   "id": "nawl:0102",
+   "w": "decline",
+   "pos": "v",
+   "ko": "감소하다",
+   "ex": "The number of visitors declined in 2020.",
+   "ex_ko": "2020년에 방문객 수가 감소했다.",
+   "col": [
+    "decline sharply",
+    "decline in"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "_sample/audio/v/nawl-0102.m4a",
+   "tReveal": 4.87
+  },
+  {
+   "id": "nawl:0103",
+   "w": "factor",
+   "pos": "n",
+   "ko": "요인",
+   "ex": "Cost is a major factor in the decision.",
+   "ex_ko": "비용은 그 결정의 주요 요인이다.",
+   "col": [
+    "key factor",
+    "a factor in"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "_sample/audio/v/nawl-0103.m4a",
+   "tReveal": 4.53
+  },
+  {
+   "id": "nawl:0104",
+   "w": "consume",
+   "pos": "v",
+   "ko": "소비하다",
+   "ex": "Households consumed more energy in winter.",
+   "ex_ko": "가정은 겨울에 에너지를 더 많이 소비했다.",
+   "col": [
+    "consume energy",
+    "consume less"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "_sample/audio/v/nawl-0104.m4a",
+   "tReveal": 5.02
+  },
+  {
+   "id": "nawl:0105",
+   "w": "proportion",
+   "pos": "n",
+   "ko": "비율",
+   "ex": "The proportion of older people is growing.",
+   "ex_ko": "노인 인구의 비율이 늘고 있다.",
+   "col": [
+    "a large proportion",
+    "proportion of"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "_sample/audio/v/nawl-0105.m4a",
+   "tReveal": 4.86
+  },
+  {
+   "id": "nawl:0106",
+   "w": "estimate",
+   "pos": "v",
+   "ko": "추정하다",
+   "ex": "Experts estimated the cost at two million dollars.",
+   "ex_ko": "전문가들은 비용을 2백만 달러로 추정했다.",
+   "col": [
+    "roughly estimate",
+    "estimate the cost"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "_sample/audio/v/nawl-0106.m4a",
+   "tReveal": 4.66
+  },
+  {
+   "id": "nawl:0107",
+   "w": "impact",
+   "pos": "n",
+   "ko": "영향",
+   "ex": "The new road had a big impact on the town.",
+   "ex_ko": "새 도로는 그 마을에 큰 영향을 주었다.",
+   "col": [
+    "impact on",
+    "positive impact"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "audio/v/nawl-0107.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0108",
+   "w": "maintain",
+   "pos": "v",
+   "ko": "유지하다",
+   "ex": "It is hard to maintain a healthy diet at work.",
+   "ex_ko": "직장에서 건강한 식단을 유지하기는 어렵다.",
+   "col": [
+    "maintain a balance",
+    "maintain contact"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "audio/v/nawl-0108.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0109",
+   "w": "benefit",
+   "pos": "n",
+   "ko": "이익, 혜택",
+   "ex": "One benefit of the plan is lower cost.",
+   "ex_ko": "그 계획의 한 가지 이점은 낮은 비용이다.",
+   "col": [
+    "benefit of",
+    "public benefit"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "audio/v/nawl-0109.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0110",
+   "w": "require",
+   "pos": "v",
+   "ko": "필요로 하다",
+   "ex": "The job requires a licence to drive.",
+   "ex_ko": "그 일은 운전 면허가 필요하다.",
+   "col": [
+    "require skills",
+    "be required to"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "audio/v/nawl-0110.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0111",
+   "w": "survey",
+   "pos": "n",
+   "ko": "설문 조사",
+   "ex": "A survey was carried out in the city.",
+   "ex_ko": "그 도시에서 설문 조사가 실시되었다.",
+   "col": [
+    "conduct a survey",
+    "survey of"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "audio/v/nawl-0111.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0112",
+   "w": "trend",
+   "pos": "n",
+   "ko": "추세",
+   "ex": "The graph shows an upward trend.",
+   "ex_ko": "그래프는 상승 추세를 보여 준다.",
+   "col": [
+    "upward trend",
+    "trend in"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "audio/v/nawl-0112.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0113",
+   "w": "evidence",
+   "pos": "n",
+   "ko": "증거",
+   "ex": "There is little evidence for this claim.",
+   "ex_ko": "이 주장에 대한 증거는 거의 없다.",
+   "col": [
+    "strong evidence",
+    "evidence of"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "audio/v/nawl-0113.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0114",
+   "w": "reduce",
+   "pos": "v",
+   "ko": "줄이다",
+   "ex": "The city reduced traffic in the centre.",
+   "ex_ko": "시는 도심의 교통량을 줄였다.",
+   "col": [
+    "reduce costs",
+    "reduce by half"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "audio/v/nawl-0114.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0115",
+   "w": "access",
+   "pos": "n",
+   "ko": "접근, 이용",
+   "ex": "Students have access to the library at night.",
+   "ex_ko": "학생들은 밤에 도서관을 이용할 수 있다.",
+   "col": [
+    "access to",
+    "easy access"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "audio/v/nawl-0115.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0116",
+   "w": "contribute",
+   "pos": "v",
+   "ko": "기여하다",
+   "ex": "Many factors contributed to the problem.",
+   "ex_ko": "많은 요인이 그 문제에 기여했다.",
+   "col": [
+    "contribute to",
+    "contribute money"
+   ],
+   "src": "NAWL",
+   "deck": "core",
+   "topic": "",
+   "audio": "audio/v/nawl-0116.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "ngsl:1401",
+   "w": "deposit",
+   "pos": "n",
+   "ko": "보증금",
+   "ex": "You need to pay a deposit of fifty pounds.",
+   "ex_ko": "50파운드의 보증금을 내야 한다.",
+   "col": [
+    "pay a deposit",
+    "a refundable deposit"
+   ],
+   "src": "NGSL",
+   "deck": "listening",
+   "topic": "",
+   "audio": "audio/v/ngsl-1401.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "ngsl:1402",
+   "w": "reservation",
+   "pos": "n",
+   "ko": "예약",
+   "ex": "I would like to make a reservation for Friday.",
+   "ex_ko": "금요일로 예약하고 싶어요.",
+   "col": [
+    "make a reservation",
+    "cancel a reservation"
+   ],
+   "src": "NGSL",
+   "deck": "listening",
+   "topic": "",
+   "audio": "audio/v/ngsl-1402.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "ngsl:1403",
+   "w": "facility",
+   "pos": "n",
+   "ko": "시설",
+   "ex": "The hotel has a gym and other facilities.",
+   "ex_ko": "그 호텔에는 헬스장과 다른 시설이 있다.",
+   "col": [
+    "sports facility",
+    "facilities for"
+   ],
+   "src": "NGSL",
+   "deck": "listening",
+   "topic": "",
+   "audio": "audio/v/ngsl-1403.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "ngsl:1404",
+   "w": "fee",
+   "pos": "n",
+   "ko": "요금, 수수료",
+   "ex": "The entrance fee is ten dollars.",
+   "ex_ko": "입장료는 10달러이다.",
+   "col": [
+    "membership fee",
+    "pay a fee"
+   ],
+   "src": "NGSL",
+   "deck": "listening",
+   "topic": "",
+   "audio": "audio/v/ngsl-1404.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "ngsl:1405",
+   "w": "accommodation",
+   "pos": "n",
+   "ko": "숙소",
+   "ex": "The college offers cheap accommodation.",
+   "ex_ko": "그 대학은 저렴한 숙소를 제공한다.",
+   "col": [
+    "student accommodation",
+    "find accommodation"
+   ],
+   "src": "NGSL",
+   "deck": "listening",
+   "topic": "",
+   "audio": "audio/v/ngsl-1405.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "ngsl:1406",
+   "w": "schedule",
+   "pos": "n",
+   "ko": "일정",
+   "ex": "The bus schedule changed in May.",
+   "ex_ko": "버스 일정이 5월에 바뀌었다.",
+   "col": [
+    "on schedule",
+    "a busy schedule"
+   ],
+   "src": "NGSL",
+   "deck": "listening",
+   "topic": "",
+   "audio": "audio/v/ngsl-1406.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "ngsl:1407",
+   "w": "refund",
+   "pos": "n",
+   "ko": "환불",
+   "ex": "She asked for a refund at the shop.",
+   "ex_ko": "그녀는 가게에서 환불을 요청했다.",
+   "col": [
+    "full refund",
+    "ask for a refund"
+   ],
+   "src": "NGSL",
+   "deck": "listening",
+   "topic": "",
+   "audio": "audio/v/ngsl-1407.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "ngsl:1408",
+   "w": "venue",
+   "pos": "n",
+   "ko": "장소",
+   "ex": "The venue for the concert is the town hall.",
+   "ex_ko": "콘서트 장소는 시청이다.",
+   "col": [
+    "a wedding venue",
+    "change the venue"
+   ],
+   "src": "NGSL",
+   "deck": "listening",
+   "topic": "",
+   "audio": "audio/v/ngsl-1408.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0201",
+   "w": "species",
+   "pos": "n",
+   "ko": "종",
+   "ex": "Many species live in the forest.",
+   "ex_ko": "많은 종이 그 숲에 산다.",
+   "col": [
+    "endangered species",
+    "species of"
+   ],
+   "src": "NAWL",
+   "deck": "reading",
+   "topic": "biology",
+   "audio": "audio/v/nawl-0201.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0202",
+   "w": "habitat",
+   "pos": "n",
+   "ko": "서식지",
+   "ex": "The river is a habitat for fish.",
+   "ex_ko": "그 강은 물고기의 서식지이다.",
+   "col": [
+    "natural habitat",
+    "habitat loss"
+   ],
+   "src": "NAWL",
+   "deck": "reading",
+   "topic": "biology",
+   "audio": "audio/v/nawl-0202.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0203",
+   "w": "circuit",
+   "pos": "n",
+   "ko": "회로",
+   "ex": "The circuit was broken by the storm.",
+   "ex_ko": "폭풍으로 회로가 끊어졌다.",
+   "col": [
+    "electric circuit",
+    "short circuit"
+   ],
+   "src": "NAWL",
+   "deck": "reading",
+   "topic": "electrical",
+   "audio": "audio/v/nawl-0203.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0204",
+   "w": "voltage",
+   "pos": "n",
+   "ko": "전압",
+   "ex": "High voltage can be dangerous.",
+   "ex_ko": "높은 전압은 위험할 수 있다.",
+   "col": [
+    "high voltage",
+    "voltage drop"
+   ],
+   "src": "NAWL",
+   "deck": "reading",
+   "topic": "electrical",
+   "audio": "audio/v/nawl-0204.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0205",
+   "w": "renewable",
+   "pos": "adj",
+   "ko": "재생 가능한",
+   "ex": "Renewable energy is growing fast.",
+   "ex_ko": "재생 에너지는 빠르게 성장하고 있다.",
+   "col": [
+    "renewable energy",
+    "renewable sources"
+   ],
+   "src": "NAWL",
+   "deck": "reading",
+   "topic": "energy",
+   "audio": "audio/v/nawl-0205.m4a",
+   "tReveal": 0
+  },
+  {
+   "id": "nawl:0206",
+   "w": "cognitive",
+   "pos": "adj",
+   "ko": "인지의",
+   "ex": "Sleep improves cognitive skills.",
+   "ex_ko": "수면은 인지 능력을 향상시킨다.",
+   "col": [
+    "cognitive ability",
+    "cognitive development"
+   ],
+   "src": "NAWL",
+   "deck": "reading",
+   "topic": "psychology",
+   "audio": "audio/v/nawl-0206.m4a",
+   "tReveal": 0
+  }
+ ]
+}

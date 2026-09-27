@@ -1,0 +1,425 @@
+{
+ "license": "BANDUP original content (self-written), CC BY-SA 4.0.",
+ "items": [
+  {
+   "base": "be",
+   "past": "was/were",
+   "pp": "been",
+   "ko": "~이다",
+   "ex": "She was very nervous before her first speaking test."
+  },
+  {
+   "base": "go",
+   "past": "went",
+   "pp": "gone",
+   "ko": "가다",
+   "ex": "He went to college to study business last September."
+  },
+  {
+   "base": "take",
+   "past": "took",
+   "pp": "taken",
+   "ko": "가져가다/타다",
+   "ex": "She took the early bus to avoid the morning traffic."
+  },
+  {
+   "base": "fly",
+   "past": "flew",
+   "pp": "flown",
+   "ko": "날다/비행하다",
+   "ex": "She flew to Canada to extend her visa."
+  },
+  {
+   "base": "buy",
+   "past": "bought",
+   "pp": "bought",
+   "ko": "사다",
+   "ex": "We bought new shelves for the pharmacy last month."
+  },
+  {
+   "base": "bring",
+   "past": "brought",
+   "pp": "brought",
+   "ko": "가져오다",
+   "ex": "He brought his laptop to the meeting yesterday."
+  },
+  {
+   "base": "teach",
+   "past": "taught",
+   "pp": "taught",
+   "ko": "가르치다",
+   "ex": "She taught English at a language school for two years."
+  },
+  {
+   "base": "grow",
+   "past": "grew",
+   "pp": "grown",
+   "ko": "자라다/성장하다",
+   "ex": "Online sales grew quickly during the pandemic years."
+  },
+  {
+   "base": "rise",
+   "past": "rose",
+   "pp": "risen",
+   "ko": "오르다",
+   "ex": "Prices rose sharply in 2019 across the region."
+  },
+  {
+   "base": "fall",
+   "past": "fell",
+   "pp": "fallen",
+   "ko": "떨어지다",
+   "ex": "The temperature fell suddenly during our trip to Banff."
+  },
+  {
+   "base": "lead",
+   "past": "led",
+   "pp": "led",
+   "ko": "이끌다",
+   "ex": "She led the logistics team through a busy holiday season."
+  },
+  {
+   "base": "spend",
+   "past": "spent",
+   "pp": "spent",
+   "ko": "쓰다/보내다",
+   "ex": "We spent too much money on shipping last quarter."
+  },
+  {
+   "base": "choose",
+   "past": "chose",
+   "pp": "chosen",
+   "ko": "선택하다",
+   "ex": "He chose the wrong bus stop on his first day."
+  },
+  {
+   "base": "build",
+   "past": "built",
+   "pp": "built",
+   "ko": "짓다/건설하다",
+   "ex": "They built a new logistics centre two years ago."
+  },
+  {
+   "base": "begin",
+   "past": "began",
+   "pp": "begun",
+   "ko": "시작하다",
+   "ex": "Her IELTS classes began early on Monday mornings."
+  },
+  {
+   "base": "break",
+   "past": "broke",
+   "pp": "broken",
+   "ko": "깨다/고장나다",
+   "ex": "The printer broke down right before the deadline."
+  },
+  {
+   "base": "wake",
+   "past": "woke",
+   "pp": "woken",
+   "ko": "깨다/일어나다",
+   "ex": "She woke up early to catch the first bus to work."
+  },
+  {
+   "base": "catch",
+   "past": "caught",
+   "pp": "caught",
+   "ko": "잡다",
+   "ex": "He caught the last train home after his shift."
+  },
+  {
+   "base": "come",
+   "past": "came",
+   "pp": "come",
+   "ko": "오다",
+   "ex": "Her supervisor came to the pharmacy for a surprise check."
+  },
+  {
+   "base": "cut",
+   "past": "cut",
+   "pp": "cut",
+   "ko": "자르다/줄이다",
+   "ex": "The company cut delivery costs by changing suppliers."
+  },
+  {
+   "base": "do",
+   "past": "did",
+   "pp": "done",
+   "ko": "하다",
+   "ex": "She did all the paperwork before the visa interview."
+  },
+  {
+   "base": "draw",
+   "past": "drew",
+   "pp": "drawn",
+   "ko": "그리다/끌다",
+   "ex": "The new policy drew criticism from local pharmacists."
+  },
+  {
+   "base": "drink",
+   "past": "drank",
+   "pp": "drunk",
+   "ko": "마시다",
+   "ex": "They drank coffee together before the early meeting."
+  },
+  {
+   "base": "drive",
+   "past": "drove",
+   "pp": "driven",
+   "ko": "운전하다",
+   "ex": "He drove to Vancouver to pick up his sister."
+  },
+  {
+   "base": "eat",
+   "past": "ate",
+   "pp": "eaten",
+   "ko": "먹다",
+   "ex": "We ate lunch quickly between two delivery runs."
+  },
+  {
+   "base": "feel",
+   "past": "felt",
+   "pp": "felt",
+   "ko": "느끼다",
+   "ex": "She felt confident after finishing the practice test."
+  },
+  {
+   "base": "find",
+   "past": "found",
+   "pp": "found",
+   "ko": "찾다",
+   "ex": "He found a cheaper supplier for the pharmacy stock."
+  },
+  {
+   "base": "forget",
+   "past": "forgot",
+   "pp": "forgotten",
+   "ko": "잊다",
+   "ex": "I forgot to submit the order form on time."
+  },
+  {
+   "base": "get",
+   "past": "got",
+   "pp": "got/gotten",
+   "ko": "얻다/받다",
+   "ex": "She got a scholarship offer from a college in Ontario."
+  },
+  {
+   "base": "give",
+   "past": "gave",
+   "pp": "given",
+   "ko": "주다",
+   "ex": "The professor gave clear feedback on her essay."
+  },
+  {
+   "base": "hear",
+   "past": "heard",
+   "pp": "heard",
+   "ko": "듣다",
+   "ex": "We heard about the new visa rules last week."
+  },
+  {
+   "base": "hold",
+   "past": "held",
+   "pp": "held",
+   "ko": "잡다/개최하다",
+   "ex": "The college held an orientation for new international students."
+  },
+  {
+   "base": "keep",
+   "past": "kept",
+   "pp": "kept",
+   "ko": "유지하다",
+   "ex": "She kept detailed records of every prescription filled."
+  },
+  {
+   "base": "know",
+   "past": "knew",
+   "pp": "known",
+   "ko": "알다",
+   "ex": "He knew the delivery route better than anyone else."
+  },
+  {
+   "base": "leave",
+   "past": "left",
+   "pp": "left",
+   "ko": "떠나다/남기다",
+   "ex": "The bus left five minutes before she arrived."
+  },
+  {
+   "base": "lend",
+   "past": "lent",
+   "pp": "lent",
+   "ko": "빌려주다",
+   "ex": "A friend lent her the textbook for the entrance test."
+  },
+  {
+   "base": "lose",
+   "past": "lost",
+   "pp": "lost",
+   "ko": "잃다/지다",
+   "ex": "He lost his access badge somewhere in the warehouse."
+  },
+  {
+   "base": "make",
+   "past": "made",
+   "pp": "made",
+   "ko": "만들다",
+   "ex": "The company made record profits last year despite the slowdown."
+  },
+  {
+   "base": "meet",
+   "past": "met",
+   "pp": "met",
+   "ko": "만나다",
+   "ex": "She met her new co-worker on her first day."
+  },
+  {
+   "base": "pay",
+   "past": "paid",
+   "pp": "paid",
+   "ko": "지불하다",
+   "ex": "They paid the shipping fee before the order was released."
+  },
+  {
+   "base": "put",
+   "past": "put",
+   "pp": "put",
+   "ko": "놓다",
+   "ex": "He put the packages on the shelf near the entrance."
+  },
+  {
+   "base": "read",
+   "past": "read",
+   "pp": "read",
+   "ko": "읽다",
+   "ex": "She read the immigration guidelines twice before applying."
+  },
+  {
+   "base": "ride",
+   "past": "rode",
+   "pp": "ridden",
+   "ko": "타다",
+   "ex": "He rode his bike to the college every morning."
+  },
+  {
+   "base": "run",
+   "past": "ran",
+   "pp": "run",
+   "ko": "달리다/운영하다",
+   "ex": "She ran the pharmacy alone during the busy holiday week."
+  },
+  {
+   "base": "say",
+   "past": "said",
+   "pp": "said",
+   "ko": "말하다",
+   "ex": "The interviewer said the results would arrive within a month."
+  },
+  {
+   "base": "see",
+   "past": "saw",
+   "pp": "seen",
+   "ko": "보다",
+   "ex": "We saw a big improvement in her writing scores."
+  },
+  {
+   "base": "sell",
+   "past": "sold",
+   "pp": "sold",
+   "ko": "팔다",
+   "ex": "The store sold out of masks within a few days."
+  },
+  {
+   "base": "send",
+   "past": "sent",
+   "pp": "sent",
+   "ko": "보내다",
+   "ex": "My co-worker sent me a text an hour ago."
+  },
+  {
+   "base": "set",
+   "past": "set",
+   "pp": "set",
+   "ko": "설정하다",
+   "ex": "She set a strict study schedule before the exam."
+  },
+  {
+   "base": "speak",
+   "past": "spoke",
+   "pp": "spoken",
+   "ko": "말하다",
+   "ex": "He spoke to the supplier about the late shipment."
+  },
+  {
+   "base": "stand",
+   "past": "stood",
+   "pp": "stood",
+   "ko": "서다",
+   "ex": "They stood in line for an hour at the visa office."
+  },
+  {
+   "base": "swim",
+   "past": "swam",
+   "pp": "swum",
+   "ko": "수영하다",
+   "ex": "She swam every weekend to relax after work."
+  },
+  {
+   "base": "sit",
+   "past": "sat",
+   "pp": "sat",
+   "ko": "앉다",
+   "ex": "He sat through a three-hour lecture on Canadian tax law."
+  },
+  {
+   "base": "tell",
+   "past": "told",
+   "pp": "told",
+   "ko": "말해주다",
+   "ex": "He told his manager about the delivery mistake right away."
+  },
+  {
+   "base": "think",
+   "past": "thought",
+   "pp": "thought",
+   "ko": "생각하다",
+   "ex": "She thought carefully before choosing her college program."
+  },
+  {
+   "base": "throw",
+   "past": "threw",
+   "pp": "thrown",
+   "ko": "던지다",
+   "ex": "The scandal threw the whole schedule into confusion."
+  },
+  {
+   "base": "understand",
+   "past": "understood",
+   "pp": "understood",
+   "ko": "이해하다",
+   "ex": "He finally understood the new tax rules after asking twice."
+  },
+  {
+   "base": "wear",
+   "past": "wore",
+   "pp": "worn",
+   "ko": "입다/착용하다",
+   "ex": "She wore a mask and gloves during her pharmacy shift."
+  },
+  {
+   "base": "win",
+   "past": "won",
+   "pp": "won",
+   "ko": "이기다",
+   "ex": "Their team won the regional logistics award last year."
+  },
+  {
+   "base": "write",
+   "past": "wrote",
+   "pp": "written",
+   "ko": "쓰다",
+   "ex": "She wrote a strong personal statement for her BCIT application."
+  }
+ ]
+}
