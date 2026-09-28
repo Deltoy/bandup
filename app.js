@@ -451,7 +451,7 @@ R.set = () => {
     ${btn('캘린더에 알림 넣기 (.ics)', 'ics', { cls: 'line block', icon: 'calendar' })}<p class="cap">매일 앵커 시각과 ${esc(st.second)}에 한 번씩 알려 줘요. 삼성·구글 캘린더에서 열면 돼요.</p></section>`;
   const gem = `<section class="card"><h2 class="h2">제미나이 채점</h2>${key ? '' : '<div class="card warn tight" style="box-shadow:none">키가 없으면 자가 점검 체크리스트로 채점해요.</div>'}
     <label class="fld">API 키 (이 기기에만 저장, 백업 제외)<input class="inp" type="password" id="sKey" value="${esc(key)}" autocomplete="off" data-act="keyText" placeholder="AIza…"></label>
-    <label class="fld">모델 ID (비우면 자동)<input class="inp" id="sModel" value="${esc(st.gmodel)}" placeholder="gemini-3.5-flash" data-act="modelText"></label>
+    <label class="fld">모델 ID (비우면 자동)<input class="inp" id="sModel" value="${esc(st.gmodel)}" placeholder="gemini-3.8-flash" data-act="modelText"></label>
     <div class="row"><span>오늘 사용량</span>${bar(used / G.DAY_MAX)}<span class="num">${used}/${G.DAY_MAX}</span></div><p class="cap">무료 등급은 입력한 글과 녹음을 학습에 쓸 수 있어요. 이름·주소 같은 개인정보는 넣지 마세요.</p></section>`;
   const bk = `<section class="card"><h2 class="h2">백업</h2><p class="cap">드라이브 "IELTS 백업" 폴더에 12시간마다, 또는 바뀌면 자동으로 올려요. 녹음 파일은 올리지 않아요. 암호는 FITQUEST와 같은 것을 써요.</p>
     <label class="fld">백업 암호<input class="inp" type="password" id="bkTok" value="${esc(BK.BK.token || '')}" autocomplete="new-password"></label>

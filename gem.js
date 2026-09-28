@@ -11,7 +11,7 @@ let SETTINGS = { gmodel: '' };
 export const useSettings = s => { SETTINGS = s; };
 
 /* ---- copied from FITQUEST ---- */
-const GEM_PREF = 'gemini-3.5-flash';
+const GEM_PREF = 'gemini-3.8-flash';   // 0928 기본 3.8
 export async function gemModels(key) {
   let found = [];
   try {
@@ -26,7 +26,7 @@ export async function gemModels(key) {
     }
   } catch (e) {}
   const ok = localStorage.getItem('bandup.gmodelOK');
-  return [...new Set([SETTINGS.gmodel, ok, GEM_PREF, ...found, 'gemini-3.8-flash', 'gemini-3.5-flash-lite', 'gemini-3.1-flash-lite'].filter(Boolean))];
+  return [...new Set([SETTINGS.gmodel, GEM_PREF, ok, ...found, 'gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-3.1-flash-lite'].filter(Boolean))];
 }
 export async function gemCall(key, parts, errMsg) {
   let lastErr = '쓸 수 있는 제미나이 모델을 찾지 못했어요';
