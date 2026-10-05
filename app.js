@@ -534,7 +534,7 @@ R.set = () => {
     <li>IELTS 문항은 공식 사이트 링크만 둬요. IELTS.org·British Council·Cambridge 문항과 채점 기준 원문은 앱에 넣지 않아요.</li>
     <li>해커스 영상은 외부 링크로만 연결해요.</li><li>ts-fsrs © Open Spaced Repetition, MIT License. 아이콘 lucide (ISC), 글꼴 Pretendard (OFL).</li>
     <li>콘텐츠: ${FILES.every(f => C.src[f] === 'real') ? '모두 본 파일' : FILES.filter(f => C.src[f] !== 'real').map(f => `${f} ${C.src[f] === 'sample' ? '샘플' : '없음'}`).join(' · ')}</li></ul></section>`;
-  return `<header class="hdr"><button class="btn icon ghost" data-go="today" aria-label="뒤로">${ico('chevron-left', 's24')}</button><span class="title">설정</span></header><div class="masonry">${exam}${amount}${rhythm}${anchor}${gem}${bk}${voice}${lic}</div>`;
+  return `<header class="hdr"><button class="btn icon ghost" data-go="today" aria-label="뒤로">${ico('chevron-left', 's24')}</button><span class="title">설정</span></header><div class="masonry">${exam}${amount}${rhythm}${anchor}${gem}${voice}${lic}</div>`;
 };
 
 /* ---------- 온보딩 (최대 4탭 → 첫 카드) ---------- */
@@ -1650,7 +1650,11 @@ async function importFile(inp) {
   const f = inp.files && inp.files[0]; if (!f) return;
   try { const d = BK.parseImport(await f.text()); replaceDB(d); toast('JSON 파일에서 불러왔어요'); } catch (e) { toast(e.message, 'warn'); } inp.value = '';
 }
-addEventListener('resize', () => { clearTimeout(render.t); render.t = setTimeout(() => { if (DB.profile && !ACT) render(); else if (ACT) fitStage(); }, 150); });
+let lastW = innerWidth;   // 1005: the phone keyboard only changes the height — re-rendering then replaced the focused field and closed the keyboard
+addEventListener('resize', () => { clearTimeout(render.t); render.t = setTimeout(() => {
+  const typing = /^(INPUT|TEXTAREA|SELECT)$/.test((document.activeElement || {}).tagName || ''), wChanged = innerWidth !== lastW; lastW = innerWidth;
+  if (typing || !wChanged && innerWidth < 700) return;
+  if (DB.profile && !ACT) render(); else if (ACT) fitStage(); }, 150); });
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
 let lastDay = today();
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && today() !== lastDay) { lastDay = today(); dayStart(); if (!ACT) render(); } });
@@ -1669,6 +1673,9 @@ window.BANDUP = { get DB() { return DB; }, S, C, save, render, replaceDB, openMi
   dayStart(); render();
   document.fonts && document.fonts.ready.then(() => ACT ? fitStage() : fitLists());   // row heights change when Pretendard arrives
   document.body.dataset.ready = '1';
+  if (!DB.profile && BK.bkOn()) {   // 1005: 새로 깔아서 비어 있으면 드라이브 백업에서 자동으로 되살림
+    try { const r = await BK.bkLatest(); if (r.data && !DB.profile) { replaceDB(r.data); BK.bkMarkSynced(DB); dayStart(); render(); toast('드라이브 백업에서 기록을 되살렸어요'); } } catch (e) {}
+  }
   if (DB.profile) {
     BK.bkRun(() => DB).catch(() => {});
     const k = today(), mon = addDays(mondayOf(k), -7);

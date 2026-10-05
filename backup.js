@@ -8,13 +8,16 @@ const bkStore = () => { try { localStorage.setItem(BK_KEY, JSON.stringify(BK)); 
 export const BK_DEFAULT = 'https://script.google.com/macros/s/AKfycbzV6NiDcEOG_4cGorp0d-aGrl5e_ibqvzII33rQZVSqbcf8NG6SPtvC0V4tyL01ovcJdg/exec';   // 트렌드랩 서버 (FITQUEST 와 같은 곳)
 const BK_URL = /^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/;
 export const bkUrl = () => BK.url || BK_DEFAULT;
-export const bkOn = () => !!BK.token;
+/* 1005: no backup UI. The password is the FITQUEST one (same origin deltoy.github.io → same localStorage), so it is picked up from there. */
+const fqTok = () => { try { return String((JSON.parse(localStorage.getItem('fitquest.backup')) || {}).token || '').trim(); } catch (e) { return ''; } };
+export const bkToken = () => BK.token || fqTok();
+export const bkOn = () => !!bkToken();
 export const hashOf = s => { let h = 5381; for (let i = 0; i < s.length; i++) h = (h * 33 ^ s.charCodeAt(i)) | 0; return h; };
 const pad = n => String(n).padStart(2, '0');
 const today = () => { const d = new Date(); return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`; };
 
 export async function bkCall(body) {
-  const r = await fetch(bkUrl(), { method: 'POST', cache: 'no-store', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ fq: 1, app: 'ielts', token: BK.token, ...body }) });
+  const r = await fetch(bkUrl(), { method: 'POST', cache: 'no-store', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ fq: 1, app: 'ielts', token: bkToken(), ...body }) });
   const j = await r.json().catch(() => null);
   if (!j || !j.ok) throw new Error((j && j.err) || 'http_' + r.status);
   return j;
