@@ -426,3 +426,54 @@ button.linkbtn { white-space: nowrap; }
 .card > .bar { flex: none; }   /* a progress bar placed directly in a card keeps its 8px height */
 .peek-1 { font-weight: 500; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
 .story-peek[open] .peek-1 { display: none; }
+
+/* ---------- 1005 AI 대화 · 발음 점수 · 내 성장 ---------- */
+.tk { gap: 10px; }
+.tk-l, .tk-me { max-width: 88%; border-radius: 16px; padding: 8px 12px 10px; display: flex; flex-direction: column; gap: 4px; }
+.tk-l { align-self: flex-start; background: var(--hover); border-top-left-radius: 6px; }
+.tk-hd { display: flex; align-items: center; justify-content: space-between; margin: -4px -8px -6px 0; }
+.tk-me { align-self: flex-end; background: var(--pri-soft); border-top-right-radius: 6px; }
+.tk-who { font-size: var(--f1); font-weight: 700; color: var(--pri-t); }
+.tk-l p, .tk-me p { margin: 0; }
+.tk-fix { display: flex; flex-direction: column; gap: 2px; }
+.tk-better { display: flex; flex-direction: column; gap: 2px; border-top: 1px solid var(--line-2); padding-top: 6px; font-weight: 600; }
+.tk-dots { flex-direction: row; gap: 5px; padding: 14px 16px; }
+.tk-dots i { width: 7px; height: 7px; border-radius: 50%; background: var(--mut); animation: tkd 1.2s infinite ease-in-out; }
+.tk-dots i:nth-child(2) { animation-delay: .15s; } .tk-dots i:nth-child(3) { animation-delay: .3s; }
+@keyframes tkd { 0%, 60%, 100% { opacity: .3; } 30% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .tk-dots i { animation: none; opacity: .6; } }
+.sh-ops { line-height: 1.9; }
+.sh-ops mark { background: transparent; text-decoration: underline wavy var(--warn-ink) 1.5px; text-underline-offset: 4px; color: var(--warn-ink); font-weight: 700; }
+.metrics small { font-size: var(--f1); color: var(--mut); font-weight: 500; margin-left: 2px; }
+.gr-m { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.gr-m > div { display: flex; flex-direction: column; gap: 2px; }
+.gr-est { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: 0; padding: 10px 12px; border-radius: var(--rs); background: var(--pri-soft); }
+.gr-est b { font-size: var(--f3); }
+.gr-2 { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.gr-c { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.chart .ln { fill: none; stroke: var(--pri); stroke-width: 2; stroke-linejoin: round; }
+.chart .dt { fill: var(--pri); stroke: var(--card); stroke-width: 2; }
+.chart text.lv { fill: var(--ink); font-weight: 700; }
+.chart text.tg { fill: var(--ok); }
+.hm { display: grid; grid-template-columns: 1.6em repeat(var(--nw, 12), minmax(0, 1fr)); gap: 4px; }
+.hm i { display: block; height: 22px; border-radius: 4px; background: var(--track); }
+.hm-lg i { display: block; width: 14px; height: 14px; border-radius: 4px; background: var(--track); }
+.hm-d { font-size: var(--f1); color: var(--mut); line-height: 1; align-self: center; }
+.hm .h1, .hm-lg .h1 { background: color-mix(in srgb, var(--pri) 28%, var(--card)); }
+.hm .h2, .hm-lg .h2 { background: color-mix(in srgb, var(--pri) 52%, var(--card)); }
+.hm .h3, .hm-lg .h3 { background: color-mix(in srgb, var(--pri) 76%, var(--card)); }
+.hm .h4, .hm-lg .h4 { background: var(--pri); }
+:root[data-theme="dark"] .hm .h1, :root[data-theme="dark"] .hm-lg .h1 { background: color-mix(in srgb, var(--pri) 45%, var(--track)); }
+:root[data-theme="dark"] .hm .h2, :root[data-theme="dark"] .hm-lg .h2 { background: color-mix(in srgb, var(--pri) 65%, var(--track)); }
+:root[data-theme="dark"] .hm .h3, :root[data-theme="dark"] .hm-lg .h3 { background: color-mix(in srgb, var(--pri) 85%, var(--track)); }
+:root[data-theme="dark"] .hm .h4, :root[data-theme="dark"] .hm-lg .h4 { background: var(--pri-t); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .hm .h1, :root:not([data-theme="light"]) .hm-lg .h1 { background: color-mix(in srgb, var(--pri) 45%, var(--track)); }
+  :root:not([data-theme="light"]) .hm .h2, :root:not([data-theme="light"]) .hm-lg .h2 { background: color-mix(in srgb, var(--pri) 65%, var(--track)); }
+  :root:not([data-theme="light"]) .hm .h3, :root:not([data-theme="light"]) .hm-lg .h3 { background: color-mix(in srgb, var(--pri) 85%, var(--track)); }
+  :root:not([data-theme="light"]) .hm .h4, :root:not([data-theme="light"]) .hm-lg .h4 { background: var(--pri-t); } }
+.hm .hm-f { background: transparent; box-shadow: inset 0 0 0 1px var(--line); }
+.hm .hm-t { outline: 2px solid var(--mut); outline-offset: 1px; }
+.hm-lg { display: inline-flex; gap: 3px; }
+.fill > .fl.tiles { grid-auto-rows: minmax(max-content, auto); }   /* rows keep their content height so fitLists can trim (no overlapping rows) */
+@media (min-width: 700px) { .gr-m { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.fill > .fl.cut > .row { align-items: center !important; }   /* stretched rows of a trimmed list: content sits in the middle, no blank strip under the text */

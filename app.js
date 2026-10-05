@@ -9,7 +9,7 @@ const { dayKey, addDays, diffDays, dow, isoWeek, mondayOf, XP } = S;
 /* ================= helpers ================= */
 const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const I = {"flame":"<path d=\"M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4\"/>","settings":"<path d=\"M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>","house":"<path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"/><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/>","book-open":"<path d=\"M12 5v16\"/><path d=\"M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z\"/>","dumbbell":"<path d=\"M17.596 12.768a2 2 0 1 0 2.829-2.829l-1.768-1.767a2 2 0 0 0 2.828-2.829l-2.828-2.828a2 2 0 0 0-2.829 2.828l-1.767-1.768a2 2 0 1 0-2.829 2.829z\"/><path d=\"m2.5 21.5 1.4-1.4\"/><path d=\"m20.1 3.9 1.4-1.4\"/><path d=\"M5.343 21.485a2 2 0 1 0 2.829-2.828l1.767 1.768a2 2 0 1 0 2.829-2.829l-6.364-6.364a2 2 0 1 0-2.829 2.829l1.768 1.767a2 2 0 0 0-2.828 2.829z\"/><path d=\"m9.6 14.4 4.8-4.8\"/>","trending-up":"<path d=\"M16 7h6v6\"/><path d=\"m22 7-8.5 8.5-5-5L2 17\"/>","play":"<path d=\"M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z\"/>","pause":"<rect x=\"14\" y=\"3\" width=\"5\" height=\"18\" rx=\"1\"/><rect x=\"5\" y=\"3\" width=\"5\" height=\"18\" rx=\"1\"/>","mic":"<path d=\"M12 19v3\"/><path d=\"M19 10v2a7 7 0 0 1-14 0v-2\"/><rect x=\"9\" y=\"2\" width=\"6\" height=\"13\" rx=\"3\"/>","square":"<rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/>","check":"<path d=\"M20 6 9 17l-5-5\"/>","x":"<path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/>","chevron-right":"<path d=\"m9 18 6-6-6-6\"/>","chevron-left":"<path d=\"m15 18-6-6 6-6\"/>","chevron-down":"<path d=\"m6 9 6 6 6-6\"/>","headphones":"<path d=\"M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3\"/>","radio":"<path d=\"M16.247 7.761a6 6 0 0 1 0 8.478\"/><path d=\"M19.075 4.933a10 10 0 0 1 0 14.134\"/><path d=\"M4.925 19.067a10 10 0 0 1 0-14.134\"/><path d=\"M7.753 16.239a6 6 0 0 1 0-8.478\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/>","volume-2":"<path d=\"M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z\"/><path d=\"M16 9a5 5 0 0 1 0 6\"/><path d=\"M19.364 18.364a9 9 0 0 0 0-12.728\"/>","clock":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/>","rotate-ccw":"<path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"/><path d=\"M3 3v5h5\"/>","arrow-right":"<path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/>","pencil":"<path d=\"M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z\"/><path d=\"m15 5 4 4\"/>","target":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/>","calendar":"<path d=\"M8 2v3\"/><path d=\"M16 2v3\"/><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M3 9h18\"/>","download":"<path d=\"M12 15V3\"/><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><path d=\"m7 10 5 5 5-5\"/>","upload":"<path d=\"M12 3v12\"/><path d=\"m17 8-5-5-5 5\"/><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/>","snowflake":"<path d=\"m10 20-1.25-2.5L6 18\"/><path d=\"M10 4 8.75 6.5 6 6\"/><path d=\"m14 20 1.25-2.5L18 18\"/><path d=\"m14 4 1.25 2.5L18 6\"/><path d=\"m17 21-3-6h-4\"/><path d=\"m17 3-3 6 1.5 3\"/><path d=\"M2 12h6.5L10 9\"/><path d=\"m20 10-1.5 2 1.5 2\"/><path d=\"M22 12h-6.5L14 15\"/><path d=\"m4 10 1.5 2L4 14\"/><path d=\"m7 21 3-6-1.5-3\"/><path d=\"m7 3 3 6h4\"/>","lock":"<rect width=\"18\" height=\"11\" x=\"3\" y=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/>","eye":"<path d=\"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>","eye-off":"<path d=\"M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49\"/><path d=\"M14.084 14.158a3 3 0 0 1-4.242-4.242\"/><path d=\"M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143\"/><path d=\"m2 2 20 20\"/>","skip-forward":"<path d=\"M21 4v16\"/><path d=\"M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z\"/>","book-a":"<path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20\"/><path d=\"m8 13 4-7 4 7\"/><path d=\"M9.1 11h5.7\"/>","sparkles":"<path d=\"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\"/><path d=\"M20 2v4\"/><path d=\"M22 4h-4\"/><circle cx=\"4\" cy=\"20\" r=\"2\"/>","circle-check":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m16 9-5.5 5.5L8 12\"/>","timer":"<line x1=\"10\" x2=\"14\" y1=\"2\" y2=\"2\"/><line x1=\"12\" x2=\"15\" y1=\"14\" y2=\"11\"/><circle cx=\"12\" cy=\"14\" r=\"8\"/>","repeat":"<path d=\"m17 2 4 4-4 4\"/><path d=\"M3 11v-1a4 4 0 0 1 4-4h14\"/><path d=\"m7 22-4-4 4-4\"/><path d=\"M21 13v1a4 4 0 0 1-4 4H3\"/>","spell-check":"<path d=\"m20 15-5.5 5.5L12 18\"/><path d=\"m4 16 6-12 5.115 10.23\"/><path d=\"M6 12h8\"/>","external-link":"<path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/>","plus":"<path d=\"M5 12h14\"/><path d=\"M12 5v14\"/>","book-marked":"<path d=\"M10 2v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834A.25.25 0 0016 9.751V2\"/><path d=\"M4 19.5v-15A2.5 2.5 0 016.5 2H19a1 1 0 011 1v18a1 1 0 01-1 1H6.5a1 1 0 010-5H20\"/>","pen-line":"<path d=\"M13 21h8\"/><path d=\"M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z\"/>"};
+const I = {"message-circle":"<path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\"/>","flame":"<path d=\"M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4\"/>","settings":"<path d=\"M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>","house":"<path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"/><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/>","book-open":"<path d=\"M12 5v16\"/><path d=\"M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z\"/>","dumbbell":"<path d=\"M17.596 12.768a2 2 0 1 0 2.829-2.829l-1.768-1.767a2 2 0 0 0 2.828-2.829l-2.828-2.828a2 2 0 0 0-2.829 2.828l-1.767-1.768a2 2 0 1 0-2.829 2.829z\"/><path d=\"m2.5 21.5 1.4-1.4\"/><path d=\"m20.1 3.9 1.4-1.4\"/><path d=\"M5.343 21.485a2 2 0 1 0 2.829-2.828l1.767 1.768a2 2 0 1 0 2.829-2.829l-6.364-6.364a2 2 0 1 0-2.829 2.829l1.768 1.767a2 2 0 0 0-2.828 2.829z\"/><path d=\"m9.6 14.4 4.8-4.8\"/>","trending-up":"<path d=\"M16 7h6v6\"/><path d=\"m22 7-8.5 8.5-5-5L2 17\"/>","play":"<path d=\"M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z\"/>","pause":"<rect x=\"14\" y=\"3\" width=\"5\" height=\"18\" rx=\"1\"/><rect x=\"5\" y=\"3\" width=\"5\" height=\"18\" rx=\"1\"/>","mic":"<path d=\"M12 19v3\"/><path d=\"M19 10v2a7 7 0 0 1-14 0v-2\"/><rect x=\"9\" y=\"2\" width=\"6\" height=\"13\" rx=\"3\"/>","square":"<rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/>","check":"<path d=\"M20 6 9 17l-5-5\"/>","x":"<path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/>","chevron-right":"<path d=\"m9 18 6-6-6-6\"/>","chevron-left":"<path d=\"m15 18-6-6 6-6\"/>","chevron-down":"<path d=\"m6 9 6 6 6-6\"/>","headphones":"<path d=\"M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3\"/>","radio":"<path d=\"M16.247 7.761a6 6 0 0 1 0 8.478\"/><path d=\"M19.075 4.933a10 10 0 0 1 0 14.134\"/><path d=\"M4.925 19.067a10 10 0 0 1 0-14.134\"/><path d=\"M7.753 16.239a6 6 0 0 1 0-8.478\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/>","volume-2":"<path d=\"M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z\"/><path d=\"M16 9a5 5 0 0 1 0 6\"/><path d=\"M19.364 18.364a9 9 0 0 0 0-12.728\"/>","clock":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/>","rotate-ccw":"<path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"/><path d=\"M3 3v5h5\"/>","arrow-right":"<path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/>","pencil":"<path d=\"M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z\"/><path d=\"m15 5 4 4\"/>","target":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/>","calendar":"<path d=\"M8 2v3\"/><path d=\"M16 2v3\"/><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M3 9h18\"/>","download":"<path d=\"M12 15V3\"/><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><path d=\"m7 10 5 5 5-5\"/>","upload":"<path d=\"M12 3v12\"/><path d=\"m17 8-5-5-5 5\"/><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/>","snowflake":"<path d=\"m10 20-1.25-2.5L6 18\"/><path d=\"M10 4 8.75 6.5 6 6\"/><path d=\"m14 20 1.25-2.5L18 18\"/><path d=\"m14 4 1.25 2.5L18 6\"/><path d=\"m17 21-3-6h-4\"/><path d=\"m17 3-3 6 1.5 3\"/><path d=\"M2 12h6.5L10 9\"/><path d=\"m20 10-1.5 2 1.5 2\"/><path d=\"M22 12h-6.5L14 15\"/><path d=\"m4 10 1.5 2L4 14\"/><path d=\"m7 21 3-6-1.5-3\"/><path d=\"m7 3 3 6h4\"/>","lock":"<rect width=\"18\" height=\"11\" x=\"3\" y=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/>","eye":"<path d=\"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>","eye-off":"<path d=\"M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49\"/><path d=\"M14.084 14.158a3 3 0 0 1-4.242-4.242\"/><path d=\"M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143\"/><path d=\"m2 2 20 20\"/>","skip-forward":"<path d=\"M21 4v16\"/><path d=\"M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z\"/>","book-a":"<path d=\"M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20\"/><path d=\"m8 13 4-7 4 7\"/><path d=\"M9.1 11h5.7\"/>","sparkles":"<path d=\"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\"/><path d=\"M20 2v4\"/><path d=\"M22 4h-4\"/><circle cx=\"4\" cy=\"20\" r=\"2\"/>","circle-check":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m16 9-5.5 5.5L8 12\"/>","timer":"<line x1=\"10\" x2=\"14\" y1=\"2\" y2=\"2\"/><line x1=\"12\" x2=\"15\" y1=\"14\" y2=\"11\"/><circle cx=\"12\" cy=\"14\" r=\"8\"/>","repeat":"<path d=\"m17 2 4 4-4 4\"/><path d=\"M3 11v-1a4 4 0 0 1 4-4h14\"/><path d=\"m7 22-4-4 4-4\"/><path d=\"M21 13v1a4 4 0 0 1-4 4H3\"/>","spell-check":"<path d=\"m20 15-5.5 5.5L12 18\"/><path d=\"m4 16 6-12 5.115 10.23\"/><path d=\"M6 12h8\"/>","external-link":"<path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/>","plus":"<path d=\"M5 12h14\"/><path d=\"M12 5v14\"/>","book-marked":"<path d=\"M10 2v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834A.25.25 0 0016 9.751V2\"/><path d=\"M4 19.5v-15A2.5 2.5 0 016.5 2H19a1 1 0 011 1v18a1 1 0 01-1 1H6.5a1 1 0 010-5H20\"/>","pen-line":"<path d=\"M13 21h8\"/><path d=\"M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z\"/>"};
 const ico = (n, c = '') => `<svg class="ico ${c}" viewBox="0 0 24 24" aria-hidden="true">${I[n] || ''}</svg>`;
 const today = () => dayKey();
 const now = () => new Date();
@@ -136,7 +136,7 @@ const bar = (v, k = '') => `<span class="bar ${k}" role="img" aria-label="${Math
 const btn = (label, act, { cls = '', icon = '', dis = false, x = '', aria = '' } = {}) => `<button class="btn ${cls}" data-act="${act}" ${x} ${dis ? 'disabled' : ''} ${aria ? `aria-label="${aria}"` : ''}>${icon ? ico(icon) : ''}${label}</button>`;
 
 /* ================= missions ================= */
-const ACT_NAME = { vocab: '단어 SRS', shadow1: '섀도잉 1문장', shadow: '섀도잉 녹음', p1: 'Part 1 세 문장', listen: 'Listening 파트 세트', read: 'Reading 지문', t1: 'Writing T1', t2: 'Writing T2', franklin: 'Franklin 재구성', p2: 'Speaking P2', quiz: '오류 퀴즈', mockInput: '공식 L·R 모의와 원점수', '432': '4/3/2 유창성', story: '스토리 뱅크 다듬기', review: '주간 리뷰', diagVocab: '진단: 어휘 체크 30', diagL1: '진단: Listening Part 1', diagL4: '진단: Listening Part 4', diagR: '진단: Reading 5분', diagS: '진단: Speaking 1분', dict: '받아쓰기 5문장', drill: '철자·숫자 드릴', radio: '라디오 모드', restart: '다시 시작' };
+const ACT_NAME = { talk: 'AI 대화 3턴', vocab: '단어 SRS', shadow1: '섀도잉 1문장', shadow: '섀도잉 녹음', p1: 'Part 1 세 문장', listen: 'Listening 파트 세트', read: 'Reading 지문', t1: 'Writing T1', t2: 'Writing T2', franklin: 'Franklin 재구성', p2: 'Speaking P2', quiz: '오류 퀴즈', mockInput: '공식 L·R 모의와 원점수', '432': '4/3/2 유창성', story: '스토리 뱅크 다듬기', review: '주간 리뷰', diagVocab: '진단: 어휘 체크 30', diagL1: '진단: Listening Part 1', diagL4: '진단: Listening Part 4', diagR: '진단: Reading 5분', diagS: '진단: Speaking 1분', dict: '받아쓰기 5문장', drill: '철자·숫자 드릴', radio: '라디오 모드', restart: '다시 시작' };
 const blockName = b => b.act === 'p2' && b.opts && b.opts.thenP3 ? 'Speaking P2+P3' : b.act === 'quiz' ? `오류 퀴즈 ${(b.opts && b.opts.n) || 5}문항` : ACT_NAME[b.act] || b.act;
 const isWknd = k => dow(k) === 0 || dow(k) === 6;
 /** late night = 22:00 until the day boundary (04:00 by default): the one-tap mission is 5 minutes */
@@ -152,7 +152,7 @@ function missionKind() {
 }
 const DIAG_PARTS = [['v', [{ id: 'diagVocab', min: 1, act: 'diagVocab' }]], ['l', [{ id: 'diagL1', min: 2, act: 'listen', opts: { part: 1, diag: true } }, { id: 'diagL4', min: 2, act: 'listen', opts: { part: 4, diag: true } }]], ['rs', [{ id: 'diagR', min: 5, act: 'read', opts: { len: 'short', minutes: 5, diag: true } }, { id: 'diagS', min: 1, act: 'p1', opts: { quick: true, diag: true } }]]];
 function missionBlocks(kind, k = today()) {
-  const bl = S.dayBlocks(PLAN(), k, kind === 'wknd' ? 'std' : kind, DB.profile).map(b => ({ ...b, opts: { ...(b.opts || {}) } }));
+  const bl = S.dayBlocks(PLAN(), k, kind === 'wknd' ? 'std' : kind, DB.profile).map(b => ({ ...b, act: b.id === 'speak' && b.act === 'p1' && G.getKey() ? 'talk' : b.act, opts: { ...(b.opts || {}) } }));   // 1005: 화·목 말하기 = AI 대화 (키 없으면 Part 1)
   if ((kind === 'std' || kind === 'wknd') && DB.profile.diag === 'split') {
     const done = DB.flags.diag || {}, next = DIAG_PARTS.find(([p]) => !done[p]);
     if (next && DB.flags.diagDay !== k) bl.splice(1, 0, ...next[1].map(b => ({ ...b, diagPart: next[0] })));
@@ -295,11 +295,11 @@ R.today = () => {
     <div class="steps">${bl.map((b, i) => stepRow(b, i, steps[b.id])).join('')}</div>
     ${kind === 'min' || kind === 'comeback' ? `<div class="stack"><p class="cap">여유가 있으면 이어서: ${esc(missionTitle(k))}</p><div class="wrap">${missionBlocks(isWknd(k) ? 'wknd' : 'std').map(b => pill(`${blockName(b)} ${b.min}분`)).join('')}</div></div>` : ''}
     <p class="cap"><b class="ink">W${W.n} 할 일</b> ${esc(W.focus)}</p>${wide ? weekStrip(k, W) : ''}</section>`;   // ≥700: the week strip sits with the plan, so the hero column has room for 오늘의 약점
-  const h = hero(kind, bl, done, allDone, !wide), weak = weakCard(ftype);
+  const h = hero(kind, bl, done, allDone, !wide), weak = weakCard(ftype), plus = plusCard();
   if (done && DB.flags.momentShown !== k) { DB.flags.momentShown = k; save(); }   // the one 400ms completion moment plays once per day
-  if (!wide) return `${homeHeader()}<div class="masonry">${h}${mission}${weak}</div>`;
+  if (!wide) return `${homeHeader()}<div class="masonry">${h}${mission}${plus}${weak}</div>`;
   const q = vocabQueue();
-  return `${homeHeader()}<div class="page"><div class="col">${h}${weak}</div><div class="col">${mission}${fillCard('오늘 볼 단어', wordRows(), `<span class="cap num">복습 ${q.due.length} · 새 ${q.fresh.length}</span>`)}</div></div>`;
+  return `${homeHeader()}<div class="page"><div class="col">${h}${weak}</div><div class="col">${mission}${plus}${fillCard('오늘 볼 단어', wordRows(), `<span class="cap num">복습 ${q.due.length} · 새 ${q.fresh.length}</span>`)}</div></div>`;
 };
 /** a mission step: done (green check), skipped (amber, "건너뜀"), or its number */
 const stepRow = (b, i, st) => `<div class="step ${st === 1 ? 'done' : st === 2 ? 'skip' : ''}"><span class="n">${st === 1 ? ico('check', 's16') : st === 2 ? ico('skip-forward', 's16') : i + 1}</span><span>${blockName(b)}</span>${st === 2 ? '<span class="sk">건너뜀</span>' : `<span class="m">${b.min}분</span>`}</div>`;
@@ -355,7 +355,7 @@ const TILES = {
   L: { ic: 'headphones', name: 'Listening', list: [['listen', '파트 세트 (빈칸 예측)'], ['dict', '받아쓰기 5문장'], ['drill', '철자·숫자 드릴']] },
   R: { ic: 'book-open', name: 'Reading', list: [['read', '지문 (T/F/NG · Headings)'], ['readShort', '짧은 지문 시간 재기']] },
   W: { ic: 'pen-line', name: 'Writing', list: [['t2', 'Task 2 에세이'], ['t1', 'Task 1 차트'], ['franklin', 'Franklin 재구성']] },
-  S: { ic: 'mic', name: 'Speaking', list: [['p1', 'Part 1 세 문장'], ['p2', 'Part 2 큐카드와 Part 3'], ['432', '4/3/2 유창성'], ['story', '스토리 뱅크'], ['shadow', '섀도잉 스튜디오']] },
+  S: { ic: 'mic', name: 'Speaking', list: [['p1', 'Part 1 세 문장'], ['p2', 'Part 2 큐카드와 Part 3'], ['432', '4/3/2 유창성'], ['story', '스토리 뱅크'], ['shadow', '섀도잉 스튜디오 (발음 점수)'], ['talk', 'AI 대화 3턴']] },
   G: { ic: 'spell-check', name: '문법', list: [['quiz', '오류 퀴즈 5문항'], ['myerr', '내 오류 카드']] }
 };
 function recent(skill) {
@@ -386,6 +386,72 @@ R.train = () => {
   return `${header()}<div class="page"><div class="col">${tiles.join('')}</div><div class="col">${links}${fillCard('다가오는 훈련 일정', schedRows(), `<span class="cap num">${esc(md(PLAN().test))} 시험</span>`)}</div></div>`;
 };
 
+/* ---------- 1005 내 성장: 숫자 4개 + 점수 예상 + 주별 공부 시간 + 발음 점수 추이 + 공부 달력 ---------- */
+const lastN = (kind, f, n) => DB.attempts.filter(a => a.kind === kind && a.meta && a.meta[f] != null).sort((a, b) => a.ts - b.ts).slice(-n).map(a => a.meta[f]);
+const avgOf = v => v.length ? v.reduce((a, b) => a + b, 0) / v.length : null;
+function plusCard() {
+  const acc = lastN('shadow', 'acc', 1)[0], tb = lastN('talk', 'band', 1)[0], key = G.getKey(), inPlan = missionBlocks(missionKind()).some(b => b.act === 'talk');
+  if (!key) return `<section class="card" aria-labelledby="plTitle"><div class="row" style="min-height:0"><h2 class="h2 grow" id="plTitle">말하기 더 하기</h2><span class="cap">각 5분</span></div>
+    <p class="cap">발음 점수와 AI 대화는 무료 제미나이 키가 있어야 해요. 한 번만 넣으면 돼요.</p>${btn('AI 기능 켜기 (키 넣기 1분)', 'aiOn', { cls: 'line block', icon: 'sparkles' })}</section>`;
+  return `<section class="card" aria-labelledby="plTitle"><div class="row" style="min-height:0"><h2 class="h2 grow" id="plTitle">말하기 더 하기</h2><span class="cap num">오늘 AI ${G.DAY_MAX - G.usedToday(DB)}회 남음</span></div>
+    <div class="${inPlan ? 'stack' : 'kw'}">${btn('섀도잉 + 발음 점수', 'run', { cls: 'line', icon: 'mic', x: 'data-a="shadow"' })}${inPlan ? '' : btn('AI 대화 3턴', 'run', { cls: 'line', icon: 'message-circle', x: 'data-a="talk"' })}</div>
+    <p class="cap">최근 발음 점수 <b class="num ink">${acc == null ? '아직 없음' : acc + '%'}</b>, 최근 대화 밴드 <b class="num ink">${tb == null ? '아직 없음' : S.roundBand(tb).toFixed(1) + ' (대략)'}</b>${inPlan ? '. AI 대화는 오늘 미션에 있어요' : ''}</p></section>`;
+}
+/** weekly overall estimate, last 12 weeks: gauges on the attempts and mocks known by each week's end */
+function bandHist() {
+  const k = today(), keyed = DB.attempts.map(a => [dayKey(new Date(a.ts)), a]), out = [];
+  let m = mondayOf(DB.profile.start || k); const lo = addDays(mondayOf(k), -77); if (m < lo) m = lo;
+  for (; m <= k; m = addDays(m, 7)) { const e = addDays(m, 6) < k ? addDays(m, 6) : k;
+    const g = S.gauges({ ...DB, attempts: keyed.filter(x => x[0] <= e).map(x => x[1]), mocks: DB.mocks.filter(x => x.date <= e) }, e).est; out.push({ label: md(m), lo: g.lo, hi: g.hi, v: g.mid }); }
+  return out;
+}
+const weekMin = (mon, upTo = 6) => Math.round(Array.from({ length: upTo + 1 }, (_, i) => (DB.days[addDays(mon, i)] || {}).secs || 0).reduce((a, b) => a + b, 0) / 60);
+const startMon = () => { const k = today(), m = mondayOf(DB.profile.start || k), lo = addDays(mondayOf(k), -77); return m < lo ? lo : m > mondayOf(k) ? mondayOf(k) : m; };
+/** one-series line chart: recessive grid, 2px line, 8px dots, the target as a dashed line, first and last values labelled */
+function lineChart(pts, { lo, hi, ticks, tgt, fmt, name, unit = '' }) {
+  if (!pts.length) return `<p class="cap">${name} 기록이 생기면 선이 그려져요.</p>`;
+  const W = 320, H = 150, L = 36, R = 16, T = 16, B = 22, n = pts.length;
+  const x = i => L + (n < 2 ? (W - L - R) / 2 : (W - L - R) * i / (n - 1)), y = v => T + (H - B - T) * (1 - (Math.min(hi, Math.max(lo, v)) - lo) / (hi - lo));
+  const grid = ticks.map(v => `<line x1="${L}" x2="${W - R}" y1="${y(v).toFixed(1)}" y2="${y(v).toFixed(1)}" class="ax"/><text x="${L - 6}" y="${(y(v) + 4).toFixed(1)}" text-anchor="end">${fmt(v)}</text>`).join('');
+  const goal = tgt == null ? '' : `<line x1="${L}" x2="${W - R}" y1="${y(tgt).toFixed(1)}" y2="${y(tgt).toFixed(1)}" class="l-goal"/><text x="${L + 4}" y="${(y(tgt) + 14).toFixed(1)}" class="tg">목표 ${fmt(tgt)}${unit}</text>`;
+  const ln = n > 1 ? `<polyline class="ln" points="${pts.map((p, i) => `${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join(' ')}"/>` : '';
+  const dots = pts.map((p, i) => `<circle class="dt" cx="${x(i).toFixed(1)}" cy="${y(p.v).toFixed(1)}" r="4"/>`).join('');
+  const lab = i => { const v = pts[i].v, near = tgt != null && Math.abs(y(v) - y(tgt)) < 18; return `<text x="${x(i).toFixed(1)}" y="${(near && y(v) >= y(tgt) ? y(v) + 18 : y(v) - 9).toFixed(1)}" text-anchor="${n < 2 ? 'middle' : i ? 'end' : 'start'}" class="lv">${fmt(v)}${unit}</text>`; };
+  const xl = [...new Set([0, n - 1])].map(i => `<text x="${x(i).toFixed(1)}" y="${H - 5}" text-anchor="${n < 2 ? 'middle' : i ? 'end' : 'start'}">${esc(pts[i].label)}</text>`).join('');
+  return `<div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(name)}: ${pts.map(p => `${p.label} ${fmt(p.v)}${unit}`).join(', ')}">${grid}${goal}${ln}${dots}${[...new Set([0, n - 1])].map(lab).join('')}${xl}</svg></div>`;
+}
+function growCard() {
+  const k = today(), mon = mondayOf(k), dw = (dow(k) + 6) % 7, wm = weekMin(mon), pm = weekMin(addDays(mon, -7), dw), st = DB.streak;
+  const acc = DB.attempts.filter(a => a.kind === 'shadow' && a.meta && a.meta.acc != null).sort((a, b) => a.ts - b.ts).slice(-12);
+  const a1 = acc.length ? acc.at(-1).meta.acc : null, a0 = acc.length > 1 ? acc.at(-2).meta.acc : null, tb = avgOf(lastN('talk', 'band', 3));
+  const arrow = (d, u) => `<span class="cap num ${d >= 0 ? 'ok-t' : 'no-t'}">${d >= 0 ? '↑' : '↓'} ${Math.abs(d)}${u}</span>`;
+  const tiles = `<div class="metrics gr-m">
+    <div><span class="cap">연속</span><b class="num">${st.cur}일</b><span class="cap num">최고 ${st.best}일</span></div>
+    <div><span class="cap">이번 주 공부</span><b class="num">${wm}분</b><span class="cap num">지난주 이맘때 ${pm}분 ${wm === pm ? '' : wm > pm ? `<span class="ok-t">↑ ${wm - pm}</span>` : `<span class="no-t">↓ ${pm - wm}</span>`}</span></div>
+    <div><span class="cap">발음 점수</span><b class="num">${a1 == null ? '–' : a1 + '%'}</b>${a0 == null ? '<span class="cap">가장 최근</span>' : `<span class="cap num">지난번 ${a0}% ${arrow(a1 - a0, '')}</span>`}</div>
+    <div><span class="cap">대화 밴드</span><b class="num">${tb == null ? '–' : S.roundBand(tb).toFixed(1)}</b><span class="cap">최근 3번, 대략</span></div></div>`;
+  const bh = bandHist(), b0 = bh[0], b1 = bh.at(-1), gap = Math.max(0, 6.5 - b1.hi), rng = x => `${x.lo.toFixed(1)}–${x.hi.toFixed(1)}`;
+  const est = `<p class="gr-est"><span class="cap">전체 점수 예상</span><b class="num">${bh.length > 1 ? `${rng(b0)} → ${rng(b1)}` : rng(b1)}</b><span class="cap">${gap ? `6.5까지 ${gap.toFixed(1)}` : '6.5 범위 안'}</span></p>`;
+  const wk = []; let run = Object.keys(DB.days).filter(x => x < startMon()).reduce((a, x) => a + ((DB.days[x] || {}).secs || 0) / 60, 0);
+  for (let m = startMon(); m <= mon; m = addDays(m, 7)) { run += weekMin(m); wk.push({ label: md(m), v: Math.round(run) }); }   // running total: every study day moves the line up
+  const c1 = bh.length >= 4 ? `<div class="gr-c"><h3 class="h3">전체 점수 예상, 주별</h3>${lineChart(bh, { lo: 4, hi: 7.5, ticks: [4, 5, 6, 7], tgt: 6.5, fmt: v => v.toFixed(1), name: '주별 전체 점수 예상' })}</div>`
+    : `<div class="gr-c"><h3 class="h3">쌓인 공부 시간</h3>${lineChart(wk, { lo: 0, hi: Math.max(60, wk.at(-1).v) * 1.15, ticks: [0, Math.round(Math.max(60, wk.at(-1).v) / 2)], fmt: v => String(Math.round(v)), name: '주별 누적 공부 시간', unit: '분' })}</div>`;
+  const c2 = `<div class="gr-c"><h3 class="h3">발음 점수, 최근 ${acc.length || ''}번</h3>${lineChart(acc.map(a => ({ label: md(dayKey(new Date(a.ts))), v: a.meta.acc })), { lo: 0, hi: 100, ticks: [0, 50, 100], tgt: 90, fmt: v => String(Math.round(v)), name: '발음 점수', unit: '%' })}</div>`;
+  return `<section class="card" aria-labelledby="grTitle"><div class="row" style="min-height:0"><h2 class="h2 grow" id="grTitle">내 성장</h2></div>${tiles}${est}<div class="gr-2">${c1}${c2}</div></section>`;
+}
+/** study calendar since the start (4–12 weeks): minutes per day, one hue light → dark; today outlined; future days blank */
+function heatCard() {
+  const k = today(), mon = mondayOf(k); let start = startMon(); if (diffDays(start, mon) < 21) start = addDays(mon, -21);
+  const nw = diffDays(start, mon) / 7 + 1, lv = m => m <= 0 ? 0 : m < 10 ? 1 : m < 20 ? 2 : m < 30 ? 3 : 4;
+  const cells = []; for (let r = 0; r < 7; r++) { cells.push(`<span class="hm-d">${r % 2 ? '' : S.DOW_KO[(r + 1) % 7]}</span>`);
+    for (let c = 0; c < nw; c++) { const x = addDays(start, c * 7 + r), m = Math.round(((DB.days[x] || {}).secs || 0) / 60);
+      cells.push(x > k ? '<i class="hm-f"></i>' : `<i class="h${lv(m)}${x === k ? ' hm-t' : ''}" title="${md(x)} ${m}분"></i>`); } }
+  const on = Object.keys(DB.days).filter(x => x >= start && x <= k && DB.days[x].kind).length;
+  return `<section class="card" aria-labelledby="hmTitle"><div class="row" style="min-height:0"><h2 class="h2 grow" id="hmTitle">공부 달력</h2><span class="cap num">${md(start)}부터 ${on}일 공부</span></div>
+    <div class="hm" style="--nw:${nw}" role="img" aria-label="${md(start)}부터 날짜별 공부 시간. 공부한 날 ${on}일, 이번 주 ${weekMin(mon)}분">${cells.join('')}</div>
+    <div class="gz-legend"><span>0분</span><span class="hm-lg"><i class="h0"></i><i class="h1"></i><i class="h2"></i><i class="h3"></i><i class="h4"></i></span><span>30분+</span></div></section>`;
+}
+
 /* ---------- 성장 ---------- */
 function spark(vals) {
   if (vals.length < 2) return '';
@@ -414,8 +480,8 @@ R.grow = () => {
   const wk = Object.entries(DB.weekly).sort((a, b) => a[0] < b[0] ? 1 : -1).slice(0, 4);
   const weekly = wk.length ? `<section class="card"><h2 class="h2">주간 리뷰 기록</h2><div class="rowlist">${wk.map(([w, x]) => `<div class="row"><span class="num" style="width:3em">${w.slice(5)}</span>${bar(x.days / 7, 'ok')}<span class="cap">활동 ${x.days}일, ${x.minutes}분, 초점 ${ERR_KO[x.focus] || '없음'}</span></div>`).join('')}</div></section>` : '';
   const tr = errTrend(), full = / span"/.test(tr);   // the chart runs full width; its one-line empty state sits in the columns
-  if (innerWidth < 700) return `${header()}${full ? tr : ''}<div class="masonry">${full ? '' : tr}${gaugeCard()}${mocks}${ready}${weekly}</div>`;
-  return `${header()}${full ? tr : ''}<div class="page"><div class="col">${full ? '' : tr}${gaugeCard()}${mocks}${ready}${weekly}</div><div class="col">${fillCard('시험까지 일정', schedRows(60), `<span class="cap num">${esc(md(PLAN().test))} 시험</span>`)}</div></div>`;
+  if (innerWidth < 700) return `${header()}<div class="masonry">${growCard()}${heatCard()}${tr}${gaugeCard()}${mocks}${ready}${weekly}</div>`;
+  return `${header()}${growCard()}${full ? tr : ''}<div class="page"><div class="col">${heatCard()}${full ? '' : tr}${gaugeCard()}${mocks}${ready}${weekly}</div><div class="col">${fillCard('시험까지 일정', schedRows(60), `<span class="cap num">${esc(md(PLAN().test))} 시험</span>`)}</div></div>`;
 };
 
 /* ---------- 컨텍스트 패널 (≥1100) ---------- */
@@ -859,23 +925,27 @@ A.shadow = {
   view(s) {
     if (s.none) return { title: '섀도잉', body: '<section class="card"><p>섀도잉 대본이 아직 없어요.</p></section>', foot: { label: '넘어가기', act: 'shDone' } };
     const stepN = ['반복 듣기', '녹음', 'A/B 비교'];
-    const body = `<section class="card task flow"><div class="row" style="min-height:0"><h2 class="h2 grow">${esc(s.c.title)}</h2>${pill(s.c.src === 'voa' ? 'VOA' : s.c.src === 'public-domain' ? '퍼블릭 도메인' : s.c.src === 'mine' ? '내 답' : '자작')}${shadowAll().length > 1 && s.ph === 0 ? `<button class="linkbtn" data-act="shClip">다른 클립</button>` : ''}</div>
+    const body = `${s.score ? shadowScore(s.score) : ''}<section class="card task flow"><div class="row" style="min-height:0"><h2 class="h2 grow">${esc(s.c.title)}</h2>${pill(s.c.src === 'voa' ? 'VOA' : s.c.src === 'public-domain' ? '퍼블릭 도메인' : s.c.src === 'mine' ? '내 답' : '자작')}${shadowAll().length > 1 && s.ph === 0 ? `<button class="linkbtn" data-act="shClip">다른 클립</button>` : ''}</div>
       <ol class="steps3" aria-label="단계">${stepN.map((p, i) => `<li class="${i === s.ph ? 'cur' : i < s.ph ? 'done' : ''}">${i < s.ph ? ico('check', 's16') : `<span class="num">${i + 1}</span>`}${p}</li>`).join('')}</ol>
       <div class="stack en" lang="en">${s.c.lines.map(l => `<p>${stressHtml(l)}</p>`).join('')}</div>
       ${s.ph === 0 ? `<div class="row"><div class="seg grow" role="group" aria-label="속도">${[[.8, '0.8×'], [1, '1.0×']].map(([v, l]) => `<button data-act="shRate" data-v="${v}" aria-pressed="${s.rate === v}">${l}</button>`).join('')}</div>${btn('다시 듣기', 'shPlay', { cls: 'line', icon: 'repeat' })}</div>` : ''}
       ${s.c.credit ? `<p class="cap">${esc(s.c.credit)}</p>` : ''}</section>
       ${s.ph >= 1 ? recUI(s, 'rs', { maxMs: 60000, label: s.ph === 1 ? '스크립트를 보며 한 번에 녹음해요' : '원본 다음에 내 녹음이 이어서 나와요' }).replace('class="card recbox', 'class="card side recbox') : ''}${s.ph === 2 ? btn('원본, 내 녹음 이어 듣기', 'shAB', { cls: 'line block', icon: 'play' }) : ''}`;
-    const foot = s.ph === 0 ? { label: '녹음 시작', act: 'shRec', icon: 'mic' } : s.ph === 1 ? (s.recOn ? { label: '정지', act: 'recStop', icon: 'square' } : { label: '녹음 시작', act: 'shRec', icon: 'mic' }) : { label: '완료', act: 'shDone', icon: 'check' };
-    return { title: '섀도잉 스튜디오', body, foot, keepScroll: true, alt: s.ph === 2 ? { label: '다시 녹음', act: 'shRec' } : undefined };
+    const scoreable = s.ph === 2 && s.rs && !s.score && G.getKey();   // 1005: after the take, the score is the next step
+    const foot = s.ph === 0 ? { label: '녹음 시작', act: 'shRec', icon: 'mic' } : s.ph === 1 ? (s.recOn ? { label: '정지', act: 'recStop', icon: 'square' } : { label: '녹음 시작', act: 'shRec', icon: 'mic' })
+      : scoreable ? { label: s.grading ? '점수 내는 중…' : '발음 점수 받기', act: 'shScore', icon: 'sparkles', dis: s.grading } : { label: '완료', act: 'shDone', icon: 'check' };
+    return { title: '섀도잉 스튜디오', body, foot, keepScroll: true, alt: s.ph === 2 && !s.grading ? (scoreable ? { label: '점수 없이 완료', act: 'shDone' } : { label: '다시 녹음', act: 'shRec' }) : undefined };
   },
-  after(s) { if (!s.none && s.ph === 0 && !s.auto) { s.auto = 1; A.shadow.acts.shPlay(s); } },   // step 1 starts by itself
+  after(s) { if (!s.none && s.ph === 0 && !s.auto) { s.auto = 1; A.shadow.acts.shPlay(s); }   // step 1 starts by itself
+    if (s.score && !s.scoreShown) { s.scoreShown = 1; const b = $('#stage .st-body'); if (b && innerWidth < 700) b.scrollTop = 0; } },
   acts: {
     shRate: (s, e) => { s.rate = +e.dataset.v; draw(); A.shadow.acts.shPlay(s); },
     shClip: s => { const all = shadowAll(), i = all.findIndex(x => x.id === s.c.id); Object.assign(s, { c: all[(i + 1) % all.length], rs: null, auto: 0 }); draw(); },
     shPlay: async s => { if (s.c.audio && await playClip(au(s.c.audio), { rate: s.rate })) return; for (let i = 0; i < s.c.lines.length; i++) { await speak(s.c.lines[i].en, { rate: s.rate * (DB.settings.rate || 1), keep: i > 0 }); if (!ACT || ACT.s !== s) return; } },
-    shRec: s => { s.ph = 1; stopAudio(); recToggle(s, 'rs', { maxMs: 60000, onStop: () => { s.ph = 2; draw(); A.shadow.acts.shAB(s); } }); },
+    shScore: s => shadowGrade(s, 'rs', s.c.lines.map(l => l.en).join(' ')),
+    shRec: s => { if (s.grading) return; s.ph = 1; s.score = null; s.scoreShown = 0; stopAudio(); recToggle(s, 'rs', { maxMs: 60000, onStop: () => { s.ph = 2; draw(); A.shadow.acts.shAB(s); } }); },
     shAB: async s => { await A.shadow.acts.shPlay(s); if (!ACT || ACT.s !== s || !s.rs) return; const a = new Audio(s.rs.url); a.play().catch(() => {}); },
-    shDone: s => { if (s.rs) addAttempt({ skill: 'S', kind: 'shadow', ref: s.c.id, secs: Math.round(s.rs.ms / 1000) }); save(); finish({ xp: s.xp }); }
+    shDone: s => { if (s.grading) return; if (s.rs && s.savedFor !== s.rs.id) addAttempt({ skill: 'S', kind: 'shadow', ref: s.c.id, secs: Math.round(s.rs.ms / 1000) }); save(); finish({ xp: s.xp }); }   // a scored take was saved when its score came back
   }
 };
 
@@ -1111,6 +1181,85 @@ A.quiz = {
   },
   grade(s, v) { const q = s.qs[s.i], ok = !!v && gnorm(v) === gnorm(q.answer); s.res[s.i] = { v, ok }; if (!ok) logErr(q.type, v || '(모름)', q.answer, q.why_ko); else s.xp += gain(2) || 0; save(); draw(); }
 };
+
+/* ---------- 1005 발음 점수 (Saylo식): Gemini hears the take, the app counts the words it found against the script ---------- */
+async function shadowGrade(s, key, text) {
+  const r = s[key]; if (!r || s.grading) return;
+  if (!G.getKey()) return toast('제미나이 키가 없어요. 설정에서 넣으면 발음 점수가 나와요. 녹음은 저장돼 있어요', 'warn', 4500);
+  s.grading = true; draw();
+  try {
+    const res = await G.grade(DB, save, [{ inline_data: { mime_type: r.mime, data: await REC.blobToB64(r.blob) } }, { text: G.shadowPrompt(text) }], S.normShadow, sec => toast(`잠시 뒤 차례로 채점해요 · ${sec}초`, '', 4000));
+    if (!ACT || ACT.s !== s || s[key] !== r) return;   // closed, or re-recorded while scoring: this score belongs to no take on screen
+    const prev = DB.attempts.filter(a => a.kind === 'shadow' && a.meta && a.meta.acc != null).slice(-1)[0];
+    s.score = { ...res, ...S.shadowAcc(text, res.transcript), prev: prev ? prev.meta.acc : null };
+    addAttempt({ skill: 'S', kind: 'shadow', ref: s.c.id, secs: Math.round(r.ms / 1000), meta: { acc: s.score.acc, rhythm: s.score.rhythm } }); s.savedFor = r.id; save();   // on the chart even if the player is closed with X
+    REC.markGraded(r.id).catch(() => {});
+  } catch (e) { toast(e.message || '점수를 내지 못했어요. 녹음은 저장돼 있어요', 'warn', 5000); }
+  finally { s.grading = false; if (ACT && ACT.s === s) draw(); }
+}
+const shadowScore = sc => { const d = sc.prev == null ? null : sc.acc - sc.prev, miss = sc.ops.filter(o => o.t === 'del').length;
+  return `<section class="card side reveal" aria-labelledby="scTitle"><p class="sr" role="status">발음 점수 ${sc.acc}%</p><div class="row" style="min-height:0"><h2 class="h2 grow" id="scTitle">발음 점수</h2><span class="big num">${sc.acc}%</span></div>
+    <p class="en sh-ops" lang="en">${sc.ops.filter(o => o.t !== 'ins').map(o => o.t === 'eq' ? esc(o.w) : `<mark>${esc(o.w)}<span class="sr"> (안 들림)</span></mark>`).join(' ')}</p>
+    <p class="cap">${miss ? `밑줄 친 ${miss}단어가 들리지 않았어요. 그 부분만 다시 따라 해 보세요.` : '모든 단어가 들렸어요.'}</p>
+    <div class="metrics"><div><span class="cap">리듬·강세</span><b class="num">${sc.rhythm}<small>/100</small></b></div>${d == null ? '' : `<div><span class="cap">지난번보다</span><b class="num ${d >= 0 ? 'ok-t' : 'no-t'}">${d >= 0 ? '↑ ' + d : '↓ ' + -d}</b></div>`}</div>
+    ${sc.notes_ko.length ? `<ul class="cap bul">${sc.notes_ko.map(n => `<li>${esc(n)}</li>`).join('')}</ul>` : ''}</section>`; };
+
+/* ---------- 1005 AI 대화 3턴 (Lucida식): Lucy asks a Part 3 question aloud → I answer by voice → ≤2 fixes in Korean, one 6.5 sentence, her follow-up ---------- */
+A.talk = {
+  init() { const q = leastUsed(C.p3); return q ? { q, ref: q.id, cur: q.q, turns: [] } : { none: true }; },
+  view(s) {
+    if (s.none) return { title: 'AI 대화', body: '<section class="card"><p>대화 질문이 아직 없어요.</p></section>', foot: { label: '넘어가기', act: 'tkDone' } };
+    if (!G.getKey()) return { title: 'AI 대화 3턴', body: `<section class="card task"><h2 class="h2">AI 대화는 제미나이 키가 있어야 해요</h2><p>Lucy가 내 답을 듣고 고쳐 주려면 무료 제미나이 키가 필요해요. 설정에서 한 번 넣으면 계속 써요.</p></section>`,
+      foot: { label: '키 넣으러 가기', act: 'aiOn', icon: 'settings' }, noStrip: true };
+    const n = s.turns.length, key = 'ra' + n, done = n >= 3, pend = s[key];
+    const lucy = (t, i) => `<div class="tk-l"><div class="tk-hd"><span class="tk-who">Lucy</span><button class="btn icon ghost sm" data-act="tkSay" data-i="${i}" aria-label="Lucy 말 다시 듣기">${ico('volume-2')}</button></div><p lang="en">${esc(t)}</p></div>`;
+    const turn = (t, i) => `${lucy(t.q, i)}<div class="tk-me"><span class="sr">나:</span><p lang="en">${esc(t.transcript)}</p>${t.fixes.map(f => `<p class="cap tk-fix"><span><s class="faint" lang="en">${esc(f.wrong)}</s> → <b lang="en">${esc(f.right)}</b></span>${f.why_ko ? `<span>${esc(f.why_ko)}</span>` : ''}</p>`).join('')}
+      ${t.better ? `<p class="tk-better"><span class="cap">이렇게 말하면 6.5</span><span lang="en">${esc(t.better)}</span></p>` : ''}</div>`;
+    const wait = pend && !s.recOn ? `<div class="tk-me"><span class="sr">나:</span><p class="mut">${s.grading ? '보냈어요. Lucy가 듣는 중…' : '녹음했어요. 아직 Lucy에게 전달되지 않았어요.'}</p>${s.grading ? '' : '<button class="linkbtn" data-act="tkRec">다시 녹음</button>'}</div>${s.grading ? '<div class="tk-l tk-dots" aria-hidden="true"><i></i><i></i><i></i></div>' : ''}` : '';
+    const log = `<section class="card task flow tk" role="log" aria-live="polite"><div class="row" style="min-height:0">${pill('Part 3 대화', 'pri')}<span class="cap grow">${done ? '대화 끝' : `답 ${n + 1}/3`}</span></div>
+      ${s.turns.map(turn).join('')}${done ? (s.closing ? lucy(s.closing, 3) : '') : lucy(s.cur, n) + wait}</section>`;
+    const bands = s.turns.map(t => t.band).filter(Boolean), avg = bands.length ? S.roundBand(bands.reduce((a, b) => a + b, 0) / bands.length) : null;
+    const end = done ? `<section class="card side reveal"><div class="row" style="min-height:0"><h2 class="h2 grow">오늘 대화</h2>${avg ? `<span class="big num">${avg.toFixed(1)}</span><span class="cap">대략</span>` : ''}</div>
+      <p class="cap">고칠 것 ${s.turns.reduce((a, t) => a + t.fixes.length, 0)}개는 오늘의 약점과 오류 카드에 넣었어요.</p>
+      ${s.shadowId ? `<p class="cap ok-t">${ico('circle-check', 's16')} 6.5 문장을 섀도잉 스튜디오에 넣었어요</p>` : btn('6.5 문장 섀도잉에 넣기', 'tkShadow', { cls: 'line block', icon: 'repeat' })}</section>` : '';
+    const tips = `<section class="card side"><h3 class="h3">답이 길어지는 순서</h3><div class="wrap">${EXPAND.map(([k, e]) => `<span class="pill" lang="en"><b>${k}</b> ${esc(e)}</span>`).join('')}</div><p class="cap">답 하나에 이유 하나, 예시 하나. 20~40초면 충분해요.</p></section>`;
+    const rec = done ? '' : recUI(s, key, { maxMs: 60000, label: '질문을 듣고 20~40초로 답해요' });
+    const foot = done ? (s.shadowId && !SEQ ? { label: '지금 따라 하기', act: 'tkFollow', icon: 'repeat' } : { label: '완료', act: 'tkDone', icon: 'check' })
+      : s.recOn === key ? { label: '답 끝내기', act: 'recStop', icon: 'square' } : pend ? { label: s.grading ? '듣는 중…' : '다시 보내기', act: 'tkSend', icon: 'rotate-ccw', dis: s.grading } : { label: '말하기', act: 'tkRec', icon: 'mic' };
+    const alt = s.grading || s.recOn ? null : done ? (s.shadowId && !SEQ ? { label: '완료', act: 'tkDone' } : null) : n || s.recorded ? { label: '여기까지 하기', act: 'tkDone' } : null;
+    return { title: 'AI 대화 3턴', body: log + rec + end, side: tips, keepScroll: true, foot, alt: alt || undefined };
+  },
+  after(s) { if (!s.none && !s.said && G.getKey()) { s.said = 1; speak(s.cur); } const b = $('#stage .st-body'); if (b && (s.turns.length || s.grading) && innerWidth < 700) b.scrollTop = b.scrollHeight; },   // phone: the newest line and the mic stay in view
+  acts: {
+    tkSay: (s, e) => { const i = +e.dataset.i; speak(i < s.turns.length ? s.turns[i].q : i === 3 ? s.closing : s.cur); },
+    tkRec: s => { if (s.grading) return; delete s['ra' + s.turns.length]; recToggle(s, 'ra' + s.turns.length, { maxMs: 60000, onStop: () => { s.recorded = 1; talkGrade(s); } }); },
+    tkSend: s => talkGrade(s),
+    tkShadow: s => { if (addMyShadow('AI 대화: ' + s.q.q.slice(0, 30), s.turns.map(t => t.better).filter(Boolean).join(' '))) { s.shadowId = DB.myShadow.at(-1).id; draw(); } },
+    tkFollow: s => { const id = s.shadowId; talkSave(s); finish({ xp: s.xp }); later(0, () => run('shadow', { id })); },
+    tkDone: s => { if (s.grading) return; talkSave(s); finish({ xp: s.xp, credit: s.turns.length > 0 || !!s.recorded }); }   // a recorded answer counts even when Gemini could not reply (no lost day)
+  }
+};
+function talkSave(s) {
+  if (s.saved || !(s.turns.length || s.recorded)) return; s.saved = 1;
+  const bands = s.turns.map(t => t.band).filter(Boolean);
+  addAttempt({ skill: 'S', kind: 'talk', ref: s.ref, words: s.turns.reduce((a, t) => a + wc(t.transcript), 0), secs: Math.round(s.turns.reduce((a, t) => a + (t.ms || 0), 0) / 1000), meta: { turns: s.turns.length, band: bands.length ? bands.reduce((a, b) => a + b, 0) / bands.length : null } });
+  save();
+}
+async function talkGrade(s) {
+  const i = s.turns.length, r = s['ra' + i]; if (!r || s.grading) return;
+  s.grading = true; draw();
+  try {
+    const res = await G.grade(DB, save, [{ inline_data: { mime_type: r.mime, data: await REC.blobToB64(r.blob) } }, { text: G.talkPrompt(s.turns, s.cur, i + 1) }], S.normTalk, sec => toast(`잠시 뒤 차례로 들어요 · ${sec}초`, '', 4000));
+    if (!ACT || ACT.s !== s || s['ra' + i] !== r) return;   // closed or re-recorded meanwhile: nothing is written
+    REC.markGraded(r.id).catch(() => {});
+    s.turns.push({ q: s.cur, ...res, ms: r.ms }); delete s['ra' + i];
+    for (const f of res.fixes) logErr(f.type, f.wrong, f.right, f.why_ko, 'talk', true);
+    if (s.turns.length < 3) s.cur = res.reply; else s.closing = res.reply;
+    s.xp = (s.xp || 0) + (gain(XP.recGraded - XP.rec) || 0); save();
+    speak(res.reply);
+  } catch (e) { toast((e.message || 'Lucy가 답하지 못했어요') + '. 녹음은 그대로 있어요. 다시 보내기를 눌러 주세요', 'warn', 5500); }
+  finally { s.grading = false; if (ACT && ACT.s === s) draw(); }
+}
 
 /* ================= Speaking ================= */
 const CRIT_KO = { TR: '과제 응답', TA: '과제 달성', CC: '일관성·응집성', LR: '어휘', GRA: '문법 범위·정확성', FC: '유창성·일관성', P: '발음' };
@@ -1456,7 +1605,8 @@ const ACTS = {
     if (e.dataset.g) { if (s.result && addMyShadow('내 답: ' + (s.q ? s.q.q : s.c ? s.c.card : '').slice(0, 30), s.result.model_answer)) e.disabled = true; return; }
     const id = e.dataset.id, it = [...C.p1, ...C.p2, ...C.p3].find(x => x.id === id); if (!it) return;
     if (addMyShadow('모범 답: ' + (it.q || it.card).slice(0, 34), it.sample, it.sample_ko || [])) { s.shadowed = { ...(s.shadowed || {}), [id]: 1 }; draw(); } },
-  p3Say: e => speak(e.dataset.q)
+  p3Say: e => speak(e.dataset.q),
+  aiOn: () => { if (ACT) closeStage(); TAB = 'set'; render(); scrollTo(0, 0); const k = $('#sKey'); if (k) { k.scrollIntoView({ block: 'center' }); k.focus({ preventScroll: true }); } }
 };
 function replaceDB(d) { DB = Object.assign(blank(), d); DB.settings = { ...SET0, ...DB.settings }; S.setDayStart(DB.settings.dayStart); G.useSettings(DB.settings); save(); applyTheme(); render(); }
 /** theme: auto = dark from 22:00 to 06:00, otherwise the system setting (default); system; light; dark */

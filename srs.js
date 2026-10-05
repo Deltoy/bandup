@@ -382,6 +382,24 @@ export function normSpeaking(j) {
     pron_notes_ko: (Array.isArray(j.pron_notes_ko) ? j.pron_notes_ko : []).slice(0, 3).map(x => str(x, 300)),
     upgrades: (Array.isArray(j.upgrades) ? j.upgrades : []).slice(0, 6).map(u => ({ plain: str(u && u.plain, 80), better: str(u && u.better, 80) })), model_answer: str(j.model_answer, 4000) };
 }
+/** 1005 섀도잉 점수 (Saylo식): Gemini only transcribes and notes the sounds; word accuracy is counted here, against the script */
+export function normShadow(j) {
+  if (!j || typeof j.transcript !== 'string') throw new Error('shape');
+  return { transcript: str(j.transcript, 3000), rhythm: Math.max(0, Math.min(100, Math.round(+j.rhythm || 0))), notes_ko: (Array.isArray(j.notes_ko) ? j.notes_ko : []).slice(0, 3).map(x => str(x, 300)) };
+}
+/** words are compared one by one in canonical form ("forty-five," = "45", "17th." = "17", case and punctuation ignored); ops carry the script's own words for display */
+const ckey = w => canon(String(w).replace(/[.,!?;:"“”()]/g, ''));
+export function shadowAcc(ref, said) {
+  const R = words(ref).map(w => ({ w, k: ckey(w) })).filter(x => x.k), K = words(said).map(ckey).filter(Boolean);
+  let i = 0; const ops = diffWords(R.map(x => x.k.replace(/\s+/g, '_')).join(' '), K.map(k => k.replace(/\s+/g, '_')).join(' ')).map(o => o.t === 'ins' ? o : { t: o.t, w: R[i++].w });
+  const n = R.length;
+  return { acc: n ? Math.round(ops.filter(o => o.t === 'eq').length / n * 100) : 0, ops };
+}
+/** 1005 AI 대화 (Lucida식): one turn = what was said, ≤2 fixes, one band-6.5 sentence, the partner's next line */
+export function normTalk(j) {
+  if (!j || typeof j.transcript !== 'string' || typeof j.reply !== 'string') throw new Error('shape');
+  return { transcript: str(j.transcript, 3000), reply: str(j.reply, 600), better: str(j.better, 600), fixes: normErrs(j.fixes).slice(0, 2), band: clampBand(j.band) };
+}
 /** Did the rewrite fix the logged errors? (local check, no Gemini) */
 export const fixedErrors = (errs, text) => { const t = ' ' + String(text).toLowerCase().replace(/\s+/g, ' ') + ' '; return errs.map(e => ({ ...e, fixed: !!e.wrong && !t.includes(e.wrong.toLowerCase().trim()) })); };
 /** Web Audio pause metrics from a list of per-frame speaking flags (frameMs each) */

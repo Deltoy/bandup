@@ -1,7 +1,7 @@
 /* Gemini grading. gemModels/gemCall are copied from FITQUEST app.js (0927) — only the storage keys, the settings
    source and the fallback tail changed (Gemini 2.0 is retired → gemini-3.8-flash, gemini-3.5-flash-lite, gemini-3.1-flash-lite).
    Around them: a usage guard (20 calls/day, 5/min, queued), one retry on bad JSON, and response validation (srs.js). */
-import { normWriting, normSpeaking, ERR_TYPES, dayKey } from './srs.js';
+import { normWriting, normSpeaking, normShadow, normTalk, ERR_TYPES, dayKey } from './srs.js';
 
 export const KEY = 'bandup.key';   // never inside bandup.db → never exported or backed up
 export const getKey = () => { try { return (localStorage.getItem(KEY) || '').trim(); } catch (e) { return ''; } };
@@ -92,6 +92,11 @@ export function speakingPrompt(part, question) {
     `"criteria":{"FC":{"band":<0-9>,"evidence":["quotes from the transcript"],"fix_ko":"Korean"},"LR":{...},"GRA":{...},"P":{...}},"overall":<0-9>,"errors":[{"type":"tense","wrong":"...","right":"...","why_ko":"Korean"}],` +
     `"pron_notes_ko":["3 Korean notes"],"upgrades":[{"plain":"important","better":"a must"}],"model_answer":"his answer polished to band 7, keeping his ideas and story"}\n${TYPES} Max 10 errors. Grammar must be judged from what was actually said.`;
 }
+export const shadowPrompt = text => `You are a pronunciation coach. A Korean adult learner is shadowing (reading aloud after a native speaker) this script:\n"${text}"\nListen to the attached recording.\n` +
+  `Return JSON only: {"transcript":"only the words you actually hear, do NOT copy the script, leave out words that were skipped or not understandable","rhythm":<0-100, how close stress, linking and intonation are to a natural native speaker>,"notes_ko":["up to 3 short Korean notes: which word or sound to fix and how"]}`;
+export const talkPrompt = (turns, question, n) => `You are Lucy, a friendly IELTS speaking partner chatting with a learner. ${LEARNER}\nConversation so far:\n${turns.map(t => `Lucy: ${t.q}\nLearner: ${t.transcript}`).join('\n')}\nLucy: ${question}\nThe learner's spoken answer to Lucy's last line is attached.\n` +
+  `Return JSON only: {"transcript":"exactly as spoken, keep fillers, do NOT fix grammar","fixes":[{"type":"article","wrong":"exact words from the transcript","right":"corrected","why_ko":"short Korean"}],"better":"the learner's main idea as ONE natural sentence at band 6.5","band":<0-9, rough band for this answer>,` +
+  `"reply":"${n < 3 ? 'a short warm reaction (max 12 words) and then ONE follow-up question that digs deeper, IELTS Part 3 style, under 30 words in total' : 'one short warm closing sentence, no question'}"}\n${TYPES} At most 2 fixes, only the ones that matter most for the score; an empty array if there are none.`;
 export const storyPrompt = (kind, text) => `Correct only the grammar and word-choice errors in this short personal story (IELTS speaking practice, topic: ${kind}). Keep his ideas, facts and order; keep it natural spoken English, 120-200 words. Return JSON only: {"polished":"...","errors":[{"type":"article","wrong":"...","right":"...","why_ko":"Korean"}]}\n${TYPES}\n\nStory:\n${text}`;
 export const normStory = j => { if (!j || typeof j.polished !== 'string') throw new Error('shape'); return { polished: j.polished.slice(0, 3000), errors: normSpeaking({ criteria: {}, errors: j.errors }).errors }; };
-export { normWriting, normSpeaking };
+export { normWriting, normSpeaking, normShadow, normTalk };
