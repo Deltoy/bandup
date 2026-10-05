@@ -80,21 +80,22 @@ const au = p => !p ? '' : /^https?:/.test(p) ? p : 'content/' + p;
 
 /* ================= audio & speech ================= */
 const AU = document.getElementById('au');
-let speakTok = 0;
-function stopAudio() { speakTok++; try { AU.pause(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} }
+let speakTok = 0, clipEnd = null;   // clipEnd: the playing clip's resolver — a newer clip or a stop settles it at once (1005: a superseded clip used to time out 20 s later and fall back to speaking the old word)
+function stopAudio() { speakTok++; const ce = clipEnd; clipEnd = null; if (ce) ce(true, true); try { AU.pause(); } catch (e) {} try { speechSynthesis.cancel(); } catch (e) {} }
 /** play a clip [from, to) → resolves true when done, false on error (caller falls back to TTS) */
 function playClip(src, { from = 0, to = null, rate = 1 } = {}) {
   stopAudio(); const tok = speakTok;
   return new Promise(res => {
     if (!src) return res(false);
-    let fin = false; const end = ok => { if (fin) return; fin = true; AU.onended = AU.onerror = AU.ontimeupdate = null; if (!ok) AU.removeAttribute('src'); res(ok); };
+    let fin = false; const end = (ok, gone) => { if (fin) return; fin = true; if (clipEnd === end) clipEnd = null; if (!gone) { AU.onended = AU.onerror = AU.ontimeupdate = null; if (!ok) AU.removeAttribute('src'); } res(ok); };   // gone = superseded: leave the element to the newer clip
+    clipEnd = end;
     AU.onerror = () => end(false); AU.onended = () => end(true);
     AU.ontimeupdate = () => { if (tok !== speakTok) return end(true); if (to != null && AU.currentTime >= to) { AU.pause(); end(true); } };
     if (!AU.src.endsWith(src.replace(/^\.?\//, ''))) AU.src = src;
     AU.playbackRate = rate;
     const go = () => { try { AU.currentTime = from; } catch (e) {} AU.play().catch(() => end(false)); };
     AU.readyState >= 1 ? go() : (AU.onloadedmetadata = () => { AU.onloadedmetadata = null; go(); }, AU.load());
-    setTimeout(() => end(false), 20000 + (to ? (to - from) * 1000 : 60000));
+    setTimeout(() => end(false, tok !== speakTok), 20000 + (to ? (to - from) * 1000 : 60000));
   });
 }
 let VOICES = [];
@@ -782,7 +783,7 @@ A.vocab = {
 async function vocabAudio(n, s) {
   const tok = s.i, rs = (DB.profile.revealSec || 3) * 1000;
   const ok = await playClip(au(n.audio), { to: n.tReveal ? Math.max(.4, n.tReveal - 3.05) : null });
-  if (!ok) { await speak(n.w); if (ACT && ACT.s === s && s.i === tok) await speak(n.w, { keep: true }); }
+  if (!ok && ACT && ACT.s === s && s.i === tok) { await speak(n.w); if (ACT && ACT.s === s && s.i === tok) await speak(n.w, { keep: true }); }   // TTS fallback only for the card still on screen
   if (!ACT || ACT.s !== s || s.i !== tok || s.phase !== 'q') return;
   s.cd = Date.now(); const ring = $('#fcT'), say = $('.say'); if (ring) { ring.style.transition = `stroke-dashoffset ${rs}ms linear`; requestAnimationFrame(() => { ring.style.strokeDashoffset = '0'; }); } if (say) say.classList.add('go');   // ring timer + one mic pulse: say it aloud (no recording)
   later(rs, () => { if (ACT && ACT.s === s && s.i === tok && s.phase === 'q') { s.phase = 'rev'; s.early = false; draw(); vocabRest(n); } });
