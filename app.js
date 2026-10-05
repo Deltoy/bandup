@@ -25,7 +25,7 @@ const GRAM_TIP = { article: '처음 말하는 셀 수 있는 단수 명사 앞�
 
 /* ================= DB ================= */
 const DBK = 'bandup.db';
-const SET0 = { gmodel: '', voiceEn: '', rate: 1, theme: 'auto', dayStart: 4, nightMin: true, second: '00:30', comebackPlus: true };
+const SET0 = { vocabSrc: 'hk', gmodel: '', voiceEn: '', rate: 1, theme: 'auto', dayStart: 4, nightMin: true, second: '00:30', comebackPlus: true };
 const blank = () => ({ v: 1, profile: null, settings: { ...SET0 }, days: {}, streak: S.newStreak(), xp: 0, notes: {}, cards: {}, revlog: [], attempts: [], errors: [], stories: [], mocks: [], weekly: {}, gem: { day: '', calls: 0 }, flags: {}, my: {}, myShadow: [] });
 let DB = (() => { try { const d = JSON.parse(localStorage.getItem(DBK)); return d && d.v === 1 ? Object.assign(blank(), d) : blank(); } catch (e) { return blank(); } })();
 let saveWarned = 0;
@@ -58,9 +58,11 @@ const WEEK = (k = today()) => S.weekOf(PLAN(), k);
 
 /* ================= content ================= */
 const C = { src: {} };
-const FILES = ['vocab', 'irregular', 'grammar', 'reading', 'listening', 'dictation', 'shadow', 'speaking', 'writing', 'links', 'rubric'];
+const FILES = ['hackers', 'vocab', 'irregular', 'grammar', 'reading', 'listening', 'dictation', 'shadow', 'speaking', 'writing', 'links', 'rubric'];
 const hasItems = j => j && typeof j === 'object' && ((Array.isArray(j.items) && j.items.length) || (j.p1 && j.p1.length) || (j.t1 && j.t1.length) || (j.t2 && j.t2.length));
 async function tryLoad(u) { try { const r = await fetch(u, { cache: 'no-cache' }); if (!r.ok) return null; const j = await r.json(); return hasItems(j) ? j : null; } catch (e) { return null; } }
+/** new-card order: 해커스 DAY 순서 먼저(기본) or the bundled list first; the other follows */
+function buildOrder() { const hk = C.HK.slice().sort((a, b) => a.day - b.day || a.ts - b.ts).map(n => n.id + ':r'); C.ORDER = DB.settings.vocabSrc === 'base' ? [...C.BASE, ...hk] : [...hk, ...C.BASE]; }
 async function loadContent() {
   await Promise.all(FILES.map(async f => {
     let j = await tryLoad(`content/${f}.json`), src = 'real';
@@ -70,10 +72,12 @@ async function loadContent() {
   const sp = C.speaking; C.p1 = sp.p1 || []; C.p2 = sp.p2 || []; C.p3 = sp.p3 || [];
   const wr = C.writing; C.t1 = wr.t1 || []; C.t2 = wr.t2 || []; C.fr = wr.franklin || [];
   C.NOTE = {}; for (const n of C.vocab.items) C.NOTE[n.id] = n;
+  const seen = new Set(C.vocab.items.map(n => n.w.toLowerCase())); C.HK = (C.hackers.items || []).filter(n => !seen.has(n.w.toLowerCase()) && (seen.add(n.w.toLowerCase()), true));   // 1005 해커스 DAY 단어 (기본 단어장과 겹치는 단어는 기본 카드로)
+  for (const n of C.HK) C.NOTE[n.id] = n;
   C.IRR = {}; for (const v of C.irregular.items) C.IRR[v.base] = v;
   const by = d => C.vocab.items.filter(n => n.deck === d), core = by('core'), lis = by('listening'), rd = by('reading'), order = [];
   for (let i = 0; order.length < C.vocab.items.length && i < 2000; i++) { const x = i % 5 < 3 ? core.shift() : i % 5 === 3 ? lis.shift() : rd.shift(); if (x) order.push(x.id + ':r'); else if (!core.length && !lis.length && !rd.length) break; }
-  C.ORDER = order;
+  C.BASE = order; buildOrder();
   G.useRubric(C.rubric.items || []);
 }
 const au = p => !p ? '' : /^https?:/.test(p) ? p : 'content/' + p;
@@ -330,7 +334,7 @@ function gaugeCard() {
 function vocabQueue(mode = 'full', k = today()) {
   const d = dayRec(k), cb = DB.flags.cb === k, extra = DB.flags.extra === k;
   const newLimit = mode === 'comeback' ? 0 : DB.flags.firstDay === k ? 10 : S.newLimitFor(k, DB.profile, { comeback: cb, extra });
-  return S.buildQueue(DB.cards, C.ORDER, now(), { newLimit, reviewCap: cb ? 30 : 60, reviewedToday: d.rv || 0, newToday: d.nw || 0, prefix: ['nawl:', 'ngsl:', 'my:'] });
+  return S.buildQueue(DB.cards, C.ORDER, now(), { newLimit, reviewCap: cb ? 30 : 60, reviewedToday: d.rv || 0, newToday: d.nw || 0, prefix: ['nawl:', 'ngsl:', 'hk:', 'my:'] });
 }
 R.words = () => {
   const q = vocabQueue(), k = today(), cb = DB.flags.cb === k, H = S.hackersLink(DB.days, k);
@@ -507,7 +511,7 @@ R.set = () => {
   const exam = `<section class="card"><h2 class="h2">시험과 목표</h2><label class="fld">시험일<input class="inp" type="date" id="sTest" value="${p.testDate}" data-act="setDate"></label>
     <span class="cap">목표 프로필</span>${seg('target', p.target, [['min', '최소 6.5'], ['safe', '목표 6.5'], ['stretch', '스트레치 7.0']])}<p class="cap">목표: L·R 7.0, W·S 6.0 → overall 6.5. 한 영역이 0.5 떨어져도 6.5가 유지돼요.</p></section>`;
   const amount = `<section class="card"><h2 class="h2">하루 분량</h2><span class="cap">평일 분량</span>${seg('weekdayMin', p.weekdayMin, [[25, '25분'], [30, '30분'], [40, '40분']])}
-    <span class="cap">평일 새 카드</span>${seg('newPerDay', p.newPerDay, [[8, '8'], [10, '10'], [12, '12']])}<span class="cap">뜻 공개까지 (초)</span>${seg('revealSec', p.revealSec, [[2, '2'], [3, '3'], [4, '4'], [5, '5']])}</section>`;
+    <span class="cap">새 단어 순서</span>${seg('vocabSrc', DB.settings.vocabSrc, [['hk', '해커스 DAY 순서'], ['base', '기본 단어장 먼저']])}<span class="cap">평일 새 카드</span>${seg('newPerDay', p.newPerDay, [[8, '8'], [10, '10'], [12, '12']])}<span class="cap">뜻 공개까지 (초)</span>${seg('revealSec', p.revealSec, [[2, '2'], [3, '3'], [4, '4'], [5, '5']])}</section>`;
   const rhythm = `<section class="card"><h2 class="h2">하루 리듬</h2><span class="cap">하루가 바뀌는 시각 (이 시각 전 공부는 전날로 쳐요)</span>${seg('dayStart', st.dayStart, [[0, '자정'], [3, '03시'], [4, '04시'], [5, '05시']])}
     <span class="cap">밤 22시부터 첫 버튼</span>${seg('nightMin', st.nightMin, [[true, '5분 미션'], [false, '평소 미션']])}
     <span class="cap">하루 쉬고 돌아온 날</span>${seg('comebackPlus', st.comebackPlus, [[true, '연속 +1'], [false, '연속 유지']])}</section>`;
@@ -756,12 +760,12 @@ A.vocab = {
     const prev = s.prev && C.NOTE[s.prev], side = prev ? `<section class="card"><div class="row" style="min-height:0"><h2 class="h3 grow">방금 본 단어</h2>${pill(esc(prev.pos))}</div><p class="h2" lang="en">${esc(prev.w)} <span class="mut">${esc(prev.ko)}</span></p><p class="en" lang="en">${esc(prev.ex)}</p><p class="cap">${esc(prev.ex_ko || '')}</p>${(prev.col || []).length ? `<div class="wrap">${prev.col.map(c => `<span class="pill" lang="en">${esc(c)}</span>`).join('')}</div>` : ''}</section>` : '';
     if (ci.kind === 'rec') {
       const n = ci.n, rev = s.phase === 'rev';
-      const body = `<section class="card fc task reveal"><div class="t-top">${cnt}${pill({ core: 'Core', listening: 'Listening', reading: 'Reading' }[n.deck] || '')}</div>
+      const body = `<section class="card fc task reveal"><div class="t-top">${cnt}${pill(n.deck === 'hackers' ? `해커스 DAY ${n.day}` : { core: 'Core', listening: 'Listening', reading: 'Reading' }[n.deck] || '')}</div>
         <div class="fc-mid"><p class="w" lang="en">${esc(n.w)}</p><p class="pos">${esc(n.pos)}</p>
         <div class="say ${rev ? 'off' : ''}" aria-hidden="true"><svg class="ring" viewBox="0 0 48 48"><circle cx="24" cy="24" r="21"/><circle id="fcT" cx="24" cy="24" r="21"/></svg>${ico('mic', 's24')}</div>
         <p class="cap say-t">${rev ? '' : '소리 내 말해 보세요'}</p>
         <button class="btn line sm" data-act="vPlay">${ico('volume-2')}다시 듣기</button></div>
-        <div class="mean t-bot ${rev ? '' : 'hid'}" id="fcMean">${rev ? `<span class="ko">${esc(n.ko)}</span><span lang="en">${esc(n.ex)}</span><span class="cap">${esc(n.ex_ko || '')}</span><span class="cap" lang="en">${esc((n.col || []).join(', '))}</span>` : '<span class="cap">뜻을 떠올려 보세요</span>'}</div></section>`;
+        <div class="mean t-bot ${rev ? '' : 'hid'}" id="fcMean">${rev ? `<span class="ko">${esc(n.ko)}</span><span lang="en">${esc(n.ex)}</span><span class="cap">${esc(n.ex_ko || '')}</span><span class="cap" lang="en">${esc((n.col || []).join(', '))}</span>${n.deck === 'hackers' ? `<a class="linkbtn" href="https://www.youtube.com/watch?v=rWZG4_idwr8&t=${Math.max(0, Math.floor(n.ts) - 1)}s" target="_blank" rel="noopener">${ico('external-link', 's16')}해커스 영상 DAY ${n.day}에서 이 단어 듣기</a>` : ''}` : '<span class="cap">뜻을 떠올려 보세요</span>'}</div></section>`;
       return { title, body, res, labels, side, skipWords: order.map(x => x.replace(/:[rp]$/, '')), foot: rev ? { label: s.early ? '맞았어요' : '알았어요', act: 'vRate', x: 'data-ok="1"' } : { label: '안다', act: 'vKnow' }, alt: rev ? { label: s.early ? '틀렸어요' : '몰랐어요', act: 'vRateNo' } : { label: '뜻 보기', act: 'vShow' } };
     }
     let prompt = '', ko = '';
@@ -1576,7 +1580,7 @@ const ACTS = {
   mockSheet: () => sheet(`<div class="row"><h2 class="h2 grow">모의 점수 입력</h2><button class="btn icon ghost" data-act="closeSheet" aria-label="닫기">${ico('x')}</button></div>${mockForm('m')}${btn('저장', 'mockSave', { cls: 'pri lg block' })}`),
   mockSave: () => { const m = readMock('m'); if (!m) return; closeSheet(); if (!dayRec().kind) creditDay('std'); render(); toast('모의 점수를 넣었어요. 게이지에 반영했어요'); },
   set: e => { const k = e.dataset.k, v = e.dataset.v;
-    if (k in SET0) { DB.settings[k] = v === 'true' ? true : v === 'false' ? false : k === 'rate' || k === 'dayStart' ? +v : v; S.setDayStart(DB.settings.dayStart); lastDay = today(); applyTheme(); }
+    if (k in SET0) { DB.settings[k] = v === 'true' ? true : v === 'false' ? false : k === 'rate' || k === 'dayStart' ? +v : v; S.setDayStart(DB.settings.dayStart); lastDay = today(); applyTheme(); if (k === 'vocabSrc') buildOrder(); }
     else setProf(k, k === 'target' ? v : +v);
     save(); render(); toast('저장했어요'); },
   setDate: e => { if (!/^\d{4}-\d{2}-\d{2}$/.test(e.value) || e.value <= today()) return toast('오늘 이후 날짜를 골라 주세요', 'warn'); setProf('testDate', e.value); render(); toast('일정을 다시 계산했어요'); },
@@ -1609,7 +1613,7 @@ const ACTS = {
   p3Say: e => speak(e.dataset.q),
   aiOn: () => { if (ACT) closeStage(); TAB = 'set'; render(); scrollTo(0, 0); const k = $('#sKey'); if (k) { k.scrollIntoView({ block: 'center' }); k.focus({ preventScroll: true }); } }
 };
-function replaceDB(d) { DB = Object.assign(blank(), d); DB.settings = { ...SET0, ...DB.settings }; S.setDayStart(DB.settings.dayStart); G.useSettings(DB.settings); save(); applyTheme(); render(); }
+function replaceDB(d) { DB = Object.assign(blank(), d); DB.settings = { ...SET0, ...DB.settings }; S.setDayStart(DB.settings.dayStart); if (C.BASE) buildOrder(); G.useSettings(DB.settings); save(); applyTheme(); render(); }
 /** theme: auto = dark from 22:00 to 06:00, otherwise the system setting (default); system; light; dark */
 const nightTheme = (d = now()) => d.getHours() >= 22 || d.getHours() < 6;
 function applyTheme() {
